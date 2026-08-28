@@ -1,0 +1,299 @@
+[
+  {
+    "id": "would-you-mind",
+    "term": "Would you mind…?",
+    "level": "B1",
+    "meaning": "A polite way to ask someone to do something.",
+    "usage": "Use it for requests where the other person has every right to say no. It is noticeably softer than 'can you'.",
+    "examples": [
+      { "context": "Office", "sentence": "Would you mind sending me the file?" },
+      { "context": "Daily Life", "sentence": "Would you mind moving your bag?" },
+      { "context": "Travel", "sentence": "Would you mind swapping seats so we can sit together?" }
+    ],
+    "remember": [
+      "Use a verb ending in -ing after it: 'would you mind opening', never 'would you mind to open'.",
+      "The answer 'no' means yes. 'No, not at all' is agreement — 'yes' would mean they object."
+    ]
+  },
+  {
+    "id": "could-you-possibly",
+    "term": "Could you possibly…?",
+    "level": "B1",
+    "meaning": "A very polite way to ask for a favour.",
+    "usage": "Use it when the request is a real imposition — extra work, a change of plans, something outside their job.",
+    "examples": [
+      { "context": "Work", "sentence": "Could you possibly look at this before you leave?" },
+      { "context": "Neighbour", "sentence": "Could you possibly take a parcel for me tomorrow?" }
+    ],
+    "remember": [
+      "'Possibly' adds politeness, not doubt. Using it for a trivial request can sound over-formal."
+    ]
+  },
+  {
+    "id": "i-appreciate-it",
+    "term": "I appreciate it",
+    "level": "B1",
+    "meaning": "Thank you — that meant something to me.",
+    "usage": "Use it when 'thanks' feels too light, especially when someone has gone out of their way.",
+    "examples": [
+      { "context": "Work", "sentence": "You didn't have to stay late — I really appreciate it." },
+      { "context": "Email", "sentence": "Thanks for turning this around so quickly, I appreciate it." }
+    ],
+    "remember": [
+      "It works best when you say what you are grateful for. A bare 'I appreciate it' can sound formulaic."
+    ]
+  },
+  {
+    "id": "thanks-for-your-time",
+    "term": "Thanks for your time",
+    "level": "B1",
+    "meaning": "Thank you for the time you spent on me.",
+    "usage": "Use it at the end of a meeting, interview, or call, particularly with someone senior or busy.",
+    "examples": [
+      { "context": "Interview", "sentence": "Thanks for your time today — I enjoyed the conversation." },
+      { "context": "Sales", "sentence": "Thanks for your time. I'll send the summary over this afternoon." }
+    ],
+    "remember": [
+      "It signals that the meeting is ending, so do not say it in the middle unless you want to close things."
+    ]
+  },
+  {
+    "id": "im-afraid",
+    "term": "I'm afraid…",
+    "level": "B1",
+    "meaning": "A softener before bad news or a refusal.",
+    "usage": "Use it to warn the listener that what follows is not what they hoped for. Standard in customer service and formal replies.",
+    "examples": [
+      { "context": "Customer Service", "sentence": "I'm afraid that item is out of stock." },
+      { "context": "Work", "sentence": "I'm afraid we won't make Friday." },
+      { "context": "Email", "sentence": "I'm afraid I have to decline this time." }
+    ],
+    "remember": [
+      "Nothing to do with fear. It simply means 'I regret to say'."
+    ]
+  },
+  {
+    "id": "if-you-dont-mind-me-asking",
+    "term": "If you don't mind me asking…",
+    "level": "B2",
+    "meaning": "A way to introduce a question that might be too personal.",
+    "usage": "Use it before asking about salary, age, health, or anything the person may prefer not to discuss.",
+    "examples": [
+      { "context": "Conversation", "sentence": "If you don't mind me asking, what made you leave your last job?" },
+      { "context": "Daily Life", "sentence": "If you don't mind me asking, how much did the repair cost?" }
+    ],
+    "remember": [
+      "It gives the other person permission to decline. If they change the subject, let them."
+    ]
+  },
+  {
+    "id": "i-hope-you-dont-mind",
+    "term": "I hope you don't mind, but…",
+    "level": "B2",
+    "meaning": "A way to admit you have already done something that might affect someone.",
+    "usage": "Use it when you acted without asking first and want to flag it honestly.",
+    "examples": [
+      { "context": "Work", "sentence": "I hope you don't mind, but I've moved our call to three." },
+      { "context": "Daily Life", "sentence": "I hope you don't mind, but I gave the plumber your number." }
+    ],
+    "remember": [
+      "This announces a decision rather than requesting one. For something significant, ask first instead."
+    ]
+  },
+  {
+    "id": "with-all-due-respect",
+    "term": "With all due respect",
+    "level": "C1",
+    "meaning": "A formal signal that a disagreement is coming.",
+    "usage": "Use it in formal or hierarchical settings before challenging someone's position.",
+    "examples": [
+      { "context": "Meeting", "sentence": "With all due respect, the figures don't support that conclusion." },
+      { "context": "Formal", "sentence": "With all due respect, I'd like to put the alternative case." }
+    ],
+    "remember": [
+      "Everyone knows what is coming next, and many people hear it as sarcastic. 'I see it differently' is usually the better choice."
+    ]
+  },
+  {
+    "id": "sorry-to-bother-you",
+    "term": "Sorry to bother you",
+    "level": "A2",
+    "meaning": "An apology for interrupting.",
+    "usage": "Use it before interrupting someone who is clearly busy, or before approaching a stranger.",
+    "examples": [
+      { "context": "Office", "sentence": "Sorry to bother you — do you have a second?" },
+      { "context": "Street", "sentence": "Sorry to bother you, is this the way to the museum?" }
+    ],
+    "remember": [
+      "Follow it immediately with your request. Apologising at length makes the interruption longer, not shorter."
+    ]
+  },
+  {
+    "id": "would-it-be-possible",
+    "term": "Would it be possible to…?",
+    "level": "B1",
+    "meaning": "A formal, indirect way to make a request.",
+    "usage": "Use it in emails and with people you do not know well. It focuses on the possibility rather than on the person, which makes refusal easier.",
+    "examples": [
+      { "context": "Email", "sentence": "Would it be possible to move the meeting to Thursday?" },
+      { "context": "Hotel", "sentence": "Would it be possible to have a room on a higher floor?" }
+    ],
+    "remember": [
+      "Because it asks about the situation rather than the person, it is one of the safest request forms in professional English."
+    ]
+  },
+  {
+    "id": "i-was-hoping",
+    "term": "I was hoping…",
+    "level": "B2",
+    "meaning": "A gentle way to introduce what you want.",
+    "usage": "Use it to make a request sound like a hope rather than an expectation, so a no costs nobody anything.",
+    "examples": [
+      { "context": "Work", "sentence": "I was hoping we could discuss the budget this week." },
+      { "context": "Daily Life", "sentence": "I was hoping you might be able to help with the move." }
+    ],
+    "remember": [
+      "The past tense is doing the politeness work — 'I hope' is noticeably more direct."
+    ]
+  },
+  {
+    "id": "please-let-me-know-if",
+    "term": "Please let me know if there's anything else",
+    "level": "B1",
+    "meaning": "A polite offer of further help.",
+    "usage": "Use it to close a message or conversation warmly, especially in customer-facing work.",
+    "examples": [
+      { "context": "Email", "sentence": "Hope that helps — please let me know if there's anything else." },
+      { "context": "Service", "sentence": "Let me know if there's anything else I can do for you." }
+    ],
+    "remember": [
+      "It is both a genuine offer and a signal that the exchange is finished."
+    ]
+  },
+  {
+    "id": "after-you",
+    "term": "After you",
+    "level": "A2",
+    "meaning": "Please go first.",
+    "usage": "Say it at a door, a lift, or a queue when letting someone go ahead of you.",
+    "examples": [
+      { "context": "Office", "sentence": "After you." },
+      { "context": "Daily Life", "sentence": "No, please — after you." }
+    ],
+    "remember": [
+      "Two words that cover the whole situation. Anything longer would sound unnatural."
+    ]
+  },
+  {
+    "id": "excuse-me",
+    "term": "Excuse me",
+    "level": "A1",
+    "meaning": "A polite way to get attention, pass by, or apologise for a small disturbance.",
+    "usage": "Use it before speaking to a stranger, when squeezing past someone, or after sneezing.",
+    "examples": [
+      { "context": "Street", "sentence": "Excuse me, do you know the time?" },
+      { "context": "Train", "sentence": "Excuse me, could I get past?" },
+      { "context": "Daily Life", "sentence": "Excuse me — sorry, I need to take this call." }
+    ],
+    "remember": [
+      "'Excuse me' comes before you inconvenience someone; 'sorry' comes after. Bumping into someone calls for 'sorry'."
+    ]
+  },
+  {
+    "id": "im-not-sure-i-agree",
+    "term": "I'm not sure I agree",
+    "level": "B2",
+    "meaning": "A softened disagreement.",
+    "usage": "Use it to disagree in a meeting or discussion without sounding confrontational.",
+    "examples": [
+      { "context": "Meeting", "sentence": "I'm not sure I agree — the data points the other way." },
+      { "context": "Discussion", "sentence": "I'm not sure I agree with that, but I see where it comes from." }
+    ],
+    "remember": [
+      "English speakers hear this as clear disagreement, not genuine uncertainty. The hedge is politeness, not doubt."
+    ]
+  },
+  {
+    "id": "at-your-earliest-convenience",
+    "term": "At your earliest convenience",
+    "level": "B2",
+    "meaning": "As soon as you reasonably can.",
+    "usage": "Use it in formal written requests where you want promptness without setting a hard deadline.",
+    "examples": [
+      { "context": "Email", "sentence": "Please return the signed copy at your earliest convenience." },
+      { "context": "Formal", "sentence": "We'd be grateful for your response at your earliest convenience." }
+    ],
+    "remember": [
+      "It is formal and slightly vague. If you need it by a specific date, say the date."
+    ]
+  },
+  {
+    "id": "do-feel-free",
+    "term": "Feel free to…",
+    "level": "B1",
+    "meaning": "You are welcome to do this if you want.",
+    "usage": "Use it to give permission generously, or to make an offer that carries no obligation.",
+    "examples": [
+      { "context": "Work", "sentence": "Feel free to edit the document directly." },
+      { "context": "Host", "sentence": "Feel free to help yourself to anything in the fridge." }
+    ],
+    "remember": [
+      "It genuinely means optional. If you actually want someone to do something, ask them directly."
+    ]
+  },
+  {
+    "id": "if-thats-ok-with-you",
+    "term": "If that's OK with you",
+    "level": "A2",
+    "meaning": "A short check that the other person agrees.",
+    "usage": "Add it to the end of a suggestion to make it collaborative rather than a decision you have already made.",
+    "examples": [
+      { "context": "Work", "sentence": "I'll start with the data section, if that's OK with you." },
+      { "context": "Daily Life", "sentence": "Let's meet at seven, if that's OK with you." }
+    ],
+    "remember": [
+      "It costs four words and turns an instruction into an invitation."
+    ]
+  },
+  {
+    "id": "i-completely-understand",
+    "term": "I completely understand",
+    "level": "B1",
+    "meaning": "I accept your position and I am not going to argue.",
+    "usage": "Use it when someone declines, apologises, or explains a constraint — it removes any pressure on them.",
+    "examples": [
+      { "context": "Work", "sentence": "You're stretched thin — I completely understand." },
+      { "context": "Service", "sentence": "I completely understand your frustration." }
+    ],
+    "remember": [
+      "In customer service this defuses anger quickly, but only if a genuine solution follows it."
+    ]
+  },
+  {
+    "id": "many-thanks-in-advance",
+    "term": "Thanks in advance",
+    "level": "B2",
+    "meaning": "Thanking someone before they have done what you asked.",
+    "usage": "Use it to close a request in an email, warmly and briefly.",
+    "examples": [
+      { "context": "Email", "sentence": "Could you confirm by Friday? Thanks in advance." }
+    ],
+    "remember": [
+      "Some readers find it presumptuous, because it assumes agreement. With a senior or unfamiliar contact, 'thank you for considering this' is safer."
+    ]
+  },
+  {
+    "id": "would-you-be-able-to",
+    "term": "Would you be able to…?",
+    "level": "B1",
+    "meaning": "A polite way to ask whether someone can do something.",
+    "usage": "Use it when you are unsure whether the person has the time, authority, or capacity — it asks about ability rather than willingness.",
+    "examples": [
+      { "context": "Work", "sentence": "Would you be able to join the call at four?" },
+      { "context": "Email", "sentence": "Would you be able to share the raw data?" }
+    ],
+    "remember": [
+      "Because it asks about ability, saying no is easy and face-saving — which is exactly what makes it polite."
+    ]
+  }
+]

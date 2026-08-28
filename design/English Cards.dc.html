@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="_ds/modernist-f8c7f230-9cb6-4b36-93dd-9676cc4484a0/styles.css">
+<style>
+:root{--nb:#e8e5e1;--ink:#26221f;--sub:#8b847c;--sd:rgba(163,155,146,.55);--sl:rgba(255,255,255,.95);--acc:#ec3013;--accsoft:rgba(236,48,19,.12)}
+body{margin:0;background:#d8d4cf;font-family:Archivo,system-ui,sans-serif}
+a{color:var(--acc);text-decoration:none}a:hover{color:#b52410}
+@keyframes ecFade{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:translateY(0)}}
+button:focus-visible{outline:2px solid var(--acc);outline-offset:2px}
+</style>
+</helmet>
+<div style="min-height:100vh;display:flex;justify-content:center;align-items:flex-start;padding:36px 16px">
+<x-import component-from-global-scope="IOSDevice" from="./ios-frame.jsx" hint-size="430px,880px">
+<div style="height:100%;display:flex;flex-direction:column;background:var(--nb);color:var(--ink);font-family:Archivo,system-ui,sans-serif;transition:background .3s">
+
+<sc-if value="{{ isHome }}" hint-placeholder-val="{{ true }}">
+<div data-screen-label="Home" style="flex:1;overflow-y:auto;padding:62px 24px 40px">
+  <div style="display:flex;flex-direction:column;gap:6px;margin:10px 0 26px">
+    <div style="font-size:11px;font-weight:700;letter-spacing:.18em;color:var(--acc)">ENGLISH TRAINER</div>
+    <div style="font-size:30px;font-weight:700;letter-spacing:-.01em;line-height:1.1">What do you want to practice today?</div>
+    <div style="font-size:14px;color:var(--sub)">Pick a category to start flipping cards.</div>
+  </div>
+  <div style="display:grid;grid-template-columns:1fr 1fr;gap:22px">
+    <sc-for list="{{ categories }}" as="cat" hint-placeholder-count="6">
+      <button onClick="{{ cat.open }}" style="border:none;cursor:pointer;text-align:left;font-family:inherit;color:var(--ink);background:var(--nb);border-radius:22px;padding:18px 16px;display:flex;flex-direction:column;gap:12px;box-shadow:7px 7px 14px var(--sd),-7px -7px 14px var(--sl);transition:box-shadow .15s" style-active="box-shadow:inset 5px 5px 10px var(--sd),inset -5px -5px 10px var(--sl)">
+        <div style="width:46px;height:46px;border-radius:50%;display:flex;align-items:center;justify-content:center;box-shadow:inset 4px 4px 8px var(--sd),inset -4px -4px 8px var(--sl)">
+          <svg width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="var(--acc)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="{{ cat.icon }}"></path><path d="{{ cat.icon2 }}"></path></svg>
+        </div>
+        <div style="display:flex;flex-direction:column;gap:3px">
+          <div style="font-size:15.5px;font-weight:700;line-height:1.15">{{ cat.name }}</div>
+          <div style="font-size:12px;font-weight:600;color:var(--acc)">{{ cat.countLabel }}</div>
+        </div>
+      </button>
+    </sc-for>
+  </div>
+</div>
+</sc-if>
+
+<sc-if value="{{ isLearn }}" hint-placeholder-val="{{ false }}">
+<div data-screen-label="Learning" style="flex:1;display:flex;flex-direction:column;min-height:0">
+  <div style="flex:1;overflow-y:auto;padding:60px 24px 24px;display:flex;flex-direction:column;gap:22px">
+    <div style="display:flex;align-items:center;justify-content:space-between;margin-top:6px">
+      <div style="font-size:24px;font-weight:700;letter-spacing:-.01em">{{ catName }}</div>
+      <div style="font-size:11px;font-weight:700;letter-spacing:.14em;color:var(--sub);padding:8px 14px;border-radius:999px;box-shadow:inset 3px 3px 7px var(--sd),inset -3px -3px 7px var(--sl)">{{ cardNo }}</div>
+    </div>
+    <div style="border-radius:26px;padding:38px 26px;display:flex;flex-direction:column;align-items:center;gap:10px;box-shadow:8px 8px 18px var(--sd),-8px -8px 18px var(--sl)">
+      <div style="font-size:27px;font-weight:700;text-align:center;line-height:1.2;text-wrap:balance">{{ word }}</div>
+      <sc-if value="{{ hasIpa }}" hint-placeholder-val="{{ false }}"><div style="font-size:15px;color:var(--sub)">{{ ipa }}</div></sc-if>
+    </div>
+    <sc-if value="{{ hidden }}" hint-placeholder-val="{{ true }}">
+      <div style="border-radius:22px;padding:30px 24px;display:flex;flex-direction:column;align-items:center;gap:16px;box-shadow:inset 5px 5px 11px var(--sd),inset -5px -5px 11px var(--sl)">
+        <div style="font-size:13px;color:var(--sub);letter-spacing:.02em">Meaning is hidden — try to recall it first.</div>
+        <button onClick="{{ toggleDetails }}" style="border:none;cursor:pointer;font-family:inherit;font-size:14px;font-weight:700;letter-spacing:.04em;color:var(--acc);background:var(--nb);border-radius:999px;padding:15px 34px;box-shadow:6px 6px 12px var(--sd),-6px -6px 12px var(--sl)" style-active="box-shadow:inset 4px 4px 9px var(--sd),inset -4px -4px 9px var(--sl)">Show Details</button>
+      </div>
+    </sc-if>
+    <sc-if value="{{ shown }}" hint-placeholder-val="{{ false }}">
+      <div style="border-radius:22px;padding:24px;display:flex;flex-direction:column;gap:18px;box-shadow:inset 5px 5px 11px var(--sd),inset -5px -5px 11px var(--sl);animation:ecFade .3s ease">
+        <div style="display:flex;flex-direction:column;gap:5px">
+          <div style="font-size:10.5px;font-weight:700;letter-spacing:.18em;color:var(--acc)">MEANING</div>
+          <div style="font-size:15px;line-height:1.5">{{ meaning }}</div>
+        </div>
+        <div style="display:flex;flex-direction:column;gap:5px">
+          <div style="font-size:10.5px;font-weight:700;letter-spacing:.18em;color:var(--acc)">EXPLANATION</div>
+          <div style="font-size:14px;line-height:1.55;color:var(--sub)">{{ explanation }}</div>
+        </div>
+        <div style="display:flex;flex-direction:column;gap:5px">
+          <div style="font-size:10.5px;font-weight:700;letter-spacing:.18em;color:var(--acc)">EXAMPLE</div>
+          <div style="font-size:14.5px;line-height:1.55;font-style:italic">{{ example }}</div>
+        </div>
+        <button onClick="{{ toggleDetails }}" style="border:none;cursor:pointer;font-family:inherit;font-size:12px;font-weight:700;color:var(--sub);background:transparent;align-self:center;padding:6px 12px;border-radius:999px" style-active="color:var(--acc)">Hide details</button>
+      </div>
+    </sc-if>
+  </div>
+  <div style="flex:none;display:flex;align-items:center;justify-content:space-between;padding:16px 30px 12px;background:var(--nb);box-shadow:0 -7px 16px var(--sd)">
+    <button onClick="{{ prev }}" style="border:none;cursor:pointer;font-family:inherit;background:var(--nb);color:var(--ink);width:58px;height:58px;border-radius:50%;display:flex;align-items:center;justify-content:center;box-shadow:6px 6px 12px var(--sd),-6px -6px 12px var(--sl)" style-active="box-shadow:inset 4px 4px 9px var(--sd),inset -4px -4px 9px var(--sl)" aria-label="Previous card">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="m15 18-6-6 6-6"></path></svg>
+    </button>
+    <button onClick="{{ goHome }}" style="border:none;cursor:pointer;font-family:inherit;background:var(--nb);color:var(--acc);width:66px;height:66px;border-radius:50%;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:2px;box-shadow:7px 7px 14px var(--sd),-7px -7px 14px var(--sl)" style-active="box-shadow:inset 4px 4px 9px var(--sd),inset -4px -4px 9px var(--sl)" aria-label="Home">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="m3 10 9-7 9 7v10a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path></svg>
+      <span style="font-size:9px;font-weight:700;letter-spacing:.1em">HOME</span>
+    </button>
+    <button onClick="{{ next }}" style="border:none;cursor:pointer;font-family:inherit;background:var(--nb);color:var(--ink);width:58px;height:58px;border-radius:50%;display:flex;align-items:center;justify-content:center;box-shadow:6px 6px 12px var(--sd),-6px -6px 12px var(--sl)" style-active="box-shadow:inset 4px 4px 9px var(--sd),inset -4px -4px 9px var(--sl)" aria-label="Next card">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"></path></svg>
+    </button>
+  </div>
+</div>
+</sc-if>
+
+</div>
+</x-import>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{&quot;$preview&quot;:{&quot;width&quot;:480,&quot;height&quot;:940},&quot;accent&quot;:{&quot;editor&quot;:&quot;color&quot;,&quot;default&quot;:&quot;#ec3013&quot;,&quot;options&quot;:[&quot;#ec3013&quot;,&quot;#1f6f5c&quot;,&quot;#2a5ca8&quot;,&quot;#26221f&quot;],&quot;tsType&quot;:&quot;string&quot;,&quot;section&quot;:&quot;Theme&quot;},&quot;darkMode&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:false,&quot;tsType&quot;:&quot;boolean&quot;,&quot;section&quot;:&quot;Theme&quot;}}">
+class Component extends DCLogic {
+  state = { screen: 'home', cat: 0, idx: 0, shown: false };
+  data = [
+    { name: 'Phrases', count: 120, icon: 'M7.9 20A9 9 0 1 0 4 16.1L2 22Z', icon2: '', cards: [
+      { word: 'Long time no see', meaning: 'A friendly greeting used when you meet someone you have not seen for a while.', explanation: 'Very informal and extremely common in spoken English. Use it with friends and colleagues, not in formal writing.', example: '"Sarah! Long time no see — how have you been?"' },
+      { word: "It's up to you", meaning: 'The decision is yours to make.', explanation: 'A polite way to hand a choice over to the other person. Often follows a suggestion or an offer.', example: '"We can eat in or order pizza — it\u2019s up to you."' },
+      { word: "I'm on my way", meaning: 'I have left and I am coming to you now.', explanation: 'Used to reassure someone who is waiting. Often shortened to "OMW" in text messages.', example: '"Don\u2019t worry, I\u2019m on my way — see you in ten minutes."' },
+      { word: 'Never mind', meaning: 'Forget it; it is not important.', explanation: 'Used to withdraw something you said, or to tell someone not to worry about a small problem.', example: '"Never mind, I found my keys — they were in my coat."' } ] },
+    { name: 'Vocabulary', count: 250, icon: 'M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1 0-5H20', icon2: '', cards: [
+      { word: 'Meticulous', ipa: '/m\u0259\u02c8t\u026ak.j\u0259.l\u0259s/', meaning: 'Very careful and precise, paying great attention to detail.', explanation: 'A positive word for describing thorough work or people. Stronger and more formal than "careful".', example: '"She kept meticulous records of every experiment."' },
+      { word: 'Resilient', ipa: '/r\u026a\u02c8z\u026al.i.\u0259nt/', meaning: 'Able to recover quickly from difficulties.', explanation: 'Used for people, materials, and systems. The noun form is "resilience".', example: '"Kids are remarkably resilient — he was smiling again within an hour."' },
+      { word: 'Ambiguous', ipa: '/\u00e6m\u02c8b\u026a\u0261.ju.\u0259s/', meaning: 'Having more than one possible meaning; unclear.', explanation: 'Describes statements or situations open to interpretation. Don\u2019t confuse with "ambivalent" (having mixed feelings).', example: '"The ending of the film is deliberately ambiguous."' },
+      { word: 'Inevitable', ipa: '/\u026a\u02c8nev.\u026a.t\u0259.b\u0259l/', meaning: 'Certain to happen; unavoidable.', explanation: 'Often used with "the": "the inevitable" means the thing that must happen.', example: '"After the third delay, cancellation felt inevitable."' } ] },
+    { name: 'Business English', count: 180, icon: 'M16 20V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16', icon2: 'M2 8a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2z', cards: [
+      { word: 'Touch base', meaning: 'To make brief contact to exchange updates.', explanation: 'Borrowed from baseball. Common in emails and meetings; informal but fully accepted at work.', example: '"Let\u2019s touch base on Friday before the client call."' },
+      { word: 'Move the needle', meaning: 'To make a noticeable, measurable difference.', explanation: 'Used when discussing impact on metrics or results. Often in the negative: "it won\u2019t move the needle".', example: '"A small discount won\u2019t move the needle on quarterly sales."' },
+      { word: 'Circle back', meaning: 'To return to a topic or person later.', explanation: 'Useful for postponing a discussion without dismissing it. Overuse can sound like corporate jargon.', example: '"Good question — let me circle back once I have the numbers."' },
+      { word: 'Stakeholder', ipa: '/\u02c8ste\u026ak\u02ccho\u028al.d\u0259r/', meaning: 'Anyone with an interest in a project or its outcome.', explanation: 'Broader than "shareholder" — includes customers, employees, and partners, not just investors.', example: '"We need sign-off from every stakeholder before launch."' } ] },
+    { name: 'Idioms', count: 145, icon: 'M9.9 2.7 11.5 7a1 1 0 0 0 .6.6l4.3 1.6a1 1 0 0 1 0 1.8l-4.3 1.6a1 1 0 0 0-.6.6l-1.6 4.3a1 1 0 0 1-1.8 0l-1.6-4.3a1 1 0 0 0-.6-.6l-4.3-1.6a1 1 0 0 1 0-1.8l4.3-1.6a1 1 0 0 0 .6-.6l1.6-4.3a1 1 0 0 1 1.8 0Z', icon2: 'M19 15l.9 2.4L22.3 18.3l-2.4.9-.9 2.4-.9-2.4-2.4-.9 2.4-.9Z', cards: [
+      { word: 'Break the ice', meaning: 'To ease the tension when people first meet.', explanation: 'An "icebreaker" is a game or question used for this purpose at events and meetings.', example: '"He told a joke to break the ice at the start of the interview."' },
+      { word: 'Under the weather', meaning: 'Feeling slightly ill.', explanation: 'A gentle way to say you are unwell — perfect for calling in sick without giving details.', example: '"I\u2019m a bit under the weather, so I\u2019ll work from home today."' },
+      { word: 'Piece of cake', meaning: 'Something very easy to do.', explanation: 'Always singular. A close cousin of "a walk in the park".', example: '"The test was a piece of cake — I finished in twenty minutes."' },
+      { word: 'Spill the beans', meaning: 'To reveal a secret, usually by accident.', explanation: 'Similar to "let the cat out of the bag". The secret is often a surprise or plan.', example: '"Don\u2019t spill the beans about the party — it\u2019s a surprise!"' } ] },
+    { name: 'Grammar', count: 90, icon: 'M12 20h9', icon2: 'M16.5 3.5a2.1 2.1 0 0 1 3 3L7 19l-4 1 1-4Z', cards: [
+      { word: 'Fewer vs. Less', meaning: '"Fewer" for countable nouns, "less" for uncountable.', explanation: 'Fewer cars, fewer people — but less traffic, less time. Exception: measurements often take "less" ("less than 10 km").', example: '"There are fewer meetings this week, so I have less stress."' },
+      { word: 'Past Perfect', meaning: '"Had" + past participle — an action before another past action.', explanation: 'Use it to put two past events in order. If the order is already clear, simple past is fine.', example: '"By the time we arrived, the film had already started."' },
+      { word: 'Who vs. Whom', meaning: '"Who" is a subject; "whom" is an object.', explanation: 'Quick test: if you can answer with "him", use "whom". In casual speech, "who" is almost always accepted.', example: '"Whom did you invite?" \u2192 "I invited him."' },
+      { word: 'Articles: a / an / the', meaning: '"A/an" introduces something new; "the" refers to something specific.', explanation: '"An" goes before vowel sounds, not letters: an hour, a university. No article for general plurals: "I like dogs."', example: '"I saw a dog in the park. The dog was chasing a ball."' } ] },
+    { name: 'Pronunciation', count: 60, icon: 'M12 2a3 3 0 0 0-3 3v7a3 3 0 0 0 6 0V5a3 3 0 0 0-3-3Z', icon2: 'M19 10v2a7 7 0 0 1-14 0v-2', cards: [
+      { word: 'Thought', ipa: '/\u03b8\u0254\u02d0t/', meaning: 'The unvoiced "th" sound: tongue between the teeth, no voice.', explanation: 'Push air gently past your tongue tip. Compare with "taught" /t\u0254\u02d0t/ — the tongue starts behind the teeth instead.', example: '"I thought about it all through Thursday."' },
+      { word: 'Comfortable', ipa: '/\u02c8k\u028cmf.t\u0259.b\u0259l/', meaning: 'Three syllables, not four: COMF-tuh-bul.', explanation: 'The "or" almost disappears in natural speech. Stress stays on the first syllable.', example: '"This chair is really comfortable."' },
+      { word: 'World', ipa: '/w\u025c\u02d0ld/', meaning: 'One syllable, with a dark "l" before the "d".', explanation: 'Say "were" then close with "ld" — avoid adding a vowel: not "wor-eld".', example: '"She travelled around the world in a year."' },
+      { word: 'Vegetable', ipa: '/\u02c8ved\u0292.t\u0259.b\u0259l/', meaning: 'Three syllables: VEJ-tuh-bul.', explanation: 'The second "e" is silent in natural speech. Same pattern as "comfortable" and "interesting".', example: '"Add one more vegetable to the soup."' } ] }
+  ];
+  componentDidMount() { this.applyTheme(); }
+  componentDidUpdate() { this.applyTheme(); }
+  applyTheme() {
+    const dark = this.props.darkMode ?? false;
+    const r = document.documentElement.style;
+    r.setProperty('--acc', this.props.accent ?? '#ec3013');
+    if (dark) {
+      r.setProperty('--nb', '#2e2b28'); r.setProperty('--ink', '#eae7e3'); r.setProperty('--sub', '#9d968e');
+      r.setProperty('--sd', 'rgba(0,0,0,.55)'); r.setProperty('--sl', 'rgba(255,255,255,.07)');
+      document.body.style.background = '#262320';
+    } else {
+      r.setProperty('--nb', '#e8e5e1'); r.setProperty('--ink', '#26221f'); r.setProperty('--sub', '#8b847c');
+      r.setProperty('--sd', 'rgba(163,155,146,.55)'); r.setProperty('--sl', 'rgba(255,255,255,.95)');
+      document.body.style.background = '#d8d4cf';
+    }
+  }
+  renderVals() {
+    const s = this.state;
+    const categories = this.data.map((c, i) => ({
+      name: c.name, countLabel: c.count + ' Cards', icon: c.icon, icon2: c.icon2,
+      open: () => this.setState({ screen: 'learn', cat: i, idx: 0, shown: false })
+    }));
+    const cat = this.data[s.cat];
+    const card = cat.cards[s.idx];
+    const n = cat.cards.length;
+    return {
+      isHome: s.screen === 'home',
+      isLearn: s.screen === 'learn',
+      categories,
+      catName: cat.name,
+      cardNo: 'CARD ' + String(s.idx + 1).padStart(3, '0'),
+      word: card.word,
+      ipa: card.ipa || '',
+      hasIpa: !!card.ipa,
+      meaning: card.meaning, explanation: card.explanation, example: card.example,
+      shown: s.shown, hidden: !s.shown,
+      toggleDetails: () => this.setState(st => ({ shown: !st.shown })),
+      prev: () => this.setState(st => ({ idx: (st.idx - 1 + n) % n, shown: false })),
+      next: () => this.setState(st => ({ idx: (st.idx + 1) % n, shown: false })),
+      goHome: () => this.setState({ screen: 'home', shown: false })
+    };
+  }
+}
+</script>
+</body>
+</html>

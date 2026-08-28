@@ -1,0 +1,471 @@
+[
+  {
+    "id": "meeting-someone-new",
+    "term": "Meeting Someone New",
+    "level": "A1",
+    "situation": "Two people are introduced at a social event.",
+    "conversation": [
+      { "speaker": "A", "text": "Hi, I'm John. Nice to meet you." },
+      { "speaker": "B", "text": "Nice to meet you too. I'm Aditi." },
+      { "speaker": "A", "text": "Where are you from, Aditi?" },
+      { "speaker": "B", "text": "I'm from Mumbai, but I've been in London for two years." },
+      { "speaker": "A", "text": "How do you like it?" },
+      { "speaker": "B", "text": "I love it, apart from the winters." }
+    ],
+    "keyExpressions": [
+      "Nice to meet you. — Nice to meet you too.",
+      "Where are you from?",
+      "How do you like it?",
+      "I've been here for two years."
+    ],
+    "remember": [
+      "'Nice to meet you' is only for a first meeting. When you see the person again, say 'good to see you'."
+    ]
+  },
+  {
+    "id": "making-plans",
+    "term": "Making Plans with a Friend",
+    "level": "A2",
+    "situation": "Two friends try to find a time to meet.",
+    "conversation": [
+      { "speaker": "A", "text": "Are you free this weekend?" },
+      { "speaker": "B", "text": "Saturday I'm busy, but Sunday's open. What did you have in mind?" },
+      { "speaker": "A", "text": "There's a new place near the park. Fancy lunch?" },
+      { "speaker": "B", "text": "Sounds great. What time?" },
+      { "speaker": "A", "text": "Around one?" },
+      { "speaker": "B", "text": "Perfect. See you there." }
+    ],
+    "keyExpressions": [
+      "Are you free this weekend?",
+      "What did you have in mind?",
+      "Fancy lunch?",
+      "Sounds great. What time?"
+    ],
+    "remember": [
+      "'Fancy…?' is a very common British way to suggest something informally. Americans would say 'Do you want to…?'."
+    ]
+  },
+  {
+    "id": "cancelling-plans",
+    "term": "Cancelling Plans",
+    "level": "B1",
+    "situation": "One friend has to cancel at short notice.",
+    "conversation": [
+      { "speaker": "A", "text": "I'm really sorry, but I'm going to have to cancel tonight." },
+      { "speaker": "B", "text": "Oh no, everything OK?" },
+      { "speaker": "A", "text": "Work thing blew up and I'll be here till late. I feel terrible." },
+      { "speaker": "B", "text": "Don't worry about it, honestly. Another time." },
+      { "speaker": "A", "text": "Definitely. Can I make it up to you next week?" },
+      { "speaker": "B", "text": "You can buy me dinner." }
+    ],
+    "keyExpressions": [
+      "I'm going to have to cancel.",
+      "Everything OK?",
+      "I feel terrible.",
+      "Can I make it up to you?"
+    ],
+    "remember": [
+      "Cancel, apologise, and immediately propose an alternative. Cancelling without offering a new date reads as a brush-off."
+    ]
+  },
+  {
+    "id": "asking-for-help",
+    "term": "Asking a Colleague for Help",
+    "level": "B1",
+    "situation": "You need help but do not want to interrupt someone who is busy.",
+    "conversation": [
+      { "speaker": "A", "text": "Are you in the middle of something, or do you have two minutes?" },
+      { "speaker": "B", "text": "I've got a few minutes. What's up?" },
+      { "speaker": "A", "text": "I can't get the export to work and I've tried everything I know." },
+      { "speaker": "B", "text": "Show me what you've done so far." },
+      { "speaker": "A", "text": "Thanks — I really appreciate it." }
+    ],
+    "keyExpressions": [
+      "Are you in the middle of something?",
+      "Do you have two minutes?",
+      "What's up?",
+      "I really appreciate it."
+    ],
+    "remember": [
+      "Asking about their availability first, before describing the problem, is what makes this polite."
+    ]
+  },
+  {
+    "id": "disagreeing-politely",
+    "term": "Disagreeing in a Meeting",
+    "level": "B2",
+    "situation": "Two colleagues disagree about an approach without falling out.",
+    "conversation": [
+      { "speaker": "A", "text": "I think we should launch in June and fix issues as they come up." },
+      { "speaker": "B", "text": "I see the appeal, but I'm not sure we'd recover from a bad first impression." },
+      { "speaker": "A", "text": "Fair. What would you need to feel comfortable?" },
+      { "speaker": "B", "text": "Two more weeks of testing. That's all." },
+      { "speaker": "A", "text": "That's not unreasonable. Let's put mid-June to the group." }
+    ],
+    "keyExpressions": [
+      "I see the appeal, but…",
+      "I'm not sure we'd…",
+      "What would you need to feel comfortable?",
+      "That's not unreasonable."
+    ],
+    "remember": [
+      "Acknowledge the other view before disagreeing. 'I see the appeal, but…' keeps the disagreement about the idea, not the person."
+    ]
+  },
+  {
+    "id": "apologising-at-work",
+    "term": "Apologising for a Mistake",
+    "level": "B1",
+    "situation": "You have made an error that affected someone else's work.",
+    "conversation": [
+      { "speaker": "A", "text": "I owe you an apology — I sent the old version to the client." },
+      { "speaker": "B", "text": "Ah. Have they opened it?" },
+      { "speaker": "A", "text": "Not yet. I've already sent the correct one with a note." },
+      { "speaker": "B", "text": "Then it's fine. Thanks for telling me straight away." },
+      { "speaker": "A", "text": "I've added a check to the process so it can't happen again." }
+    ],
+    "keyExpressions": [
+      "I owe you an apology.",
+      "I've already…",
+      "Thanks for telling me straight away.",
+      "So it can't happen again."
+    ],
+    "remember": [
+      "Apologise, say what you have already done to fix it, then say what will prevent a repeat. Explaining why it happened comes last, if at all."
+    ]
+  },
+  {
+    "id": "accepting-an-invitation",
+    "term": "Accepting and Declining an Invitation",
+    "level": "A2",
+    "situation": "One person invites two friends; one accepts and one cannot come.",
+    "conversation": [
+      { "speaker": "A", "text": "We're having a few people over on Saturday — can you both make it?" },
+      { "speaker": "B", "text": "I'd love to. What time?" },
+      { "speaker": "C", "text": "I'd love to as well, but we're away that weekend. Sorry." },
+      { "speaker": "A", "text": "No problem — next time." },
+      { "speaker": "C", "text": "Definitely. Have a great evening." }
+    ],
+    "keyExpressions": [
+      "Can you make it?",
+      "I'd love to.",
+      "I'd love to, but…",
+      "No problem — next time."
+    ],
+    "remember": [
+      "'I'd love to, but…' is the standard polite refusal. Starting with 'no' sounds much colder than English speakers expect."
+    ]
+  },
+  {
+    "id": "small-talk-lift",
+    "term": "A Very Short Exchange",
+    "level": "A1",
+    "situation": "Two colleagues share a lift for thirty seconds.",
+    "conversation": [
+      { "speaker": "A", "text": "Morning." },
+      { "speaker": "B", "text": "Morning. Busy day?" },
+      { "speaker": "A", "text": "Back-to-back meetings. You?" },
+      { "speaker": "B", "text": "Quiet, thankfully." },
+      { "speaker": "A", "text": "Enjoy it while it lasts." }
+    ],
+    "keyExpressions": [
+      "Morning.",
+      "Busy day?",
+      "Back-to-back meetings.",
+      "Enjoy it while it lasts."
+    ],
+    "remember": [
+      "Very short exchanges like this are normal and complete. You do not need to keep the conversation going."
+    ]
+  },
+  {
+    "id": "giving-feedback",
+    "term": "Giving Someone Feedback",
+    "level": "B2",
+    "situation": "A manager gives a team member honest but supportive feedback.",
+    "conversation": [
+      { "speaker": "Manager", "text": "The analysis was strong. I want to talk about the delivery, though." },
+      { "speaker": "Team member", "text": "Go on." },
+      { "speaker": "Manager", "text": "You covered everything, but the main finding didn't come out until slide fourteen." },
+      { "speaker": "Team member", "text": "That's fair. I was worried about jumping to conclusions." },
+      { "speaker": "Manager", "text": "Lead with the conclusion and use the rest to support it. Try that next time." },
+      { "speaker": "Team member", "text": "I will. Thanks — that's useful." }
+    ],
+    "keyExpressions": [
+      "I want to talk about…",
+      "That's fair.",
+      "Try that next time.",
+      "That's useful, thank you."
+    ],
+    "remember": [
+      "Useful feedback names one specific behaviour and one specific change. General praise or criticism changes nothing."
+    ]
+  },
+  {
+    "id": "returning-a-call",
+    "term": "Returning a Missed Call",
+    "level": "A2",
+    "situation": "Calling someone back after missing them.",
+    "conversation": [
+      { "speaker": "A", "text": "Hi, it's Sam — I saw you called earlier." },
+      { "speaker": "B", "text": "Thanks for getting back to me. It was about Thursday." },
+      { "speaker": "A", "text": "Right, is there a problem with the time?" },
+      { "speaker": "B", "text": "The room's double-booked. Could we do the morning instead?" },
+      { "speaker": "A", "text": "Morning works. I'll update the invite." }
+    ],
+    "keyExpressions": [
+      "It's… — I saw you called.",
+      "Thanks for getting back to me.",
+      "Could we do… instead?",
+      "I'll update the invite."
+    ],
+    "remember": [
+      "Opening with your name is essential on the phone. The other person may not have your number saved."
+    ]
+  },
+  {
+    "id": "buying-time",
+    "term": "Being Put on the Spot",
+    "level": "B2",
+    "situation": "Someone asks you a question in a meeting that you cannot answer immediately.",
+    "conversation": [
+      { "speaker": "A", "text": "What's the cost impact of moving the date?" },
+      { "speaker": "B", "text": "That's a good question, and I'd rather give you an accurate number than a guess." },
+      { "speaker": "A", "text": "How long do you need?" },
+      { "speaker": "B", "text": "Give me until tomorrow afternoon and I'll have it broken down properly." },
+      { "speaker": "A", "text": "That's fine." }
+    ],
+    "keyExpressions": [
+      "That's a good question.",
+      "I'd rather give you an accurate number than a guess.",
+      "Give me until…",
+      "I'll come back to you with…"
+    ],
+    "remember": [
+      "Saying you will check is far stronger than guessing. Always attach a specific time to the promise."
+    ]
+  },
+  {
+    "id": "checking-understanding",
+    "term": "Checking You Understood",
+    "level": "A2",
+    "situation": "You are not sure you followed what someone said.",
+    "conversation": [
+      { "speaker": "A", "text": "So send it to Neha first, then to finance once she's signed it." },
+      { "speaker": "B", "text": "Sorry, just to check — Neha first, then finance?" },
+      { "speaker": "A", "text": "That's right." },
+      { "speaker": "B", "text": "And if she's away?" },
+      { "speaker": "A", "text": "Then straight to finance and copy her in." }
+    ],
+    "keyExpressions": [
+      "Just to check…",
+      "So you're saying…?",
+      "Sorry, could you repeat that?",
+      "And if…?"
+    ],
+    "remember": [
+      "Repeating instructions back in your own words is the fastest way to catch a misunderstanding — and it never sounds unintelligent."
+    ]
+  },
+  {
+    "id": "thanking-someone",
+    "term": "Thanking Someone Properly",
+    "level": "B1",
+    "situation": "Thanking a colleague who went out of their way to help.",
+    "conversation": [
+      { "speaker": "A", "text": "I wanted to say thank you for staying late last night." },
+      { "speaker": "B", "text": "Oh, it was no trouble." },
+      { "speaker": "A", "text": "It was, and it made a real difference — we'd have missed the deadline." },
+      { "speaker": "B", "text": "Well, in that case, you're welcome." },
+      { "speaker": "A", "text": "Let me get lunch tomorrow." }
+    ],
+    "keyExpressions": [
+      "I wanted to say thank you for…",
+      "It was no trouble.",
+      "It made a real difference.",
+      "Let me get lunch."
+    ],
+    "remember": [
+      "Naming the specific thing they did, and its effect, makes thanks feel genuine rather than automatic."
+    ]
+  },
+  {
+    "id": "negotiating-a-price",
+    "term": "Negotiating a Price",
+    "level": "B2",
+    "situation": "A buyer and seller work towards a price they can both accept.",
+    "conversation": [
+      { "speaker": "Buyer", "text": "The quote came in higher than we budgeted." },
+      { "speaker": "Seller", "text": "I understand. What figure did you have in mind?" },
+      { "speaker": "Buyer", "text": "We were thinking around fifteen per cent lower." },
+      { "speaker": "Seller", "text": "I can't get to fifteen, but I could do eight if we extend to two years." },
+      { "speaker": "Buyer", "text": "Let me take that back to the team." }
+    ],
+    "keyExpressions": [
+      "That came in higher than we budgeted.",
+      "What figure did you have in mind?",
+      "I can't get to…, but I could do…",
+      "Let me take that back to the team."
+    ],
+    "remember": [
+      "'I can't do X, but I could do Y' keeps a negotiation alive. A flat 'no' usually ends it."
+    ]
+  },
+  {
+    "id": "first-day",
+    "term": "Your First Day",
+    "level": "A2",
+    "situation": "A new starter is shown around by a colleague.",
+    "conversation": [
+      { "speaker": "Colleague", "text": "Welcome! I'm Tom, I sit just over there." },
+      { "speaker": "You", "text": "Thanks. I'm Yusuf — today's my first day, so please be patient with me." },
+      { "speaker": "Colleague", "text": "Don't worry, everyone's been there. Have you got your laptop set up?" },
+      { "speaker": "You", "text": "Not yet. Who should I ask about that?" },
+      { "speaker": "Colleague", "text": "IT are on the second floor. I'll walk you up." }
+    ],
+    "keyExpressions": [
+      "Today's my first day.",
+      "Please be patient with me.",
+      "Who should I ask about…?",
+      "I'll walk you up."
+    ],
+    "remember": [
+      "'Who should I ask about…?' is more useful than 'how do I…?' — in a new place, finding the right person matters more than the answer."
+    ]
+  },
+  {
+    "id": "reminding-someone",
+    "term": "Reminding Someone Without Nagging",
+    "level": "B2",
+    "situation": "Chasing a colleague for something they promised.",
+    "conversation": [
+      { "speaker": "A", "text": "Quick one — is the budget sheet still on your list?" },
+      { "speaker": "B", "text": "It is, sorry. It got pushed by the audit." },
+      { "speaker": "A", "text": "No problem. Is Thursday realistic, or should I tell them Monday?" },
+      { "speaker": "B", "text": "Say Monday, and I'll try for Friday." },
+      { "speaker": "A", "text": "Perfect, that helps." }
+    ],
+    "keyExpressions": [
+      "Quick one —",
+      "Is… still on your list?",
+      "Is Thursday realistic?",
+      "That helps, thank you."
+    ],
+    "remember": [
+      "Asking what is realistic, rather than repeating the original deadline, gets you an honest answer instead of a defensive one."
+    ]
+  },
+  {
+    "id": "at-the-market",
+    "term": "Buying from a Market Stall",
+    "level": "A1",
+    "situation": "Buying fruit at a market.",
+    "conversation": [
+      { "speaker": "You", "text": "How much are the mangoes?" },
+      { "speaker": "Seller", "text": "Three for five pounds, or two pounds each." },
+      { "speaker": "You", "text": "I'll take three, please. Are they ripe?" },
+      { "speaker": "Seller", "text": "Ready today or tomorrow." },
+      { "speaker": "You", "text": "Perfect. Do you take card?" },
+      { "speaker": "Seller", "text": "Card's fine." }
+    ],
+    "keyExpressions": [
+      "How much are…?",
+      "I'll take three, please.",
+      "Are they ripe?",
+      "Do you take card?"
+    ],
+    "remember": [
+      "'How much is…' for one item, 'how much are…' for several. It is a small slip that native speakers notice."
+    ]
+  },
+  {
+    "id": "video-call-problems",
+    "term": "Technical Problems on a Call",
+    "level": "A2",
+    "situation": "The connection is bad during a video meeting.",
+    "conversation": [
+      { "speaker": "A", "text": "Sorry, you're breaking up. Could you say that again?" },
+      { "speaker": "B", "text": "Is that better? Let me turn my camera off." },
+      { "speaker": "A", "text": "Much better, thanks." },
+      { "speaker": "B", "text": "I was saying we should push the review to next week." },
+      { "speaker": "A", "text": "Got it. I'll send a new invite." }
+    ],
+    "keyExpressions": [
+      "You're breaking up.",
+      "Could you say that again?",
+      "Is that better?",
+      "I was saying…"
+    ],
+    "remember": [
+      "'You're breaking up' means the audio is cutting out — it is the standard phrase on any bad connection.",
+      "'I was saying…' is how you resume after an interruption."
+    ]
+  },
+  {
+    "id": "leaving-a-job",
+    "term": "Telling Your Manager You're Leaving",
+    "level": "B2",
+    "situation": "Resigning from a job you have enjoyed.",
+    "conversation": [
+      { "speaker": "You", "text": "I've got something difficult to tell you. I've accepted another role." },
+      { "speaker": "Manager", "text": "I'm sorry to hear that, though I can't say I'm shocked. Congratulations." },
+      { "speaker": "You", "text": "Thank you. I've genuinely valued working here — this was a hard decision." },
+      { "speaker": "Manager", "text": "When would your last day be?" },
+      { "speaker": "You", "text": "A month from Friday, and I'll make sure the handover is thorough." }
+    ],
+    "keyExpressions": [
+      "I've got something difficult to tell you.",
+      "I've accepted another role.",
+      "This was a hard decision.",
+      "I'll make sure the handover is thorough."
+    ],
+    "remember": [
+      "Lead with the decision, not the reasons. Offering a clean handover is what people remember afterwards."
+    ]
+  },
+  {
+    "id": "ordering-coffee",
+    "term": "Ordering a Coffee",
+    "level": "A1",
+    "situation": "Ordering a drink to take away.",
+    "conversation": [
+      { "speaker": "Barista", "text": "What can I get you?" },
+      { "speaker": "You", "text": "A large flat white, please." },
+      { "speaker": "Barista", "text": "To have in or take away?" },
+      { "speaker": "You", "text": "Take away, thanks." },
+      { "speaker": "Barista", "text": "That's three fifty. Name for the cup?" },
+      { "speaker": "You", "text": "Sam. S-A-M." }
+    ],
+    "keyExpressions": [
+      "What can I get you?",
+      "A large…, please.",
+      "To have in or take away?",
+      "Name for the cup?"
+    ],
+    "remember": [
+      "'For here or to go?' is the American version of 'have in or take away?'. Both mean the same thing."
+    ]
+  },
+  {
+    "id": "chasing-an-invoice",
+    "term": "Chasing an Unpaid Invoice",
+    "level": "B2",
+    "situation": "Following up on a payment that is overdue.",
+    "conversation": [
+      { "speaker": "You", "text": "I'm calling about invoice 3312 — it was due two weeks ago." },
+      { "speaker": "Them", "text": "Let me look… I don't see it as approved yet." },
+      { "speaker": "You", "text": "Is there anything you need from us to move it along?" },
+      { "speaker": "Them", "text": "A purchase order number would help." },
+      { "speaker": "You", "text": "I'll send that over today. Could we aim for payment by the end of the week?" }
+    ],
+    "keyExpressions": [
+      "It was due two weeks ago.",
+      "Is there anything you need from us?",
+      "To move it along.",
+      "Could we aim for… by…?"
+    ],
+    "remember": [
+      "Asking what they need turns a complaint into a shared problem, which usually gets paid faster than pressure does."
+    ]
+  }
+]

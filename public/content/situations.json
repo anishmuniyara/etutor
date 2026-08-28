@@ -1,0 +1,500 @@
+[
+  {
+    "id": "airport-check-in",
+    "term": "Airport Check-in",
+    "level": "A2",
+    "goal": "Check in for a flight and hand over your luggage at the counter.",
+    "conversation": [
+      { "speaker": "You", "text": "Hi, I'd like to check in for the 4pm flight to Dubai." },
+      { "speaker": "Agent", "text": "Of course. May I see your passport, please?" },
+      { "speaker": "You", "text": "Here you are. I have one bag to check." },
+      { "speaker": "Agent", "text": "Please place it on the belt. Would you prefer a window or an aisle seat?" },
+      { "speaker": "You", "text": "An aisle seat, please. And which gate is it?" },
+      { "speaker": "Agent", "text": "Gate 32. Boarding starts at 3:20." }
+    ],
+    "keyExpressions": [
+      "I'd like to check in for the flight to…",
+      "I have one bag to check.",
+      "Window or aisle, please.",
+      "Which gate is it?",
+      "Is the flight on time?"
+    ],
+    "remember": [
+      "Staff will ask if you packed your bags yourself. It is a routine security question — a simple 'yes' is the expected answer."
+    ]
+  },
+  {
+    "id": "hotel-check-in",
+    "term": "Checking In at a Hotel",
+    "level": "A2",
+    "goal": "Arrive at a hotel where you already have a booking and get to your room.",
+    "conversation": [
+      { "speaker": "You", "text": "Good evening. I have a reservation under the name Menon." },
+      { "speaker": "Receptionist", "text": "Let me check… yes, a double room for three nights. May I see your passport?" },
+      { "speaker": "You", "text": "Here you go. What time is breakfast served?" },
+      { "speaker": "Receptionist", "text": "From seven to ten in the restaurant on the ground floor." },
+      { "speaker": "You", "text": "Perfect. And what time is check-out?" },
+      { "speaker": "Receptionist", "text": "Eleven, but we can hold your bags afterwards if you need." }
+    ],
+    "keyExpressions": [
+      "I have a reservation under…",
+      "What time is breakfast served?",
+      "What time is check-out?",
+      "Could I have a late check-out?",
+      "Is Wi-Fi included?"
+    ],
+    "remember": [
+      "'Under the name…' is the standard phrasing for any booking — hotels, restaurants, and appointments alike."
+    ]
+  },
+  {
+    "id": "restaurant-ordering",
+    "term": "Ordering at a Restaurant",
+    "level": "A2",
+    "goal": "Order a meal and ask for the bill in a casual restaurant.",
+    "conversation": [
+      { "speaker": "Waiter", "text": "Good evening. Are you ready to order?" },
+      { "speaker": "You", "text": "Almost — could I have another minute with the menu?" },
+      { "speaker": "Waiter", "text": "Take your time. Today's special is grilled fish." },
+      { "speaker": "You", "text": "That sounds good. I'll have the fish, please. Does it come with rice?" },
+      { "speaker": "Waiter", "text": "It comes with potatoes, but I can change it to rice." },
+      { "speaker": "You", "text": "Rice would be great, thank you." }
+    ],
+    "keyExpressions": [
+      "Could I have another minute?",
+      "I'll have the…, please.",
+      "What do you recommend?",
+      "Does it come with…?",
+      "Could we get the bill, please?"
+    ],
+    "remember": [
+      "'I'll have…' is the natural way to order. 'I want…' is grammatically fine but sounds abrupt to English ears."
+    ]
+  },
+  {
+    "id": "asking-for-directions",
+    "term": "Asking for Directions",
+    "level": "A1",
+    "goal": "Find your way when you are lost in an unfamiliar place.",
+    "conversation": [
+      { "speaker": "You", "text": "Excuse me, could you tell me how to get to the station?" },
+      { "speaker": "Passer-by", "text": "Sure. Go straight down this road and turn left at the traffic lights." },
+      { "speaker": "You", "text": "Straight, then left at the lights. Is it far?" },
+      { "speaker": "Passer-by", "text": "About ten minutes on foot." },
+      { "speaker": "You", "text": "Thank you so much." }
+    ],
+    "keyExpressions": [
+      "Excuse me, could you tell me how to get to…?",
+      "Is it far from here?",
+      "Am I going the right way for…?",
+      "Sorry, could you say that again more slowly?",
+      "Is there a bus that goes there?"
+    ],
+    "remember": [
+      "Always start with 'Excuse me'. Approaching a stranger without it sounds abrupt in English.",
+      "Repeating the directions back confirms you understood and gives the other person a chance to correct you."
+    ]
+  },
+  {
+    "id": "job-interview-opening",
+    "term": "The Start of a Job Interview",
+    "level": "B1",
+    "goal": "Handle the opening minutes of an interview, including 'tell me about yourself'.",
+    "conversation": [
+      { "speaker": "Interviewer", "text": "Thanks for coming in. Would you like some water before we start?" },
+      { "speaker": "You", "text": "I'm fine, thank you. It's good to be here." },
+      { "speaker": "Interviewer", "text": "Let's begin — tell me a little about yourself." },
+      { "speaker": "You", "text": "Of course. I've worked in customer support for four years, most recently leading a small team. I'm looking for a role with more responsibility for process design, which is why this position interested me." },
+      { "speaker": "Interviewer", "text": "And what do you know about our company?" },
+      { "speaker": "You", "text": "I read about your expansion into the Gulf market last year, and I'd be keen to hear how that's changed the support side." }
+    ],
+    "keyExpressions": [
+      "It's good to be here.",
+      "I've worked in… for… years.",
+      "I'm looking for a role where I can…",
+      "That's why this position interested me.",
+      "I'd be keen to hear more about…"
+    ],
+    "remember": [
+      "'Tell me about yourself' is asking about your professional story, not your personal life. Two minutes is enough.",
+      "Ending an answer with a question of your own turns the interview into a conversation."
+    ]
+  },
+  {
+    "id": "doctors-appointment",
+    "term": "At the Doctor's",
+    "level": "A2",
+    "goal": "Describe a symptom clearly and understand the advice you are given.",
+    "conversation": [
+      { "speaker": "Doctor", "text": "What seems to be the problem?" },
+      { "speaker": "You", "text": "I've had a sore throat for about a week, and now a cough." },
+      { "speaker": "Doctor", "text": "Any fever?" },
+      { "speaker": "You", "text": "A slight one, mostly in the evenings." },
+      { "speaker": "Doctor", "text": "I'll take a look. It's likely viral, so rest and fluids should be enough." },
+      { "speaker": "You", "text": "Should I come back if it doesn't improve?" }
+    ],
+    "keyExpressions": [
+      "I've had… for about a week.",
+      "It hurts when I…",
+      "Should I come back if it doesn't improve?",
+      "Are there any side effects?",
+      "How often should I take this?"
+    ],
+    "remember": [
+      "'I've had it for a week' uses the present perfect because the problem is still happening — this is the natural tense for symptoms."
+    ]
+  },
+  {
+    "id": "shopping-returns",
+    "term": "Returning Something to a Shop",
+    "level": "A2",
+    "goal": "Return or exchange an item you have already bought.",
+    "conversation": [
+      { "speaker": "You", "text": "Hi, I'd like to return this — it doesn't fit." },
+      { "speaker": "Assistant", "text": "No problem. Do you have the receipt?" },
+      { "speaker": "You", "text": "Yes, here it is. Can I get a refund?" },
+      { "speaker": "Assistant", "text": "I can refund it to the original card. It takes three to five working days." },
+      { "speaker": "You", "text": "That's fine, thank you." }
+    ],
+    "keyExpressions": [
+      "I'd like to return this.",
+      "Could I exchange it for a different size?",
+      "Can I get a refund?",
+      "Do you have this in a larger size?",
+      "It doesn't work properly."
+    ],
+    "remember": [
+      "'Return' means give it back; 'exchange' means swap it for something else. Shops treat these as different requests."
+    ]
+  },
+  {
+    "id": "phone-call-work",
+    "term": "Taking a Business Phone Call",
+    "level": "B1",
+    "goal": "Answer a work call professionally and take a message.",
+    "conversation": [
+      { "speaker": "You", "text": "Good morning, Anish speaking." },
+      { "speaker": "Caller", "text": "Hi, is Meera available?" },
+      { "speaker": "You", "text": "She's in a meeting at the moment. Can I take a message?" },
+      { "speaker": "Caller", "text": "Please — could you ask her to call me back about the invoice?" },
+      { "speaker": "You", "text": "Of course. Could I take your name and number?" },
+      { "speaker": "Caller", "text": "It's Daniel Cruz, 07700 900123." },
+      { "speaker": "You", "text": "Got it. I'll pass that on as soon as she's free." }
+    ],
+    "keyExpressions": [
+      "Good morning, … speaking.",
+      "Can I take a message?",
+      "Could I take your name and number?",
+      "I'll pass that on.",
+      "Could you spell that for me?"
+    ],
+    "remember": [
+      "Reading a number or a name back to the caller is standard practice and prevents most message errors."
+    ]
+  },
+  {
+    "id": "opening-bank-account",
+    "term": "At the Bank",
+    "level": "B1",
+    "goal": "Open an account or sort out a problem at a bank counter.",
+    "conversation": [
+      { "speaker": "You", "text": "Hello, I'd like to open a current account." },
+      { "speaker": "Clerk", "text": "Certainly. Do you have proof of address and ID with you?" },
+      { "speaker": "You", "text": "I have my passport and a utility bill. Will that do?" },
+      { "speaker": "Clerk", "text": "That's perfect. Are there any monthly fees you'd like me to explain?" },
+      { "speaker": "You", "text": "Yes, please — and is there a minimum balance?" }
+    ],
+    "keyExpressions": [
+      "I'd like to open an account.",
+      "Do you need proof of address?",
+      "Is there a monthly fee?",
+      "Is there a minimum balance?",
+      "How long does the transfer take?"
+    ],
+    "remember": [
+      "'Will that do?' is a natural, slightly informal way to ask whether something is acceptable."
+    ]
+  },
+  {
+    "id": "renting-a-flat",
+    "term": "Viewing a Flat to Rent",
+    "level": "B1",
+    "goal": "Ask the right questions when viewing a place to live.",
+    "conversation": [
+      { "speaker": "Agent", "text": "This is the living room, and the kitchen is through there." },
+      { "speaker": "You", "text": "It's bigger than it looked online. Are bills included in the rent?" },
+      { "speaker": "Agent", "text": "Water is included, but not electricity or internet." },
+      { "speaker": "You", "text": "And how much is the deposit?" },
+      { "speaker": "Agent", "text": "Five weeks' rent, returned at the end of the tenancy." },
+      { "speaker": "You", "text": "Understood. When would it be available from?" }
+    ],
+    "keyExpressions": [
+      "Are bills included?",
+      "How much is the deposit?",
+      "When is it available from?",
+      "Is there a minimum contract length?",
+      "Would the landlord consider…?"
+    ],
+    "remember": [
+      "Ask specifically which bills are included. 'Bills included' rarely means all of them."
+    ]
+  },
+  {
+    "id": "complaining-politely",
+    "term": "Making a Complaint",
+    "level": "B2",
+    "goal": "Complain about poor service in a way that gets the problem fixed.",
+    "conversation": [
+      { "speaker": "You", "text": "Excuse me — I'm sorry to bother you, but there's a problem with our order." },
+      { "speaker": "Manager", "text": "I'm sorry to hear that. What's happened?" },
+      { "speaker": "You", "text": "We ordered forty minutes ago and the table next to us was served first." },
+      { "speaker": "Manager", "text": "That shouldn't have happened. Let me check the kitchen right away." },
+      { "speaker": "You", "text": "Thank you. We're happy to wait, we'd just like to know how long." }
+    ],
+    "keyExpressions": [
+      "I'm sorry to bother you, but…",
+      "There seems to be a problem with…",
+      "This isn't what I ordered.",
+      "Would it be possible to…?",
+      "I'd just like to know how long."
+    ],
+    "remember": [
+      "Describing the facts calmly works far better than expressing anger. 'There seems to be a problem' invites help rather than defensiveness."
+    ]
+  },
+  {
+    "id": "meeting-a-client",
+    "term": "Meeting a Client for the First Time",
+    "level": "B1",
+    "goal": "Greet a new client and open a business conversation.",
+    "conversation": [
+      { "speaker": "You", "text": "Ms Okafor? I'm Anish, we spoke on email. Very nice to meet you at last." },
+      { "speaker": "Client", "text": "Likewise. Please call me Ada." },
+      { "speaker": "You", "text": "Thanks, Ada. Did you find us all right?" },
+      { "speaker": "Client", "text": "Easily, thanks. The directions were clear." },
+      { "speaker": "You", "text": "Good. Shall we go through to the meeting room? Can I get you a coffee on the way?" }
+    ],
+    "keyExpressions": [
+      "Nice to meet you at last.",
+      "Please call me…",
+      "Did you find us all right?",
+      "Shall we go through?",
+      "Can I get you anything?"
+    ],
+    "remember": [
+      "Start formally with a surname and let the other person invite you to use their first name. Following their lead is always safe."
+    ]
+  },
+  {
+    "id": "public-transport",
+    "term": "Buying a Ticket",
+    "level": "A1",
+    "goal": "Buy a train or bus ticket and confirm the details.",
+    "conversation": [
+      { "speaker": "You", "text": "Hello, one ticket to Manchester, please." },
+      { "speaker": "Clerk", "text": "Single or return?" },
+      { "speaker": "You", "text": "Return, coming back on Sunday." },
+      { "speaker": "Clerk", "text": "That's forty-two pounds. Platform four, leaving at 10:15." },
+      { "speaker": "You", "text": "Do I need to change trains?" },
+      { "speaker": "Clerk", "text": "No, it's direct." }
+    ],
+    "keyExpressions": [
+      "One ticket to…, please.",
+      "Single or return?",
+      "Which platform is it?",
+      "Do I need to change?",
+      "What time does the next one leave?"
+    ],
+    "remember": [
+      "British English says 'single' and 'return'; American English says 'one-way' and 'round-trip'."
+    ]
+  },
+  {
+    "id": "small-talk-office",
+    "term": "Small Talk at the Office",
+    "level": "A2",
+    "goal": "Fill a short wait with easy conversation.",
+    "conversation": [
+      { "speaker": "Colleague", "text": "Morning! Did you have a good weekend?" },
+      { "speaker": "You", "text": "Not bad, thanks — mostly quiet. How about you?" },
+      { "speaker": "Colleague", "text": "We went walking on Sunday. Beautiful weather." },
+      { "speaker": "You", "text": "It really was. Where did you go?" },
+      { "speaker": "Colleague", "text": "Up near the reservoir. Have you been?" },
+      { "speaker": "You", "text": "Not yet, but it's on my list." }
+    ],
+    "keyExpressions": [
+      "Did you have a good weekend?",
+      "Not bad, thanks — how about you?",
+      "Any plans for the weekend?",
+      "Have you been?",
+      "It's on my list."
+    ],
+    "remember": [
+      "Always return the question. Small talk dies immediately if only one person is asking."
+    ]
+  },
+  {
+    "id": "pharmacy",
+    "term": "At the Pharmacy",
+    "level": "A2",
+    "goal": "Ask for medicine and understand how to take it.",
+    "conversation": [
+      { "speaker": "You", "text": "Hi, do you have anything for a blocked nose?" },
+      { "speaker": "Pharmacist", "text": "Is it for you? Any other symptoms?" },
+      { "speaker": "You", "text": "Just me, and a mild headache." },
+      { "speaker": "Pharmacist", "text": "This spray should help. Twice a day, no more than five days." },
+      { "speaker": "You", "text": "Can I take it with paracetamol?" },
+      { "speaker": "Pharmacist", "text": "Yes, that's fine." }
+    ],
+    "keyExpressions": [
+      "Do you have anything for…?",
+      "How often should I take it?",
+      "Can I take it with…?",
+      "Is it available without a prescription?",
+      "Are there any side effects?"
+    ],
+    "remember": [
+      "'Do you have anything for…?' is the standard opening — you describe the symptom, not the medicine."
+    ]
+  },
+  {
+    "id": "delivery-problem",
+    "term": "A Delivery That Never Arrived",
+    "level": "B1",
+    "goal": "Chase a missing order over the phone.",
+    "conversation": [
+      { "speaker": "You", "text": "Hi, I'm calling about an order that was due on Tuesday and hasn't arrived." },
+      { "speaker": "Agent", "text": "Sorry about that. Do you have the order number?" },
+      { "speaker": "You", "text": "Yes — it's 4471-B." },
+      { "speaker": "Agent", "text": "I can see it's still at the depot. I'll arrange redelivery for Friday." },
+      { "speaker": "You", "text": "Friday doesn't work for me. Could it come on Saturday instead?" },
+      { "speaker": "Agent", "text": "Let me see what I can do." }
+    ],
+    "keyExpressions": [
+      "I'm calling about an order that hasn't arrived.",
+      "Do you have the order number? — Yes, it's…",
+      "That doesn't work for me.",
+      "Could it come on… instead?",
+      "When can I expect it?"
+    ],
+    "remember": [
+      "'That doesn't work for me' is a firm but polite refusal — much better than 'no' when you need a different option."
+    ]
+  },
+  {
+    "id": "gym-membership",
+    "term": "Joining a Gym",
+    "level": "A2",
+    "goal": "Ask about membership options before signing up.",
+    "conversation": [
+      { "speaker": "You", "text": "Hi, I'd like to know about your membership options." },
+      { "speaker": "Staff", "text": "Sure. We have monthly and annual plans. The annual one works out cheaper." },
+      { "speaker": "You", "text": "Is there a joining fee?" },
+      { "speaker": "Staff", "text": "Twenty pounds, but it's waived this month." },
+      { "speaker": "You", "text": "And can I cancel the monthly plan any time?" },
+      { "speaker": "Staff", "text": "Yes, with a month's notice." }
+    ],
+    "keyExpressions": [
+      "I'd like to know about…",
+      "Is there a joining fee?",
+      "Can I cancel any time?",
+      "Do you offer a trial?",
+      "What are the opening hours?"
+    ],
+    "remember": [
+      "'Works out cheaper' means cheaper once you calculate the total — a very common everyday phrasing."
+    ]
+  },
+  {
+    "id": "introducing-someone",
+    "term": "Introducing Two People",
+    "level": "A2",
+    "goal": "Introduce two people who have not met.",
+    "conversation": [
+      { "speaker": "You", "text": "Ravi, this is Elena — she runs the design team." },
+      { "speaker": "Ravi", "text": "Nice to meet you, Elena." },
+      { "speaker": "Elena", "text": "You too. How do you two know each other?" },
+      { "speaker": "You", "text": "We worked together at my last company." },
+      { "speaker": "Elena", "text": "Ah, so you've heard all the stories." }
+    ],
+    "keyExpressions": [
+      "…, this is …",
+      "She/he runs…",
+      "Nice to meet you. — You too.",
+      "How do you two know each other?",
+      "I've heard a lot about you."
+    ],
+    "remember": [
+      "Add one detail about each person. It gives them something to talk about after you walk away."
+    ]
+  },
+  {
+    "id": "asking-for-time-off",
+    "term": "Asking Your Manager for Time Off",
+    "level": "B1",
+    "goal": "Request leave and address the impact on your work.",
+    "conversation": [
+      { "speaker": "You", "text": "Do you have a minute? I wanted to ask about taking some leave." },
+      { "speaker": "Manager", "text": "Of course. When were you thinking?" },
+      { "speaker": "You", "text": "The last week of March, if that works. I've checked and nothing major is due then." },
+      { "speaker": "Manager", "text": "That should be fine. Can you brief Sana before you go?" },
+      { "speaker": "You", "text": "Absolutely — I'll write a handover and walk her through it." }
+    ],
+    "keyExpressions": [
+      "Do you have a minute?",
+      "I wanted to ask about…",
+      "…, if that works.",
+      "I've checked and nothing major is due then.",
+      "I'll write a handover."
+    ],
+    "remember": [
+      "Coming with the cover already thought through turns the request from a problem into a plan."
+    ]
+  },
+  {
+    "id": "networking-event",
+    "term": "Leaving a Conversation Politely",
+    "level": "B2",
+    "goal": "End a conversation at an event without being rude.",
+    "conversation": [
+      { "speaker": "You", "text": "This has been really interesting — I'd love to hear more about the pilot sometime." },
+      { "speaker": "Them", "text": "Any time. Are you on LinkedIn?" },
+      { "speaker": "You", "text": "I am, I'll send you a request tonight. I should let you circulate, but it was great to meet you." },
+      { "speaker": "Them", "text": "You too. Enjoy the rest of the evening." }
+    ],
+    "keyExpressions": [
+      "This has been really interesting.",
+      "I should let you circulate.",
+      "It was great to meet you.",
+      "I'd love to continue this another time.",
+      "Enjoy the rest of the evening."
+    ],
+    "remember": [
+      "'I should let you…' politely puts the reason on you rather than on them, which is why it never sounds like a rejection."
+    ]
+  },
+  {
+    "id": "lost-property",
+    "term": "Reporting Something Lost",
+    "level": "A2",
+    "goal": "Report a lost item and describe it clearly.",
+    "conversation": [
+      { "speaker": "You", "text": "Excuse me, I think I left my bag on the number 12 bus." },
+      { "speaker": "Staff", "text": "When was that?" },
+      { "speaker": "You", "text": "About an hour ago, heading into town." },
+      { "speaker": "Staff", "text": "Can you describe it?" },
+      { "speaker": "You", "text": "It's a black backpack with a red zip, with a laptop inside." },
+      { "speaker": "Staff", "text": "I'll take your number and call you if it's handed in." }
+    ],
+    "keyExpressions": [
+      "I think I left my… on/in…",
+      "Can you describe it? — It's a…",
+      "Has anyone handed in a…?",
+      "Could you call me if it turns up?",
+      "It has my name on it."
+    ],
+    "remember": [
+      "Colour, size, and one distinctive detail are all that is needed — that is exactly what staff will write down."
+    ]
+  }
+]

@@ -1,0 +1,296 @@
+[
+  {
+    "id": "sounds-good",
+    "term": "Sounds good",
+    "level": "A1",
+    "meaning": "That seems like a good idea or plan.",
+    "usage": "Use it to agree quickly with a suggestion. It is the standard cheerful yes in both casual and work conversation.",
+    "examples": [
+      { "context": "Friends", "sentence": "A: Let's meet at seven. B: Sounds good." },
+      { "context": "Work", "sentence": "A: I'll send the report today. B: Sounds good, thanks." }
+    ],
+    "remember": [
+      "It agrees with a plan, not with a fact. To agree with an opinion, use 'I think so too'."
+    ]
+  },
+  {
+    "id": "hows-it-going",
+    "term": "How's it going?",
+    "level": "A1",
+    "meaning": "A casual way to ask how someone is.",
+    "usage": "Use it as a greeting with people you know. Like 'how are you', it is usually a greeting rather than a real question.",
+    "examples": [
+      { "context": "Work", "sentence": "Morning! How's it going?" },
+      { "context": "Friends", "sentence": "Hey, how's it going? Haven't seen you in ages." }
+    ],
+    "remember": [
+      "The expected reply is short: 'Good, thanks — you?' A long, honest answer will surprise people."
+    ]
+  },
+  {
+    "id": "no-worries",
+    "term": "No worries",
+    "level": "A2",
+    "meaning": "It's fine; don't apologise.",
+    "usage": "Use it to accept an apology lightly, or as a friendly 'you're welcome' after being thanked.",
+    "examples": [
+      { "context": "Daily Life", "sentence": "A: Sorry I'm late. B: No worries, I just got here too." },
+      { "context": "Work", "sentence": "A: Thanks for covering for me. B: No worries." }
+    ],
+    "remember": [
+      "It works both as 'that's OK' and 'you're welcome' — one of the most useful two-word replies in English."
+    ]
+  },
+  {
+    "id": "that-makes-sense",
+    "term": "That makes sense",
+    "level": "A2",
+    "meaning": "I understand, and your explanation is logical.",
+    "usage": "Use it after someone explains something, to confirm you have followed and accepted the reasoning.",
+    "examples": [
+      { "context": "Work", "sentence": "Ah, that makes sense — I was reading the column wrong." },
+      { "context": "Learning", "sentence": "That makes sense now. Thanks for explaining." }
+    ],
+    "remember": [
+      "'That makes sense' accepts the logic. It does not necessarily mean you agree with the decision."
+    ]
+  },
+  {
+    "id": "im-just-kidding",
+    "term": "I'm just kidding",
+    "level": "A2",
+    "meaning": "I was joking — don't take that seriously.",
+    "usage": "Use it immediately after a joke that someone might have taken the wrong way.",
+    "examples": [
+      { "context": "Friends", "sentence": "I'm just kidding — of course you can come." },
+      { "context": "Work", "sentence": "Relax, I'm kidding. The deadline is next month." }
+    ],
+    "remember": [
+      "Saying it after an unkind remark rarely undoes the remark. It works best for obvious jokes."
+    ]
+  },
+  {
+    "id": "fair-enough",
+    "term": "Fair enough",
+    "level": "B1",
+    "meaning": "I accept your point, even if I don't fully agree.",
+    "usage": "Use it to end a small disagreement gracefully when the other person has given a reasonable explanation.",
+    "examples": [
+      { "context": "Work", "sentence": "A: I'd rather wait for the data. B: Fair enough, let's revisit on Monday." },
+      { "context": "Friends", "sentence": "A: I'm too tired tonight. B: Fair enough." }
+    ],
+    "remember": [
+      "It closes a topic. Said flatly, it can mean 'I still disagree, but I'm dropping it'."
+    ]
+  },
+  {
+    "id": "hang-on-a-second",
+    "term": "Hang on a second",
+    "level": "A2",
+    "meaning": "Wait a moment.",
+    "usage": "Use it to ask for a short pause — while you find something, finish a thought, or answer a door.",
+    "examples": [
+      { "context": "Phone", "sentence": "Hang on a second, I'll get a pen." },
+      { "context": "Daily Life", "sentence": "Hang on — did you say Thursday or Tuesday?" }
+    ],
+    "remember": [
+      "'Hold on' and 'just a sec' mean the same thing. All are informal but perfectly polite."
+    ]
+  },
+  {
+    "id": "dont-worry-about-it",
+    "term": "Don't worry about it",
+    "level": "A2",
+    "meaning": "It is not a problem; you don't need to feel bad.",
+    "usage": "Use it to release someone from an obligation or an apology, more warmly than 'it's fine'.",
+    "examples": [
+      { "context": "Daily Life", "sentence": "A: I forgot to bring your book. B: Don't worry about it." },
+      { "context": "Work", "sentence": "Don't worry about the typo, I've already fixed it." }
+    ],
+    "remember": [
+      "It can also mean 'I'll handle it', so make sure the context is clear."
+    ]
+  },
+  {
+    "id": "i-was-wondering",
+    "term": "I was wondering…",
+    "level": "B1",
+    "meaning": "A soft opening for a question or request.",
+    "usage": "Use it to make a request sound tentative and easy to refuse — very common when asking a favour.",
+    "examples": [
+      { "context": "Work", "sentence": "I was wondering if you'd have time to look at this." },
+      { "context": "Daily Life", "sentence": "I was wondering whether you're free on Saturday." }
+    ],
+    "remember": [
+      "The past tense is what makes it polite. 'I wonder if you could' is slightly more direct."
+    ]
+  },
+  {
+    "id": "let-me-check",
+    "term": "Let me check",
+    "level": "A2",
+    "meaning": "I will look and confirm before answering.",
+    "usage": "Use it to buy a moment instead of guessing. It sounds far more professional than an uncertain answer.",
+    "examples": [
+      { "context": "Work", "sentence": "Let me check the calendar and come back to you." },
+      { "context": "Shop", "sentence": "Let me check whether we have it in your size." }
+    ],
+    "remember": [
+      "Follow it with when you will reply — 'let me check and I'll message you this afternoon'."
+    ]
+  },
+  {
+    "id": "same-here",
+    "term": "Same here",
+    "level": "A2",
+    "meaning": "That's true for me too.",
+    "usage": "Use it to agree with a statement someone has made about themselves.",
+    "examples": [
+      { "context": "Friends", "sentence": "A: I'm exhausted. B: Same here." },
+      { "context": "Restaurant", "sentence": "A: I'll have the chicken. B: Same here." }
+    ],
+    "remember": [
+      "It only works for shared experiences or choices, not as general agreement with an opinion."
+    ]
+  },
+  {
+    "id": "its-been-a-while",
+    "term": "It's been a while",
+    "level": "A2",
+    "meaning": "A lot of time has passed since we last met or did this.",
+    "usage": "Use it when reconnecting with someone, or when returning to an activity you have not done in a long time.",
+    "examples": [
+      { "context": "Friends", "sentence": "It's been a while! How's the family?" },
+      { "context": "Daily Life", "sentence": "It's been a while since I played, so I'll be rusty." }
+    ],
+    "remember": [
+      "Followed by 'since' plus the past simple: 'it's been a while since I saw him'."
+    ]
+  },
+  {
+    "id": "i-totally-forgot",
+    "term": "I totally forgot",
+    "level": "A2",
+    "meaning": "It completely slipped my mind.",
+    "usage": "Use it to admit a genuine lapse. Pair it with an apology when the forgetting affected someone else.",
+    "examples": [
+      { "context": "Work", "sentence": "Sorry, I totally forgot to reply — sending it now." },
+      { "context": "Daily Life", "sentence": "I totally forgot it was your birthday." }
+    ],
+    "remember": [
+      "It admits fault without excusing it, which usually lands better than inventing a reason."
+    ]
+  },
+  {
+    "id": "good-point",
+    "term": "Good point",
+    "level": "B1",
+    "meaning": "That's a valid thing to raise.",
+    "usage": "Use it in discussions to acknowledge someone's argument, especially one you had not considered.",
+    "examples": [
+      { "context": "Meeting", "sentence": "Good point — we haven't tested that on mobile." },
+      { "context": "Daily Life", "sentence": "That's a good point, I hadn't thought of it." }
+    ],
+    "remember": [
+      "It gives credit without committing you to act. To go further, add 'let's do that'."
+    ]
+  },
+  {
+    "id": "im-on-it",
+    "term": "I'm on it",
+    "level": "B1",
+    "meaning": "I've started working on it right now.",
+    "usage": "Use it at work to confirm you have picked up a task. It sounds confident and saves a longer reply.",
+    "examples": [
+      { "context": "Work", "sentence": "A: Can you chase the supplier? B: I'm on it." },
+      { "context": "Team", "sentence": "I'm on it — I'll update the ticket when it's done." }
+    ],
+    "remember": [
+      "It promises immediate action. If you cannot start now, say when you will instead."
+    ]
+  },
+  {
+    "id": "not-a-big-deal",
+    "term": "It's not a big deal",
+    "level": "A2",
+    "meaning": "This is not important enough to worry about.",
+    "usage": "Use it to reduce the size of a problem, either to reassure someone or to play down your own effort.",
+    "examples": [
+      { "context": "Daily Life", "sentence": "It's not a big deal, we can reschedule." },
+      { "context": "Work", "sentence": "Thanks, but it's not a big deal — took me ten minutes." }
+    ],
+    "remember": [
+      "Used about someone else's genuine problem, it can sound dismissive. Be careful whose problem you are shrinking."
+    ]
+  },
+  {
+    "id": "what-do-you-think",
+    "term": "What do you think?",
+    "level": "A1",
+    "meaning": "I want your opinion.",
+    "usage": "Use it to invite someone into a decision. In meetings it is the simplest way to bring a quiet person in.",
+    "examples": [
+      { "context": "Meeting", "sentence": "That's my view — Priya, what do you think?" },
+      { "context": "Shopping", "sentence": "I like the blue one. What do you think?" }
+    ],
+    "remember": [
+      "'What do you think about it?' needs the 'about'. Never 'what do you think it?'."
+    ]
+  },
+  {
+    "id": "take-your-time",
+    "term": "Take your time",
+    "level": "A2",
+    "meaning": "There's no need to hurry.",
+    "usage": "Use it to reassure someone who is rushing or apologising for being slow.",
+    "examples": [
+      { "context": "Daily Life", "sentence": "Take your time, we're not late." },
+      { "context": "Work", "sentence": "Take your time with the review — I'd rather it was right." }
+    ],
+    "remember": [
+      "Said with an impatient tone it means the opposite, so it depends heavily on delivery."
+    ]
+  },
+  {
+    "id": "im-afraid-not",
+    "term": "I'm afraid not",
+    "level": "B1",
+    "meaning": "A polite way to say no.",
+    "usage": "Use it to give a negative answer while showing you regret it — common in customer service and formal replies.",
+    "examples": [
+      { "context": "Shop", "sentence": "A: Do you have it in stock? B: I'm afraid not." },
+      { "context": "Work", "sentence": "A: Can we still make the deadline? B: I'm afraid not." }
+    ],
+    "remember": [
+      "'I'm afraid so' is the opposite — confirming unwelcome news is true."
+    ]
+  },
+  {
+    "id": "catch-you-later",
+    "term": "Catch you later",
+    "level": "A2",
+    "meaning": "A casual goodbye.",
+    "usage": "Use it with friends and familiar colleagues when you expect to see them again soon.",
+    "examples": [
+      { "context": "Friends", "sentence": "I've got to run — catch you later." },
+      { "context": "Work", "sentence": "Catch you later, I'm heading to the other office." }
+    ],
+    "remember": [
+      "Too informal for a client or a first meeting. Use 'see you soon' or 'have a good day' there."
+    ]
+  },
+  {
+    "id": "long-story-short",
+    "term": "Long story short",
+    "level": "B1",
+    "meaning": "I'll skip the details and give you the outcome.",
+    "usage": "Use it to jump to the ending when the full account would take too long.",
+    "examples": [
+      { "context": "Daily Life", "sentence": "Long story short, we missed the train and drove instead." },
+      { "context": "Work", "sentence": "Long story short, the vendor pulled out." }
+    ],
+    "remember": [
+      "Say it before the summary, not after. What follows should be one or two sentences at most."
+    ]
+  }
+]

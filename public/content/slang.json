@@ -1,0 +1,318 @@
+[
+  {
+    "id": "my-bad",
+    "term": "My bad",
+    "level": "A2",
+    "meaning": "An informal way to admit a small mistake.",
+    "usage": "Use it in casual conversation for a minor error — a wrong file, a missed message, a bumped elbow.",
+    "avoidIn": "Formal emails, written apologies, and anything customer-facing.",
+    "examples": [
+      { "context": "Friends", "sentence": "My bad, I forgot to call you back." },
+      { "context": "Team Chat", "sentence": "Sent the wrong link — my bad." }
+    ],
+    "remember": [
+      "It works only for small things. A real mistake needs a real apology."
+    ]
+  },
+  {
+    "id": "hang-out",
+    "term": "Hang out",
+    "level": "A2",
+    "meaning": "To spend relaxed time with people, with no particular plan.",
+    "usage": "Use it about casual social time with friends. The point is the company, not the activity.",
+    "avoidIn": "Business invitations — say 'get together' or 'meet up' instead.",
+    "examples": [
+      { "context": "Friends", "sentence": "We just hung out at hers and watched a film." },
+      { "context": "Weekend", "sentence": "Do you want to hang out on Saturday?" }
+    ],
+    "remember": [
+      "The past tense is 'hung out', not 'hanged out'."
+    ]
+  },
+  {
+    "id": "chill",
+    "term": "Chill",
+    "level": "A2",
+    "meaning": "To relax, or a word for someone who is easy-going.",
+    "usage": "Use it as a verb for relaxing, and as an adjective for a relaxed person or atmosphere.",
+    "avoidIn": "Professional writing of any kind.",
+    "examples": [
+      { "context": "Weekend", "sentence": "I'm just going to chill at home tonight." },
+      { "context": "People", "sentence": "Her new manager is really chill." }
+    ],
+    "remember": [
+      "'Chill out' said to an angry person usually makes things worse, not better."
+    ]
+  },
+  {
+    "id": "no-big-deal",
+    "term": "No big deal",
+    "level": "A2",
+    "meaning": "It's not important; don't worry about it.",
+    "usage": "Use it to play down a problem or your own effort.",
+    "avoidIn": "Situations where someone is genuinely upset — it can sound dismissive.",
+    "examples": [
+      { "context": "Friends", "sentence": "You're twenty minutes late? No big deal." },
+      { "context": "Work", "sentence": "It's no big deal, I had to open the file anyway." }
+    ],
+    "remember": [
+      "Deciding that someone else's problem is no big deal is not your call to make."
+    ]
+  },
+  {
+    "id": "hit-me-up",
+    "term": "Hit me up",
+    "level": "B1",
+    "meaning": "Contact me.",
+    "usage": "Use it with friends when inviting them to message or call you.",
+    "avoidIn": "Any professional context — use 'get in touch' instead.",
+    "examples": [
+      { "context": "Friends", "sentence": "Hit me up when you're back in town." },
+      { "context": "Social", "sentence": "Hit me up if you fancy a game on Sunday." }
+    ],
+    "remember": [
+      "Very informal and more common in American English."
+    ]
+  },
+  {
+    "id": "ghost",
+    "term": "Ghost (someone)",
+    "level": "B2",
+    "meaning": "To suddenly stop replying to someone with no explanation.",
+    "usage": "Use it about people who disappear from a conversation — in dating, friendships, and increasingly in hiring.",
+    "avoidIn": "Formal complaints; say 'stopped responding' instead.",
+    "examples": [
+      { "context": "Dating", "sentence": "We'd been talking for weeks and then he just ghosted me." },
+      { "context": "Work", "sentence": "The candidate ghosted us after the second interview." }
+    ],
+    "remember": [
+      "It always means silence without explanation, not simply a slow reply."
+    ]
+  },
+  {
+    "id": "sort-of",
+    "term": "Kind of / sort of",
+    "level": "A2",
+    "meaning": "Slightly, or not exactly.",
+    "usage": "Use it to soften a statement when you do not want to commit fully.",
+    "avoidIn": "Formal writing, where it makes an argument sound vague.",
+    "examples": [
+      { "context": "Opinion", "sentence": "I kind of liked it, but the ending was weak." },
+      { "context": "Conversation", "sentence": "It's sort of a family business." }
+    ],
+    "remember": [
+      "In speech these are often reduced to 'kinda' and 'sorta'. Recognise them when listening, but write them out in full."
+    ]
+  },
+  {
+    "id": "legit",
+    "term": "Legit",
+    "level": "B1",
+    "meaning": "Genuine, or genuinely good.",
+    "usage": "Use it to confirm something is real and not a scam, or as praise for something impressive.",
+    "avoidIn": "Business writing — use 'legitimate' or 'genuine'.",
+    "examples": [
+      { "context": "Shopping", "sentence": "Is that site legit?" },
+      { "context": "Praise", "sentence": "That was a legit good presentation." }
+    ],
+    "remember": [
+      "Short for 'legitimate', but the two are not interchangeable in tone."
+    ]
+  },
+  {
+    "id": "swamped",
+    "term": "Swamped",
+    "level": "B1",
+    "meaning": "Extremely busy; buried in work.",
+    "usage": "Use it at work to explain why you cannot take something on. It is informal but perfectly acceptable in most offices.",
+    "avoidIn": "Formal written reports.",
+    "examples": [
+      { "context": "Work", "sentence": "I'm completely swamped this week — can it wait?" },
+      { "context": "Email", "sentence": "Sorry for the slow reply, I've been swamped." }
+    ],
+    "remember": [
+      "'Slammed' and 'snowed under' mean the same thing at the same level of formality."
+    ]
+  },
+  {
+    "id": "a-heads-up",
+    "term": "A heads-up",
+    "level": "B1",
+    "meaning": "An advance warning.",
+    "usage": "Use it when telling someone about something before it affects them. Common in offices and generally acceptable there.",
+    "avoidIn": "Very formal writing — use 'advance notice'.",
+    "examples": [
+      { "context": "Work", "sentence": "Just a heads-up: the client is joining the call." },
+      { "context": "Team", "sentence": "Thanks for the heads-up about the outage." }
+    ],
+    "remember": [
+      "Hyphenated as a noun ('a heads-up'), two words as a verb ('I'll heads up the team' is wrong — say 'I'll give the team a heads-up')."
+    ]
+  },
+  {
+    "id": "wrap-up",
+    "term": "Wrap up",
+    "level": "B1",
+    "meaning": "To finish something off.",
+    "usage": "Use it about ending a meeting, a task, or a project. Widely used at work and neutral in tone.",
+    "avoidIn": "Nowhere in particular — this one is safe in most professional settings.",
+    "examples": [
+      { "context": "Meeting", "sentence": "Let's wrap up — we're at time." },
+      { "context": "Project", "sentence": "We're wrapping up the final report this week." }
+    ],
+    "remember": [
+      "'Wrap-up' as a noun means the summary itself: 'send me a quick wrap-up'."
+    ]
+  },
+  {
+    "id": "spot-on",
+    "term": "Spot on",
+    "level": "B1",
+    "meaning": "Exactly right.",
+    "usage": "Use it to praise an accurate answer, estimate, or judgement. Very common in British English.",
+    "avoidIn": "Formal documents; write 'entirely accurate'.",
+    "examples": [
+      { "context": "Work", "sentence": "Your estimate was spot on." },
+      { "context": "Daily Life", "sentence": "His impression of the boss is spot on." }
+    ],
+    "remember": [
+      "It praises accuracy specifically, not quality in general."
+    ]
+  },
+  {
+    "id": "knackered",
+    "term": "Knackered",
+    "level": "B2",
+    "meaning": "Exhausted. Also used for something broken beyond repair.",
+    "usage": "Use it in casual British English about tiredness after physical effort or a long day.",
+    "avoidIn": "American contexts, where it will not be understood, and any formal setting.",
+    "examples": [
+      { "context": "Daily Life", "sentence": "I'm absolutely knackered after that walk." },
+      { "context": "Objects", "sentence": "The washing machine's knackered." }
+    ],
+    "remember": [
+      "Strongly British. 'Shattered' is a common alternative; 'exhausted' works everywhere."
+    ]
+  },
+  {
+    "id": "ping-someone",
+    "term": "Ping someone",
+    "level": "B1",
+    "meaning": "To send someone a quick message.",
+    "usage": "Use it in tech and office environments for a short chat message rather than a formal email.",
+    "avoidIn": "Communication with clients or anyone outside a tech-adjacent workplace.",
+    "examples": [
+      { "context": "Work", "sentence": "Ping me when you're free." },
+      { "context": "Team", "sentence": "I'll ping the group and see who's around." }
+    ],
+    "remember": [
+      "It implies something short and informal, not a considered written reply."
+    ]
+  },
+  {
+    "id": "rip-off",
+    "term": "Rip-off",
+    "level": "B1",
+    "meaning": "Something far too expensive for what it is.",
+    "usage": "Use it to complain about a price you consider unfair.",
+    "avoidIn": "A written complaint, where it sounds like an accusation of fraud.",
+    "examples": [
+      { "context": "Shopping", "sentence": "Twelve pounds for a sandwich is a rip-off." },
+      { "context": "Travel", "sentence": "The airport taxi was a total rip-off." }
+    ],
+    "remember": [
+      "'Rip-off' is the noun; 'rip someone off' is the verb: 'they ripped us off'."
+    ]
+  },
+  {
+    "id": "fair-play",
+    "term": "Fair play to them",
+    "level": "B2",
+    "meaning": "Credit where credit is due.",
+    "usage": "Use it to acknowledge someone deserves respect for something, often slightly grudgingly.",
+    "avoidIn": "American English, where it is rarely used this way.",
+    "examples": [
+      { "context": "Work", "sentence": "They delivered on time — fair play to them." },
+      { "context": "Sport", "sentence": "Fair play to her, she never gave up." }
+    ],
+    "remember": [
+      "Common in British and Irish English. It concedes a point rather than offering pure praise."
+    ]
+  },
+  {
+    "id": "for-real",
+    "term": "For real?",
+    "level": "A2",
+    "meaning": "Seriously? Is that true?",
+    "usage": "Use it to express surprise at news you find hard to believe.",
+    "avoidIn": "Professional conversation — use 'really?' or 'is that right?'.",
+    "examples": [
+      { "context": "Friends", "sentence": "She quit? For real?" },
+      { "context": "Reaction", "sentence": "For real — I'm not making this up." }
+    ],
+    "remember": [
+      "It works both as a question showing disbelief and as a statement insisting something is true."
+    ]
+  },
+  {
+    "id": "cheers",
+    "term": "Cheers",
+    "level": "A2",
+    "meaning": "Thanks, or goodbye. Also what you say before drinking.",
+    "usage": "Use it in British English as a casual thank you, or to sign off a message.",
+    "avoidIn": "American contexts, where it mostly only means the toast.",
+    "examples": [
+      { "context": "Daily Life", "sentence": "Cheers for the lift." },
+      { "context": "Email", "sentence": "Sent it over — cheers, Anish." },
+      { "context": "Pub", "sentence": "Cheers, everyone!" }
+    ],
+    "remember": [
+      "In Britain this is one of the most common ways to say thank you, and it does not involve a drink."
+    ]
+  },
+  {
+    "id": "gutted",
+    "term": "Gutted",
+    "level": "B2",
+    "meaning": "Deeply disappointed.",
+    "usage": "Use it about a real letdown — a lost match, a rejected application, a cancelled trip.",
+    "avoidIn": "Formal contexts; write 'very disappointed'.",
+    "examples": [
+      { "context": "Sport", "sentence": "We lost in the last minute — absolutely gutted." },
+      { "context": "Work", "sentence": "He was gutted not to get the role." }
+    ],
+    "remember": [
+      "Strongly British, and stronger than 'disappointed'. Save it for things that genuinely hurt."
+    ]
+  },
+  {
+    "id": "on-the-fly",
+    "term": "On the fly",
+    "level": "B2",
+    "meaning": "Done quickly, while something else is already happening.",
+    "usage": "Use it about improvised changes made without stopping to plan.",
+    "avoidIn": "Formal documentation, where it can suggest carelessness.",
+    "examples": [
+      { "context": "Work", "sentence": "We fixed the slides on the fly during the break." },
+      { "context": "Travel", "sentence": "We planned the whole route on the fly." }
+    ],
+    "remember": [
+      "It emphasises speed and improvisation, which can read as either impressive or reckless depending on your audience."
+    ]
+  },
+  {
+    "id": "awesome",
+    "term": "Awesome",
+    "level": "A2",
+    "meaning": "Great, excellent.",
+    "usage": "Use it as an enthusiastic reaction to good news or a good idea. Extremely common in American English.",
+    "avoidIn": "Formal writing, where it sounds juvenile.",
+    "examples": [
+      { "context": "Reaction", "sentence": "You got the job? That's awesome!" },
+      { "context": "Plans", "sentence": "Awesome, see you at seven." }
+    ],
+    "remember": [
+      "The original meaning was 'inspiring awe'. In everyday speech it now just means 'very good'."
+    ]
+  }
+]

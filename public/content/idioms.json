@@ -1,0 +1,300 @@
+[
+  {
+    "id": "break-the-ice",
+    "term": "Break the ice",
+    "level": "B1",
+    "meaning": "To ease the awkwardness when people first meet.",
+    "usage": "Use it about the first joke, question, or game that gets a stiff group talking — parties, meetings, interviews, first days.",
+    "examples": [
+      { "context": "Interview", "sentence": "He told a joke to break the ice at the start." },
+      { "context": "Social Event", "sentence": "Games can help break the ice at a party." },
+      { "context": "Work", "sentence": "Nobody was speaking, so I broke the ice by asking about the weekend." }
+    ],
+    "remember": [
+      "The noun form is 'an icebreaker' — the game or question itself.",
+      "There is no actual ice involved. The image is a ship cutting through frozen water."
+    ]
+  },
+  {
+    "id": "piece-of-cake",
+    "term": "Piece of cake",
+    "level": "A2",
+    "meaning": "Something very easy to do.",
+    "usage": "Use it after finishing a task that turned out easier than expected. Informal and always singular.",
+    "examples": [
+      { "context": "School", "sentence": "The exam was a piece of cake — I finished in twenty minutes." },
+      { "context": "Work", "sentence": "Setting it up is a piece of cake once you've done it once." },
+      { "context": "Daily Life", "sentence": "Fixing the chair was a piece of cake." }
+    ],
+    "remember": [
+      "Saying it about someone else's difficult work can sound dismissive. It is safest about your own tasks.",
+      "'A walk in the park' means the same thing."
+    ]
+  },
+  {
+    "id": "under-the-weather",
+    "term": "Under the weather",
+    "level": "B1",
+    "meaning": "Feeling slightly ill.",
+    "usage": "Use it to say you are unwell without giving details — ideal for calling in sick or declining an invitation.",
+    "examples": [
+      { "context": "Work", "sentence": "I'm a bit under the weather, so I'll work from home today." },
+      { "context": "Social", "sentence": "She's under the weather and won't make it tonight." }
+    ],
+    "remember": [
+      "It means mildly ill, not seriously sick. For something serious, say so plainly."
+    ]
+  },
+  {
+    "id": "spill-the-beans",
+    "term": "Spill the beans",
+    "level": "B1",
+    "meaning": "To reveal a secret, usually by accident.",
+    "usage": "Use it about surprises and plans that were supposed to stay quiet.",
+    "examples": [
+      { "context": "Family", "sentence": "Don't spill the beans about the party — it's a surprise." },
+      { "context": "Work", "sentence": "Someone spilled the beans about the merger before the announcement." }
+    ],
+    "remember": [
+      "'Let the cat out of the bag' means the same thing and is equally common."
+    ]
+  },
+  {
+    "id": "hit-the-nail-on-the-head",
+    "term": "Hit the nail on the head",
+    "level": "B2",
+    "meaning": "To describe a problem or situation exactly right.",
+    "usage": "Use it to agree strongly with something someone just said, especially when they named the real issue.",
+    "examples": [
+      { "context": "Meeting", "sentence": "You've hit the nail on the head — it's a staffing problem, not a software one." },
+      { "context": "Daily Life", "sentence": "She hit the nail on the head when she said he was just tired." }
+    ],
+    "remember": [
+      "It is praise for accuracy, not for effort. Use it when someone identifies something precisely."
+    ]
+  },
+  {
+    "id": "on-the-same-page",
+    "term": "On the same page",
+    "level": "B1",
+    "meaning": "Sharing the same understanding of a situation.",
+    "usage": "Use it in meetings to check that everyone agrees on the plan before moving on.",
+    "examples": [
+      { "context": "Meeting", "sentence": "Let's make sure we're all on the same page before we start." },
+      { "context": "Work", "sentence": "I want to be on the same page as the client on pricing." }
+    ],
+    "remember": [
+      "It means shared understanding, which is not quite the same as agreement — people can be on the same page and still disagree."
+    ]
+  },
+  {
+    "id": "call-it-a-day",
+    "term": "Call it a day",
+    "level": "B1",
+    "meaning": "To stop working, deciding you have done enough.",
+    "usage": "Use it to end a work session — either at the end of a long day, or when further effort is not worth it.",
+    "examples": [
+      { "context": "Work", "sentence": "It's nearly seven — let's call it a day." },
+      { "context": "Project", "sentence": "After three failed attempts we called it a day." }
+    ],
+    "remember": [
+      "'Call it a night' is the evening version, used for social occasions."
+    ]
+  },
+  {
+    "id": "once-in-a-blue-moon",
+    "term": "Once in a blue moon",
+    "level": "B1",
+    "meaning": "Very rarely.",
+    "usage": "Use it about things that happen so seldom they feel like an event when they do.",
+    "examples": [
+      { "context": "Daily Life", "sentence": "We only go out for dinner once in a blue moon." },
+      { "context": "Family", "sentence": "He calls once in a blue moon." }
+    ],
+    "remember": [
+      "It means rarely, not never. If something never happens, say so directly."
+    ]
+  },
+  {
+    "id": "cost-an-arm-and-a-leg",
+    "term": "Cost an arm and a leg",
+    "level": "B1",
+    "meaning": "To be extremely expensive.",
+    "usage": "Use it to complain about a price, usually with a note of exaggeration for effect.",
+    "examples": [
+      { "context": "Shopping", "sentence": "That handbag cost an arm and a leg." },
+      { "context": "Travel", "sentence": "Flights in December cost an arm and a leg." }
+    ],
+    "remember": [
+      "It is informal and slightly humorous. In a business meeting, 'prohibitively expensive' is the safer phrase."
+    ]
+  },
+  {
+    "id": "get-cold-feet",
+    "term": "Get cold feet",
+    "level": "B2",
+    "meaning": "To suddenly lose your nerve about something you had planned.",
+    "usage": "Use it about last-minute doubt before a big commitment — a wedding, a resignation, a big purchase.",
+    "examples": [
+      { "context": "Personal", "sentence": "He got cold feet the night before the wedding." },
+      { "context": "Business", "sentence": "The buyer got cold feet and pulled out of the deal." }
+    ],
+    "remember": [
+      "It describes losing courage before the event, not regretting it afterwards."
+    ]
+  },
+  {
+    "id": "the-ball-is-in-your-court",
+    "term": "The ball is in your court",
+    "level": "B2",
+    "meaning": "It is your turn to act or decide.",
+    "usage": "Use it after you have done your part, to make clear that nothing more can happen until the other person moves.",
+    "examples": [
+      { "context": "Work", "sentence": "I've sent the revised offer, so the ball's in their court." },
+      { "context": "Negotiation", "sentence": "We've made our position clear. The ball is in your court." }
+    ],
+    "remember": [
+      "It politely shifts responsibility. Used firmly, it is also a way of saying 'stop waiting for me'."
+    ]
+  },
+  {
+    "id": "bite-the-bullet",
+    "term": "Bite the bullet",
+    "level": "B2",
+    "meaning": "To force yourself to do something unpleasant that you have been avoiding.",
+    "usage": "Use it about finally accepting a difficult decision — spending the money, having the conversation, doing the boring task.",
+    "examples": [
+      { "context": "Daily Life", "sentence": "I bit the bullet and booked the dentist." },
+      { "context": "Business", "sentence": "We had to bite the bullet and rewrite the whole module." }
+    ],
+    "remember": [
+      "It implies you had been putting it off. There is a sense of relief in the phrase."
+    ]
+  },
+  {
+    "id": "in-hot-water",
+    "term": "In hot water",
+    "level": "B2",
+    "meaning": "In trouble.",
+    "usage": "Use it about someone facing consequences for a mistake, especially from an authority.",
+    "examples": [
+      { "context": "Work", "sentence": "The team is in hot water over the missed deadline." },
+      { "context": "Daily Life", "sentence": "He's in hot water with his landlord again." }
+    ],
+    "remember": [
+      "It is informal. In a written complaint or report, use 'facing disciplinary action' or similar."
+    ]
+  },
+  {
+    "id": "cut-corners",
+    "term": "Cut corners",
+    "level": "B2",
+    "meaning": "To do something cheaply or quickly by skipping proper steps.",
+    "usage": "Use it as a criticism of work where quality was sacrificed for speed or cost.",
+    "examples": [
+      { "context": "Construction", "sentence": "They cut corners on the wiring and it failed within a year." },
+      { "context": "Work", "sentence": "We can move faster, but I don't want to cut corners on testing." }
+    ],
+    "remember": [
+      "It is almost always negative. Saving time properly is 'streamlining', not cutting corners."
+    ]
+  },
+  {
+    "id": "learn-the-ropes",
+    "term": "Learn the ropes",
+    "level": "B1",
+    "meaning": "To learn how a job or system works.",
+    "usage": "Use it about the first weeks in a new role, when someone is still picking up the basics.",
+    "examples": [
+      { "context": "Work", "sentence": "Give her a month to learn the ropes." },
+      { "context": "Career", "sentence": "I learned the ropes in a small agency before moving here." }
+    ],
+    "remember": [
+      "'Show someone the ropes' is the other side of it — teaching a newcomer."
+    ]
+  },
+  {
+    "id": "a-blessing-in-disguise",
+    "term": "A blessing in disguise",
+    "level": "B2",
+    "meaning": "Something that seemed bad at the time but turned out well.",
+    "usage": "Use it looking back at a setback that led somewhere better.",
+    "examples": [
+      { "context": "Career", "sentence": "Losing that job was a blessing in disguise — I started my own company." },
+      { "context": "Travel", "sentence": "Missing the flight was a blessing in disguise; the weather there was terrible." }
+    ],
+    "remember": [
+      "It only works in hindsight. You cannot call something a blessing in disguise while it is still going badly."
+    ]
+  },
+  {
+    "id": "beat-around-the-bush",
+    "term": "Beat around the bush",
+    "level": "B2",
+    "meaning": "To avoid saying the main point directly.",
+    "usage": "Use it to complain that someone is being evasive, or to announce that you are about to be direct.",
+    "examples": [
+      { "context": "Meeting", "sentence": "Let me not beat around the bush: we're over budget." },
+      { "context": "Daily Life", "sentence": "Stop beating around the bush and tell me what happened." }
+    ],
+    "remember": [
+      "British English often says 'beat about the bush'. Both are understood."
+    ]
+  },
+  {
+    "id": "hit-the-books",
+    "term": "Hit the books",
+    "level": "B1",
+    "meaning": "To start studying seriously.",
+    "usage": "Informal, used mostly by students about an intensive study session, often before an exam.",
+    "examples": [
+      { "context": "Study", "sentence": "Exams start Monday, so I need to hit the books this weekend." },
+      { "context": "Friends", "sentence": "Can't come out tonight — hitting the books." }
+    ],
+    "remember": [
+      "Casual student language. Not something you would write in an application."
+    ]
+  },
+  {
+    "id": "on-the-fence",
+    "term": "On the fence",
+    "level": "B2",
+    "meaning": "Undecided between two options.",
+    "usage": "Use it about yourself or others who have not committed either way, especially in a decision people are watching.",
+    "examples": [
+      { "context": "Work", "sentence": "I'm still on the fence about the new structure." },
+      { "context": "Daily Life", "sentence": "Half the team is on the fence, so we should discuss it properly." }
+    ],
+    "remember": [
+      "'Sit on the fence' can sound like a criticism — it suggests avoiding a decision rather than genuinely weighing it."
+    ]
+  },
+  {
+    "id": "back-to-square-one",
+    "term": "Back to square one",
+    "level": "B2",
+    "meaning": "Back at the beginning, with the previous work wasted.",
+    "usage": "Use it when an attempt has failed completely and you have to start over.",
+    "examples": [
+      { "context": "Project", "sentence": "The client rejected the whole concept, so we're back to square one." },
+      { "context": "Daily Life", "sentence": "The deal fell through and we're back to square one on the house." }
+    ],
+    "remember": [
+      "It carries real frustration. Use it when the restart is genuinely total, not just a small setback."
+    ]
+  },
+  {
+    "id": "take-it-with-a-grain-of-salt",
+    "term": "Take it with a grain of salt",
+    "level": "C1",
+    "meaning": "Do not fully believe it; treat it with some doubt.",
+    "usage": "Use it when passing on information from a source that may be biased, exaggerated, or unreliable.",
+    "examples": [
+      { "context": "News", "sentence": "It's an anonymous review, so take it with a grain of salt." },
+      { "context": "Work", "sentence": "Their sales figures are self-reported — take them with a grain of salt." }
+    ],
+    "remember": [
+      "British English often says 'a pinch of salt'. Same meaning."
+    ]
+  }
+]

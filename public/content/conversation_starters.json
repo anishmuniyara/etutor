@@ -1,0 +1,440 @@
+[
+  {
+    "id": "what-do-you-do",
+    "term": "What do you do?",
+    "level": "A1",
+    "purpose": "The standard way to ask someone about their job when you have just met.",
+    "conversation": [
+      { "speaker": "A", "text": "Hi, I'm Alex. What do you do?" },
+      { "speaker": "B", "text": "I'm a nurse — I work at the hospital on Green Street. How about you?" },
+      { "speaker": "A", "text": "I'm in software. Mostly boring meetings, if I'm honest." }
+    ],
+    "keyExpressions": [
+      "What do you do?",
+      "I work in… / I'm a…",
+      "How about you?",
+      "How long have you been doing that?"
+    ],
+    "remember": [
+      "In almost every social context this is asking about work, not hobbies.",
+      "Always return the question. Answering and stopping ends the conversation immediately."
+    ]
+  },
+  {
+    "id": "how-was-your-weekend",
+    "term": "How was your weekend?",
+    "level": "A1",
+    "purpose": "The default Monday morning opener with colleagues.",
+    "conversation": [
+      { "speaker": "A", "text": "Morning — how was your weekend?" },
+      { "speaker": "B", "text": "Really good, thanks. We went to my sister's for lunch. Yours?" },
+      { "speaker": "A", "text": "Quiet one. I finally finished that series everyone's talking about." }
+    ],
+    "keyExpressions": [
+      "How was your weekend?",
+      "Really good, thanks — yours?",
+      "Quiet one.",
+      "Did you do anything nice?"
+    ],
+    "remember": [
+      "A one-line answer plus a return question is the expected shape. Nobody wants a full account."
+    ]
+  },
+  {
+    "id": "where-are-you-from",
+    "term": "Where are you from?",
+    "level": "A1",
+    "purpose": "A simple way to learn about someone's background early in a conversation.",
+    "conversation": [
+      { "speaker": "A", "text": "Where are you from originally?" },
+      { "speaker": "B", "text": "Kerala, in the south of India. I moved here six years ago." },
+      { "speaker": "A", "text": "Six years — do you get back often?" },
+      { "speaker": "B", "text": "Once a year, usually in December." }
+    ],
+    "keyExpressions": [
+      "Where are you from?",
+      "Whereabouts is that?",
+      "How long have you been here?",
+      "Do you get back often?"
+    ],
+    "remember": [
+      "Adding 'originally' makes it clear you mean where they grew up, not where they live now.",
+      "Follow the answer with a real question. 'Oh, nice' closes the topic instead of opening it."
+    ]
+  },
+  {
+    "id": "how-do-you-know",
+    "term": "How do you know…?",
+    "level": "A2",
+    "purpose": "Find a shared connection at a party, wedding, or event.",
+    "conversation": [
+      { "speaker": "A", "text": "So how do you know Priya?" },
+      { "speaker": "B", "text": "We were at university together. You?" },
+      { "speaker": "A", "text": "We work together — I've heard a lot about those university years." },
+      { "speaker": "B", "text": "Whatever she told you, it's exaggerated." }
+    ],
+    "keyExpressions": [
+      "How do you know…?",
+      "We were at university together.",
+      "We work together.",
+      "I've heard a lot about you."
+    ],
+    "remember": [
+      "This is the standard opener at any event with a shared host. It gives you an immediate topic."
+    ]
+  },
+  {
+    "id": "have-you-been-here-before",
+    "term": "Have you been here before?",
+    "level": "A2",
+    "purpose": "Start a conversation with someone at a venue or event you are both attending.",
+    "conversation": [
+      { "speaker": "A", "text": "Have you been to one of these before?" },
+      { "speaker": "B", "text": "First time. Is it always this busy?" },
+      { "speaker": "A", "text": "Usually, yes. The talks in the afternoon are the good part." },
+      { "speaker": "B", "text": "Good to know. Which one are you going to?" }
+    ],
+    "keyExpressions": [
+      "Have you been here before?",
+      "First time.",
+      "Is it always this busy?",
+      "Which one are you going to?"
+    ],
+    "remember": [
+      "Asking about the shared situation is the easiest opener — you already know you have it in common."
+    ]
+  },
+  {
+    "id": "what-brings-you-here",
+    "term": "What brings you here?",
+    "level": "B1",
+    "purpose": "Ask why someone is at an event, in a slightly more interesting way than 'why are you here'.",
+    "conversation": [
+      { "speaker": "A", "text": "So what brings you to the conference?" },
+      { "speaker": "B", "text": "We're launching something similar next year, so I'm here to steal ideas." },
+      { "speaker": "A", "text": "Honest, at least. Found any yet?" },
+      { "speaker": "B", "text": "Two, and it's only lunchtime." }
+    ],
+    "keyExpressions": [
+      "What brings you here?",
+      "I'm here to…",
+      "How are you finding it?",
+      "Is this your first one?"
+    ],
+    "remember": [
+      "'Why are you here?' can sound suspicious. 'What brings you here?' asks the same thing warmly."
+    ]
+  },
+  {
+    "id": "any-plans-for-the-weekend",
+    "term": "Any plans for the weekend?",
+    "level": "A2",
+    "purpose": "The Friday counterpart to 'how was your weekend'.",
+    "conversation": [
+      { "speaker": "A", "text": "Any plans for the weekend?" },
+      { "speaker": "B", "text": "Nothing much — might go to the market on Saturday. You?" },
+      { "speaker": "A", "text": "My brother's visiting, so probably a lot of cooking." }
+    ],
+    "keyExpressions": [
+      "Any plans for the weekend?",
+      "Nothing much.",
+      "Might go to…",
+      "You?"
+    ],
+    "remember": [
+      "'Nothing much' is a perfectly good answer. English small talk does not require impressive plans."
+    ]
+  },
+  {
+    "id": "how-long-have-you-worked-here",
+    "term": "How long have you worked here?",
+    "level": "A2",
+    "purpose": "Open a conversation with a new colleague and find common ground.",
+    "conversation": [
+      { "speaker": "A", "text": "How long have you worked here?" },
+      { "speaker": "B", "text": "Just over two years. You're new, aren't you?" },
+      { "speaker": "A", "text": "Third week. Still learning where everything is." },
+      { "speaker": "B", "text": "The coffee machine on this floor is broken, so that's your first lesson." }
+    ],
+    "keyExpressions": [
+      "How long have you worked here?",
+      "Just over two years.",
+      "You're new, aren't you?",
+      "Still finding my feet."
+    ],
+    "remember": [
+      "The present perfect is required here because the person still works there: 'have you worked', not 'did you work'."
+    ]
+  },
+  {
+    "id": "the-weather-opener",
+    "term": "Talking about the weather",
+    "level": "A1",
+    "purpose": "The safest possible opener with a stranger, especially in Britain.",
+    "conversation": [
+      { "speaker": "A", "text": "Miserable out there, isn't it?" },
+      { "speaker": "B", "text": "Awful. And they said it would clear up by noon." },
+      { "speaker": "A", "text": "They always say that." }
+    ],
+    "keyExpressions": [
+      "Lovely day, isn't it?",
+      "Miserable out there.",
+      "They said it would clear up.",
+      "Is it supposed to rain later?"
+    ],
+    "remember": [
+      "The tag question ('isn't it?') is what makes it an invitation to talk rather than a statement.",
+      "Nobody genuinely cares about the weather here — it is a signal that you are open to conversation."
+    ]
+  },
+  {
+    "id": "what-are-you-working-on",
+    "term": "What are you working on?",
+    "level": "B1",
+    "purpose": "Start a work conversation that goes deeper than 'how are you'.",
+    "conversation": [
+      { "speaker": "A", "text": "What are you working on at the moment?" },
+      { "speaker": "B", "text": "Mostly the migration. It's slower than we hoped." },
+      { "speaker": "A", "text": "What's holding it up?" },
+      { "speaker": "B", "text": "Old data. Nobody documented any of it." }
+    ],
+    "keyExpressions": [
+      "What are you working on?",
+      "Mostly…",
+      "What's holding it up?",
+      "How's that going?"
+    ],
+    "remember": [
+      "Following up with 'what's holding it up?' turns polite small talk into a real conversation."
+    ]
+  },
+  {
+    "id": "have-you-tried",
+    "term": "Have you tried…?",
+    "level": "A2",
+    "purpose": "Start a conversation around a shared interest — food, places, films.",
+    "conversation": [
+      { "speaker": "A", "text": "Have you tried the new place on the corner?" },
+      { "speaker": "B", "text": "Not yet — is it any good?" },
+      { "speaker": "A", "text": "Really good, but go early. It fills up." },
+      { "speaker": "B", "text": "Noted. What did you have?" }
+    ],
+    "keyExpressions": [
+      "Have you tried…?",
+      "Not yet — is it any good?",
+      "You should try…",
+      "What did you have?"
+    ],
+    "remember": [
+      "'Is it any good?' is the natural everyday way to ask for an opinion about a place or product."
+    ]
+  },
+  {
+    "id": "how-are-you-finding-it",
+    "term": "How are you finding it?",
+    "level": "B1",
+    "purpose": "Ask someone's honest impression of a new job, city, or course.",
+    "conversation": [
+      { "speaker": "A", "text": "You've been here a month now — how are you finding it?" },
+      { "speaker": "B", "text": "Better than I expected, honestly. The team's been very welcoming." },
+      { "speaker": "A", "text": "Good. Anything you're still getting used to?" },
+      { "speaker": "B", "text": "The commute. That I'm not enjoying." }
+    ],
+    "keyExpressions": [
+      "How are you finding it?",
+      "Better than I expected.",
+      "Anything you're still getting used to?",
+      "I'm still settling in."
+    ],
+    "remember": [
+      "This asks for a real opinion, unlike 'how are you'. Expect and give a genuine answer."
+    ]
+  },
+  {
+    "id": "did-you-see",
+    "term": "Did you see…?",
+    "level": "A2",
+    "purpose": "Open a conversation around news, sport, or something everyone is talking about.",
+    "conversation": [
+      { "speaker": "A", "text": "Did you see the match last night?" },
+      { "speaker": "B", "text": "Only the second half. What a finish." },
+      { "speaker": "A", "text": "I couldn't watch the last ten minutes." }
+    ],
+    "keyExpressions": [
+      "Did you see…?",
+      "Only the second half.",
+      "What a finish.",
+      "Did you catch it?"
+    ],
+    "remember": [
+      "Choose a topic that is genuinely widely shared. A niche reference leaves the other person with nothing to say."
+    ]
+  },
+  {
+    "id": "im-sorry-i-didnt-catch",
+    "term": "Sorry, I didn't catch your name",
+    "level": "A2",
+    "purpose": "Recover politely when you have missed or forgotten someone's name.",
+    "conversation": [
+      { "speaker": "A", "text": "Sorry, I didn't catch your name." },
+      { "speaker": "B", "text": "It's Nkechi." },
+      { "speaker": "A", "text": "Nkechi — sorry, could you say it once more? I want to get it right." },
+      { "speaker": "B", "text": "Nn-KEH-chi." },
+      { "speaker": "A", "text": "Nkechi. Got it." }
+    ],
+    "keyExpressions": [
+      "Sorry, I didn't catch your name.",
+      "Could you say it once more?",
+      "I want to get it right.",
+      "How do you spell that?"
+    ],
+    "remember": [
+      "Asking twice to pronounce a name correctly is a compliment, not a failure. Guessing silently is worse."
+    ]
+  },
+  {
+    "id": "mind-if-i-join",
+    "term": "Mind if I join you?",
+    "level": "A2",
+    "purpose": "Ask to sit with someone or join a group.",
+    "conversation": [
+      { "speaker": "A", "text": "Mind if I join you?" },
+      { "speaker": "B", "text": "Not at all, please do." },
+      { "speaker": "A", "text": "Thanks. Is this seat usually free?" },
+      { "speaker": "B", "text": "Always. Nobody comes to this end of the canteen." }
+    ],
+    "keyExpressions": [
+      "Mind if I join you?",
+      "Not at all, please do.",
+      "Is this seat taken?",
+      "Are you saving these?"
+    ],
+    "remember": [
+      "'Do you mind?' is answered with 'no' to give permission. 'Not at all' avoids the confusion entirely."
+    ]
+  },
+  {
+    "id": "what-do-you-think-of",
+    "term": "What do you think of…?",
+    "level": "A2",
+    "purpose": "Invite someone's opinion on something you are both experiencing.",
+    "conversation": [
+      { "speaker": "A", "text": "What did you think of the presentation?" },
+      { "speaker": "B", "text": "Interesting, but a bit long. You?" },
+      { "speaker": "A", "text": "Same. The last section was the useful part." }
+    ],
+    "keyExpressions": [
+      "What do you think of…?",
+      "What did you make of…?",
+      "Interesting, but…",
+      "Same here."
+    ],
+    "remember": [
+      "'What do you think of' asks for an opinion; 'what do you think about' asks for a fuller view. Both are correct."
+    ]
+  },
+  {
+    "id": "are-you-from-around-here",
+    "term": "Are you from around here?",
+    "level": "A2",
+    "purpose": "Open with a stranger in a neighbourhood or local setting.",
+    "conversation": [
+      { "speaker": "A", "text": "Are you from around here?" },
+      { "speaker": "B", "text": "I live two streets away. Why, are you lost?" },
+      { "speaker": "A", "text": "Slightly. I'm looking for a decent bakery." },
+      { "speaker": "B", "text": "Then you want the one behind the church, not the one on the high street." }
+    ],
+    "keyExpressions": [
+      "Are you from around here?",
+      "I live just around the corner.",
+      "Do you know anywhere good for…?",
+      "Any recommendations?"
+    ],
+    "remember": [
+      "Asking for a local recommendation is one of the easiest ways to start a friendly exchange with a stranger."
+    ]
+  },
+  {
+    "id": "long-day",
+    "term": "Long day?",
+    "level": "B1",
+    "purpose": "Open sympathetically with someone who looks tired or busy.",
+    "conversation": [
+      { "speaker": "A", "text": "Long day?" },
+      { "speaker": "B", "text": "You have no idea. Started at six." },
+      { "speaker": "A", "text": "Ouch. Nearly done?" },
+      { "speaker": "B", "text": "One more hour, then I'm going straight to bed." }
+    ],
+    "keyExpressions": [
+      "Long day?",
+      "You have no idea.",
+      "Nearly done?",
+      "Busy one?"
+    ],
+    "remember": [
+      "Two-word openers like this work because they invite a story without demanding one."
+    ]
+  },
+  {
+    "id": "hows-the-family",
+    "term": "How's the family?",
+    "level": "A2",
+    "purpose": "Continue a relationship with someone you already know reasonably well.",
+    "conversation": [
+      { "speaker": "A", "text": "How's the family? Is your son still at university?" },
+      { "speaker": "B", "text": "Final year now. He's applying for jobs, so we barely hear from him." },
+      { "speaker": "A", "text": "That's the stage where they go quiet. Give him my regards." }
+    ],
+    "keyExpressions": [
+      "How's the family?",
+      "Is… still…?",
+      "Give him/her my regards.",
+      "How are things at home?"
+    ],
+    "remember": [
+      "Remembering one detail from last time — a name, a course, a trip — is what makes this feel personal rather than routine."
+    ]
+  },
+  {
+    "id": "do-you-know-if",
+    "term": "Do you know if…?",
+    "level": "A2",
+    "purpose": "Ask a stranger for practical information, which often opens a longer exchange.",
+    "conversation": [
+      { "speaker": "A", "text": "Sorry, do you know if this bus goes to the museum?" },
+      { "speaker": "B", "text": "It does, but the 14 is faster." },
+      { "speaker": "A", "text": "Ah, thanks. Does it run often?" },
+      { "speaker": "B", "text": "Every ten minutes or so." }
+    ],
+    "keyExpressions": [
+      "Do you know if…?",
+      "Sorry to bother you.",
+      "Does it run often?",
+      "Thanks, that's really helpful."
+    ],
+    "remember": [
+      "'Do you know if…' is more polite than a direct question, because it lets the person say no without seeming unhelpful."
+    ]
+  },
+  {
+    "id": "welcome-back",
+    "term": "Welcome back — how was it?",
+    "level": "A2",
+    "purpose": "Greet someone returning from a holiday or long absence.",
+    "conversation": [
+      { "speaker": "A", "text": "Welcome back! How was Japan?" },
+      { "speaker": "B", "text": "Incredible. Exhausting, but incredible." },
+      { "speaker": "A", "text": "Where did you go in the end?" },
+      { "speaker": "B", "text": "Tokyo, then Kyoto for a few days. I'd go back tomorrow." }
+    ],
+    "keyExpressions": [
+      "Welcome back!",
+      "How was it?",
+      "Where did you go in the end?",
+      "I'd go back tomorrow."
+    ],
+    "remember": [
+      "Naming the place instead of asking 'how was your holiday' shows you remembered, and gets a warmer answer."
+    ]
+  }
+]

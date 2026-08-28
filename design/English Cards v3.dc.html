@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&amp;family=Schibsted+Grotesk:wght@400;500;600;700&amp;display=swap">
+<style>
+:root{--acc:#ec3013;--ink:#201e1d;--sub:#6d675f;--ground:#edeae5;--glass:rgba(255,255,255,.42);--glass2:rgba(255,255,255,.55);--gbord:rgba(255,255,255,.65);--gshadow:0 10px 34px rgba(32,30,29,.14)}
+body{margin:0;min-height:100vh;font-family:'Schibsted Grotesk',system-ui,sans-serif;color:var(--ink);background:radial-gradient(640px at 12% 6%,color-mix(in oklab,var(--acc) 26%,transparent),transparent 72%),radial-gradient(760px at 92% 24%,color-mix(in oklab,var(--acc) 16%,transparent),transparent 70%),radial-gradient(700px at 40% 100%,color-mix(in oklab,var(--acc) 20%,transparent),transparent 72%),var(--ground);background-attachment:fixed}
+a{color:var(--acc);text-decoration:none}a:hover{color:color-mix(in oklab,var(--acc) 75%,black)}
+@keyframes ecFade{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:translateY(0)}}
+button:focus-visible{outline:2px solid var(--acc);outline-offset:2px}
+</style>
+</helmet>
+<div style="min-height:100vh;display:flex;flex-direction:column">
+
+<sc-if value="{{ isHome }}" hint-placeholder-val="{{ true }}">
+<div data-screen-label="Home" style="width:100%;max-width:1060px;margin:0 auto;box-sizing:border-box;padding:clamp(30px,6vw,76px) clamp(20px,4vw,48px) 64px">
+  <div style="display:flex;flex-direction:column;gap:5px;margin-bottom:clamp(18px,3vw,32px)">
+    <div style="font-size:11px;font-weight:700;letter-spacing:.18em;color:var(--acc)">ENGLISH TRAINER</div>
+    <div style="font-family:'Bricolage Grotesque',sans-serif;font-size:clamp(22px,3.2vw,34px);font-weight:700;letter-spacing:-.01em;line-height:1.12">Pick a category</div>
+  </div>
+  <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:clamp(10px,1.8vw,18px)">
+    <sc-for list="{{ categories }}" as="cat" hint-placeholder-count="7">
+      <button onClick="{{ cat.open }}" style="border:1px solid var(--gbord);cursor:pointer;text-align:left;font-family:inherit;color:var(--ink);background:var(--glass);backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px);border-radius:18px;padding:14px 16px;display:flex;flex-direction:row;align-items:center;gap:14px;box-shadow:var(--gshadow);transition:transform .15s,background .15s" style-hover="background:var(--glass2);transform:translateY(-2px)" style-active="transform:translateY(0);background:var(--glass)">
+        <div style="width:40px;height:40px;flex:none;border-radius:12px;display:flex;align-items:center;justify-content:center;background:color-mix(in oklab,var(--acc) 14%,transparent);border:1px solid color-mix(in oklab,var(--acc) 25%,transparent)">
+          <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="var(--acc)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="{{ cat.icon }}"></path><path d="{{ cat.icon2 }}"></path></svg>
+        </div>
+        <div style="display:flex;flex-direction:column;gap:3px">
+          <div style="font-family:'Bricolage Grotesque',sans-serif;font-size:15.5px;font-weight:700;line-height:1.15">{{ cat.name }}</div>
+          <div style="font-size:12px;font-weight:600;color:var(--acc)">{{ cat.countLabel }}</div>
+        </div>
+      </button>
+    </sc-for>
+  </div>
+</div>
+</sc-if>
+
+<sc-if value="{{ isList }}" hint-placeholder-val="{{ false }}">
+<div data-screen-label="Card list" style="width:100%;max-width:660px;margin:0 auto;box-sizing:border-box;padding:clamp(24px,5vw,56px) 22px 64px;display:flex;flex-direction:column;gap:18px">
+  <div style="display:flex;align-items:center;gap:14px">
+    <button onClick="{{ goHome }}" style="border:1px solid var(--gbord);cursor:pointer;font-family:inherit;background:var(--glass);color:var(--ink);width:42px;height:42px;flex:none;border-radius:50%;display:flex;align-items:center;justify-content:center;backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px)" style-hover="background:var(--glass2)" aria-label="Back to home">
+      <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="m15 18-6-6 6-6"></path></svg>
+    </button>
+    <div style="display:flex;flex-direction:column;gap:1px">
+      <div style="font-family:'Bricolage Grotesque',sans-serif;font-size:clamp(22px,3.2vw,30px);font-weight:700;letter-spacing:-.01em">{{ catName }}</div>
+      <div style="font-size:12.5px;font-weight:600;color:var(--sub)">{{ catCountLabel }}</div>
+    </div>
+  </div>
+  <div style="display:flex;flex-direction:column;gap:10px">
+    <sc-for list="{{ listCards }}" as="item" hint-placeholder-count="4">
+      <div style="position:relative;border-radius:16px">
+        <sc-if value="{{ item.showAction }}" hint-placeholder-val="{{ false }}">
+          <button onClick="{{ item.hideNow }}" aria-label="Hide this card" style="position:absolute;top:0;right:0;bottom:0;width:96px;border:none;cursor:pointer;font-family:inherit;font-size:11px;font-weight:700;letter-spacing:.08em;color:#fff;background:var(--acc);border-radius:16px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:5px" style-hover="background:color-mix(in oklab,var(--acc) 85%,black)">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17.94 17.94A10.07 10.07 0 0 1 12 20c-7 0-11-8-11-8a18.45 18.45 0 0 1 5.06-5.94M9.9 4.24A9.12 9.12 0 0 1 12 4c7 0 11 8 11 8a18.5 18.5 0 0 1-2.16 3.19m-6.72-1.07a3 3 0 1 1-4.24-4.24"></path><path d="M1 1l22 22"></path></svg>
+            <span>HIDE</span>
+          </button>
+        </sc-if>
+        <button onClick="{{ item.open }}" onPointerDown="{{ item.pd }}" onPointerMove="{{ item.pm }}" onPointerUp="{{ item.pu }}" onPointerCancel="{{ item.pu }}" style="position:relative;width:100%;box-sizing:border-box;touch-action:pan-y;border:1px solid var(--gbord);cursor:pointer;text-align:left;font-family:inherit;color:var(--ink);background:var(--glass);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border-radius:16px;padding:15px 18px;display:flex;align-items:center;gap:14px;box-shadow:var(--gshadow);transform:{{ item.tfm }};transition:{{ item.trans }}" style-hover="background:var(--glass2)">
+          <div style="font-size:11px;font-weight:700;letter-spacing:.08em;color:var(--acc);flex:none;width:34px">{{ item.num }}</div>
+          <div style="display:flex;flex-direction:column;gap:2px;flex:1;min-width:0">
+            <div style="font-size:15.5px;font-weight:700;line-height:1.2">{{ item.title }}</div>
+            <div style="font-size:11px;font-weight:700;letter-spacing:.1em;color:var(--sub)">{{ item.meta }}</div>
+          </div>
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--sub)" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="flex:none"><path d="m9 18 6-6-6-6"></path></svg>
+        </button>
+      </div>
+    </sc-for>
+    <div style="font-size:11.5px;color:var(--sub);text-align:center;padding:2px 0">Swipe a card left to hide it</div>
+    <sc-if value="{{ hasHidden }}" hint-placeholder-val="{{ false }}">
+      <div style="display:flex;align-items:center;justify-content:space-between;gap:12px;padding:4px 6px">
+        <div style="font-size:12.5px;color:var(--sub)">{{ hiddenLabel }}</div>
+        <button onClick="{{ unhideAll }}" style="border:none;cursor:pointer;font-family:inherit;font-size:12.5px;font-weight:700;color:var(--acc);background:transparent;padding:6px 10px;border-radius:999px" style-hover="background:color-mix(in oklab,var(--acc) 10%,transparent)">Unhide all</button>
+      </div>
+    </sc-if>
+  </div>
+</div>
+</sc-if>
+
+<sc-if value="{{ isLearn }}" hint-placeholder-val="{{ false }}">
+<div data-screen-label="Learning" style="width:100%;max-width:660px;margin:0 auto;box-sizing:border-box;padding:clamp(24px,5vw,56px) 22px 150px;display:flex;flex-direction:column;gap:clamp(18px,3vw,26px)">
+  <div style="display:flex;align-items:center;gap:14px">
+    <button onClick="{{ goList }}" style="border:1px solid var(--gbord);cursor:pointer;font-family:inherit;background:var(--glass);color:var(--ink);width:42px;height:42px;flex:none;border-radius:50%;display:flex;align-items:center;justify-content:center;backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px)" style-hover="background:var(--glass2)" aria-label="Back to list">
+      <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="m15 18-6-6 6-6"></path></svg>
+    </button>
+    <div style="font-family:'Bricolage Grotesque',sans-serif;font-size:clamp(22px,3.2vw,30px);font-weight:700;letter-spacing:-.01em;flex:1">{{ catName }}</div>
+    <div style="font-size:11px;font-weight:700;letter-spacing:.14em;color:var(--sub);padding:9px 15px;border-radius:999px;background:var(--glass);border:1px solid var(--gbord);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px)">{{ cardNo }}</div>
+  </div>
+
+  <div style="border-radius:24px;padding:clamp(32px,5vw,46px) 28px;display:flex;flex-direction:column;align-items:center;gap:8px;background:var(--glass2);border:1px solid var(--gbord);backdrop-filter:blur(18px);-webkit-backdrop-filter:blur(18px);box-shadow:var(--gshadow)">
+    <div style="font-family:'Bricolage Grotesque',sans-serif;font-size:clamp(26px,4vw,36px);font-weight:700;text-align:center;line-height:1.2;text-wrap:balance">{{ word }}</div>
+    <div style="font-size:12px;font-weight:700;letter-spacing:.12em;color:var(--sub)">{{ cardMeta }}</div>
+    <sc-if value="{{ hasIpa }}" hint-placeholder-val="{{ false }}"><div style="font-size:16px;color:var(--sub)">{{ ipa }}</div></sc-if>
+  </div>
+
+  <sc-if value="{{ hidden }}" hint-placeholder-val="{{ true }}">
+    <div style="border-radius:20px;padding:32px 24px;display:flex;flex-direction:column;align-items:center;gap:16px;background:rgba(255,255,255,.18);border:1px dashed var(--gbord);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px)">
+      <div style="font-size:13.5px;color:var(--sub)">Details are hidden — try to recall them first.</div>
+      <button onClick="{{ toggleDetails }}" style="border:none;cursor:pointer;font-family:inherit;font-size:14px;font-weight:700;letter-spacing:.04em;color:#fff;background:var(--acc);border-radius:999px;padding:15px 36px;box-shadow:0 8px 24px color-mix(in oklab,var(--acc) 45%,transparent);transition:transform .15s" style-hover="transform:translateY(-1px)" style-active="transform:translateY(1px)">Show Details</button>
+    </div>
+  </sc-if>
+
+  <sc-if value="{{ shown }}" hint-placeholder-val="{{ false }}">
+    <div style="border-radius:20px;padding:clamp(22px,3vw,30px);display:flex;flex-direction:column;gap:22px;background:var(--glass);border:1px solid var(--gbord);backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px);box-shadow:var(--gshadow);animation:ecFade .3s ease">
+
+      <sc-if value="{{ hasMeaning }}" hint-placeholder-val="{{ true }}">
+        <div style="display:flex;flex-direction:column;gap:5px">
+          <div style="font-size:10.5px;font-weight:700;letter-spacing:.18em;color:var(--acc)">{{ meaningLabel }}</div>
+          <div style="font-size:15.5px;line-height:1.5">{{ meaning }}</div>
+        </div>
+      </sc-if>
+
+      <sc-if value="{{ hasUsage }}" hint-placeholder-val="{{ false }}">
+        <div style="display:flex;flex-direction:column;gap:5px">
+          <div style="font-size:10.5px;font-weight:700;letter-spacing:.18em;color:var(--acc)">USAGE</div>
+          <div style="font-size:14.5px;line-height:1.55;color:var(--sub)">{{ usage }}</div>
+        </div>
+      </sc-if>
+
+      <sc-if value="{{ hasFormula }}" hint-placeholder-val="{{ false }}">
+        <div style="display:flex;flex-direction:column;gap:7px">
+          <div style="font-size:10.5px;font-weight:700;letter-spacing:.18em;color:var(--acc)">FORMULA</div>
+          <div style="font-family:ui-monospace,Menlo,monospace;font-size:14px;line-height:1.5;padding:14px 16px;border-radius:14px;background:color-mix(in oklab,var(--acc) 8%,transparent);border:1px solid color-mix(in oklab,var(--acc) 18%,transparent)">{{ formula }}</div>
+        </div>
+      </sc-if>
+
+      <sc-if value="{{ hasComparison }}" hint-placeholder-val="{{ false }}">
+        <div style="display:flex;flex-direction:column;gap:10px">
+          <div style="font-size:10.5px;font-weight:700;letter-spacing:.18em;color:var(--acc)">COMPARISON</div>
+          <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:10px">
+            <div style="border-radius:14px;padding:14px 16px;background:var(--glass2);border:1px solid var(--gbord);display:flex;flex-direction:column;gap:4px">
+              <div style="font-size:14px;font-weight:700">{{ compAName }}</div>
+              <div style="font-size:13.5px;line-height:1.5;color:var(--sub)">{{ compAText }}</div>
+            </div>
+            <div style="border-radius:14px;padding:14px 16px;background:var(--glass2);border:1px solid var(--gbord);display:flex;flex-direction:column;gap:4px">
+              <div style="font-size:14px;font-weight:700">{{ compBName }}</div>
+              <div style="font-size:13.5px;line-height:1.5;color:var(--sub)">{{ compBText }}</div>
+            </div>
+          </div>
+          <div style="font-size:14px;line-height:1.5"><span style="font-weight:700;color:var(--acc)">Difference: </span>{{ difference }}</div>
+        </div>
+      </sc-if>
+
+      <sc-if value="{{ hasSituation }}" hint-placeholder-val="{{ false }}">
+        <div style="display:flex;flex-direction:column;gap:5px">
+          <div style="font-size:10.5px;font-weight:700;letter-spacing:.18em;color:var(--acc)">SITUATION</div>
+          <div style="font-size:14.5px;line-height:1.55;color:var(--sub)">{{ situation }}</div>
+        </div>
+      </sc-if>
+
+      <sc-if value="{{ hasConversation }}" hint-placeholder-val="{{ false }}">
+        <div style="display:flex;flex-direction:column;gap:9px">
+          <div style="font-size:10.5px;font-weight:700;letter-spacing:.18em;color:var(--acc)">CONVERSATION</div>
+          <sc-for list="{{ conversation }}" as="t" hint-placeholder-count="4">
+            <sc-if value="{{ t.isA }}" hint-placeholder-val="{{ true }}">
+              <div style="align-self:flex-start;max-width:85%;display:flex;flex-direction:column;gap:3px">
+                <div style="font-size:10px;font-weight:700;letter-spacing:.1em;color:var(--sub);padding-left:6px">{{ t.speaker }}</div>
+                <div style="font-size:14px;line-height:1.5;padding:11px 15px;border-radius:4px 16px 16px 16px;background:var(--glass2);border:1px solid var(--gbord)">{{ t.line }}</div>
+              </div>
+            </sc-if>
+            <sc-if value="{{ t.isB }}" hint-placeholder-val="{{ false }}">
+              <div style="align-self:flex-end;max-width:85%;display:flex;flex-direction:column;gap:3px;text-align:right">
+                <div style="font-size:10px;font-weight:700;letter-spacing:.1em;color:var(--sub);padding-right:6px">{{ t.speaker }}</div>
+                <div style="font-size:14px;line-height:1.5;padding:11px 15px;border-radius:16px 4px 16px 16px;text-align:left;background:color-mix(in oklab,var(--acc) 12%,transparent);border:1px solid color-mix(in oklab,var(--acc) 20%,transparent)">{{ t.line }}</div>
+              </div>
+            </sc-if>
+          </sc-for>
+        </div>
+      </sc-if>
+
+      <sc-if value="{{ hasList }}" hint-placeholder-val="{{ false }}">
+        <div style="display:flex;flex-direction:column;gap:8px">
+          <div style="font-size:10.5px;font-weight:700;letter-spacing:.18em;color:var(--acc)">{{ listLabel }}</div>
+          <div style="display:flex;flex-direction:column;gap:7px">
+            <sc-for list="{{ listItems }}" as="li" hint-placeholder-count="4">
+              <div style="display:flex;gap:10px;align-items:baseline">
+                <div style="width:6px;height:6px;border-radius:50%;background:var(--acc);flex:none;transform:translateY(-2px)"></div>
+                <div style="font-size:14.5px;line-height:1.5">{{ li.text }}</div>
+              </div>
+            </sc-for>
+          </div>
+        </div>
+      </sc-if>
+
+      <sc-if value="{{ hasExamples }}" hint-placeholder-val="{{ false }}">
+        <div style="display:flex;flex-direction:column;gap:10px">
+          <div style="font-size:10.5px;font-weight:700;letter-spacing:.18em;color:var(--acc)">EXAMPLES</div>
+          <sc-for list="{{ examples }}" as="ex" hint-placeholder-count="2">
+            <div style="display:flex;flex-direction:column;gap:5px">
+              <sc-if value="{{ ex.hasContext }}" hint-placeholder-val="{{ false }}"><div style="font-size:10.5px;font-weight:700;letter-spacing:.1em;color:var(--sub);align-self:flex-start;padding:3px 9px;border-radius:999px;border:1px solid var(--gbord);background:var(--glass)">{{ ex.context }}</div></sc-if>
+              <div style="font-size:15px;line-height:1.55;font-style:italic">{{ ex.sentence }}</div>
+            </div>
+          </sc-for>
+        </div>
+      </sc-if>
+
+      <sc-if value="{{ hasRemember }}" hint-placeholder-val="{{ false }}">
+        <div style="display:flex;gap:12px;padding:16px 18px;border-radius:14px;background:color-mix(in oklab,var(--acc) 9%,transparent);border:1px solid color-mix(in oklab,var(--acc) 20%,transparent)">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--acc)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex:none;margin-top:2px"><path d="M15 14c.2-1 .7-1.7 1.5-2.5A5.4 5.4 0 0 0 18 8 6 6 0 0 0 6 8c0 1 .2 2.2 1.5 3.5.7.7 1.3 1.5 1.5 2.5"></path><path d="M9 18h6M10 22h4"></path></svg>
+          <div style="display:flex;flex-direction:column;gap:3px">
+            <div style="font-size:10.5px;font-weight:700;letter-spacing:.18em;color:var(--acc)">REMEMBER</div>
+            <div style="font-size:14px;line-height:1.55">{{ remember }}</div>
+          </div>
+        </div>
+      </sc-if>
+
+      <button onClick="{{ toggleDetails }}" style="border:none;cursor:pointer;font-family:inherit;font-size:12px;font-weight:700;color:var(--sub);background:transparent;align-self:center;padding:6px 12px;border-radius:999px" style-hover="color:var(--acc)">Hide details</button>
+    </div>
+  </sc-if>
+
+  <div style="position:fixed;left:0;right:0;bottom:0;padding:14px 22px calc(14px + env(safe-area-inset-bottom));background:rgba(255,255,255,.3);border-top:1px solid var(--gbord);backdrop-filter:blur(22px);-webkit-backdrop-filter:blur(22px)">
+    <div style="max-width:660px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;gap:12px">
+      <button onClick="{{ prev }}" style="border:1px solid var(--gbord);cursor:pointer;font-family:inherit;background:var(--glass);color:var(--ink);font-size:13.5px;font-weight:700;display:flex;align-items:center;gap:8px;padding:14px 20px;border-radius:999px;backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);transition:background .15s" style-hover="background:var(--glass2)" style-active="background:var(--glass)" aria-label="Previous card">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="m15 18-6-6 6-6"></path></svg>
+        <span>Prev</span>
+      </button>
+      <button onClick="{{ goHome }}" style="border:none;cursor:pointer;font-family:inherit;background:var(--acc);color:#fff;width:56px;height:56px;border-radius:50%;display:flex;align-items:center;justify-content:center;box-shadow:0 8px 24px color-mix(in oklab,var(--acc) 45%,transparent);transition:transform .15s" style-hover="transform:translateY(-1px)" style-active="transform:translateY(1px)" aria-label="Home">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="m3 10 9-7 9 7v10a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path></svg>
+      </button>
+      <button onClick="{{ next }}" style="border:1px solid var(--gbord);cursor:pointer;font-family:inherit;background:var(--glass);color:var(--ink);font-size:13.5px;font-weight:700;display:flex;align-items:center;gap:8px;padding:14px 20px;border-radius:999px;backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);transition:background .15s" style-hover="background:var(--glass2)" style-active="background:var(--glass)" aria-label="Next card">
+        <span>Next</span>
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"></path></svg>
+      </button>
+    </div>
+  </div>
+</div>
+</sc-if>
+
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{&quot;accent&quot;:{&quot;editor&quot;:&quot;color&quot;,&quot;default&quot;:&quot;#2a5ca8&quot;,&quot;options&quot;:[&quot;#ec3013&quot;,&quot;#2a5ca8&quot;,&quot;#1f6f5c&quot;,&quot;#7c3aed&quot;],&quot;tsType&quot;:&quot;string&quot;,&quot;section&quot;:&quot;Theme&quot;},&quot;darkMode&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:false,&quot;tsType&quot;:&quot;boolean&quot;,&quot;section&quot;:&quot;Theme&quot;}}">
+class Component extends DCLogic {
+  state = { screen: 'home', cat: 0, idx: 0, shown: false, swipe: null, hidden: (() => { try { return JSON.parse(localStorage.getItem('ec3-hidden') || '{}'); } catch (e) { return {}; } })() };
+  saveHidden(hidden) { try { localStorage.setItem('ec3-hidden', JSON.stringify(hidden)); } catch (e) {} }
+  // Flexible schema: the UI renders only the fields a card carries.
+  // types: explanation | grammar | comparison | conversation | collection
+  data = [
+    { name: 'Phrases', count: 120, icon: 'M7.9 20A9 9 0 1 0 4 16.1L2 22Z', icon2: '', cards: [
+      { title: 'Long time no see', type: 'explanation', level: 'A2',
+        meaning: 'A friendly greeting used when you meet someone you have not seen for a while.',
+        usage: 'Informal spoken English — friends and colleagues, not formal writing.',
+        examples: [{ sentence: '"Sarah! Long time no see — how have you been?"' }],
+        remember: 'It is a fixed phrase: never change the word order or the tense.' },
+      { title: "It's up to you", type: 'explanation', level: 'A2',
+        meaning: 'The decision is yours to make.',
+        usage: 'A polite way to hand a choice over to the other person, often after a suggestion or offer.',
+        examples: [{ sentence: '"We can eat in or order pizza — it\u2019s up to you."' }] },
+      { title: "I'm on my way", type: 'explanation', level: 'A1',
+        meaning: 'I have left and I am coming to you now.',
+        usage: 'Reassures someone who is waiting. Often shortened to "OMW" in text messages.',
+        examples: [{ sentence: '"Don\u2019t worry, I\u2019m on my way — see you in ten minutes."' }] },
+      { title: 'Never mind', type: 'explanation', level: 'A2',
+        meaning: 'Forget it; it is not important.',
+        usage: 'Withdraw something you said, or tell someone not to worry about a small problem.',
+        examples: [{ sentence: '"Never mind, I found my keys — they were in my coat."' }],
+        remember: 'Said with a sharp tone it can sound annoyed — keep it light.' } ] },
+    { name: 'Vocabulary', count: 250, icon: 'M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1 0-5H20', icon2: '', cards: [
+      { title: 'Opportunity', type: 'vocabulary', level: 'A2', ipa: '/\u02cc\u0252p.\u0259\u02c8tju\u02d0.n\u0259.ti/',
+        meaning: 'A situation that makes it possible to do something you want to do.',
+        usage: 'Countable: "an opportunity", "opportunities". Followed by "to + verb" or "for + noun".',
+        examples: [ { context: 'Job', sentence: '"This role is a great opportunity to lead a team."' }, { context: 'Business', sentence: '"The new market opens opportunities for growth."' } ],
+        remember: 'Don\u2019t confuse with "possibility" — an opportunity is a chance you can take.' },
+      { title: 'Meticulous', type: 'vocabulary', level: 'B2', ipa: '/m\u0259\u02c8t\u026ak.j\u0259.l\u0259s/',
+        meaning: 'Very careful and precise, paying great attention to detail.',
+        usage: 'Positive word for thorough work or people; stronger and more formal than "careful".',
+        examples: [{ context: 'Work', sentence: '"She kept meticulous records of every experiment."' }] },
+      { title: 'Resilient', type: 'vocabulary', level: 'B2', ipa: '/r\u026a\u02c8z\u026al.i.\u0259nt/',
+        meaning: 'Able to recover quickly from difficulties.',
+        usage: 'Used for people, materials, and systems. The noun form is "resilience".',
+        examples: [{ sentence: '"Kids are remarkably resilient — he was smiling again within an hour."' }] },
+      { title: 'Ambiguous', type: 'vocabulary', level: 'B2', ipa: '/\u00e6m\u02c8b\u026a\u0261.ju.\u0259s/',
+        meaning: 'Having more than one possible meaning; unclear.',
+        usage: 'Describes statements or situations open to interpretation.',
+        examples: [{ sentence: '"The ending of the film is deliberately ambiguous."' }],
+        remember: 'Not the same as "ambivalent", which means having mixed feelings.' } ] },
+    { name: 'Business English', count: 180, icon: 'M16 20V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16', icon2: 'M2 8a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2z', cards: [
+      { title: 'Touch base', type: 'explanation', level: 'B1',
+        meaning: 'To make brief contact to exchange updates.',
+        usage: 'Common in emails and meetings; informal but fully accepted at work.',
+        examples: [{ context: 'Email', sentence: '"Let\u2019s touch base on Friday before the client call."' }],
+        remember: 'Borrowed from baseball — you "touch base" briefly, you don\u2019t stay there.' },
+      { title: 'Move the needle', type: 'explanation', level: 'B2',
+        meaning: 'To make a noticeable, measurable difference.',
+        usage: 'When discussing impact on metrics or results; often negative: "it won\u2019t move the needle".',
+        examples: [{ context: 'Meeting', sentence: '"A small discount won\u2019t move the needle on quarterly sales."' }] },
+      { title: 'Circle back', type: 'explanation', level: 'B1',
+        meaning: 'To return to a topic or person later.',
+        usage: 'Postpones a discussion without dismissing it. Overuse sounds like corporate jargon.',
+        examples: [{ sentence: '"Good question — let me circle back once I have the numbers."' }] },
+      { title: 'Stakeholder', type: 'vocabulary', level: 'B2', ipa: '/\u02c8ste\u026ak\u02ccho\u028al.d\u0259r/',
+        meaning: 'Anyone with an interest in a project or its outcome.',
+        usage: 'Broader than "shareholder" — includes customers, employees, and partners.',
+        examples: [{ sentence: '"We need sign-off from every stakeholder before launch."' }] } ] },
+    { name: 'Idioms', count: 145, icon: 'M9.9 2.7 11.5 7a1 1 0 0 0 .6.6l4.3 1.6a1 1 0 0 1 0 1.8l-4.3 1.6a1 1 0 0 0-.6.6l-1.6 4.3a1 1 0 0 1-1.8 0l-1.6-4.3a1 1 0 0 0-.6-.6l-4.3-1.6a1 1 0 0 1 0-1.8l4.3-1.6a1 1 0 0 0 .6-.6l1.6-4.3a1 1 0 0 1 1.8 0Z', icon2: 'M19 15l.9 2.4L22.3 18.3l-2.4.9-.9 2.4-.9-2.4-2.4-.9 2.4-.9Z', cards: [
+      { title: 'Break the ice', type: 'explanation', level: 'B1',
+        meaning: 'To ease the tension when people first meet.',
+        usage: 'Parties, meetings, interviews — any first encounter.',
+        examples: [{ sentence: '"He told a joke to break the ice at the start of the interview."' }],
+        remember: 'An "icebreaker" is a game or question used for exactly this.' },
+      { title: 'Under the weather', type: 'explanation', level: 'B1',
+        meaning: 'Feeling slightly ill.',
+        usage: 'A gentle way to say you are unwell — perfect for calling in sick without details.',
+        examples: [{ sentence: '"I\u2019m a bit under the weather, so I\u2019ll work from home today."' }] },
+      { title: 'Piece of cake', type: 'explanation', level: 'A2',
+        meaning: 'Something very easy to do.',
+        usage: 'Informal; always singular. A close cousin of "a walk in the park".',
+        examples: [{ sentence: '"The test was a piece of cake — I finished in twenty minutes."' }] },
+      { title: 'Spill the beans', type: 'explanation', level: 'B1',
+        meaning: 'To reveal a secret, usually by accident.',
+        usage: 'The secret is often a surprise or a plan.',
+        examples: [{ sentence: '"Don\u2019t spill the beans about the party — it\u2019s a surprise!"' }],
+        remember: 'Similar to "let the cat out of the bag".' } ] },
+    { name: 'Grammar', count: 90, icon: 'M12 20h9', icon2: 'M16.5 3.5a2.1 2.1 0 0 1 3 3L7 19l-4 1 1-4Z', cards: [
+      { title: 'Past Perfect', type: 'grammar', level: 'B1',
+        meaning: 'Describes an action that happened before another action in the past.',
+        usage: 'Use it to put two past events in order. If the order is already clear, simple past is fine.',
+        formula: 'subject + had + past participle',
+        examples: [ { sentence: '"By the time we arrived, the film had already started."' }, { sentence: '"She had never flown before her trip to Japan."' } ],
+        remember: 'You need TWO past moments — with only one, use the simple past.' },
+      { title: 'Articles: a / an / the', type: 'grammar', level: 'A2',
+        meaning: '"A/an" introduces something new; "the" refers to something specific.',
+        usage: '"An" goes before vowel SOUNDS, not letters: an hour, a university. No article for general plurals.',
+        formula: 'a + consonant sound \u00b7 an + vowel sound \u00b7 the + known thing',
+        examples: [{ sentence: '"I saw a dog in the park. The dog was chasing a ball."' }] },
+      { title: 'Fewer vs. Less', type: 'comparison', level: 'B1',
+        comparison: { a: { name: 'Fewer', text: 'For countable nouns: fewer cars, fewer people, fewer meetings.' }, b: { name: 'Less', text: 'For uncountable nouns: less traffic, less time, less stress.' }, difference: 'If you can count it, use "fewer"; if you can\u2019t, use "less".' },
+        examples: [{ sentence: '"There are fewer meetings this week, so I have less stress."' }],
+        remember: 'Exception: measurements often take "less" — "less than 10 km".' },
+      { title: 'Borrow vs. Lend', type: 'comparison', level: 'A2',
+        comparison: { a: { name: 'Borrow', text: 'To TAKE something temporarily: you borrow FROM someone.' }, b: { name: 'Lend', text: 'To GIVE something temporarily: you lend TO someone.' }, difference: 'Same event, opposite directions — the taker borrows, the giver lends.' },
+        examples: [ { sentence: '"Can I borrow your pen?"' }, { sentence: '"Sure, I\u2019ll lend it to you."' } ],
+        remember: 'Never "borrow me your pen" — that\u2019s the giver\u2019s verb: "lend me your pen".' } ] },
+    { name: 'Pronunciation', count: 60, icon: 'M12 2a3 3 0 0 0-3 3v7a3 3 0 0 0 6 0V5a3 3 0 0 0-3-3Z', icon2: 'M19 10v2a7 7 0 0 1-14 0v-2', cards: [
+      { title: 'Thought', type: 'explanation', level: 'A2', ipa: '/\u03b8\u0254\u02d0t/',
+        meaning: 'The unvoiced "th" sound: tongue between the teeth, no voice.',
+        usage: 'Push air gently past your tongue tip. Compare "taught" /t\u0254\u02d0t/ — tongue behind the teeth.',
+        examples: [{ sentence: '"I thought about it all through Thursday."' }] },
+      { title: 'Comfortable', type: 'explanation', level: 'B1', ipa: '/\u02c8k\u028cmf.t\u0259.b\u0259l/',
+        meaning: 'Three syllables, not four: COMF-tuh-bul.',
+        usage: 'The "or" almost disappears in natural speech. Stress stays on the first syllable.',
+        examples: [{ sentence: '"This chair is really comfortable."' }],
+        remember: 'Same pattern as "vegetable" and "interesting" — a written syllable drops out.' },
+      { title: 'World', type: 'explanation', level: 'A2', ipa: '/w\u025c\u02d0ld/',
+        meaning: 'One syllable, with a dark "l" before the "d".',
+        usage: 'Say "were" then close with "ld" — avoid adding a vowel: not "wor-eld".',
+        examples: [{ sentence: '"She travelled around the world in a year."' }] } ] },
+    { name: 'Situations', count: 75, icon: 'M17 6.1H3a2 2 0 0 0-2 2V15a2 2 0 0 0 2 2h1v3l4-3h9a2 2 0 0 0 2-2V8.1a2 2 0 0 0-2-2Z', icon2: 'M21 3h-7a1 1 0 0 0-1 1v1', cards: [
+      { title: 'At the Restaurant', type: 'conversation', level: 'A2',
+        situation: 'You are ordering dinner at a casual restaurant. The waiter comes to your table.',
+        conversation: [ { speaker: 'WAITER', line: 'Good evening! Are you ready to order?' }, { speaker: 'YOU', line: 'Almost — could I see the menu again, please?' }, { speaker: 'WAITER', line: 'Of course. Today\u2019s special is grilled salmon.' }, { speaker: 'YOU', line: 'That sounds great. I\u2019ll have the salmon, please.' } ],
+        list: { label: 'KEY EXPRESSIONS', items: ['Could I see the menu, please?', 'I\u2019ll have\u2026 / I\u2019d like\u2026', 'What do you recommend?', 'Could we get the bill, please?'] },
+        remember: '"I\u2019ll have\u2026" is the most natural way to order — more common than "I want\u2026".' },
+      { title: 'Checking In at a Hotel', type: 'conversation', level: 'A2',
+        situation: 'You arrive at a hotel where you booked a room online.',
+        conversation: [ { speaker: 'RECEPTIONIST', line: 'Welcome! Do you have a reservation?' }, { speaker: 'YOU', line: 'Yes, a double room under the name Tanaka.' }, { speaker: 'RECEPTIONIST', line: 'Found it. May I see your passport, please?' }, { speaker: 'YOU', line: 'Here you go. What time is breakfast served?' } ],
+        list: { label: 'KEY EXPRESSIONS', items: ['I have a reservation under\u2026', 'What time is check-out?', 'Could I have a wake-up call?'] } },
+      { title: 'Travel Essentials', type: 'collection', level: 'A1',
+        list: { label: 'USEFUL EXPRESSIONS', items: ['Excuse me, where is the station?', 'How much does this cost?', 'Do you take credit cards?', 'Could you speak more slowly, please?', 'Can you help me? I\u2019m lost.'] },
+        remember: 'Start every request with "Excuse me" or "Could you\u2026" — politeness opens doors.' },
+      { title: 'Small Talk Starters', type: 'collection', level: 'B1',
+        list: { label: 'USEFUL EXPRESSIONS', items: ['How was your weekend?', 'Busy day today, isn\u2019t it?', 'Have you worked here long?', 'Any plans for the holidays?'] },
+        remember: 'Follow up with a related question — small talk dies without a second turn.' } ] }
+  ];
+  stepVisible(st, dir) {
+    const cards = this.data[st.cat].cards;
+    const visible = cards.map((c, i) => i).filter(i => !st.hidden[st.cat + ':' + i]);
+    if (!visible.length) return st.idx;
+    let pos = visible.indexOf(st.idx);
+    if (pos === -1) pos = 0; else pos = (pos + dir + visible.length) % visible.length;
+    return visible[pos];
+  }
+  componentDidMount() { this.applyTheme(); }
+  componentDidUpdate() { this.applyTheme(); }
+  applyTheme() {
+    const dark = this.props.darkMode ?? false;
+    const r = document.documentElement.style;
+    r.setProperty('--acc', this.props.accent ?? '#ec3013');
+    if (dark) {
+      r.setProperty('--ink', '#f0edea'); r.setProperty('--sub', '#a9a29a'); r.setProperty('--ground', '#1b1917');
+      r.setProperty('--glass', 'rgba(255,255,255,.08)'); r.setProperty('--glass2', 'rgba(255,255,255,.13)');
+      r.setProperty('--gbord', 'rgba(255,255,255,.18)'); r.setProperty('--gshadow', '0 10px 34px rgba(0,0,0,.4)');
+    } else {
+      r.setProperty('--ink', '#201e1d'); r.setProperty('--sub', '#6d675f'); r.setProperty('--ground', '#edeae5');
+      r.setProperty('--glass', 'rgba(255,255,255,.42)'); r.setProperty('--glass2', 'rgba(255,255,255,.55)');
+      r.setProperty('--gbord', 'rgba(255,255,255,.65)'); r.setProperty('--gshadow', '0 10px 34px rgba(32,30,29,.14)');
+    }
+  }
+  renderVals() {
+    const s = this.state;
+    const TYPE_LABELS = { explanation: 'PHRASE', vocabulary: 'VOCABULARY', grammar: 'GRAMMAR', comparison: 'COMPARISON', conversation: 'CONVERSATION', collection: 'COLLECTION' };
+    const categories = this.data.map((c, i) => ({
+      name: c.name, countLabel: c.count + ' Cards', icon: c.icon, icon2: c.icon2,
+      open: () => this.setState({ screen: 'list', cat: i, idx: 0, shown: false })
+    }));
+    const cat = this.data[s.cat];
+    const card = cat.cards[s.idx];
+    const n = cat.cards.length;
+    const comp = card.comparison;
+    const metaOf = (c) => (TYPE_LABELS[c.type] || c.type.toUpperCase()) + (c.level ? ' \u2022 ' + c.level : '');
+    return {
+      isHome: s.screen === 'home',
+      isList: s.screen === 'list',
+      isLearn: s.screen === 'learn',
+      categories,
+      catName: cat.name,
+      catCountLabel: cat.count + ' cards',
+      listCards: cat.cards.map((c, i) => ({ c, i })).filter(x => !s.hidden[s.cat + ':' + x.i]).map(x => {
+        const key = s.cat + ':' + x.i;
+        const sw = s.swipe;
+        const tx = sw && sw.key === key ? sw.dx : 0;
+        return {
+          num: String(x.i + 1).padStart(2, '0'), title: x.c.title, meta: metaOf(x.c),
+          tfm: 'translateX(' + tx + 'px)',
+          trans: sw && sw.key === key && sw.drag ? 'none' : 'transform .22s ease',
+          showAction: tx < 0,
+          pd: (e) => {
+            const cur = (this.state.swipe && this.state.swipe.key === key) ? this.state.swipe.dx : 0;
+            this._drag = { key, x0: e.clientX, base: cur };
+            this._moved = false;
+            try { e.currentTarget.setPointerCapture(e.pointerId); } catch (err) {}
+          },
+          pm: (e) => {
+            const d = this._drag; if (!d || d.key !== key) return;
+            const raw = e.clientX - d.x0;
+            if (Math.abs(raw) > 6) this._moved = true;
+            let dx = d.base + raw;
+            if (dx > 0) dx = 0; if (dx < -120) dx = -120;
+            this.setState({ swipe: { key, dx, drag: true } });
+          },
+          pu: () => {
+            const d = this._drag; if (!d || d.key !== key) return;
+            this._drag = null;
+            const sw2 = this.state.swipe;
+            const dx = sw2 && sw2.key === key ? sw2.dx : 0;
+            if (dx < -48) this.setState({ swipe: { key, dx: -96, drag: false } });
+            else this.setState({ swipe: null });
+          },
+          open: () => {
+            if (this._moved) { this._moved = false; return; }
+            const sw2 = this.state.swipe;
+            if (sw2 && sw2.key === key && sw2.dx < 0) { this.setState({ swipe: null }); return; }
+            this.setState({ screen: 'learn', idx: x.i, shown: false, swipe: null });
+          },
+          hideNow: () => this.setState(st => {
+            const hidden = { ...st.hidden, [key]: true };
+            this.saveHidden(hidden); return { hidden, swipe: null };
+          })
+        };
+      }),
+      hasHidden: Object.keys(s.hidden).some(k => k.indexOf(s.cat + ':') === 0),
+      hiddenLabel: Object.keys(s.hidden).filter(k => k.indexOf(s.cat + ':') === 0).length + ' card(s) hidden from this list',
+      unhideAll: () => this.setState(st => {
+        const hidden = {};
+        Object.keys(st.hidden).forEach(k => { if (k.indexOf(st.cat + ':') !== 0) hidden[k] = st.hidden[k]; });
+        this.saveHidden(hidden); return { hidden };
+      }),
+      goList: () => this.setState({ screen: 'list', shown: false }),
+      cardNo: 'CARD ' + String(s.idx + 1).padStart(3, '0'),
+      word: card.title,
+      cardMeta: metaOf(card),
+      typeLabel: TYPE_LABELS[card.type] || card.type.toUpperCase(),
+      hasLevel: !!card.level, level: card.level || '',
+      hasIpa: !!card.ipa, ipa: card.ipa || '',
+      hasMeaning: !!card.meaning, meaning: card.meaning || '',
+      meaningLabel: card.type === 'grammar' ? 'DEFINITION' : 'MEANING',
+      hasUsage: !!card.usage, usage: card.usage || '',
+      hasFormula: !!card.formula, formula: card.formula || '',
+      hasComparison: !!comp,
+      compAName: comp ? comp.a.name : '', compAText: comp ? comp.a.text : '',
+      compBName: comp ? comp.b.name : '', compBText: comp ? comp.b.text : '',
+      difference: comp ? comp.difference : '',
+      hasSituation: !!card.situation, situation: card.situation || '',
+      hasConversation: !!card.conversation,
+      conversation: (card.conversation || []).map((t, i2) => ({ speaker: t.speaker, line: t.line, isA: i2 % 2 === 0, isB: i2 % 2 === 1 })),
+      hasList: !!card.list, listLabel: card.list ? card.list.label : '', listItems: card.list ? card.list.items.map(t => ({ text: t })) : [],
+      hasExamples: !!(card.examples && card.examples.length),
+      examples: (card.examples || []).map(e => ({ sentence: e.sentence, context: e.context || '', hasContext: !!e.context })),
+      hasRemember: !!card.remember, remember: card.remember || '',
+      shown: s.shown, hidden: !s.shown,
+      toggleDetails: () => this.setState(st => ({ shown: !st.shown })),
+      prev: () => this.setState(st => ({ idx: this.stepVisible(st, -1), shown: false })),
+      next: () => this.setState(st => ({ idx: this.stepVisible(st, 1), shown: false })),
+      goHome: () => this.setState({ screen: 'home', shown: false })
+    };
+  }
+}
+</script>
+</body>
+</html>

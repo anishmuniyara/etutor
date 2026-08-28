@@ -1,0 +1,391 @@
+[
+  {
+    "id": "borrow-vs-lend",
+    "term": "Borrow vs Lend",
+    "level": "A2",
+    "meaning": "Two sides of the same transaction, seen from opposite directions.",
+    "items": [
+      { "term": "Borrow", "meaning": "To TAKE something temporarily. You borrow FROM someone." },
+      { "term": "Lend", "meaning": "To GIVE something temporarily. You lend TO someone." }
+    ],
+    "difference": "The person receiving borrows; the person giving lends.",
+    "examples": [
+      { "context": "Borrow", "sentence": "Can I borrow your pen?" },
+      { "context": "Lend", "sentence": "Sure, I'll lend it to you." },
+      { "context": "Money", "sentence": "I borrowed money from the bank, and the bank lent it to me." }
+    ],
+    "remember": [
+      "'Borrow me your pen' is wrong. The giver's verb is 'lend': 'lend me your pen'."
+    ]
+  },
+  {
+    "id": "say-vs-tell",
+    "term": "Say vs Tell",
+    "level": "A2",
+    "meaning": "Both report speech, but they take different grammar.",
+    "items": [
+      { "term": "Say", "meaning": "Focuses on the words. Does not take a person directly after it." },
+      { "term": "Tell", "meaning": "Focuses on the listener. Needs a person straight after it." }
+    ],
+    "difference": "You say something; you tell someone something.",
+    "examples": [
+      { "context": "Say", "sentence": "She said she was tired." },
+      { "context": "Tell", "sentence": "She told me she was tired." },
+      { "context": "With to", "sentence": "She said to me that she was tired." }
+    ],
+    "remember": [
+      "'She told that she was tired' and 'she said me' are both wrong. Tell needs a person; say does not take one without 'to'."
+    ]
+  },
+  {
+    "id": "look-see-watch",
+    "term": "Look vs See vs Watch",
+    "level": "A2",
+    "meaning": "Three verbs about the eyes, separated by intention and duration.",
+    "items": [
+      { "term": "See", "meaning": "Your eyes receive an image. No effort involved." },
+      { "term": "Look", "meaning": "You deliberately direct your eyes at something." },
+      { "term": "Watch", "meaning": "You look at something over a period of time, usually because it moves or changes." }
+    ],
+    "difference": "See happens to you; look is a choice; watch is a choice that continues.",
+    "examples": [
+      { "context": "See", "sentence": "I saw your brother at the market." },
+      { "context": "Look", "sentence": "Look at this photo." },
+      { "context": "Watch", "sentence": "We watched the match at my place." }
+    ],
+    "remember": [
+      "You watch television but see a film at the cinema. Fixed usage, worth memorising as a pair."
+    ]
+  },
+  {
+    "id": "affect-vs-effect",
+    "term": "Affect vs Effect",
+    "level": "B1",
+    "meaning": "Nearly identical in sound, different in job.",
+    "items": [
+      { "term": "Affect", "meaning": "Usually a verb: to influence something." },
+      { "term": "Effect", "meaning": "Usually a noun: the result of an influence." }
+    ],
+    "difference": "Affect is the action; effect is the outcome.",
+    "examples": [
+      { "context": "Affect", "sentence": "The delay affected our whole schedule." },
+      { "context": "Effect", "sentence": "The delay had a serious effect on our schedule." }
+    ],
+    "remember": [
+      "A for Action (affect), E for End result (effect) covers almost every case you will meet.",
+      "'Effect' can be a verb meaning 'bring about' — 'to effect change' — but it is rare and formal."
+    ]
+  },
+  {
+    "id": "make-vs-do",
+    "term": "Make vs Do",
+    "level": "A2",
+    "meaning": "Two very common verbs divided mostly by convention.",
+    "items": [
+      { "term": "Make", "meaning": "To create or produce something that did not exist before." },
+      { "term": "Do", "meaning": "To perform an action, a task, or work in general." }
+    ],
+    "difference": "Make produces a result you can point to; do performs an activity.",
+    "examples": [
+      { "context": "Make", "sentence": "She made dinner and made a few phone calls." },
+      { "context": "Do", "sentence": "I need to do the washing and do my homework." },
+      { "context": "Business", "sentence": "They do business together and make a good profit." }
+    ],
+    "remember": [
+      "Many pairings are fixed and must be learned: make a decision, make a mistake, do a favour, do your best."
+    ]
+  },
+  {
+    "id": "fewer-vs-less",
+    "term": "Fewer vs Less",
+    "level": "B1",
+    "meaning": "Both mean 'a smaller amount', but they attach to different kinds of noun.",
+    "items": [
+      { "term": "Fewer", "meaning": "For things you can count: fewer cars, fewer people, fewer meetings." },
+      { "term": "Less", "meaning": "For things you cannot count: less traffic, less time, less stress." }
+    ],
+    "difference": "If you can count it, use fewer; if you can't, use less.",
+    "examples": [
+      { "context": "Countable", "sentence": "There are fewer meetings this week." },
+      { "context": "Uncountable", "sentence": "So I have less stress." }
+    ],
+    "remember": [
+      "Measurements are the exception and take 'less': less than ten kilometres, less than five pounds."
+    ]
+  },
+  {
+    "id": "bring-vs-take",
+    "term": "Bring vs Take",
+    "level": "A2",
+    "meaning": "Both move something, but in opposite directions relative to the speaker.",
+    "items": [
+      { "term": "Bring", "meaning": "Move something towards where the speaker is." },
+      { "term": "Take", "meaning": "Move something away from where the speaker is." }
+    ],
+    "difference": "Bring is towards me; take is away from me.",
+    "examples": [
+      { "context": "Bring", "sentence": "Can you bring the documents to my office?" },
+      { "context": "Take", "sentence": "Take these documents to Anita's office." }
+    ],
+    "remember": [
+      "'Bring an umbrella' said by a host means bring it here. 'Take an umbrella' means take it with you when you go."
+    ]
+  },
+  {
+    "id": "remember-vs-remind",
+    "term": "Remember vs Remind",
+    "level": "B1",
+    "meaning": "One is something you do; the other is something you do to someone else.",
+    "items": [
+      { "term": "Remember", "meaning": "To keep or recall something in your own mind." },
+      { "term": "Remind", "meaning": "To make someone else remember." }
+    ],
+    "difference": "You remember by yourself; someone reminds you.",
+    "examples": [
+      { "context": "Remember", "sentence": "I remembered to lock the door." },
+      { "context": "Remind", "sentence": "Please remind me to lock the door." }
+    ],
+    "remember": [
+      "'Remind me the meeting' is wrong. Use 'remind me about the meeting' or 'remind me to attend'."
+    ]
+  },
+  {
+    "id": "its-vs-it-is",
+    "term": "Its vs It's",
+    "level": "A2",
+    "meaning": "One shows possession, the other is a contraction.",
+    "items": [
+      { "term": "Its", "meaning": "Belonging to it. No apostrophe, like 'his' and 'her'." },
+      { "term": "It's", "meaning": "Short for 'it is' or 'it has'." }
+    ],
+    "difference": "If you can replace it with 'it is', use the apostrophe. Otherwise don't.",
+    "examples": [
+      { "context": "Possession", "sentence": "The company changed its name." },
+      { "context": "Contraction", "sentence": "It's been a long day." }
+    ],
+    "remember": [
+      "This is the single most common punctuation error in written English. The test takes one second: try saying 'it is'."
+    ]
+  },
+  {
+    "id": "advice-vs-advise",
+    "term": "Advice vs Advise",
+    "level": "B1",
+    "meaning": "The noun and the verb, spelt and pronounced differently.",
+    "items": [
+      { "term": "Advice", "meaning": "The noun: an opinion about what someone should do. Ends in an 's' sound." },
+      { "term": "Advise", "meaning": "The verb: to give advice. Ends in a 'z' sound." }
+    ],
+    "difference": "You give advice; you advise someone.",
+    "examples": [
+      { "context": "Noun", "sentence": "Can I ask your advice about something?" },
+      { "context": "Verb", "sentence": "I'd advise waiting until Monday." }
+    ],
+    "remember": [
+      "'Advice' is uncountable: say 'some advice' or 'a piece of advice', never 'an advice'."
+    ]
+  },
+  {
+    "id": "travel-trip-journey",
+    "term": "Travel vs Trip vs Journey",
+    "level": "B1",
+    "meaning": "Three words about going somewhere, at different scales.",
+    "items": [
+      { "term": "Travel", "meaning": "Usually a verb, or an uncountable noun for the general activity." },
+      { "term": "Trip", "meaning": "A countable visit somewhere, including the return." },
+      { "term": "Journey", "meaning": "The act of getting from one place to another." }
+    ],
+    "difference": "Travel is the activity, a trip is the whole visit, a journey is the movement itself.",
+    "examples": [
+      { "context": "Travel", "sentence": "I travel for work about once a month." },
+      { "context": "Trip", "sentence": "We took a trip to Goa last year." },
+      { "context": "Journey", "sentence": "The journey there takes six hours." }
+    ],
+    "remember": [
+      "'A travel' is not English. Use 'a trip' or 'a journey' when you need a countable noun."
+    ]
+  },
+  {
+    "id": "economic-vs-economical",
+    "term": "Economic vs Economical",
+    "level": "B2",
+    "meaning": "One relates to the economy; the other means good value.",
+    "items": [
+      { "term": "Economic", "meaning": "Connected with the economy, trade, or money at a large scale." },
+      { "term": "Economical", "meaning": "Not wasteful; cheap to run." }
+    ],
+    "difference": "Economic describes the subject; economical describes the saving.",
+    "examples": [
+      { "context": "Economic", "sentence": "The economic outlook has improved." },
+      { "context": "Economical", "sentence": "It's a small, economical car." }
+    ],
+    "remember": [
+      "'Economical with the truth' is a well-known way of saying someone is not being fully honest."
+    ]
+  },
+  {
+    "id": "sensible-vs-sensitive",
+    "term": "Sensible vs Sensitive",
+    "level": "B1",
+    "meaning": "Two adjectives about people, often confused by learners.",
+    "items": [
+      { "term": "Sensible", "meaning": "Practical and showing good judgement." },
+      { "term": "Sensitive", "meaning": "Easily affected emotionally, or aware of others' feelings." }
+    ],
+    "difference": "Sensible is about judgement; sensitive is about feeling.",
+    "examples": [
+      { "context": "Sensible", "sentence": "That's a sensible decision." },
+      { "context": "Sensitive", "sentence": "He's quite sensitive about his accent." },
+      { "context": "Positive", "sentence": "She's very sensitive to how others are feeling." }
+    ],
+    "remember": [
+      "In many European languages the word that looks like 'sensible' actually means 'sensitive'. This trips up a lot of learners."
+    ]
+  },
+  {
+    "id": "lay-vs-lie",
+    "term": "Lay vs Lie",
+    "level": "B2",
+    "meaning": "One takes an object, the other doesn't.",
+    "items": [
+      { "term": "Lay", "meaning": "To put something down. Always needs an object: lay, laid, laid." },
+      { "term": "Lie", "meaning": "To be in a horizontal position. No object: lie, lay, lain." }
+    ],
+    "difference": "You lay something down; you lie down yourself.",
+    "examples": [
+      { "context": "Lay", "sentence": "Lay the book on the table." },
+      { "context": "Lie", "sentence": "I'm going to lie down for an hour." }
+    ],
+    "remember": [
+      "The confusion is real: the past tense of 'lie' is 'lay'. 'Yesterday I lay down' is correct."
+    ]
+  },
+  {
+    "id": "during-vs-while",
+    "term": "During vs While",
+    "level": "B1",
+    "meaning": "Both mark something happening at the same time as something else, with different grammar.",
+    "items": [
+      { "term": "During", "meaning": "A preposition. Followed by a noun." },
+      { "term": "While", "meaning": "A conjunction. Followed by a subject and a verb." }
+    ],
+    "difference": "During takes a thing; while takes a clause.",
+    "examples": [
+      { "context": "During", "sentence": "He fell asleep during the film." },
+      { "context": "While", "sentence": "He fell asleep while we were watching the film." }
+    ],
+    "remember": [
+      "'During I was watching' is wrong. If a subject and verb follow, you need 'while'."
+    ]
+  },
+  {
+    "id": "expect-vs-wait",
+    "term": "Expect vs Wait for",
+    "level": "B1",
+    "meaning": "One is a belief about the future; the other is what you physically do.",
+    "items": [
+      { "term": "Expect", "meaning": "To believe something will happen or someone will arrive." },
+      { "term": "Wait for", "meaning": "To stay somewhere until something happens." }
+    ],
+    "difference": "You can expect something without waiting, and wait without expecting.",
+    "examples": [
+      { "context": "Expect", "sentence": "I'm expecting a delivery this afternoon." },
+      { "context": "Wait", "sentence": "I waited for the delivery all afternoon." }
+    ],
+    "remember": [
+      "'Wait' almost always needs 'for' before a person or thing: 'wait for me', not 'wait me'."
+    ]
+  },
+  {
+    "id": "job-vs-work",
+    "term": "Job vs Work",
+    "level": "A2",
+    "meaning": "One is a position, the other is the activity.",
+    "items": [
+      { "term": "Job", "meaning": "Countable. The specific position you hold." },
+      { "term": "Work", "meaning": "Uncountable. The activity, or the place you go to do it." }
+    ],
+    "difference": "You have a job; you do work.",
+    "examples": [
+      { "context": "Job", "sentence": "She got a new job in Bangalore." },
+      { "context": "Work", "sentence": "I have a lot of work this week." },
+      { "context": "Place", "sentence": "I'll call you when I get to work." }
+    ],
+    "remember": [
+      "'A work' is wrong when you mean employment. 'Works' as a plural noun means something quite different — a factory, or an artist's output."
+    ]
+  },
+  {
+    "id": "beside-vs-besides",
+    "term": "Beside vs Besides",
+    "level": "B2",
+    "meaning": "One letter apart, and completely different in meaning.",
+    "items": [
+      { "term": "Beside", "meaning": "Next to; at the side of." },
+      { "term": "Besides", "meaning": "In addition to; also. Often introduces an extra argument." }
+    ],
+    "difference": "Beside is a position; besides adds something.",
+    "examples": [
+      { "context": "Beside", "sentence": "She sat beside me at dinner." },
+      { "context": "Besides", "sentence": "Besides the cost, there's the time to consider." },
+      { "context": "Argument", "sentence": "It's late. Besides, I'm tired." }
+    ],
+    "remember": [
+      "'Beside the point' is a fixed phrase meaning irrelevant — note that it takes the position word, not 'besides'."
+    ]
+  },
+  {
+    "id": "historic-vs-historical",
+    "term": "Historic vs Historical",
+    "level": "C1",
+    "meaning": "One means important; the other simply means old.",
+    "items": [
+      { "term": "Historic", "meaning": "Important enough to be remembered in history." },
+      { "term": "Historical", "meaning": "Relating to the past, without any judgement of importance." }
+    ],
+    "difference": "Historic events matter; historical events merely happened.",
+    "examples": [
+      { "context": "Historic", "sentence": "It was a historic election." },
+      { "context": "Historical", "sentence": "She writes historical novels." }
+    ],
+    "remember": [
+      "Every historic event is historical, but very few historical events are historic."
+    ]
+  },
+  {
+    "id": "compliment-vs-complement",
+    "term": "Compliment vs Complement",
+    "level": "B2",
+    "meaning": "Same pronunciation, different spelling and meaning.",
+    "items": [
+      { "term": "Compliment", "meaning": "A remark praising someone." },
+      { "term": "Complement", "meaning": "Something that completes or improves another thing." }
+    ],
+    "difference": "A compliment is praise; a complement is a good match.",
+    "examples": [
+      { "context": "Compliment", "sentence": "He paid her a compliment on the presentation." },
+      { "context": "Complement", "sentence": "The wine complements the fish beautifully." }
+    ],
+    "remember": [
+      "Complement contains 'complete' — that spelling link is the easiest way to keep them apart."
+    ]
+  },
+  {
+    "id": "principal-vs-principle",
+    "term": "Principal vs Principle",
+    "level": "B2",
+    "meaning": "One means main or a head teacher; the other means a rule or belief.",
+    "items": [
+      { "term": "Principal", "meaning": "Main or most important; also the head of a school." },
+      { "term": "Principle", "meaning": "A fundamental rule, belief, or law." }
+    ],
+    "difference": "Principal describes importance; a principle is a belief.",
+    "examples": [
+      { "context": "Principal", "sentence": "The principal reason for the delay was funding." },
+      { "context": "Principle", "sentence": "He refused on principle." }
+    ],
+    "remember": [
+      "The principal is your 'pal' — the old classroom trick, and it still works."
+    ]
+  }
+]

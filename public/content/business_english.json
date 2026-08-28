@@ -1,0 +1,333 @@
+[
+  {
+    "id": "follow-up",
+    "term": "Follow up",
+    "level": "B1",
+    "businessCategory": "Communication",
+    "meaning": "To contact someone again about something already discussed.",
+    "usage": "Use it when chasing a reply or checking that an agreed action happened, without accusing anyone of forgetting.",
+    "examples": [
+      { "context": "Email", "sentence": "I'm following up on my email from last week." },
+      { "context": "Meeting", "sentence": "I'll follow up with the team tomorrow." },
+      { "context": "Sales", "sentence": "Let's follow up with them after the trial ends." }
+    ],
+    "remember": [
+      "Two words as a verb ('I'll follow up'), hyphenated as a noun or adjective ('a follow-up email')."
+    ]
+  },
+  {
+    "id": "circle-back",
+    "term": "Circle back",
+    "level": "B1",
+    "businessCategory": "Meetings",
+    "meaning": "To return to a topic later.",
+    "usage": "Use it to postpone a discussion without dismissing it, usually because you need information you do not have yet.",
+    "examples": [
+      { "context": "Meeting", "sentence": "Good question — let me circle back once I have the numbers." },
+      { "context": "Email", "sentence": "I'll circle back on pricing next week." }
+    ],
+    "remember": [
+      "Overused, it becomes empty jargon and can sound like a polite refusal. Give a real date when you can."
+    ]
+  },
+  {
+    "id": "touch-base",
+    "term": "Touch base",
+    "level": "B1",
+    "businessCategory": "Communication",
+    "meaning": "To make brief contact to exchange updates.",
+    "usage": "Use it for a short catch-up, not a full meeting. Common when proposing a quick call.",
+    "examples": [
+      { "context": "Email", "sentence": "Let's touch base on Friday before the client call." },
+      { "context": "Work", "sentence": "I touched base with legal — they're happy with the wording." }
+    ],
+    "remember": [
+      "From baseball: you touch the base briefly, you do not stay there. It implies a short conversation."
+    ]
+  },
+  {
+    "id": "keep-me-posted",
+    "term": "Keep me posted",
+    "level": "B1",
+    "businessCategory": "Communication",
+    "meaning": "Keep giving me updates as things develop.",
+    "usage": "Use it when handing something over but wanting to stay informed. Friendlier than asking for a formal report.",
+    "examples": [
+      { "context": "Work", "sentence": "You handle the vendor call — just keep me posted." },
+      { "context": "Email", "sentence": "Keep me posted on any change to the timeline." }
+    ],
+    "remember": [
+      "'Keep me in the loop' means the same thing and is equally common."
+    ]
+  },
+  {
+    "id": "escalate",
+    "term": "Escalate",
+    "level": "B2",
+    "businessCategory": "Project Management",
+    "meaning": "To raise an issue to someone more senior so it gets resolved.",
+    "usage": "Use it when a problem cannot be solved at your level. It is a neutral process word, not an accusation.",
+    "examples": [
+      { "context": "Support", "sentence": "If it isn't fixed by Friday, we'll escalate to the account manager." },
+      { "context": "Project", "sentence": "I had to escalate the blocker to the steering group." }
+    ],
+    "remember": [
+      "Escalating is about the level of decision-making, not about complaining. Say what decision you need, not just what is wrong."
+    ]
+  },
+  {
+    "id": "deadline",
+    "term": "Deadline",
+    "level": "A2",
+    "businessCategory": "Project Management",
+    "meaning": "The latest time by which something must be finished.",
+    "usage": "Use it for the fixed end point of a task. 'Meet', 'miss', 'extend', and 'push back' are the verbs that go with it.",
+    "examples": [
+      { "context": "Work", "sentence": "The deadline for submissions is Friday at noon." },
+      { "context": "Email", "sentence": "Can we push the deadline back by two days?" },
+      { "context": "Team", "sentence": "We met the deadline with an hour to spare." }
+    ],
+    "remember": [
+      "'Push back' a deadline means make it later; 'bring forward' means make it earlier. Confusing these causes real problems."
+    ]
+  },
+  {
+    "id": "bandwidth",
+    "term": "Bandwidth",
+    "level": "B2",
+    "businessCategory": "Project Management",
+    "meaning": "The time and capacity someone has available for more work.",
+    "usage": "Use it to decline or accept extra work based on your workload, without listing everything you are doing.",
+    "examples": [
+      { "context": "Work", "sentence": "I don't have the bandwidth to take that on this month." },
+      { "context": "Planning", "sentence": "Do we have the bandwidth for a second pilot?" }
+    ],
+    "remember": [
+      "Borrowed from networking. It sounds natural in tech and consulting, and slightly odd in more traditional industries."
+    ]
+  },
+  {
+    "id": "action-item",
+    "term": "Action item",
+    "level": "B1",
+    "businessCategory": "Meetings",
+    "meaning": "A specific task assigned to someone during a meeting.",
+    "usage": "Use it when summarising what a meeting decided. Every action item should have an owner and a date.",
+    "examples": [
+      { "context": "Meeting", "sentence": "Let's capture that as an action item for Ravi." },
+      { "context": "Email", "sentence": "Three action items came out of today's call." }
+    ],
+    "remember": [
+      "An action item without a named owner is not really an action item — it is a wish."
+    ]
+  },
+  {
+    "id": "align",
+    "term": "Align",
+    "level": "B2",
+    "businessCategory": "Meetings",
+    "meaning": "To bring people or plans into agreement.",
+    "usage": "Use it about getting different teams to a shared position before committing to something.",
+    "examples": [
+      { "context": "Meeting", "sentence": "Let's align on the scope before we talk to the client." },
+      { "context": "Strategy", "sentence": "The two roadmaps aren't aligned." }
+    ],
+    "remember": [
+      "'Let's align' can be a soft way of saying 'we currently disagree'. Notice it when you hear it."
+    ]
+  },
+  {
+    "id": "take-it-offline",
+    "term": "Take it offline",
+    "level": "B2",
+    "businessCategory": "Meetings",
+    "meaning": "To discuss something separately rather than in the current meeting.",
+    "usage": "Use it to park a detailed side topic that is only relevant to two people, so the meeting can move on.",
+    "examples": [
+      { "context": "Meeting", "sentence": "That's a detail for the two of us — let's take it offline." },
+      { "context": "Call", "sentence": "Good question, but let's take it offline and report back." }
+    ],
+    "remember": [
+      "Nothing to do with the internet: it means 'outside this meeting', even if that discussion happens online."
+    ]
+  },
+  {
+    "id": "stakeholder",
+    "term": "Stakeholder",
+    "level": "B2",
+    "businessCategory": "Project Management",
+    "meaning": "Anyone with an interest in a project or its outcome.",
+    "usage": "Use it when identifying who needs to be consulted or informed — internal teams, customers, partners, regulators.",
+    "examples": [
+      { "context": "Project", "sentence": "We need sign-off from every stakeholder before launch." },
+      { "context": "Planning", "sentence": "Let's map the stakeholders first." }
+    ],
+    "remember": [
+      "Broader than 'shareholder', which only means someone who owns part of the company."
+    ]
+  },
+  {
+    "id": "sign-off",
+    "term": "Sign-off",
+    "level": "B2",
+    "businessCategory": "Project Management",
+    "meaning": "Formal approval to go ahead.",
+    "usage": "Use it about the final yes from whoever has authority. It marks the point after which work can begin or ship.",
+    "examples": [
+      { "context": "Project", "sentence": "We're waiting on sign-off from finance." },
+      { "context": "Email", "sentence": "Could you sign off on the budget by Thursday?" }
+    ],
+    "remember": [
+      "Hyphenated as a noun ('the sign-off'), two words as a verb ('please sign off on it')."
+    ]
+  },
+  {
+    "id": "ballpark-figure",
+    "term": "Ballpark figure",
+    "level": "B2",
+    "businessCategory": "Negotiation",
+    "meaning": "A rough estimate, accurate enough to work with.",
+    "usage": "Use it when someone needs an approximate number quickly and a precise one is not available yet.",
+    "examples": [
+      { "context": "Negotiation", "sentence": "Can you give me a ballpark figure for the whole project?" },
+      { "context": "Meeting", "sentence": "As a ballpark, we're looking at eight to ten weeks." }
+    ],
+    "remember": [
+      "Always make clear it is an estimate. People remember ballpark numbers as if they were commitments."
+    ]
+  },
+  {
+    "id": "get-back-to-you",
+    "term": "Get back to you",
+    "level": "A2",
+    "businessCategory": "Communication",
+    "meaning": "To reply later with an answer.",
+    "usage": "Use it when you cannot answer immediately. It is the professional alternative to guessing.",
+    "examples": [
+      { "context": "Meeting", "sentence": "I don't have that figure — let me get back to you this afternoon." },
+      { "context": "Email", "sentence": "Thanks for your patience; I'll get back to you by Wednesday." }
+    ],
+    "remember": [
+      "Always attach a time. 'I'll get back to you' with no date is heard as 'probably never'."
+    ]
+  },
+  {
+    "id": "run-something-by",
+    "term": "Run something by someone",
+    "level": "B2",
+    "businessCategory": "Communication",
+    "meaning": "To show someone an idea to get their reaction before committing.",
+    "usage": "Use it to ask for informal feedback ahead of a formal decision.",
+    "examples": [
+      { "context": "Work", "sentence": "Can I run something by you before the meeting?" },
+      { "context": "Email", "sentence": "I ran it by legal and they had no concerns." }
+    ],
+    "remember": [
+      "'Run it past someone' means exactly the same. Both are common."
+    ]
+  },
+  {
+    "id": "scope-creep",
+    "term": "Scope creep",
+    "level": "C1",
+    "businessCategory": "Project Management",
+    "meaning": "The gradual expansion of a project beyond what was agreed.",
+    "usage": "Use it to name a project growing through small additions that were never formally approved.",
+    "examples": [
+      { "context": "Project", "sentence": "Three extra features later, this is textbook scope creep." },
+      { "context": "Meeting", "sentence": "We need a change process to prevent scope creep." }
+    ],
+    "remember": [
+      "It describes a pattern, not one request. Naming it early is easier than fixing it late."
+    ]
+  },
+  {
+    "id": "per-my-last-email",
+    "term": "Per my last email",
+    "level": "B2",
+    "businessCategory": "Email",
+    "meaning": "As I already explained in my previous message.",
+    "usage": "Use it to point back to information you have sent before — but know that it is widely read as irritation.",
+    "examples": [
+      { "context": "Email", "sentence": "Per my last email, the figures are in the attached sheet." }
+    ],
+    "remember": [
+      "This phrase has a reputation for passive aggression. 'Just resending this in case it got buried' is friendlier and does the same job."
+    ]
+  },
+  {
+    "id": "eod",
+    "term": "EOD / EOW",
+    "level": "B1",
+    "businessCategory": "Email",
+    "meaning": "End of day, and end of week.",
+    "usage": "Use them in internal messages to set an informal deadline. Both are abbreviations, mostly written rather than spoken.",
+    "examples": [
+      { "context": "Email", "sentence": "I'll have the draft to you by EOD." },
+      { "context": "Chat", "sentence": "Can we close this out by EOW?" }
+    ],
+    "remember": [
+      "'End of day' is ambiguous across time zones. With international colleagues, give an actual time."
+    ]
+  },
+  {
+    "id": "onboarding",
+    "term": "Onboarding",
+    "level": "B2",
+    "businessCategory": "Leadership",
+    "meaning": "The process of bringing a new person or client up to speed.",
+    "usage": "Use it about the structured first weeks — paperwork, training, introductions, and early setup.",
+    "examples": [
+      { "context": "HR", "sentence": "Onboarding takes about two weeks for a new engineer." },
+      { "context": "Sales", "sentence": "We'll onboard the client once the contract is signed." }
+    ],
+    "remember": [
+      "It works as both a noun and a verb. The opposite process is 'offboarding'."
+    ]
+  },
+  {
+    "id": "constructive-feedback",
+    "term": "Constructive feedback",
+    "level": "B2",
+    "businessCategory": "Feedback",
+    "meaning": "Criticism given in a way that helps someone improve.",
+    "usage": "Use it when offering or asking for comments on work. It signals that the goal is improvement, not blame.",
+    "examples": [
+      { "context": "Review", "sentence": "I'd welcome any constructive feedback on the draft." },
+      { "context": "Management", "sentence": "Try to make the feedback constructive and specific." }
+    ],
+    "remember": [
+      "To actually be constructive, feedback needs a concrete suggestion. 'This isn't good enough' is criticism, not constructive feedback."
+    ]
+  },
+  {
+    "id": "move-the-needle",
+    "term": "Move the needle",
+    "level": "B2",
+    "businessCategory": "Leadership",
+    "meaning": "To make a noticeable, measurable difference.",
+    "usage": "Use it when arguing that an action is or is not worth doing, based on its likely impact on results.",
+    "examples": [
+      { "context": "Meeting", "sentence": "A small discount won't move the needle on quarterly sales." },
+      { "context": "Strategy", "sentence": "Which of these three actually moves the needle?" }
+    ],
+    "remember": [
+      "It is most often used negatively — to argue that something is not worth the effort."
+    ]
+  },
+  {
+    "id": "loop-in",
+    "term": "Loop someone in",
+    "level": "B1",
+    "businessCategory": "Email",
+    "meaning": "To add someone to a conversation so they know what is happening.",
+    "usage": "Use it when a colleague needs visibility of an email thread or discussion they were not part of.",
+    "examples": [
+      { "context": "Email", "sentence": "Looping in Anita, who owns this area." },
+      { "context": "Work", "sentence": "Can you loop me in on the vendor thread?" }
+    ],
+    "remember": [
+      "Saying 'looping in X' at the top of a reply is standard email etiquette when you add a new recipient."
+    ]
+  }
+]

@@ -1,0 +1,352 @@
+[
+  {
+    "id": "present-simple",
+    "term": "Present Simple",
+    "level": "A1",
+    "definition": "Used for things that are generally true, and for things you do regularly.",
+    "usage": "Use it for habits, routines, facts, and permanent situations. If you could add 'every day' or 'usually' to the sentence, this is normally the right tense.",
+    "formula": "Subject + base verb (+ -s for he / she / it)",
+    "examples": [
+      { "context": "Routine", "sentence": "I start work at nine every morning." },
+      { "context": "Fact", "sentence": "Water boils at 100 degrees." },
+      { "context": "Job", "sentence": "She works for a bank in Chennai." },
+      { "context": "Opinion", "sentence": "I think this is the better option." }
+    ],
+    "remember": [
+      "Only he, she, and it take the -s ending. 'He work' is the single most common beginner mistake.",
+      "Questions and negatives use do / does, and the main verb goes back to its base form: 'Does she work here?' — not 'Does she works'."
+    ]
+  },
+  {
+    "id": "present-continuous",
+    "term": "Present Continuous",
+    "level": "A1",
+    "definition": "Used for something happening right now, or around now.",
+    "usage": "Use it for actions in progress at this moment, temporary situations, and changing trends. Also used for fixed future arrangements you have already made with someone.",
+    "formula": "Subject + am/is/are + verb-ing",
+    "examples": [
+      { "context": "Right now", "sentence": "I'm cooking dinner — can I call you back?" },
+      { "context": "Temporary", "sentence": "She's staying with her sister until the flat is ready." },
+      { "context": "Trend", "sentence": "Rents are rising quickly in this area." },
+      { "context": "Arrangement", "sentence": "We're meeting the client on Thursday." }
+    ],
+    "remember": [
+      "Some verbs describe states, not actions, and are not normally used in this form: know, believe, want, need, belong. Say 'I know him', not 'I am knowing him'.",
+      "'I'm loving it' is deliberate advertising English, not a model to copy in an exam."
+    ]
+  },
+  {
+    "id": "past-simple",
+    "term": "Past Simple",
+    "level": "A1",
+    "definition": "Used for a finished action at a finished time in the past.",
+    "usage": "Use it when the action is over and the time is over too — yesterday, last week, in 2019. It is the normal tense for telling a story or listing what happened.",
+    "formula": "Subject + verb-ed (or the irregular past form)",
+    "examples": [
+      { "context": "Yesterday", "sentence": "I sent the report yesterday afternoon." },
+      { "context": "Travel", "sentence": "We went to Sri Lanka last December." },
+      { "context": "Story", "sentence": "He opened the door, looked around, and left." },
+      { "context": "Work", "sentence": "She joined the company in 2019." }
+    ],
+    "remember": [
+      "In questions and negatives, 'did' already carries the past, so the main verb returns to its base form: 'Did you go?' — not 'Did you went?'.",
+      "Many common verbs are irregular (go → went, buy → bought, think → thought). These have to be learned individually."
+    ]
+  },
+  {
+    "id": "past-continuous",
+    "term": "Past Continuous",
+    "level": "A2",
+    "definition": "Used for an action that was in progress at a particular moment in the past.",
+    "usage": "Most often used to set the background for a shorter action. The long action takes the past continuous, and the thing that interrupts it takes the past simple.",
+    "formula": "Subject + was/were + verb-ing",
+    "examples": [
+      { "context": "Interruption", "sentence": "I was walking home when it started to rain." },
+      { "context": "Background", "sentence": "At eight last night we were still working." },
+      { "context": "Two actions", "sentence": "She was cooking while he was setting the table." },
+      { "context": "Polite excuse", "sentence": "Sorry, I was driving and couldn't take your call." }
+    ],
+    "remember": [
+      "Pair it with the past simple to show which action was already happening and which one arrived: the -ing action is the longer one."
+    ]
+  },
+  {
+    "id": "present-perfect",
+    "term": "Present Perfect",
+    "level": "B1",
+    "definition": "Used for past actions that still matter now.",
+    "usage": "Use it for life experiences with no stated time, for recent news, and for situations that started in the past and continue today. The point is the present result, not the past moment.",
+    "formula": "Subject + have/has + past participle",
+    "examples": [
+      { "context": "Experience", "sentence": "I've visited London twice." },
+      { "context": "Recent news", "sentence": "She's just finished the presentation." },
+      { "context": "Still true", "sentence": "We've lived here since 2020." },
+      { "context": "Result now", "sentence": "I've lost my keys, so I can't get in." }
+    ],
+    "remember": [
+      "Never use it with a finished past time. 'I have seen him yesterday' is wrong — use the past simple: 'I saw him yesterday'.",
+      "This is the tense most languages have no direct equivalent of, so expect it to feel unnatural at first."
+    ]
+  },
+  {
+    "id": "present-perfect-continuous",
+    "term": "Present Perfect Continuous",
+    "level": "B1",
+    "definition": "Used for an activity that started in the past and has been going on until now.",
+    "usage": "Choose it over the present perfect when you want to stress how long something has been happening, or that it has been continuous and possibly unfinished.",
+    "formula": "Subject + have/has been + verb-ing",
+    "examples": [
+      { "context": "Duration", "sentence": "I've been waiting for forty minutes." },
+      { "context": "Work", "sentence": "She's been working on this proposal all week." },
+      { "context": "Visible result", "sentence": "You're soaked — have you been running?" },
+      { "context": "Ongoing", "sentence": "We've been trying to reach the supplier since Monday." }
+    ],
+    "remember": [
+      "'I've read the report' means you finished it. 'I've been reading the report' suggests you may not have.",
+      "State verbs like know and be do not take this form: say 'I've known her for years', not 'I've been knowing her'."
+    ]
+  },
+  {
+    "id": "past-perfect",
+    "term": "Past Perfect",
+    "level": "B1",
+    "definition": "Used for an action that happened before another action in the past.",
+    "usage": "Use it when you are already talking about the past and need to reach further back — to make the order of two past events unmistakable.",
+    "formula": "Subject + had + past participle",
+    "examples": [
+      { "context": "Order of events", "sentence": "By the time we arrived, the film had already started." },
+      { "context": "Reason", "sentence": "He was hungry because he hadn't eaten all day." },
+      { "context": "Travel", "sentence": "She had never flown before her trip to Japan." },
+      { "context": "Work", "sentence": "I realised I had sent the email to the wrong person." }
+    ],
+    "remember": [
+      "You need two past moments for this tense. With only one, the past simple is correct.",
+      "If 'before' or 'after' already makes the order obvious, the past simple is usually enough."
+    ]
+  },
+  {
+    "id": "past-perfect-continuous",
+    "term": "Past Perfect Continuous",
+    "level": "B2",
+    "definition": "Used for an activity that had been going on for some time before another past moment.",
+    "usage": "Use it to show how long something had been happening up to a point in the past, often to explain why something else then happened.",
+    "formula": "Subject + had been + verb-ing",
+    "examples": [
+      { "context": "Explanation", "sentence": "She was tired because she had been travelling all night." },
+      { "context": "Duration", "sentence": "They had been arguing for an hour before he walked out." },
+      { "context": "Work", "sentence": "We had been waiting for approval for months when the project was cancelled." }
+    ],
+    "remember": [
+      "This is the past-in-the-past version of the present perfect continuous. It is uncommon in speech — do not force it."
+    ]
+  },
+  {
+    "id": "future-will",
+    "term": "Future with 'will'",
+    "level": "A2",
+    "definition": "Used for decisions made at the moment of speaking, predictions, offers, and promises.",
+    "usage": "Use 'will' when you decide something as you speak. If the plan already existed before this conversation, 'going to' is the natural choice instead.",
+    "formula": "Subject + will + base verb",
+    "examples": [
+      { "context": "Instant decision", "sentence": "That's the doorbell — I'll get it." },
+      { "context": "Offer", "sentence": "I'll help you carry those." },
+      { "context": "Promise", "sentence": "I'll send it over before lunch, I promise." },
+      { "context": "Prediction", "sentence": "I think she'll like the design." }
+    ],
+    "remember": [
+      "'Shall' is now rare outside of offers and suggestions: 'Shall we start?' sounds natural; 'I shall go' sounds formal or old-fashioned."
+    ]
+  },
+  {
+    "id": "future-going-to",
+    "term": "Future with 'going to'",
+    "level": "A2",
+    "definition": "Used for plans you already had, and for predictions based on something you can see right now.",
+    "usage": "Use it when the decision was made before you started speaking, or when present evidence points to what is about to happen.",
+    "formula": "Subject + am/is/are going to + base verb",
+    "examples": [
+      { "context": "Existing plan", "sentence": "We're going to redecorate the kitchen this summer." },
+      { "context": "Visible evidence", "sentence": "Look at those clouds — it's going to rain." },
+      { "context": "Intention", "sentence": "I'm going to ask for a raise next month." }
+    ],
+    "remember": [
+      "'It will rain' is an opinion about the future. 'It's going to rain' means something in front of you says so right now."
+    ]
+  },
+  {
+    "id": "future-continuous",
+    "term": "Future Continuous",
+    "level": "B1",
+    "definition": "Used for an action that will be in progress at a particular time in the future.",
+    "usage": "Use it to describe what you will be in the middle of at a given moment. It also makes a question about someone's plans sound less like a request.",
+    "formula": "Subject + will be + verb-ing",
+    "examples": [
+      { "context": "At a future moment", "sentence": "This time tomorrow I'll be flying to Singapore." },
+      { "context": "Polite enquiry", "sentence": "Will you be joining us for lunch?" },
+      { "context": "Expected routine", "sentence": "I'll be working from home on Friday as usual." }
+    ],
+    "remember": [
+      "'Will you help me?' is a request. 'Will you be helping?' just asks about the plan — useful when you don't want to sound like you're asking for a favour."
+    ]
+  },
+  {
+    "id": "future-perfect",
+    "term": "Future Perfect",
+    "level": "B2",
+    "definition": "Used for something that will be finished before a certain time in the future.",
+    "usage": "Use it with a deadline — 'by Friday', 'by the time you arrive' — to say the action will already be complete at that point.",
+    "formula": "Subject + will have + past participle",
+    "examples": [
+      { "context": "Deadline", "sentence": "I'll have finished the report by Friday." },
+      { "context": "Milestone", "sentence": "By next year she'll have worked here for a decade." },
+      { "context": "Arrival", "sentence": "By the time you land, we'll have checked in." }
+    ],
+    "remember": [
+      "This tense nearly always needs a 'by' phrase. Without one, the sentence sounds incomplete."
+    ]
+  },
+  {
+    "id": "used-to",
+    "term": "Used to",
+    "level": "A2",
+    "definition": "Describes a past habit or state that is no longer true.",
+    "usage": "Use it to contrast the past with now. The implication is always that the situation has since changed.",
+    "formula": "Subject + used to + base verb",
+    "examples": [
+      { "context": "Old habit", "sentence": "I used to drink coffee every morning, but I've stopped." },
+      { "context": "Past state", "sentence": "There used to be a bookshop on this corner." },
+      { "context": "Childhood", "sentence": "We used to spend every summer at my grandmother's." }
+    ],
+    "remember": [
+      "In questions and negatives it loses the -d: 'Did you use to live here?' — not 'Did you used to'.",
+      "Do not confuse it with 'be used to', which means being accustomed to something: 'I'm used to the noise now'."
+    ]
+  },
+  {
+    "id": "present-simple-for-future",
+    "term": "Present Simple for the Future",
+    "level": "B1",
+    "definition": "Used for scheduled events that run on a timetable.",
+    "usage": "Use it for trains, flights, films, and opening hours — anything fixed by a schedule rather than by a person's decision.",
+    "formula": "Subject + present simple + future time",
+    "examples": [
+      { "context": "Travel", "sentence": "The train leaves at 6:40 tomorrow morning." },
+      { "context": "Cinema", "sentence": "The film starts at eight." },
+      { "context": "Shop hours", "sentence": "The office opens at nine on Monday." }
+    ],
+    "remember": [
+      "This only works for timetabled events. Your own plans need 'going to' or the present continuous."
+    ]
+  },
+  {
+    "id": "present-continuous-for-future",
+    "term": "Present Continuous for Arrangements",
+    "level": "B1",
+    "definition": "Used for future plans that are already arranged with someone else.",
+    "usage": "Use it when a time and place are settled and another person is involved. It is the most natural tense for talking about your diary.",
+    "formula": "Subject + am/is/are + verb-ing + future time",
+    "examples": [
+      { "context": "Diary", "sentence": "I'm seeing the dentist on Tuesday." },
+      { "context": "Work", "sentence": "We're presenting to the board on Thursday morning." },
+      { "context": "Social", "sentence": "They're getting married in October." }
+    ],
+    "remember": [
+      "'I'm meeting Ravi at six' means it is arranged. 'I'm going to meet Ravi' means you intend to, but nothing is confirmed."
+    ]
+  },
+  {
+    "id": "future-in-time-clauses",
+    "term": "No 'will' after when, if, before, until",
+    "level": "B1",
+    "definition": "After time and condition words, English uses a present tense even though the meaning is future.",
+    "usage": "Apply this after when, if, before, after, until, as soon as, and once. The future meaning is carried by the main clause.",
+    "formula": "when / if / until + present tense, ... will + base verb",
+    "examples": [
+      { "context": "Plan", "sentence": "I'll call you when I arrive." },
+      { "context": "Condition", "sentence": "If it rains, we'll move the meeting inside." },
+      { "context": "Deadline", "sentence": "Wait here until I get back." }
+    ],
+    "remember": [
+      "'I'll call you when I will arrive' is a very common error. One 'will' per sentence is enough — it belongs in the main clause."
+    ]
+  },
+  {
+    "id": "for-and-since",
+    "term": "For vs Since",
+    "level": "A2",
+    "definition": "Both mark duration with the present perfect, but they measure it differently.",
+    "usage": "Use 'for' with a length of time, and 'since' with the point in time when it started.",
+    "formula": "for + period (two years) · since + starting point (2019)",
+    "examples": [
+      { "context": "Length", "sentence": "I've worked here for three years." },
+      { "context": "Starting point", "sentence": "I've worked here since 2022." },
+      { "context": "Both", "sentence": "She's been ill for a week — since last Tuesday, in fact." }
+    ],
+    "remember": [
+      "Ask yourself: how long, or starting when? 'How long' takes 'for'; 'starting when' takes 'since'."
+    ]
+  },
+  {
+    "id": "was-going-to",
+    "term": "Was going to",
+    "level": "B1",
+    "definition": "Describes a past plan that did not happen.",
+    "usage": "Use it when you intended to do something but something got in the way. It usually invites an explanation.",
+    "formula": "Subject + was/were going to + base verb",
+    "examples": [
+      { "context": "Excuse", "sentence": "I was going to call you, but my phone died." },
+      { "context": "Changed plan", "sentence": "We were going to fly, but the tickets were too expensive." },
+      { "context": "Work", "sentence": "She was going to apply, then she got promoted internally." }
+    ],
+    "remember": [
+      "The unspoken second half is always 'but'. If you use this form, listeners expect a reason to follow."
+    ]
+  },
+  {
+    "id": "past-simple-vs-present-perfect",
+    "term": "Past Simple vs Present Perfect",
+    "level": "B1",
+    "definition": "The past simple points at a finished moment; the present perfect points at a result that still stands.",
+    "usage": "Ask whether the time period is over. 'This morning' at 4 p.m. is finished, so use the past simple. 'Today' while it is still today is unfinished, so the present perfect fits.",
+    "formula": "finished time → past simple · unfinished time or present result → present perfect",
+    "examples": [
+      { "context": "Finished time", "sentence": "I saw her on Monday." },
+      { "context": "Unfinished time", "sentence": "I've seen her three times this week." },
+      { "context": "Result now", "sentence": "I've broken my glasses, so I can't read the menu." },
+      { "context": "Past event", "sentence": "I broke my glasses last year." }
+    ],
+    "remember": [
+      "American English often uses the past simple where British English uses the present perfect: 'Did you eat yet?' versus 'Have you eaten yet?'. Both are understood everywhere."
+    ]
+  },
+  {
+    "id": "would-for-past-habits",
+    "term": "Would for past habits",
+    "level": "B2",
+    "definition": "Describes things that happened repeatedly in the past, especially in storytelling.",
+    "usage": "Use it as a more literary alternative to 'used to' when describing repeated past actions. It gives writing a reflective, memory-like tone.",
+    "formula": "Subject + would + base verb",
+    "examples": [
+      { "context": "Memory", "sentence": "Every summer we would drive to the coast and stay for a week." },
+      { "context": "Storytelling", "sentence": "My father would read to us every night before bed." }
+    ],
+    "remember": [
+      "This only works for repeated actions, never for past states. 'We would have a car' is wrong — say 'We used to have a car'."
+    ]
+  },
+  {
+    "id": "future-perfect-continuous",
+    "term": "Future Perfect Continuous",
+    "level": "C1",
+    "definition": "Used for how long an activity will have been going on by a future point.",
+    "usage": "Use it to emphasise duration up to a future deadline, usually with 'by' and a length of time.",
+    "formula": "Subject + will have been + verb-ing",
+    "examples": [
+      { "context": "Milestone", "sentence": "By December, I'll have been teaching for twenty years." },
+      { "context": "Project", "sentence": "By the time we launch, we'll have been building this for eighteen months." }
+    ],
+    "remember": [
+      "This is the rarest English tense. Knowing it is useful for reading; you will almost never need to produce it."
+    ]
+  }
+]
