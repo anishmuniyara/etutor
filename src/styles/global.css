@@ -1,13 +1,13 @@
 /* Design tokens ported from design/English Cards v3.dc.html (light palette only). */
 :root {
-  --acc: #ec3013;
-  --ink: #201e1d;
-  --sub: #6d675f;
-  --ground: #edeae5;
+  --acc: #2a5ca8;
+  --ink: #1b1f28;
+  --sub: #626b7b;
+  --ground: #e8ecf2;
   --glass: rgba(255, 255, 255, 0.42);
   --glass2: rgba(255, 255, 255, 0.55);
   --gbord: rgba(255, 255, 255, 0.65);
-  --gshadow: 0 10px 34px rgba(32, 30, 29, 0.14);
+  --gshadow: 0 10px 34px rgba(27, 31, 40, 0.14);
 
   --display: 'Bricolage Grotesque', Georgia, serif;
   --body: 'Schibsted Grotesk', system-ui, -apple-system, sans-serif;
@@ -686,7 +686,7 @@ input:focus-visible {
   border-radius: 999px;
   background: var(--ink);
   color: #fff;
-  box-shadow: 0 12px 30px rgba(32, 30, 29, 0.3);
+  box-shadow: 0 12px 30px rgba(27, 31, 40, 0.3);
   font-size: 13.5px;
   font-weight: 600;
   animation: ecRise 0.22s ease;
