@@ -1,0 +1,492 @@
+[
+  {
+    "id": "nail-down-the-scope",
+    "term": "We need to nail down the scope first.",
+    "level": "B2",
+    "meaning": "We must fix exactly what is included before starting.",
+    "usage": "Use it to stop work beginning while the boundaries are still vague.",
+    "examples": [
+      { "context": "Project", "sentence": "Before estimating, we need to nail down the scope." },
+      { "context": "Client", "sentence": "Let's nail down the scope in writing this week." }
+    ],
+    "remember": [
+      "'Nail down' works for anything vague — a date, a number, a requirement."
+    ]
+  },
+  {
+    "id": "low-hanging-fruit",
+    "term": "Let's get the low-hanging fruit out of the way.",
+    "level": "B2",
+    "meaning": "Let's do the easy, high-value things first.",
+    "usage": "Use it to argue for quick wins that build momentum before the hard work starts.",
+    "examples": [
+      { "context": "Project", "sentence": "Three of these are low-hanging fruit — let's clear them today." },
+      { "context": "Performance", "sentence": "We got the low-hanging fruit; the rest needs real work." }
+    ],
+    "remember": [
+      "It can sound dismissive of easy work. The point is sequence, not that the work is trivial."
+    ]
+  },
+  {
+    "id": "nice-to-have",
+    "term": "That's a nice-to-have, not a must-have.",
+    "level": "B2",
+    "meaning": "It would be good, but the project succeeds without it.",
+    "usage": "Use it to sort requirements when everything is being called essential.",
+    "examples": [
+      { "context": "Planning", "sentence": "Dark mode is a nice-to-have, not a must-have." },
+      { "context": "Client", "sentence": "Let's separate must-haves from nice-to-haves before we quote." }
+    ],
+    "remember": [
+      "The most useful scope question there is. If nothing is a nice-to-have, nothing has actually been prioritised."
+    ]
+  },
+  {
+    "id": "on-the-critical-path",
+    "term": "This is on the critical path.",
+    "level": "C1",
+    "meaning": "If this slips, the whole project slips.",
+    "usage": "Use it to justify priority — work off the critical path can wait without affecting the end date.",
+    "examples": [
+      { "context": "Project", "sentence": "The schema migration is on the critical path." },
+      { "context": "Planning", "sentence": "That's not on the critical path, so it can run in parallel." }
+    ],
+    "remember": [
+      "A precise project-management term, not just 'important'. Only work whose delay delays the finish is on it."
+    ]
+  },
+  {
+    "id": "running-against-the-clock",
+    "term": "We're running against the clock.",
+    "level": "B2",
+    "meaning": "There is very little time left to finish.",
+    "usage": "Use it to convey time pressure and justify cutting scope or asking for help.",
+    "examples": [
+      { "context": "Project", "sentence": "We're running against the clock on the compliance deadline." },
+      { "context": "Event", "sentence": "Running against the clock to get the demo ready." }
+    ],
+    "remember": [
+      "'Against the clock' is the fixed form: 'working against the clock'."
+    ]
+  },
+  {
+    "id": "bite-off-more-than-you-can-chew",
+    "term": "Bite off more than you can chew",
+    "level": "B2",
+    "meaning": "To take on more than you can manage.",
+    "usage": "Use it as a warning before committing, or as an explanation afterwards.",
+    "examples": [
+      { "context": "Work", "sentence": "Three projects at once — I've bitten off more than I can chew." },
+      { "context": "Planning", "sentence": "Let's not bite off more than we can chew this quarter." }
+    ],
+    "remember": [
+      "About yourself it's honest self-assessment; about someone else it's a criticism of judgement."
+    ]
+  },
+  {
+    "id": "down-to-the-wire",
+    "term": "Down to the wire",
+    "level": "C1",
+    "meaning": "Continuing right up to the last possible moment.",
+    "usage": "Use it about contests and deadlines decided only at the very end.",
+    "examples": [
+      { "context": "Project", "sentence": "It went down to the wire, but we shipped on Friday." },
+      { "context": "Negotiation", "sentence": "The deal went down to the wire." }
+    ],
+    "remember": [
+      "From horse racing, where a wire marked the finish line."
+    ]
+  },
+  {
+    "id": "bite-the-bullet",
+    "term": "Bite the bullet",
+    "level": "B2",
+    "meaning": "To force yourself to do something unpleasant you've been avoiding.",
+    "usage": "Use it about finally accepting a hard decision — spending the money, having the conversation, doing the rewrite.",
+    "examples": [
+      { "context": "Engineering", "sentence": "We bit the bullet and rewrote the whole module." },
+      { "context": "Business", "sentence": "Time to bite the bullet and raise prices." }
+    ],
+    "remember": [
+      "It implies you'd been putting it off. There's relief in the phrase as well as effort."
+    ]
+  },
+  {
+    "id": "cut-corners",
+    "term": "Cut corners",
+    "level": "B2",
+    "meaning": "To save time or money by skipping proper steps.",
+    "usage": "Use it as criticism of work where quality was sacrificed for speed.",
+    "examples": [
+      { "context": "Engineering", "sentence": "They cut corners on testing and it showed." },
+      { "context": "Work", "sentence": "We can move faster, but I don't want to cut corners." }
+    ],
+    "remember": [
+      "Always negative. Legitimately saving time is 'streamlining', not cutting corners."
+    ]
+  },
+  {
+    "id": "kill-two-birds-with-one-stone",
+    "term": "Kill two birds with one stone",
+    "level": "B2",
+    "meaning": "To achieve two things with a single action.",
+    "usage": "Use it when one piece of work conveniently solves two problems.",
+    "examples": [
+      { "context": "Work", "sentence": "If we rewrite it now we kill two birds with one stone — the bug and the performance issue." },
+      { "context": "Travel", "sentence": "I'll visit the client while I'm there and kill two birds with one stone." }
+    ],
+    "remember": [
+      "Very common despite the violent image. Some people prefer 'feed two birds with one scone' as a gentler alternative."
+    ]
+  },
+  {
+    "id": "go-back-to-the-drawing-board",
+    "term": "Go back to the drawing board",
+    "level": "B2",
+    "meaning": "To start designing again after an approach failed.",
+    "usage": "Use it when the concept itself needs rethinking, not just fixing.",
+    "examples": [
+      { "context": "Design", "sentence": "The prototype didn't work — back to the drawing board." },
+      { "context": "Strategy", "sentence": "If they reject it, we go back to the drawing board." }
+    ],
+    "remember": [
+      "Softer than 'back to square one': it implies a fresh design, not that everything is lost."
+    ]
+  },
+  {
+    "id": "pay-off",
+    "term": "Pay off",
+    "level": "B2",
+    "meaning": "To produce a good result after effort or investment.",
+    "usage": "Use it about work whose benefit arrives later — training, refactoring, patience.",
+    "examples": [
+      { "context": "Work", "sentence": "The extra testing paid off — a clean launch." },
+      { "context": "Study", "sentence": "Those late nights paid off." }
+    ],
+    "remember": [
+      "'Payoff' as one word is the noun: 'the payoff was worth it'."
+    ]
+  },
+  {
+    "id": "ahead-of-the-curve",
+    "term": "Ahead of the curve",
+    "level": "C1",
+    "meaning": "Doing something before most others do.",
+    "usage": "Use it as praise for anticipating a trend rather than following it.",
+    "examples": [
+      { "context": "Business", "sentence": "They were ahead of the curve on remote working." },
+      { "context": "Team", "sentence": "Our monitoring is ahead of the curve for a company our size." }
+    ],
+    "remember": [
+      "Compares you to others, not to a plan. The opposite is 'behind the curve'."
+    ]
+  },
+  {
+    "id": "in-the-pipeline",
+    "term": "In the pipeline",
+    "level": "B2",
+    "meaning": "Planned and in progress, but not finished yet.",
+    "usage": "Use it about work already committed to and moving through a process.",
+    "examples": [
+      { "context": "Product", "sentence": "Two more integrations are in the pipeline." },
+      { "context": "Sales", "sentence": "We've got half a million in the pipeline." }
+    ],
+    "remember": [
+      "It implies real commitment. Something merely being considered is 'on the roadmap' or 'under discussion'."
+    ]
+  },
+  {
+    "id": "get-the-green-light",
+    "term": "Get the green light",
+    "level": "B1",
+    "meaning": "To receive approval to proceed.",
+    "usage": "Use it about the formal go-ahead from whoever must authorise the work.",
+    "examples": [
+      { "context": "Project", "sentence": "We got the green light from finance this morning." },
+      { "context": "Work", "sentence": "I can't start until I get the green light." }
+    ],
+    "remember": [
+      "'Give the green light' is the active form. 'Red light' is rarely used for the opposite — people say 'blocked' or 'rejected'."
+    ]
+  },
+  {
+    "id": "move-the-needle",
+    "term": "Move the needle",
+    "level": "B2",
+    "meaning": "To make a noticeable, measurable difference.",
+    "usage": "Use it when arguing whether an action is worth doing, based on its likely effect on results.",
+    "examples": [
+      { "context": "Business", "sentence": "A small discount won't move the needle on sales." },
+      { "context": "Strategy", "sentence": "Which of these actually moves the needle?" }
+    ],
+    "remember": [
+      "Most often used negatively, to argue something isn't worth the effort."
+    ]
+  },
+  {
+    "id": "hit-a-home-run",
+    "term": "Hit a home run",
+    "level": "B2",
+    "meaning": "To achieve a complete, obvious success.",
+    "usage": "Use it as strong praise for a launch, pitch, or result that exceeded expectations.",
+    "examples": [
+      { "context": "Product", "sentence": "That release hit a home run with customers." },
+      { "context": "Presentation", "sentence": "She hit a home run in the board meeting." }
+    ],
+    "remember": [
+      "From baseball, so it's much more common in American English. British speakers may prefer 'knocked it out of the park' or 'a real winner'."
+    ]
+  },
+  {
+    "id": "back-on-track",
+    "term": "Back on track",
+    "level": "B1",
+    "meaning": "Progressing normally again after a problem.",
+    "usage": "Use it to report recovery — the delay is over and the plan is holding again.",
+    "examples": [
+      { "context": "Project", "sentence": "After the fix, we're back on track for the June date." },
+      { "context": "Team", "sentence": "Two good weeks and we're back on track." }
+    ],
+    "remember": [
+      "It implies you'd been off track. Only use it when there was a real problem to recover from."
+    ]
+  },
+  {
+    "id": "cover-all-the-bases",
+    "term": "Cover all the bases",
+    "level": "B2",
+    "meaning": "To deal with every part of something so nothing is missed.",
+    "usage": "Use it about thorough preparation — a checklist, a plan, a test suite.",
+    "examples": [
+      { "context": "Preparation", "sentence": "I've covered all the bases for the audit." },
+      { "context": "Testing", "sentence": "Does this cover all the bases, or are there edge cases left?" }
+    ],
+    "remember": [
+      "Another baseball phrase, but fully standard in international business English."
+    ]
+  },
+  {
+    "id": "get-the-ball-rolling",
+    "term": "Get the ball rolling",
+    "level": "B1",
+    "meaning": "To start something moving.",
+    "usage": "Use it about beginning a process so that progress can build.",
+    "examples": [
+      { "context": "Project", "sentence": "Let's get the ball rolling with a kick-off next week." },
+      { "context": "Admin", "sentence": "I'll get the ball rolling on the paperwork." }
+    ],
+    "remember": [
+      "'Set the ball rolling' means the same. Both emphasise starting, not finishing."
+    ]
+  },
+  {
+    "id": "off-to-a-flying-start",
+    "term": "Off to a flying start",
+    "level": "B2",
+    "meaning": "Beginning far better than expected.",
+    "usage": "Use it about launches, quarters, or projects whose first results are strong.",
+    "examples": [
+      { "context": "Launch", "sentence": "The beta is off to a flying start — two thousand signups." },
+      { "context": "Quarter", "sentence": "We're off to a flying start this quarter." }
+    ],
+    "remember": [
+      "Only about the beginning. A strong start says nothing about the finish, and the phrase quietly acknowledges that."
+    ]
+  },
+  {
+    "id": "gain-traction",
+    "term": "Gain traction",
+    "level": "C1",
+    "meaning": "To start being adopted or taken seriously.",
+    "usage": "Use it about ideas, products, or campaigns that are beginning to catch on.",
+    "examples": [
+      { "context": "Product", "sentence": "The feature is finally gaining traction with enterprise users." },
+      { "context": "Idea", "sentence": "The proposal gained traction after the demo." }
+    ],
+    "remember": [
+      "Implies real, measurable uptake. Without numbers behind it, it becomes vague business filler."
+    ]
+  },
+  {
+    "id": "pick-up-steam",
+    "term": "Pick up steam",
+    "level": "B2",
+    "meaning": "To gather speed and momentum.",
+    "usage": "Use it about work or growth that started slowly and is accelerating.",
+    "examples": [
+      { "context": "Project", "sentence": "The migration is picking up steam now the tooling is ready." },
+      { "context": "Growth", "sentence": "Signups picked up steam after the article." }
+    ],
+    "remember": [
+      "From steam engines. 'Gather steam' and 'build momentum' mean the same."
+    ]
+  },
+  {
+    "id": "lose-steam",
+    "term": "Lose steam",
+    "level": "B2",
+    "meaning": "To gradually lose energy or momentum.",
+    "usage": "Use it about initiatives that started well and are quietly fading.",
+    "examples": [
+      { "context": "Project", "sentence": "The initiative lost steam after the sponsor left." },
+      { "context": "Team", "sentence": "We're losing steam — people are tired." }
+    ],
+    "remember": [
+      "It describes a slow fade, not a sudden stop. That's what makes it easy to miss until it's advanced."
+    ]
+  },
+  {
+    "id": "get-off-the-ground",
+    "term": "Get off the ground",
+    "level": "B2",
+    "meaning": "To successfully start, after difficulty.",
+    "usage": "Use it about projects that struggled to begin at all — funding, approval, or people were missing.",
+    "examples": [
+      { "context": "Project", "sentence": "The programme never got off the ground." },
+      { "context": "Business", "sentence": "It took a year to get the company off the ground." }
+    ],
+    "remember": [
+      "Usually appears in the negative — 'it never got off the ground' — about things that failed before starting."
+    ]
+  },
+  {
+    "id": "back-to-basics",
+    "term": "Back to basics",
+    "level": "B1",
+    "meaning": "Returning to the simple fundamentals.",
+    "usage": "Use it when complexity has crept in and the simple approach is working better.",
+    "examples": [
+      { "context": "Strategy", "sentence": "Let's go back to basics: what does the customer actually need?" },
+      { "context": "Training", "sentence": "The session took us back to basics." }
+    ],
+    "remember": [
+      "It reframes simplification as a return rather than a retreat, which makes it easier to propose."
+    ]
+  },
+  {
+    "id": "scratch-the-surface",
+    "term": "Scratch the surface",
+    "level": "B2",
+    "meaning": "To deal with only a small part of something much larger.",
+    "usage": "Use it to say that what's been done so far is only a beginning.",
+    "examples": [
+      { "context": "Research", "sentence": "We've only scratched the surface of the dataset." },
+      { "context": "Work", "sentence": "Two weeks in and I've barely scratched the surface." }
+    ],
+    "remember": [
+      "Almost always with 'only' or 'barely'. It manages expectations about how much remains."
+    ]
+  },
+  {
+    "id": "in-the-nick-of-time",
+    "term": "In the nick of time",
+    "level": "B2",
+    "meaning": "At the last possible moment, just before it was too late.",
+    "usage": "Use it about a narrow escape from a deadline or a problem.",
+    "examples": [
+      { "context": "Project", "sentence": "The fix landed in the nick of time." },
+      { "context": "Travel", "sentence": "We caught the train in the nick of time." }
+    ],
+    "remember": [
+      "There must have been a real deadline that was nearly missed. Otherwise it's just 'on time'."
+    ]
+  },
+  {
+    "id": "ahead-of-schedule",
+    "term": "Ahead of schedule",
+    "level": "B1",
+    "meaning": "Finishing earlier than planned.",
+    "usage": "Use it in status updates for work running better than the plan.",
+    "examples": [
+      { "context": "Project", "sentence": "We're two weeks ahead of schedule." },
+      { "context": "Report", "sentence": "Phase one completed ahead of schedule." }
+    ],
+    "remember": [
+      "Compares against your plan; 'ahead of the curve' compares against other people. Easy to mix up."
+    ]
+  },
+  {
+    "id": "time-is-of-the-essence",
+    "term": "Time is of the essence",
+    "level": "C1",
+    "meaning": "Speed is critical to success here.",
+    "usage": "Formal. Use it in writing to signal that a delay would cause real harm — it also has legal force in contracts.",
+    "examples": [
+      { "context": "Email", "sentence": "Time is of the essence — the window closes on Friday." },
+      { "context": "Contract", "sentence": "The agreement states that time is of the essence." }
+    ],
+    "remember": [
+      "In a contract this is a specific legal term making the deadline binding. Don't use it casually in one."
+    ]
+  },
+  {
+    "id": "call-it-a-wrap",
+    "term": "Call it a wrap",
+    "level": "B2",
+    "meaning": "To declare something finished.",
+    "usage": "Use it to close a session, project, or recording once the work is done.",
+    "examples": [
+      { "context": "Meeting", "sentence": "That's everything — let's call it a wrap." },
+      { "context": "Project", "sentence": "Final sign-off came through, so we can call it a wrap." }
+    ],
+    "remember": [
+      "From film-making, where 'that's a wrap' ends a day's shooting."
+    ]
+  },
+  {
+    "id": "around-the-clock",
+    "term": "Around the clock",
+    "level": "B1",
+    "meaning": "Continuously, twenty-four hours a day.",
+    "usage": "Use it about support, monitoring, or effort that never pauses.",
+    "examples": [
+      { "context": "Support", "sentence": "We provide around-the-clock monitoring." },
+      { "context": "Crisis", "sentence": "The team worked around the clock for three days." }
+    ],
+    "remember": [
+      "Hyphenated before a noun ('around-the-clock support'), open after a verb ('worked around the clock')."
+    ]
+  },
+  {
+    "id": "on-the-back-burner",
+    "term": "On the back burner",
+    "level": "B2",
+    "meaning": "Postponed and given low priority, but not cancelled.",
+    "usage": "Use it about work parked while something more urgent takes precedence.",
+    "examples": [
+      { "context": "Project", "sentence": "The redesign is on the back burner until Q3." },
+      { "context": "Work", "sentence": "Let's put that on the back burner for now." }
+    ],
+    "remember": [
+      "From cooking — the back burner keeps something warm without attention. Things left there indefinitely are effectively cancelled."
+    ]
+  },
+  {
+    "id": "in-the-long-run",
+    "term": "In the long run",
+    "level": "B1",
+    "meaning": "Over an extended period, considering the eventual outcome.",
+    "usage": "Use it to argue for a choice that costs more now but wins later.",
+    "examples": [
+      { "context": "Business", "sentence": "Fixing it properly is cheaper in the long run." },
+      { "context": "Career", "sentence": "In the long run, the experience mattered more than the salary." }
+    ],
+    "remember": [
+      "'In the short run' is the counterpart, and naming both makes a trade-off argument far clearer."
+    ]
+  },
+  {
+    "id": "break-even",
+    "term": "Break even",
+    "level": "B2",
+    "meaning": "To reach the point where income equals costs — no profit, no loss.",
+    "usage": "Use it in business planning about when an investment stops losing money.",
+    "examples": [
+      { "context": "Business", "sentence": "We expect to break even in month eighteen." },
+      { "context": "Project", "sentence": "The automation breaks even after about two hundred runs." }
+    ],
+    "remember": [
+      "'Break-even point' is the noun form, hyphenated: 'we've passed the break-even point'."
+    ]
+  }
+]

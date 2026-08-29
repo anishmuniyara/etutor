@@ -1,0 +1,434 @@
+[
+  {
+    "id": "imply-vs-infer",
+    "term": "Imply vs Infer",
+    "level": "C1",
+    "meaning": "Two halves of the same exchange, from opposite ends.",
+    "items": [
+      { "term": "Imply", "meaning": "To suggest something without saying it. The speaker implies." },
+      { "term": "Infer", "meaning": "To work something out from what was said. The listener infers." }
+    ],
+    "difference": "The speaker implies; the listener infers.",
+    "examples": [
+      { "context": "Both", "sentence": "You implied it was late; I inferred a delay." },
+      { "context": "Analysis", "sentence": "From the figures we can infer a seasonal pattern." }
+    ],
+    "remember": [
+      "'Are you inferring that I lied?' is a common mistake — the accusation should be 'implying'."
+    ]
+  },
+  {
+    "id": "comprise-vs-compose",
+    "term": "Comprise vs Compose",
+    "level": "C2",
+    "meaning": "Both describe parts and wholes, in opposite directions.",
+    "items": [
+      { "term": "Comprise", "meaning": "The whole comprises the parts. Takes no preposition." },
+      { "term": "Compose", "meaning": "The parts compose the whole — usually as 'is composed of'." }
+    ],
+    "difference": "The whole comprises the parts; the parts compose the whole.",
+    "examples": [
+      { "context": "Comprise", "sentence": "The system comprises five services." },
+      { "context": "Compose", "sentence": "The system is composed of five services." }
+    ],
+    "remember": [
+      "'Comprised of' is the classic error. It's so widespread that many accept it, but careful editors still remove it."
+    ]
+  },
+  {
+    "id": "continual-vs-continuous",
+    "term": "Continual vs Continuous",
+    "level": "C1",
+    "meaning": "One repeats with gaps, the other never stops.",
+    "items": [
+      { "term": "Continual", "meaning": "Repeated frequently, with breaks in between." },
+      { "term": "Continuous", "meaning": "Unbroken, without any pause." }
+    ],
+    "difference": "Continual has gaps; continuous does not.",
+    "examples": [
+      { "context": "Continual", "sentence": "Continual interruptions made the morning useless." },
+      { "context": "Continuous", "sentence": "Continuous deployment means every merge ships." }
+    ],
+    "remember": [
+      "'Continuous integration' is genuinely continuous. 'Continual complaints' come repeatedly but with pauses."
+    ]
+  },
+  {
+    "id": "disinterested-vs-uninterested",
+    "term": "Disinterested vs Uninterested",
+    "level": "C1",
+    "meaning": "One means impartial, the other means bored — and they are often swapped.",
+    "items": [
+      { "term": "Disinterested", "meaning": "Impartial; having nothing to gain either way." },
+      { "term": "Uninterested", "meaning": "Not interested; bored." }
+    ],
+    "difference": "A disinterested judge is fair; an uninterested judge is asleep.",
+    "examples": [
+      { "context": "Disinterested", "sentence": "We need a disinterested reviewer for this." },
+      { "context": "Uninterested", "sentence": "He seemed completely uninterested in the details." }
+    ],
+    "remember": [
+      "Probably the most misused pair in English. 'Disinterested' is a compliment about impartiality, not a criticism."
+    ]
+  },
+  {
+    "id": "nauseous-vs-nauseated",
+    "term": "Nauseous vs Nauseated",
+    "level": "C2",
+    "meaning": "Strictly, one causes the feeling and the other has it.",
+    "items": [
+      { "term": "Nauseous", "meaning": "Causing nausea in others." },
+      { "term": "Nauseated", "meaning": "Feeling sick yourself." }
+    ],
+    "difference": "Something nauseous makes you nauseated.",
+    "examples": [
+      { "context": "Strict", "sentence": "The smell was nauseous, and I felt nauseated." },
+      { "context": "Common usage", "sentence": "Most speakers now say 'I feel nauseous' and are understood." }
+    ],
+    "remember": [
+      "The distinction is losing ground — 'I feel nauseous' is accepted almost everywhere now. Worth knowing, not worth correcting."
+    ]
+  },
+  {
+    "id": "elicit-vs-illicit",
+    "term": "Elicit vs Illicit",
+    "level": "C1",
+    "meaning": "Identical in sound, unrelated in meaning.",
+    "items": [
+      { "term": "Elicit", "meaning": "A verb: to draw out a response or information." },
+      { "term": "Illicit", "meaning": "An adjective: illegal or forbidden." }
+    ],
+    "difference": "Elicit is something you do; illicit is something that's against the rules.",
+    "examples": [
+      { "context": "Elicit", "sentence": "The survey elicited useful feedback." },
+      { "context": "Illicit", "sentence": "The audit found illicit access to production." }
+    ],
+    "remember": [
+      "Illicit starts with 'ill', which fits its negative meaning."
+    ]
+  },
+  {
+    "id": "allude-vs-elude",
+    "term": "Allude vs Elude",
+    "level": "C1",
+    "meaning": "One hints at something, the other escapes.",
+    "items": [
+      { "term": "Allude", "meaning": "To refer to something indirectly." },
+      { "term": "Elude", "meaning": "To escape or avoid being caught or understood." }
+    ],
+    "difference": "You allude to a subject; a problem eludes you.",
+    "examples": [
+      { "context": "Allude", "sentence": "He alluded to layoffs without saying the word." },
+      { "context": "Elude", "sentence": "The root cause still eludes us." }
+    ],
+    "remember": [
+      "Allude always takes 'to'. Elude takes a direct object: it eludes me, not 'eludes to me'."
+    ]
+  },
+  {
+    "id": "discreet-vs-discrete",
+    "term": "Discreet vs Discrete",
+    "level": "C1",
+    "meaning": "Same sound, and only the vowel order differs in spelling.",
+    "items": [
+      { "term": "Discreet", "meaning": "Careful and private; not drawing attention." },
+      { "term": "Discrete", "meaning": "Separate and individually distinct." }
+    ],
+    "difference": "Discreet is about behaviour; discrete is about separation.",
+    "examples": [
+      { "context": "Discrete", "sentence": "The system is built from discrete modules." },
+      { "context": "Discreet", "sentence": "Please be discreet about the acquisition." }
+    ],
+    "remember": [
+      "In 'discrete', the two e's are separated by the t — which is exactly what the word means."
+    ]
+  },
+  {
+    "id": "precede-vs-proceed",
+    "term": "Precede vs Proceed",
+    "level": "B2",
+    "meaning": "One comes before, the other carries on.",
+    "items": [
+      { "term": "Precede", "meaning": "To come before something else." },
+      { "term": "Proceed", "meaning": "To continue or go ahead." }
+    ],
+    "difference": "Precede is about order; proceed is about continuing.",
+    "examples": [
+      { "context": "Both", "sentence": "Validation precedes deployment; then we proceed." },
+      { "context": "Order", "sentence": "A short briefing precedes the workshop." }
+    ],
+    "remember": [
+      "'Pre-' means before, which makes precede easy to place."
+    ]
+  },
+  {
+    "id": "adverse-vs-averse",
+    "term": "Adverse vs Averse",
+    "level": "C1",
+    "meaning": "One means harmful, the other means opposed.",
+    "items": [
+      { "term": "Adverse", "meaning": "Harmful or unfavourable — about conditions and effects." },
+      { "term": "Averse", "meaning": "Opposed to or strongly disliking — about people." }
+    ],
+    "difference": "Adverse describes a situation; averse describes an attitude.",
+    "examples": [
+      { "context": "Adverse", "sentence": "The drug has some adverse effects." },
+      { "context": "Averse", "sentence": "The board is risk-averse by design." }
+    ],
+    "remember": [
+      "'Risk-averse' is the phrase you'll meet most. 'Risk-adverse' is a very common misspelling of it."
+    ]
+  },
+  {
+    "id": "eminent-vs-imminent",
+    "term": "Eminent vs Imminent",
+    "level": "C1",
+    "meaning": "One means distinguished, the other means about to happen.",
+    "items": [
+      { "term": "Eminent", "meaning": "Famous and respected in a field." },
+      { "term": "Imminent", "meaning": "About to happen very soon." }
+    ],
+    "difference": "Eminent is about reputation; imminent is about timing.",
+    "examples": [
+      { "context": "Imminent", "sentence": "The release is imminent." },
+      { "context": "Eminent", "sentence": "An eminent researcher joined the board." }
+    ],
+    "remember": [
+      "There's a third: 'immanent' means existing within, used mostly in philosophy."
+    ]
+  },
+  {
+    "id": "flaunt-vs-flout",
+    "term": "Flaunt vs Flout",
+    "level": "C2",
+    "meaning": "One shows off, the other breaks rules.",
+    "items": [
+      { "term": "Flaunt", "meaning": "To display something proudly to be noticed." },
+      { "term": "Flout", "meaning": "To openly ignore a rule or convention." }
+    ],
+    "difference": "You flaunt what you have; you flout what you're supposed to obey.",
+    "examples": [
+      { "context": "Flout", "sentence": "He flouted the code style guidelines entirely." },
+      { "context": "Flaunt", "sentence": "The company flaunted its new headquarters." }
+    ],
+    "remember": [
+      "'Flaunting the rules' is a common error — rules are flouted, not flaunted."
+    ]
+  },
+  {
+    "id": "enervate-vs-energize",
+    "term": "Enervate vs Energize",
+    "level": "C2",
+    "meaning": "They sound similar and mean opposite things.",
+    "items": [
+      { "term": "Enervate", "meaning": "To drain someone of energy." },
+      { "term": "Energize", "meaning": "To fill someone with energy." }
+    ],
+    "difference": "Enervate takes energy away; energize gives it.",
+    "examples": [
+      { "context": "Enervate", "sentence": "Three hours of status updates enervated the whole room." },
+      { "context": "Energize", "sentence": "The demo energized the team." }
+    ],
+    "remember": [
+      "'Enervate' sounds like it should mean 'give nerve', which is exactly why it's so often used backwards."
+    ]
+  },
+  {
+    "id": "exhaustive-vs-exhausting",
+    "term": "Exhaustive vs Exhausting",
+    "level": "B2",
+    "meaning": "One means complete, the other means tiring.",
+    "items": [
+      { "term": "Exhaustive", "meaning": "Covering every possibility; complete." },
+      { "term": "Exhausting", "meaning": "Making you very tired." }
+    ],
+    "difference": "Exhaustive describes coverage; exhausting describes effect.",
+    "examples": [
+      { "context": "Exhaustive", "sentence": "We have an exhaustive test suite." },
+      { "context": "Exhausting", "sentence": "Writing it was exhausting." }
+    ],
+    "remember": [
+      "'This list is not exhaustive' is the standard caveat meaning there may be more items."
+    ]
+  },
+  {
+    "id": "ambiguous-vs-ambivalent",
+    "term": "Ambiguous vs Ambivalent",
+    "level": "B2",
+    "meaning": "One is unclear in meaning, the other is mixed in feeling.",
+    "items": [
+      { "term": "Ambiguous", "meaning": "Open to more than one interpretation." },
+      { "term": "Ambivalent", "meaning": "Having mixed feelings about something." }
+    ],
+    "difference": "A statement is ambiguous; a person is ambivalent.",
+    "examples": [
+      { "context": "Both", "sentence": "The spec is ambiguous, and I'm ambivalent about it." },
+      { "context": "Ambivalent", "sentence": "She's ambivalent about the promotion." }
+    ],
+    "remember": [
+      "'Ambivalent' means torn between two feelings, not 'not caring'. That's a separate common error."
+    ]
+  },
+  {
+    "id": "alternate-vs-alternative",
+    "term": "Alternate vs Alternative",
+    "level": "B2",
+    "meaning": "One means every other, the other means a different option.",
+    "items": [
+      { "term": "Alternate", "meaning": "Every other one, in turn." },
+      { "term": "Alternative", "meaning": "Another option instead of this one." }
+    ],
+    "difference": "Alternate is about alternating; alternative is about choice.",
+    "examples": [
+      { "context": "Alternate", "sentence": "We meet on alternate weeks." },
+      { "context": "Alternative", "sentence": "Is there an alternative design?" }
+    ],
+    "remember": [
+      "American English increasingly uses 'alternate' for both. In British English the distinction still holds."
+    ]
+  },
+  {
+    "id": "compliant-vs-compliment",
+    "term": "Compliant vs Compliment",
+    "level": "B2",
+    "meaning": "One means following rules, the other means praise.",
+    "items": [
+      { "term": "Compliant", "meaning": "Meeting a required standard or rule." },
+      { "term": "Compliment", "meaning": "A remark praising someone." }
+    ],
+    "difference": "Compliant is about conformity; a compliment is about praise.",
+    "examples": [
+      { "context": "Compliant", "sentence": "The system is GDPR-compliant." },
+      { "context": "Compliment", "sentence": "That's a real compliment coming from her." }
+    ],
+    "remember": [
+      "'Compliant' also describes a person who agrees too readily — that sense is mildly critical."
+    ]
+  },
+  {
+    "id": "dependent-vs-dependant",
+    "term": "Dependent vs Dependant",
+    "level": "C1",
+    "meaning": "A British spelling split between the adjective and the noun.",
+    "items": [
+      { "term": "Dependent", "meaning": "The adjective: relying on something else." },
+      { "term": "Dependant", "meaning": "The noun in British English: a person who depends on you." }
+    ],
+    "difference": "Dependent describes a relationship; a dependant is a person.",
+    "examples": [
+      { "context": "Adjective", "sentence": "The schedule is dependent on the vendor." },
+      { "context": "Noun", "sentence": "The policy covers employees and their dependants." }
+    ],
+    "remember": [
+      "American English uses 'dependent' for both. The '-ant' noun is British only."
+    ]
+  },
+  {
+    "id": "prescribe-vs-proscribe",
+    "term": "Prescribe vs Proscribe",
+    "level": "C2",
+    "meaning": "One letter apart, and they mean opposite things.",
+    "items": [
+      { "term": "Prescribe", "meaning": "To recommend or officially require something." },
+      { "term": "Proscribe", "meaning": "To forbid something." }
+    ],
+    "difference": "Prescribe tells you to; proscribe tells you not to.",
+    "examples": [
+      { "context": "Prescribe", "sentence": "The standard prescribes two-factor authentication." },
+      { "context": "Proscribe", "sentence": "The policy proscribes storing keys in the repo." }
+    ],
+    "remember": [
+      "Genuine opposites, which makes mixing them up unusually damaging in a policy document."
+    ]
+  },
+  {
+    "id": "tortuous-vs-torturous",
+    "term": "Tortuous vs Torturous",
+    "level": "C2",
+    "meaning": "One means winding, the other means painful.",
+    "items": [
+      { "term": "Tortuous", "meaning": "Full of twists and turns; complex and indirect." },
+      { "term": "Torturous", "meaning": "Involving suffering; extremely painful." }
+    ],
+    "difference": "Tortuous describes shape; torturous describes pain.",
+    "examples": [
+      { "context": "Tortuous", "sentence": "The approval process is tortuous." },
+      { "context": "Torturous", "sentence": "Three hours of it was torturous." }
+    ],
+    "remember": [
+      "A tortuous codebase is complicated. A torturous one makes you suffer. Often both apply."
+    ]
+  },
+  {
+    "id": "ingenious-vs-ingenuous",
+    "term": "Ingenious vs Ingenuous",
+    "level": "C2",
+    "meaning": "One means clever, the other means innocent.",
+    "items": [
+      { "term": "Ingenious", "meaning": "Cleverly inventive." },
+      { "term": "Ingenuous", "meaning": "Innocent and unsuspecting; naive." }
+    ],
+    "difference": "Ingenious praises intelligence; ingenuous describes inexperience.",
+    "examples": [
+      { "context": "Ingenious", "sentence": "That's an ingenious workaround." },
+      { "context": "Ingenuous", "sentence": "It was an ingenuous question, asked without any agenda." }
+    ],
+    "remember": [
+      "'Disingenuous' is far more common than 'ingenuous', and means insincere — pretending not to know."
+    ]
+  },
+  {
+    "id": "regretfully-vs-regrettably",
+    "term": "Regretfully vs Regrettably",
+    "level": "C2",
+    "meaning": "One describes the person, the other the situation.",
+    "items": [
+      { "term": "Regretfully", "meaning": "With regret — describing how the person feels." },
+      { "term": "Regrettably", "meaning": "Unfortunately — describing the situation." }
+    ],
+    "difference": "Regretfully is about the speaker; regrettably is about the fact.",
+    "examples": [
+      { "context": "Regrettably", "sentence": "Regrettably, we can't extend the deadline." },
+      { "context": "Regretfully", "sentence": "He regretfully declined the offer." }
+    ],
+    "remember": [
+      "In business writing 'regrettably' is almost always the one you want."
+    ]
+  },
+  {
+    "id": "peruse",
+    "term": "Peruse",
+    "level": "C2",
+    "meaning": "A word that means the opposite of what most people assume.",
+    "items": [
+      { "term": "What people assume", "meaning": "To skim or glance over something quickly." },
+      { "term": "What it actually means", "meaning": "To read carefully and thoroughly." }
+    ],
+    "difference": "Perusing is close reading, not skimming.",
+    "examples": [
+      { "context": "Correct", "sentence": "I perused the contract line by line before signing." },
+      { "context": "Common misuse", "sentence": "'Have a quick peruse' contradicts the word's real meaning." }
+    ],
+    "remember": [
+      "So widely misused that some dictionaries now list 'skim' as a secondary sense. In formal writing, use it for careful reading only."
+    ]
+  },
+  {
+    "id": "literally",
+    "term": "Literally",
+    "level": "B2",
+    "meaning": "A word used precisely — and, increasingly, for emphasis.",
+    "items": [
+      { "term": "What it strictly means", "meaning": "Actually, in fact, not as a metaphor." },
+      { "term": "How it's often used", "meaning": "As an intensifier meaning 'very' or 'really'." }
+    ],
+    "difference": "Strictly, 'literally' means it really happened; loosely, it just adds emphasis.",
+    "examples": [
+      { "context": "Correct", "sentence": "The server literally caught fire — there was smoke." },
+      { "context": "Loose", "sentence": "I literally died laughing." }
+    ],
+    "remember": [
+      "In technical or formal writing, keep the strict sense. Saying something 'literally' happened when it didn't undermines your precision elsewhere."
+    ]
+  }
+]

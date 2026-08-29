@@ -1,0 +1,507 @@
+[
+  {
+    "id": "slippery-slope",
+    "term": "That's a slippery slope.",
+    "level": "B2",
+    "meaning": "One small concession will lead to bigger ones you don't want.",
+    "usage": "Use it to resist an exception on the grounds of what it opens the door to, not on its own merits.",
+    "examples": [
+      { "context": "Meeting", "sentence": "If we skip review for urgent fixes, that's a slippery slope." },
+      { "context": "Policy", "sentence": "Making one exception is a slippery slope — everyone will ask." }
+    ],
+    "remember": [
+      "You're arguing about the precedent, not this case. Say what the slope leads to, or it sounds like an excuse."
+    ]
+  },
+  {
+    "id": "devil-in-the-details",
+    "term": "The devil is in the details.",
+    "level": "B2",
+    "meaning": "The plan sounds fine until you look closely, where the real problems live.",
+    "usage": "Use it to slow down agreement reached too quickly, and to ask for specifics.",
+    "examples": [
+      { "context": "Meeting", "sentence": "We agree in principle, but the devil is in the details." },
+      { "context": "Contract", "sentence": "Read clause nine — the devil is in the details." }
+    ],
+    "remember": [
+      "It's a request for specifics, not a rejection. Follow it with the detail you actually want."
+    ]
+  },
+  {
+    "id": "double-edged-sword",
+    "term": "It's a double-edged sword.",
+    "level": "B2",
+    "meaning": "The same thing brings a benefit and a cost.",
+    "usage": "Use it when a decision genuinely cuts both ways and you want both sides on the table.",
+    "examples": [
+      { "context": "Product", "sentence": "More configuration is a double-edged sword — powerful, but harder to support." },
+      { "context": "Hiring", "sentence": "Fame is a double-edged sword for a small company." }
+    ],
+    "remember": [
+      "Name both edges. Saying it without explaining the downside makes it sound like a hedge."
+    ]
+  },
+  {
+    "id": "solving-the-wrong-problem",
+    "term": "I think we're solving the wrong problem.",
+    "level": "B2",
+    "meaning": "The work is good but aimed at the wrong target.",
+    "usage": "Use it to stop a discussion that has gone deep on a solution before the problem was agreed.",
+    "examples": [
+      { "context": "Meeting", "sentence": "Before we go further — I think we're solving the wrong problem." },
+      { "context": "Review", "sentence": "The code is fine. I think we're solving the wrong problem." }
+    ],
+    "remember": [
+      "This stops a room, so follow it immediately with what you think the real problem is."
+    ]
+  },
+  {
+    "id": "solution-looking-for-a-problem",
+    "term": "That's a solution looking for a problem.",
+    "level": "C1",
+    "meaning": "Someone is attached to a technology or idea and is hunting for a use for it.",
+    "usage": "Use it to challenge a proposal that starts from the answer rather than from a real need.",
+    "examples": [
+      { "context": "Engineering", "sentence": "Adding a queue here is a solution looking for a problem." },
+      { "context": "Product", "sentence": "It's clever, but it's a solution looking for a problem." }
+    ],
+    "remember": [
+      "Direct criticism — it implies the person wanted to use the thing regardless. Soften it if the room is formal."
+    ]
+  },
+  {
+    "id": "not-a-silver-bullet",
+    "term": "It's not a silver bullet, but it helps.",
+    "level": "B2",
+    "meaning": "This improves things without solving the whole problem.",
+    "usage": "Use it to recommend something honestly, heading off the expectation that it fixes everything.",
+    "examples": [
+      { "context": "Meeting", "sentence": "Caching isn't a silver bullet, but it helps." },
+      { "context": "Process", "sentence": "It's not a silver bullet — we'll still need manual review." }
+    ],
+    "remember": [
+      "Managing expectations while still recommending something is what makes this useful. 'There's no silver bullet' is the standalone form."
+    ]
+  },
+  {
+    "id": "spreading-ourselves-too-thin",
+    "term": "We're spreading ourselves too thin.",
+    "level": "B2",
+    "meaning": "We're doing too many things to do any of them well.",
+    "usage": "Use it to argue for cutting scope or focus, blaming the number of commitments rather than any person.",
+    "examples": [
+      { "context": "Team", "sentence": "Four projects with three people — we're spreading ourselves too thin." },
+      { "context": "Strategy", "sentence": "I'd rather do two things well than spread ourselves too thin." }
+    ],
+    "remember": [
+      "It criticises the plan, not the people, which is why it lands safely in a team meeting."
+    ]
+  },
+  {
+    "id": "back-to-square-one",
+    "term": "We're back to square one.",
+    "level": "B2",
+    "meaning": "The work so far is wasted and we're starting again.",
+    "usage": "Use it when an attempt has failed completely, not for an ordinary setback.",
+    "examples": [
+      { "context": "Project", "sentence": "The client rejected the concept, so we're back to square one." },
+      { "context": "Research", "sentence": "The data was corrupted — back to square one." }
+    ],
+    "remember": [
+      "It carries real frustration. Use it only when the restart is genuinely total."
+    ]
+  },
+  {
+    "id": "moving-target",
+    "term": "It's a moving target.",
+    "level": "B2",
+    "meaning": "The requirement keeps changing, so we can never finish.",
+    "usage": "Use it to raise the cost of shifting requirements without accusing anyone of changing their mind.",
+    "examples": [
+      { "context": "Project", "sentence": "The spec has changed three times — it's a moving target." },
+      { "context": "Estimate", "sentence": "I can't estimate a moving target." }
+    ],
+    "remember": [
+      "The polite way to say 'stop changing the requirements'. Pair it with a request to freeze scope."
+    ]
+  },
+  {
+    "id": "hit-a-wall",
+    "term": "We've hit a wall on this.",
+    "level": "B1",
+    "meaning": "Progress has stopped and we can't see a way forward.",
+    "usage": "Use it to ask for help without admitting defeat — it says the obstacle is real, not personal.",
+    "examples": [
+      { "context": "Engineering", "sentence": "We've hit a wall on the memory leak." },
+      { "context": "Negotiation", "sentence": "We've hit a wall on price." }
+    ],
+    "remember": [
+      "It signals you need input. Follow it with what you've already tried."
+    ]
+  },
+  {
+    "id": "going-in-circles",
+    "term": "We're going in circles.",
+    "level": "B1",
+    "meaning": "The discussion keeps returning to the same points without progressing.",
+    "usage": "Use it to interrupt a repetitive meeting and force a decision or a break.",
+    "examples": [
+      { "context": "Meeting", "sentence": "We're going in circles — can we agree a decision rule?" },
+      { "context": "Debate", "sentence": "We've been going in circles for twenty minutes." }
+    ],
+    "remember": [
+      "Saying it is only useful if you then propose what to do instead."
+    ]
+  },
+  {
+    "id": "chicken-and-egg",
+    "term": "It's a chicken-and-egg problem.",
+    "level": "C1",
+    "meaning": "Two things each require the other to exist first.",
+    "usage": "Use it for genuine circular dependencies — marketplaces without buyers or sellers, data without users.",
+    "examples": [
+      { "context": "Product", "sentence": "No users without content, no content without users — a chicken-and-egg problem." },
+      { "context": "Engineering", "sentence": "The migration is chicken-and-egg: we need the new schema to test the new code." }
+    ],
+    "remember": [
+      "Only use it when the dependency really is circular. Otherwise it excuses a problem that has an ordinary order."
+    ]
+  },
+  {
+    "id": "just-a-band-aid",
+    "term": "That fix is just a band-aid.",
+    "level": "B2",
+    "meaning": "It covers the symptom without addressing the cause.",
+    "usage": "Use it to argue that a quick fix will need doing again — while acknowledging it works for now.",
+    "examples": [
+      { "context": "Engineering", "sentence": "Restarting nightly is a band-aid, not a fix." },
+      { "context": "Process", "sentence": "Adding a checklist is a band-aid on a broken handover." }
+    ],
+    "remember": [
+      "British English often says 'a sticking plaster' or 'a plaster over the crack'. Same meaning.",
+      "A band-aid isn't always wrong — sometimes you need one now. Say when the real fix will come."
+    ]
+  },
+  {
+    "id": "between-a-rock-and-a-hard-place",
+    "term": "Between a rock and a hard place",
+    "level": "B2",
+    "meaning": "Facing two options that are both bad.",
+    "usage": "Use it to describe a genuine dilemma where every route costs something.",
+    "examples": [
+      { "context": "Business", "sentence": "Raise prices or cut quality — we're between a rock and a hard place." },
+      { "context": "Personal", "sentence": "She was between a rock and a hard place over the move." }
+    ],
+    "remember": [
+      "Both options must be bad. If one is merely less attractive, it's just a trade-off."
+    ]
+  },
+  {
+    "id": "open-a-can-of-worms",
+    "term": "Open a can of worms",
+    "level": "B2",
+    "meaning": "To start something that reveals many more problems than expected.",
+    "usage": "Use it as a warning before raising a subject that will expand well beyond its apparent size.",
+    "examples": [
+      { "context": "Meeting", "sentence": "Asking about the legacy pricing opens a can of worms." },
+      { "context": "Code", "sentence": "I touched one file and opened a whole can of worms." }
+    ],
+    "remember": [
+      "Usually a warning, not a description of something already done."
+    ]
+  },
+  {
+    "id": "put-out-fires",
+    "term": "Put out fires",
+    "level": "B2",
+    "meaning": "To spend your time dealing with urgent problems instead of planned work.",
+    "usage": "Use it to explain why planned work hasn't progressed, or to describe a permanently reactive role.",
+    "examples": [
+      { "context": "Work", "sentence": "I spent the whole week putting out fires." },
+      { "context": "Management", "sentence": "If we're always putting out fires, we never fix the cause." }
+    ],
+    "remember": [
+      "'Firefighting' is the noun: 'we're in firefighting mode'."
+    ]
+  },
+  {
+    "id": "elephant-in-the-room",
+    "term": "The elephant in the room",
+    "level": "B2",
+    "meaning": "An obvious problem everyone is avoiding mentioning.",
+    "usage": "Use it to name what a group is politely ignoring — usually budget, performance, or someone leaving.",
+    "examples": [
+      { "context": "Meeting", "sentence": "Can I name the elephant in the room? We're two months behind." },
+      { "context": "Team", "sentence": "Nobody mentioned the elephant in the room." }
+    ],
+    "remember": [
+      "Saying the phrase without then naming the thing is worse than not saying it at all."
+    ]
+  },
+  {
+    "id": "ticking-time-bomb",
+    "term": "Ticking time bomb",
+    "level": "B2",
+    "meaning": "A problem that is certain to cause damage soon if nothing is done.",
+    "usage": "Use it to raise urgency about something that looks stable but is degrading.",
+    "examples": [
+      { "context": "Engineering", "sentence": "That certificate expires in April — it's a ticking time bomb." },
+      { "context": "Team", "sentence": "One person holding all the knowledge is a ticking time bomb." }
+    ],
+    "remember": [
+      "Strong language. Overusing it means nobody reacts when something really is urgent."
+    ]
+  },
+  {
+    "id": "throw-a-wrench-in-the-works",
+    "term": "Throw a wrench in the works",
+    "level": "C1",
+    "meaning": "To disrupt a plan that was running smoothly.",
+    "usage": "Use it about an unexpected event that breaks an arrangement, deliberately or not.",
+    "examples": [
+      { "context": "Project", "sentence": "The vendor pulling out threw a wrench in the works." },
+      { "context": "Plans", "sentence": "The strike threw a wrench in our travel plans." }
+    ],
+    "remember": [
+      "British English says 'throw a spanner in the works'. Same image, different tool."
+    ]
+  },
+  {
+    "id": "grasping-at-straws",
+    "term": "Grasping at straws",
+    "level": "C1",
+    "meaning": "Trying desperate, unlikely ideas because nothing else is left.",
+    "usage": "Use it about weak arguments or last-resort attempts when the good options are gone.",
+    "examples": [
+      { "context": "Debugging", "sentence": "I'm grasping at straws — I've restarted everything twice." },
+      { "context": "Argument", "sentence": "That objection is grasping at straws." }
+    ],
+    "remember": [
+      "About yourself it admits desperation; about someone else it dismisses their argument. Very different weight."
+    ]
+  },
+  {
+    "id": "put-all-your-eggs-in-one-basket",
+    "term": "Put all your eggs in one basket",
+    "level": "B2",
+    "meaning": "To depend entirely on one option, with no fallback.",
+    "usage": "Use it to argue for spreading risk — across suppliers, customers, or approaches.",
+    "examples": [
+      { "context": "Business", "sentence": "One customer is eighty per cent of revenue — all our eggs in one basket." },
+      { "context": "Career", "sentence": "Don't put all your eggs in one basket; apply to several." }
+    ],
+    "remember": [
+      "Almost always used as a warning, in the negative: 'let's not put all our eggs in one basket'."
+    ]
+  },
+  {
+    "id": "rub-someone-the-wrong-way",
+    "term": "Rub someone the wrong way",
+    "level": "C1",
+    "meaning": "To irritate someone, often without meaning to.",
+    "usage": "Use it about a manner or tone that annoys people rather than any specific offence.",
+    "examples": [
+      { "context": "Team", "sentence": "His directness rubs some people the wrong way." },
+      { "context": "Feedback", "sentence": "The wording rubbed her the wrong way." }
+    ],
+    "remember": [
+      "It implies no bad intent, which makes it a gentle way to raise an interpersonal problem."
+    ]
+  },
+  {
+    "id": "throw-someone-under-the-bus",
+    "term": "Throw someone under the bus",
+    "level": "C1",
+    "meaning": "To blame a colleague publicly to protect yourself.",
+    "usage": "Use it to describe a betrayal of trust at work — one of the strongest criticisms of behaviour in office English.",
+    "examples": [
+      { "context": "Work", "sentence": "He threw the whole team under the bus in that review." },
+      { "context": "Meeting", "sentence": "I'm not going to throw anyone under the bus — this was a process failure." }
+    ],
+    "remember": [
+      "Serious accusation. Saying you *won't* do it is a strong signal of loyalty."
+    ]
+  },
+  {
+    "id": "fall-through-the-cracks",
+    "term": "Fall through the cracks",
+    "level": "B2",
+    "meaning": "To be forgotten because nobody clearly owned it.",
+    "usage": "Use it about work lost between teams or handovers — the failure is the gap, not a person.",
+    "examples": [
+      { "context": "Process", "sentence": "Two tickets fell through the cracks during the handover." },
+      { "context": "Planning", "sentence": "I want an owner for each item so nothing falls through the cracks." }
+    ],
+    "remember": [
+      "Blames the system rather than an individual, which is why it's safe to say in a review."
+    ]
+  },
+  {
+    "id": "miss-the-forest-for-the-trees",
+    "term": "Miss the forest for the trees",
+    "level": "C1",
+    "meaning": "To focus on details and lose sight of the overall point.",
+    "usage": "Use it when a discussion has gone deep on something minor while the big question sits unanswered.",
+    "examples": [
+      { "context": "Review", "sentence": "We're arguing about naming and missing the forest for the trees." },
+      { "context": "Analysis", "sentence": "The report misses the forest for the trees." }
+    ],
+    "remember": [
+      "British English says 'can't see the wood for the trees'. Same meaning."
+    ]
+  },
+  {
+    "id": "drop-the-ball",
+    "term": "Drop the ball",
+    "level": "B2",
+    "meaning": "To fail to do something you were responsible for.",
+    "usage": "Use it to admit a lapse plainly, or to name one — it's direct but not harsh.",
+    "examples": [
+      { "context": "Work", "sentence": "I dropped the ball on the follow-up — sorry." },
+      { "context": "Team", "sentence": "We dropped the ball on communication this month." }
+    ],
+    "remember": [
+      "About yourself it's honest and lands well. About someone else it's a clear accusation of negligence."
+    ]
+  },
+  {
+    "id": "miss-the-mark",
+    "term": "Miss the mark",
+    "level": "B2",
+    "meaning": "To fail to achieve what was intended.",
+    "usage": "Use it about work that was done properly but didn't hit the goal — softer than calling it a failure.",
+    "examples": [
+      { "context": "Feedback", "sentence": "The design is beautiful but it misses the mark on accessibility." },
+      { "context": "Results", "sentence": "We missed the mark on the quarterly target." }
+    ],
+    "remember": [
+      "Criticises the outcome without questioning the effort — useful in feedback."
+    ]
+  },
+  {
+    "id": "blow-out-of-proportion",
+    "term": "Blow out of proportion",
+    "level": "B2",
+    "meaning": "To treat something as far more serious than it is.",
+    "usage": "Use it to calm a reaction — but carefully, since it tells someone their concern is excessive.",
+    "examples": [
+      { "context": "Work", "sentence": "One complaint got blown out of proportion." },
+      { "context": "Media", "sentence": "The story was blown completely out of proportion." }
+    ],
+    "remember": [
+      "Said to someone who is upset, this usually makes things worse. It works better about a situation than about a person."
+    ]
+  },
+  {
+    "id": "tip-of-the-iceberg",
+    "term": "Tip of the iceberg",
+    "level": "B2",
+    "meaning": "The small visible part of a much larger problem.",
+    "usage": "Use it when what has surfaced suggests far more underneath.",
+    "examples": [
+      { "context": "Audit", "sentence": "Three failures found, and I suspect that's the tip of the iceberg." },
+      { "context": "Support", "sentence": "The complaints are the tip of the iceberg." }
+    ],
+    "remember": [
+      "It claims there's more hidden. Be ready to say why you think so."
+    ]
+  },
+  {
+    "id": "domino-effect",
+    "term": "Domino effect",
+    "level": "B2",
+    "meaning": "One failure causing a chain of further failures.",
+    "usage": "Use it about knock-on consequences spreading through connected systems, teams, or schedules.",
+    "examples": [
+      { "context": "Project", "sentence": "The delay had a domino effect on every downstream team." },
+      { "context": "Systems", "sentence": "One service timing out caused a domino effect." }
+    ],
+    "remember": [
+      "The failures must be causally linked. Several unrelated problems at once is just a bad week."
+    ]
+  },
+  {
+    "id": "snowball",
+    "term": "Snowball",
+    "level": "B2",
+    "meaning": "To grow quickly and increasingly out of control.",
+    "usage": "Use it about small problems or small successes that accelerate as they go.",
+    "examples": [
+      { "context": "Problem", "sentence": "A minor bug snowballed into a two-day outage." },
+      { "context": "Growth", "sentence": "Word of mouth snowballed after the launch." }
+    ],
+    "remember": [
+      "Works for good and bad growth, but the sense of losing control is always there."
+    ]
+  },
+  {
+    "id": "behind-the-curve",
+    "term": "Behind the curve",
+    "level": "C1",
+    "meaning": "Slower than others to adopt or respond to something.",
+    "usage": "Use it about companies or teams that have fallen behind a trend competitors already follow.",
+    "examples": [
+      { "context": "Business", "sentence": "We're behind the curve on mobile." },
+      { "context": "Team", "sentence": "Our tooling is behind the curve." }
+    ],
+    "remember": [
+      "The opposite is 'ahead of the curve'. Both compare you to others, not to a plan."
+    ]
+  },
+  {
+    "id": "pass-the-buck",
+    "term": "Pass the buck",
+    "level": "C1",
+    "meaning": "To push responsibility onto someone else.",
+    "usage": "Use it to criticise avoidance of accountability, especially when a problem is bounced between teams.",
+    "examples": [
+      { "context": "Work", "sentence": "Support and engineering keep passing the buck." },
+      { "context": "Leadership", "sentence": "I'm not going to pass the buck — this was my call." }
+    ],
+    "remember": [
+      "'The buck stops here' is the well-known opposite: responsibility ends with me."
+    ]
+  },
+  {
+    "id": "cost-an-arm-and-a-leg",
+    "term": "Cost an arm and a leg",
+    "level": "B1",
+    "meaning": "To be extremely expensive.",
+    "usage": "Use it informally to complain about a price, usually with deliberate exaggeration.",
+    "examples": [
+      { "context": "Shopping", "sentence": "That laptop cost an arm and a leg." },
+      { "context": "Business", "sentence": "Their enterprise tier costs an arm and a leg." }
+    ],
+    "remember": [
+      "Too informal for a written proposal — use 'prohibitively expensive' there."
+    ]
+  },
+  {
+    "id": "cut-your-losses",
+    "term": "Cut your losses",
+    "level": "C1",
+    "meaning": "To stop investing in something failing, and accept what you've already lost.",
+    "usage": "Use it to argue for abandoning a project before it consumes more time or money.",
+    "examples": [
+      { "context": "Business", "sentence": "Six months in with no traction — time to cut our losses." },
+      { "context": "Personal", "sentence": "He cut his losses and sold the flat." }
+    ],
+    "remember": [
+      "The hard part is that the money already spent shouldn't affect the decision. That's the sunk cost fallacy this phrase exists to defeat."
+    ]
+  },
+  {
+    "id": "penny-wise-pound-foolish",
+    "term": "Penny-wise, pound-foolish",
+    "level": "C2",
+    "meaning": "Saving small amounts in ways that cause much larger costs.",
+    "usage": "Use it to criticise a false economy — cheap tools, skipped testing, understaffing.",
+    "examples": [
+      { "context": "Business", "sentence": "Cutting the QA contract to save ten thousand was penny-wise, pound-foolish." },
+      { "context": "Home", "sentence": "The cheap boiler failed in a year — penny-wise, pound-foolish." }
+    ],
+    "remember": [
+      "British in origin, from pennies and pounds, but understood everywhere. 'False economy' is the plainer alternative."
+    ]
+  }
+]

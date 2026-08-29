@@ -1,0 +1,663 @@
+[
+  {
+    "id": "orthogonal",
+    "term": "Orthogonal",
+    "partOfSpeech": "Adjective",
+    "level": "C2",
+    "meaning": "Independent — changing one has no effect on the other.",
+    "usage": "In discussion, use it to say two issues are unrelated and should be decided separately.",
+    "examples": [
+      { "context": "Meeting", "sentence": "That's an orthogonal concern — let's not tangle the two decisions." },
+      { "context": "Design", "sentence": "Keep the two settings orthogonal so users can change either freely." },
+      { "context": "Maths", "sentence": "The two vectors are orthogonal." }
+    ],
+    "remember": [
+      "It means independent, not merely different. Two related problems are not orthogonal, however distinct they seem."
+    ]
+  },
+  {
+    "id": "idempotent",
+    "term": "Idempotent",
+    "partOfSpeech": "Adjective",
+    "level": "C2",
+    "meaning": "Producing the same result no matter how many times it is repeated.",
+    "usage": "A technical term for operations that are safe to retry — pressing the button twice changes nothing extra.",
+    "examples": [
+      { "context": "Software", "sentence": "Make the endpoint idempotent so retries don't create duplicate orders." },
+      { "context": "Operations", "sentence": "The script is idempotent — you can run it as often as you like." }
+    ],
+    "remember": [
+      "Idempotency is what makes automatic retries safe. Without it, a network glitch can charge a customer twice.",
+      "Pronounced eye-DEM-po-tent."
+    ]
+  },
+  {
+    "id": "nuance",
+    "term": "Nuance",
+    "partOfSpeech": "Noun",
+    "level": "C1",
+    "meaning": "A small but important difference in meaning.",
+    "usage": "Use it to argue that a simple summary is losing something that matters.",
+    "examples": [
+      { "context": "Discussion", "sentence": "That summary loses all the nuance of the original argument." },
+      { "context": "Language", "sentence": "The two words are close, but there's a nuance." },
+      { "context": "Policy", "sentence": "It's a nuanced position, not a simple yes or no." }
+    ],
+    "remember": [
+      "'Nuanced' can be genuine praise for careful thinking, or a polite way of saying someone won't give a straight answer."
+    ]
+  },
+  {
+    "id": "ramifications",
+    "term": "Ramifications",
+    "partOfSpeech": "Noun",
+    "level": "C1",
+    "meaning": "The complicated consequences that spread out from a decision.",
+    "usage": "Use it for effects that reach further than the obvious ones, usually unwelcome.",
+    "examples": [
+      { "context": "Business", "sentence": "The ramifications of pulling out go well beyond this contract." },
+      { "context": "Legal", "sentence": "We should understand the legal ramifications first." },
+      { "context": "Technical", "sentence": "Changing the schema has ramifications across three services." }
+    ],
+    "remember": [
+      "Nearly always plural and nearly always negative. Neutral effects are just 'consequences'."
+    ]
+  },
+  {
+    "id": "ambiguity",
+    "term": "Ambiguity",
+    "partOfSpeech": "Noun",
+    "level": "C1",
+    "meaning": "The state of having more than one possible meaning.",
+    "usage": "Use it about wording and situations open to two readings — and about the discomfort of not yet knowing.",
+    "examples": [
+      { "context": "Writing", "sentence": "There's an ambiguity in clause four that we should fix." },
+      { "context": "Work", "sentence": "The role requires comfort with ambiguity." },
+      { "context": "Requirements", "sentence": "Most rework comes from ambiguity in the brief." }
+    ],
+    "remember": [
+      "'Tolerance for ambiguity' is standard job-advert language for coping when the answer isn't defined yet."
+    ]
+  },
+  {
+    "id": "underlying",
+    "term": "Underlying",
+    "partOfSpeech": "Adjective",
+    "level": "B2",
+    "meaning": "Real but hidden beneath what is visible.",
+    "usage": "Use it to separate a symptom from its actual source — the cause under the problem you can see.",
+    "examples": [
+      { "context": "Problem", "sentence": "We fixed the symptom but not the underlying cause." },
+      { "context": "Medicine", "sentence": "There may be an underlying condition." },
+      { "context": "Data", "sentence": "The underlying trend is upward despite this month's dip." }
+    ],
+    "remember": [
+      "'Underlying cause' is the standard phrase in any investigation, and the thing worth asking about."
+    ]
+  },
+  {
+    "id": "synthesize",
+    "term": "Synthesize",
+    "partOfSpeech": "Verb",
+    "level": "C1",
+    "meaning": "To combine separate pieces into a single coherent whole.",
+    "usage": "Use it about pulling many sources into one clear conclusion — more than summarising, because it creates something new.",
+    "examples": [
+      { "context": "Research", "sentence": "The final section synthesizes findings from all four studies." },
+      { "context": "Work", "sentence": "Can you synthesize the interviews into three themes?" },
+      { "context": "Chemistry", "sentence": "The compound was first synthesized in 1954." }
+    ],
+    "remember": [
+      "Summarising shortens one source; synthesising combines several into a new position. That difference is the value."
+    ]
+  },
+  {
+    "id": "assumption",
+    "term": "Assumption",
+    "partOfSpeech": "Noun",
+    "level": "B2",
+    "meaning": "Something accepted as true without being checked.",
+    "usage": "Use it to surface what a plan quietly depends on — the most useful question in any review.",
+    "examples": [
+      { "context": "Planning", "sentence": "What assumptions is this forecast built on?" },
+      { "context": "Work", "sentence": "I made an assumption about the format and got it wrong." },
+      { "context": "Analysis", "sentence": "The model breaks if that assumption doesn't hold." }
+    ],
+    "remember": [
+      "Assumptions are unavoidable; unstated ones are the problem. Writing them down converts a hidden risk into a checkable one."
+    ]
+  },
+  {
+    "id": "delineate",
+    "term": "Delineate",
+    "partOfSpeech": "Verb",
+    "level": "C2",
+    "meaning": "To describe something precisely, marking exactly where its edges are.",
+    "usage": "Formal. Use it about defining boundaries — of responsibilities, scope, or territory.",
+    "examples": [
+      { "context": "Work", "sentence": "The document delineates each team's responsibilities." },
+      { "context": "Scope", "sentence": "We need to delineate what's in and out of this phase." },
+      { "context": "Geography", "sentence": "The treaty delineates the border precisely." }
+    ],
+    "remember": [
+      "The value is in the edges. Delineating means saying what is *not* included as clearly as what is."
+    ]
+  },
+  {
+    "id": "extrapolate",
+    "term": "Extrapolate",
+    "partOfSpeech": "Verb",
+    "level": "C1",
+    "meaning": "To estimate beyond your data by continuing an existing pattern.",
+    "usage": "Use it about projecting a trend forward — and about the risk of doing so from too little evidence.",
+    "examples": [
+      { "context": "Data", "sentence": "If we extrapolate from Q1, we'd finish the year at four million." },
+      { "context": "Caution", "sentence": "It's risky to extrapolate from a single week." },
+      { "context": "Research", "sentence": "You can't extrapolate these results to the whole population." }
+    ],
+    "remember": [
+      "Extrapolating goes beyond your data; interpolating estimates between points you already have. Extrapolation is the riskier of the two."
+    ]
+  },
+  {
+    "id": "inherent",
+    "term": "Inherent",
+    "partOfSpeech": "Adjective",
+    "level": "C1",
+    "meaning": "Existing as a permanent, inseparable part of something.",
+    "usage": "Use it about risks and qualities that cannot be removed because they come with the thing itself.",
+    "examples": [
+      { "context": "Risk", "sentence": "There's an inherent risk in any migration." },
+      { "context": "Design", "sentence": "The delay is inherent to the protocol, not a bug." },
+      { "context": "Argument", "sentence": "There's an inherent contradiction in that position." }
+    ],
+    "remember": [
+      "Calling a risk inherent means it can be managed but never eliminated — which changes what you plan for."
+    ]
+  },
+  {
+    "id": "marginal",
+    "term": "Marginal",
+    "partOfSpeech": "Adjective",
+    "level": "C1",
+    "meaning": "Very small — or relating to the effect of one additional unit.",
+    "usage": "Everyday sense: barely worth noticing. Economic sense: what one more customer, hour, or item actually costs or earns.",
+    "examples": [
+      { "context": "Result", "sentence": "The improvement was marginal — about one per cent." },
+      { "context": "Economics", "sentence": "The marginal cost of one more download is nearly zero." },
+      { "context": "Decision", "sentence": "It's a marginal call; either option would work." }
+    ],
+    "remember": [
+      "In economics 'marginal' means 'of the next one', not 'small'. Confusing the two senses leads to bad pricing decisions."
+    ]
+  },
+  {
+    "id": "substantial",
+    "term": "Substantial",
+    "partOfSpeech": "Adjective",
+    "level": "B2",
+    "meaning": "Large enough to matter.",
+    "usage": "Use it in reports where 'big' would sound casual. It signals real size without exaggerating.",
+    "examples": [
+      { "context": "Business", "sentence": "There was a substantial increase in enquiries." },
+      { "context": "Change", "sentence": "This requires substantial rework, not a tweak." },
+      { "context": "Evidence", "sentence": "There's substantial evidence supporting the claim." }
+    ],
+    "remember": [
+      "'Substantial' means considerable in size; 'substantive' means dealing with the real content. Different words, often mixed up."
+    ]
+  },
+  {
+    "id": "negligible",
+    "term": "Negligible",
+    "partOfSpeech": "Adjective",
+    "level": "C1",
+    "meaning": "So small it can safely be ignored.",
+    "usage": "Use it to dismiss a factor from a calculation or decision — it is a claim that something doesn't need accounting for.",
+    "examples": [
+      { "context": "Cost", "sentence": "The additional cost is negligible." },
+      { "context": "Risk", "sentence": "The risk isn't negligible — we should plan for it." },
+      { "context": "Data", "sentence": "The difference between the two groups was negligible." }
+    ],
+    "remember": [
+      "Saying something is negligible is a decision to stop tracking it. Be sure before you say it."
+    ]
+  },
+  {
+    "id": "deterministic",
+    "term": "Deterministic",
+    "partOfSpeech": "Adjective",
+    "level": "C2",
+    "meaning": "Always producing the same output from the same input.",
+    "usage": "Technical. Use it about processes with no randomness — and note that non-deterministic bugs are the hardest to find.",
+    "examples": [
+      { "context": "Software", "sentence": "The function is deterministic, so it's easy to test." },
+      { "context": "Debugging", "sentence": "The bug isn't deterministic — it only appears under load." },
+      { "context": "Systems", "sentence": "We need deterministic builds so releases are reproducible." }
+    ],
+    "remember": [
+      "Non-deterministic behaviour is what makes a bug 'unreproducible', which is why the word comes up so often in debugging."
+    ]
+  },
+  {
+    "id": "abstraction",
+    "term": "Abstraction",
+    "partOfSpeech": "Noun",
+    "level": "C1",
+    "meaning": "A simplified model that hides detail so you can think at a higher level.",
+    "usage": "Use it about deliberately ignoring specifics to reason about the shape of something.",
+    "examples": [
+      { "context": "Software", "sentence": "The database layer is an abstraction over three storage systems." },
+      { "context": "Discussion", "sentence": "Let's talk at a higher level of abstraction." },
+      { "context": "Criticism", "sentence": "It's a leaky abstraction — the details show through anyway." }
+    ],
+    "remember": [
+      "Every abstraction hides something. When the hidden detail starts to matter, the abstraction is said to 'leak'."
+    ]
+  },
+  {
+    "id": "contention",
+    "term": "Contention",
+    "partOfSpeech": "Noun",
+    "level": "C1",
+    "meaning": "A point being argued — or competition for a shared resource.",
+    "usage": "In discussion, 'my contention is' introduces the claim you are defending. In systems, contention means two processes wanting the same thing.",
+    "examples": [
+      { "context": "Argument", "sentence": "My contention is that the data doesn't support the conclusion." },
+      { "context": "Disagreement", "sentence": "That's the main point of contention." },
+      { "context": "Systems", "sentence": "There's lock contention when traffic spikes." }
+    ],
+    "remember": [
+      "'A bone of contention' is the fixed phrase for a long-running disagreement."
+    ]
+  },
+  {
+    "id": "consolidate",
+    "term": "Consolidate",
+    "partOfSpeech": "Verb",
+    "level": "C1",
+    "meaning": "To combine several things into one stronger whole.",
+    "usage": "Use it about merging systems, debts, offices, or reports — and about making a gain secure.",
+    "examples": [
+      { "context": "Business", "sentence": "We consolidated four spreadsheets into a single dashboard." },
+      { "context": "Finance", "sentence": "She consolidated her loans into one monthly payment." },
+      { "context": "Position", "sentence": "The company consolidated its lead in the second half." }
+    ],
+    "remember": [
+      "Consolidating means fewer things, not just tidier ones. If the count doesn't drop, it's reorganising."
+    ]
+  },
+  {
+    "id": "precedent",
+    "term": "Precedent",
+    "partOfSpeech": "Noun",
+    "level": "C1",
+    "meaning": "An earlier case that others will point to as an example.",
+    "usage": "Use it in law and organisations to argue that a decision will shape what happens in future, not just this once.",
+    "examples": [
+      { "context": "Work", "sentence": "If we approve this, we set a precedent for everyone else." },
+      { "context": "Legal", "sentence": "The ruling set a precedent for similar cases." },
+      { "context": "History", "sentence": "There's no precedent for a delay this long." }
+    ],
+    "remember": [
+      "'Setting a precedent' is the most common reason a small exception gets refused — the concern is the next hundred requests.",
+      "Pronounced PRESS-uh-dent, unlike 'president'."
+    ]
+  },
+  {
+    "id": "scrutinize",
+    "term": "Scrutinize",
+    "partOfSpeech": "Verb",
+    "level": "C1",
+    "meaning": "To examine something very closely, looking for problems.",
+    "usage": "Use it about detailed critical inspection — accounts, contracts, claims — not a casual read.",
+    "examples": [
+      { "context": "Finance", "sentence": "Every expense over a thousand is scrutinized." },
+      { "context": "Media", "sentence": "The policy has been scrutinized by three separate committees." },
+      { "context": "Work", "sentence": "Scrutinize the assumptions before you trust the model." }
+    ],
+    "remember": [
+      "'Under scrutiny' is the common noun form: 'the department is under scrutiny'.",
+      "British spelling 'scrutinise' is equally correct."
+    ]
+  },
+  {
+    "id": "convergence",
+    "term": "Convergence",
+    "partOfSpeech": "Noun",
+    "level": "C1",
+    "meaning": "Separate things moving towards the same point.",
+    "usage": "Use it about technologies, opinions, or industries becoming more alike over time.",
+    "examples": [
+      { "context": "Technology", "sentence": "The convergence of phones and cameras happened fast." },
+      { "context": "Discussion", "sentence": "There's growing convergence between the two proposals." },
+      { "context": "Markets", "sentence": "We're seeing convergence in pricing across the sector." }
+    ],
+    "remember": [
+      "The opposite is 'divergence'. Both describe direction of travel, not current distance."
+    ]
+  },
+  {
+    "id": "diminishing-returns",
+    "term": "Diminishing returns",
+    "partOfSpeech": "Noun",
+    "level": "C1",
+    "meaning": "The point where extra effort produces steadily smaller gains.",
+    "usage": "Use it to argue for stopping — more input is no longer worth what it buys.",
+    "examples": [
+      { "context": "Work", "sentence": "We're at the point of diminishing returns on this draft." },
+      { "context": "Business", "sentence": "Ad spend hits diminishing returns after about ten thousand." },
+      { "context": "Study", "sentence": "Revising past midnight gives diminishing returns." }
+    ],
+    "remember": [
+      "It doesn't mean effort stops working — it means each extra unit works less well. Knowing where that point is prevents a lot of wasted work."
+    ]
+  },
+  {
+    "id": "corroborate",
+    "term": "Corroborate",
+    "partOfSpeech": "Verb",
+    "level": "C2",
+    "meaning": "To support a claim with independent evidence.",
+    "usage": "Formal. Use it in investigation, journalism, and research when a second source confirms the first.",
+    "examples": [
+      { "context": "Journalism", "sentence": "We need a second source to corroborate the story." },
+      { "context": "Legal", "sentence": "His account was corroborated by two witnesses." },
+      { "context": "Research", "sentence": "The findings corroborate earlier work in the field." }
+    ],
+    "remember": [
+      "The evidence must be independent. Someone repeating what they heard from the same source corroborates nothing."
+    ]
+  },
+  {
+    "id": "anecdotal",
+    "term": "Anecdotal",
+    "partOfSpeech": "Adjective",
+    "level": "C1",
+    "meaning": "Based on individual stories rather than systematic evidence.",
+    "usage": "Use it to flag that something is suggestive but not proven — often as a gentle caution against over-reading it.",
+    "examples": [
+      { "context": "Research", "sentence": "The evidence is anecdotal, so let's not build a strategy on it." },
+      { "context": "Work", "sentence": "Anecdotally, three customers have mentioned it this week." },
+      { "context": "Health", "sentence": "Anecdotal reports aren't a substitute for a trial." }
+    ],
+    "remember": [
+      "Anecdotal evidence is a reason to investigate, not a reason to conclude. It's a starting point, not a finding."
+    ]
+  },
+  {
+    "id": "conjecture",
+    "term": "Conjecture",
+    "partOfSpeech": "Noun / Verb",
+    "level": "C2",
+    "meaning": "An opinion formed without enough evidence to be sure.",
+    "usage": "Formal. Use it to label a guess honestly, especially when separating what you know from what you suspect.",
+    "examples": [
+      { "context": "Analysis", "sentence": "Everything beyond this point is conjecture." },
+      { "context": "Discussion", "sentence": "That's conjecture — do we have data?" },
+      { "context": "Maths", "sentence": "It remained a conjecture for three hundred years." }
+    ],
+    "remember": [
+      "More formal than 'guess' and more honest than 'theory'. Saying 'this is conjecture' strengthens your credibility rather than weakening it."
+    ]
+  },
+  {
+    "id": "second-order-effect",
+    "term": "Second-order effect",
+    "partOfSpeech": "Noun",
+    "level": "C2",
+    "meaning": "A consequence of a consequence — what happens after the obvious result.",
+    "usage": "Use it in decision-making to look past the immediate outcome to how people then respond to it.",
+    "examples": [
+      { "context": "Policy", "sentence": "The first-order effect is lower prices; the second-order effect is suppliers leaving." },
+      { "context": "Business", "sentence": "Nobody modelled the second-order effects of the discount." },
+      { "context": "Product", "sentence": "Removing the limit fixed the complaint but had ugly second-order effects." }
+    ],
+    "remember": [
+      "'And then what?' asked twice is the whole technique. Most bad decisions are first-order thinking."
+    ]
+  },
+  {
+    "id": "inflection-point",
+    "term": "Inflection point",
+    "partOfSpeech": "Noun",
+    "level": "C2",
+    "meaning": "The moment when a trend changes direction or pace.",
+    "usage": "Use it about a turning point in growth, adoption, or a company's fortunes.",
+    "examples": [
+      { "context": "Business", "sentence": "That release was the inflection point for adoption." },
+      { "context": "Career", "sentence": "Moving abroad was an inflection point for her." },
+      { "context": "Market", "sentence": "We may be at an inflection point in demand." }
+    ],
+    "remember": [
+      "Inflection points are usually obvious only afterwards. Claiming one in advance is a prediction, not an observation."
+    ]
+  },
+  {
+    "id": "provenance",
+    "term": "Provenance",
+    "partOfSpeech": "Noun",
+    "level": "C2",
+    "meaning": "The documented history of where something came from.",
+    "usage": "Use it in art, food, and data for a traceable chain of origin that establishes authenticity.",
+    "examples": [
+      { "context": "Art", "sentence": "The painting's provenance is well documented." },
+      { "context": "Data", "sentence": "We can't use this without knowing its provenance." },
+      { "context": "Food", "sentence": "Customers increasingly ask about provenance." }
+    ],
+    "remember": [
+      "Provenance is about the trail, not the origin alone. An undocumented origin has no provenance.",
+      "Pronounced PROV-uh-nunce."
+    ]
+  },
+  {
+    "id": "paradigm-shift",
+    "term": "Paradigm shift",
+    "partOfSpeech": "Noun",
+    "level": "C2",
+    "meaning": "A fundamental change in the assumptions a whole field works from.",
+    "usage": "Reserve it for genuine changes in how people think, not for new products or features.",
+    "examples": [
+      { "context": "Science", "sentence": "Plate tectonics was a genuine paradigm shift in geology." },
+      { "context": "Industry", "sentence": "Remote work caused a paradigm shift in how offices are valued." }
+    ],
+    "remember": [
+      "Badly overused in marketing. A paradigm shift changes the questions people ask, not just the answers.",
+      "Pronounced PARA-dime."
+    ]
+  },
+  {
+    "id": "underscore",
+    "term": "Underscore",
+    "partOfSpeech": "Verb",
+    "level": "C1",
+    "meaning": "To emphasise how important something is.",
+    "usage": "Formal writing. Use it when an event or fact makes an existing point unmistakable.",
+    "examples": [
+      { "context": "Report", "sentence": "The outage underscores the need for better monitoring." },
+      { "context": "News", "sentence": "The result underscores how close the race has become." },
+      { "context": "Meeting", "sentence": "Let me underscore one point before we finish." }
+    ],
+    "remember": [
+      "'Underline' and 'highlight' mean the same in this figurative sense. 'Underscore' is the most formal of the three."
+    ]
+  },
+  {
+    "id": "substantiate",
+    "term": "Substantiate",
+    "partOfSpeech": "Verb",
+    "level": "C2",
+    "meaning": "To prove a claim with evidence.",
+    "usage": "Formal. Use it when demanding or providing proof for an assertion, especially a serious one.",
+    "examples": [
+      { "context": "Work", "sentence": "Can you substantiate that figure?" },
+      { "context": "Legal", "sentence": "The allegation was never substantiated." },
+      { "context": "Research", "sentence": "Three studies substantiate the effect." }
+    ],
+    "remember": [
+      "'Unsubstantiated' is the common form and carries real weight — it means the claim was made but never proven."
+    ]
+  },
+  {
+    "id": "posit",
+    "term": "Posit",
+    "partOfSpeech": "Verb",
+    "level": "C2",
+    "meaning": "To put forward an idea as a basis for discussion.",
+    "usage": "Academic. Use it to introduce a proposition you want examined, without claiming it is proven.",
+    "examples": [
+      { "context": "Academic", "sentence": "The paper posits that the two effects share a cause." },
+      { "context": "Discussion", "sentence": "Let me posit an alternative explanation." },
+      { "context": "Analysis", "sentence": "She posits three conditions for the theory to hold." }
+    ],
+    "remember": [
+      "Positing invites challenge; asserting resists it. Choosing 'posit' signals you are open to being wrong."
+    ]
+  },
+  {
+    "id": "contend",
+    "term": "Contend",
+    "partOfSpeech": "Verb",
+    "level": "C1",
+    "meaning": "To argue firmly that something is true — or to have to deal with a difficulty.",
+    "usage": "The first sense states a position in a debate. The second, 'contend with', is about coping with an obstacle.",
+    "examples": [
+      { "context": "Argument", "sentence": "Critics contend that the figures are misleading." },
+      { "context": "Difficulty", "sentence": "We had to contend with a two-week delay." },
+      { "context": "Competition", "sentence": "Three teams are contending for the title." }
+    ],
+    "remember": [
+      "'Contend that' = argue. 'Contend with' = cope with. The preposition changes the meaning entirely."
+    ]
+  },
+  {
+    "id": "concede",
+    "term": "Concede",
+    "partOfSpeech": "Verb",
+    "level": "C1",
+    "meaning": "To admit something is true, usually reluctantly.",
+    "usage": "Use it in debate when accepting a point that weakens your own case — which is what makes the rest of your argument credible.",
+    "examples": [
+      { "context": "Debate", "sentence": "I'll concede that the timing was poor." },
+      { "context": "Negotiation", "sentence": "Neither side would concede anything." },
+      { "context": "Sport", "sentence": "They conceded two goals in the last ten minutes." }
+    ],
+    "remember": [
+      "Conceding a fair point early makes your remaining argument stronger, not weaker — refusing to concede anything reads as unreasonable."
+    ]
+  },
+  {
+    "id": "imminent",
+    "term": "Imminent",
+    "partOfSpeech": "Adjective",
+    "level": "C1",
+    "meaning": "About to happen very soon.",
+    "usage": "Use it for things arriving in hours or days, usually with a sense of urgency or threat.",
+    "examples": [
+      { "context": "Weather", "sentence": "A storm is imminent." },
+      { "context": "Business", "sentence": "An announcement is imminent." },
+      { "context": "Risk", "sentence": "There's no imminent danger, but we're monitoring it." }
+    ],
+    "remember": [
+      "Don't confuse with 'eminent' (distinguished) or 'immanent' (existing within). Three different words, nearly identical sound."
+    ]
+  },
+  {
+    "id": "perpetual",
+    "term": "Perpetual",
+    "partOfSpeech": "Adjective",
+    "level": "C1",
+    "meaning": "Continuing forever, or seemingly without end.",
+    "usage": "Use it for licences and arrangements with no expiry, and, with a note of complaint, for problems that never stop.",
+    "examples": [
+      { "context": "Licensing", "sentence": "It's a perpetual licence — you buy it once." },
+      { "context": "Complaint", "sentence": "We're in a perpetual state of catching up." },
+      { "context": "Nature", "sentence": "The mountain is under perpetual snow." }
+    ],
+    "remember": [
+      "'Perpetual' has no end; 'persistent' keeps coming back. Both are long, only one is forever."
+    ]
+  },
+  {
+    "id": "retroactive",
+    "term": "Retroactive",
+    "partOfSpeech": "Adjective",
+    "level": "C1",
+    "meaning": "Applying to a period before the decision was made.",
+    "usage": "Use it about rules, pay rises, and charges that reach backwards in time.",
+    "examples": [
+      { "context": "Pay", "sentence": "The increase is retroactive to January." },
+      { "context": "Policy", "sentence": "The new rule isn't retroactive — existing cases are unaffected." },
+      { "context": "Legal", "sentence": "Retroactive legislation is generally avoided." }
+    ],
+    "remember": [
+      "'Retrospective' means looking back at the past; 'retroactive' means changing it. Only one has legal force."
+    ]
+  },
+  {
+    "id": "precarious",
+    "term": "Precarious",
+    "partOfSpeech": "Adjective",
+    "level": "C1",
+    "meaning": "Unstable and likely to collapse or fail.",
+    "usage": "Use it about positions, finances, and physical arrangements that are holding for now but could give way.",
+    "examples": [
+      { "context": "Finance", "sentence": "The company is in a precarious financial position." },
+      { "context": "Employment", "sentence": "Precarious work offers no security from month to month." },
+      { "context": "Physical", "sentence": "The pile of boxes looked precarious." }
+    ],
+    "remember": [
+      "Precarious means currently standing but unreliable — not already failed. That distinction matters when describing a business."
+    ]
+  },
+  {
+    "id": "exacerbate",
+    "term": "Exacerbate",
+    "partOfSpeech": "Verb",
+    "level": "C2",
+    "meaning": "To make an existing problem worse.",
+    "usage": "Formal. Use it when an action or event worsens something that was already going wrong.",
+    "examples": [
+      { "context": "Policy", "sentence": "The measures exacerbated the shortage rather than easing it." },
+      { "context": "Health", "sentence": "Stress can exacerbate the symptoms." },
+      { "context": "Work", "sentence": "Adding people late exacerbates the delay." }
+    ],
+    "remember": [
+      "The problem must already exist. Something that creates a new problem 'causes' it — it doesn't exacerbate it.",
+      "The opposite is 'alleviate'. Pronounced ig-ZASS-er-bate."
+    ]
+  },
+  {
+    "id": "detrimental",
+    "term": "Detrimental",
+    "partOfSpeech": "Adjective",
+    "level": "C1",
+    "meaning": "Causing harm or damage.",
+    "usage": "Formal. Use it in reports and reviews to state that something has a damaging effect, without emotive language.",
+    "examples": [
+      { "context": "Health", "sentence": "Long hours are detrimental to wellbeing." },
+      { "context": "Business", "sentence": "The delay was detrimental to our relationship with the client." },
+      { "context": "Environment", "sentence": "The runoff has a detrimental effect on the river." }
+    ],
+    "remember": [
+      "Takes 'to': detrimental to health, detrimental to morale."
+    ]
+  },
+  {
+    "id": "unprecedented",
+    "term": "Unprecedented",
+    "partOfSpeech": "Adjective",
+    "level": "C1",
+    "meaning": "Never having happened before.",
+    "usage": "Use it for genuinely first-time events. It is a strong factual claim, not just a way of saying 'very large'.",
+    "examples": [
+      { "context": "Business", "sentence": "Demand reached unprecedented levels this quarter." },
+      { "context": "News", "sentence": "The court took the unprecedented step of sitting on a Sunday." },
+      { "context": "Weather", "sentence": "The rainfall was unprecedented for October." }
+    ],
+    "remember": [
+      "Heavily overused. Before using it, check that there really is no precedent — otherwise 'record' or 'exceptional' is the honest word.",
+      "Note the spelling: it comes from 'precedent', so there is no 'i' before the 'd'."
+    ]
+  }
+]

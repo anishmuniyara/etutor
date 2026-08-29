@@ -1,0 +1,438 @@
+[
+  {
+    "id": "adapt-vs-adopt",
+    "term": "Adapt vs Adopt",
+    "level": "B2",
+    "meaning": "One adjusts something, the other takes it on.",
+    "items": [
+      { "term": "Adapt", "meaning": "To change something so it fits a new situation." },
+      { "term": "Adopt", "meaning": "To take something on and start using it." }
+    ],
+    "difference": "You adopt a thing as it is; you adapt it to make it fit.",
+    "examples": [
+      { "context": "Both", "sentence": "We adopted Go and adapted our tooling around it." },
+      { "context": "Adapt", "sentence": "The template needs adapting for each region." }
+    ],
+    "remember": [
+      "'Adoption' is the noun for take-up; 'adaptation' is the noun for change. Both appear constantly in product writing."
+    ]
+  },
+  {
+    "id": "access-vs-excess",
+    "term": "Access vs Excess",
+    "level": "B2",
+    "meaning": "One is entry, the other is too much.",
+    "items": [
+      { "term": "Access", "meaning": "The right or ability to enter or use something." },
+      { "term": "Excess", "meaning": "An amount beyond what is needed or allowed." }
+    ],
+    "difference": "Access lets you in; excess is a surplus.",
+    "examples": [
+      { "context": "Access", "sentence": "Only two people have production access." },
+      { "context": "Excess", "sentence": "Anything in excess of the quota is charged separately." }
+    ],
+    "remember": [
+      "'In excess of' is a formal way of saying 'more than'."
+    ]
+  },
+  {
+    "id": "appraise-vs-apprise",
+    "term": "Appraise vs Apprise",
+    "level": "C2",
+    "meaning": "One evaluates, the other informs.",
+    "items": [
+      { "term": "Appraise", "meaning": "To assess the value or quality of something." },
+      { "term": "Apprise", "meaning": "To inform someone of something." }
+    ],
+    "difference": "You appraise a thing; you apprise a person.",
+    "examples": [
+      { "context": "Apprise", "sentence": "Please apprise the team of the change." },
+      { "context": "Appraise", "sentence": "The surveyor appraised the property at half a million." }
+    ],
+    "remember": [
+      "'Appraisal' is the common noun — a performance appraisal evaluates, it doesn't inform."
+    ]
+  },
+  {
+    "id": "censor-sensor-censure",
+    "term": "Censor vs Sensor vs Censure",
+    "level": "C1",
+    "meaning": "Three similar words for blocking, detecting, and criticising.",
+    "items": [
+      { "term": "Censor", "meaning": "To remove content considered unacceptable." },
+      { "term": "Sensor", "meaning": "A device that detects a physical change." },
+      { "term": "Censure", "meaning": "Formal, official criticism." }
+    ],
+    "difference": "A censor blocks, a sensor detects, and censure condemns.",
+    "examples": [
+      { "context": "Censor", "sentence": "The logs are censored to remove personal data." },
+      { "context": "Sensor", "sentence": "The temperature sensor reports every ten seconds." },
+      { "context": "Censure", "sentence": "The committee issued a formal censure." }
+    ],
+    "remember": [
+      "'Censure' is criticism, not removal. Being censured and being censored are very different outcomes."
+    ]
+  },
+  {
+    "id": "cite-site-sight",
+    "term": "Cite vs Site vs Sight",
+    "level": "B2",
+    "meaning": "Three homophones for quoting, place, and vision.",
+    "items": [
+      { "term": "Cite", "meaning": "To quote a source as evidence." },
+      { "term": "Site", "meaning": "A location — physical or on the web." },
+      { "term": "Sight", "meaning": "The ability to see, or something seen." }
+    ],
+    "difference": "You cite a source, visit a site, and lose your sight.",
+    "examples": [
+      { "context": "Cite", "sentence": "The report cites three independent studies." },
+      { "context": "Site", "sentence": "The site went down at two in the morning." },
+      { "context": "Sight", "sentence": "The end is finally in sight." }
+    ],
+    "remember": [
+      "'On-site' means at the physical location. 'Cite' appears mostly in academic and legal writing."
+    ]
+  },
+  {
+    "id": "climactic-vs-climatic",
+    "term": "Climactic vs Climatic",
+    "level": "C2",
+    "meaning": "One is about a climax, the other about climate.",
+    "items": [
+      { "term": "Climactic", "meaning": "Relating to the most intense or decisive moment." },
+      { "term": "Climatic", "meaning": "Relating to weather and climate." }
+    ],
+    "difference": "Climactic is drama; climatic is weather.",
+    "examples": [
+      { "context": "Climactic", "sentence": "The climactic scene lasts eight minutes." },
+      { "context": "Climatic", "sentence": "Climatic conditions delayed construction." }
+    ],
+    "remember": [
+      "The extra 'c' in climactic comes from 'climax'."
+    ]
+  },
+  {
+    "id": "collaborate-vs-corroborate",
+    "term": "Collaborate vs Corroborate",
+    "level": "C1",
+    "meaning": "One works together, the other confirms.",
+    "items": [
+      { "term": "Collaborate", "meaning": "To work jointly with others." },
+      { "term": "Corroborate", "meaning": "To confirm a claim with independent evidence." }
+    ],
+    "difference": "Collaborating produces work; corroborating confirms a claim.",
+    "examples": [
+      { "context": "Collaborate", "sentence": "The two teams collaborated on the design." },
+      { "context": "Corroborate", "sentence": "We need a second source to corroborate this." }
+    ],
+    "remember": [
+      "Corroboration must be independent. Two people repeating the same source corroborate nothing."
+    ]
+  },
+  {
+    "id": "contemptuous-vs-contemptible",
+    "term": "Contemptuous vs Contemptible",
+    "level": "C2",
+    "meaning": "One shows contempt, the other deserves it.",
+    "items": [
+      { "term": "Contemptuous", "meaning": "Showing scorn towards someone or something." },
+      { "term": "Contemptible", "meaning": "Deserving to be scorned." }
+    ],
+    "difference": "The contemptuous person looks down; the contemptible thing is looked down on.",
+    "examples": [
+      { "context": "Contemptuous", "sentence": "He gave a contemptuous shrug." },
+      { "context": "Contemptible", "sentence": "Blaming a junior for it was contemptible." }
+    ],
+    "remember": [
+      "The '-ible' ending means 'able to be', which is why contemptible is the one that receives the scorn."
+    ]
+  },
+  {
+    "id": "credible-vs-credulous",
+    "term": "Credible vs Credulous",
+    "level": "C2",
+    "meaning": "One is believable, the other believes too easily.",
+    "items": [
+      { "term": "Credible", "meaning": "Believable; worth taking seriously." },
+      { "term": "Credulous", "meaning": "Too willing to believe things without evidence." }
+    ],
+    "difference": "A credible claim deserves belief; a credulous person gives it too readily.",
+    "examples": [
+      { "context": "Credible", "sentence": "It's a credible threat and we should act on it." },
+      { "context": "Credulous", "sentence": "The scam targets credulous first-time investors." }
+    ],
+    "remember": [
+      "'Credibility' is what you build; being credulous is a weakness. Same root, opposite value."
+    ]
+  },
+  {
+    "id": "defuse-vs-diffuse",
+    "term": "Defuse vs Diffuse",
+    "level": "C1",
+    "meaning": "One removes danger, the other spreads out.",
+    "items": [
+      { "term": "Defuse", "meaning": "To make a dangerous or tense situation calmer." },
+      { "term": "Diffuse", "meaning": "To spread out over a wide area; or, as an adjective, unfocused." }
+    ],
+    "difference": "Defuse removes the fuse; diffuse spreads.",
+    "examples": [
+      { "context": "Defuse", "sentence": "She defused the tension with one question." },
+      { "context": "Diffuse", "sentence": "Responsibility is too diffuse — nobody owns it." }
+    ],
+    "remember": [
+      "'Defuse the situation' is the common phrase, and 'diffuse the situation' is the common error."
+    ]
+  },
+  {
+    "id": "deprecate-vs-depreciate",
+    "term": "Deprecate vs Depreciate",
+    "level": "C1",
+    "meaning": "One marks something obsolete, the other loses value.",
+    "items": [
+      { "term": "Deprecate", "meaning": "To mark as outdated and discourage use — technical." },
+      { "term": "Depreciate", "meaning": "To fall in value over time — financial." }
+    ],
+    "difference": "Software is deprecated; assets depreciate.",
+    "examples": [
+      { "context": "Deprecate", "sentence": "That endpoint is deprecated and will be removed in v3." },
+      { "context": "Depreciate", "sentence": "The hardware depreciates over four years." }
+    ],
+    "remember": [
+      "Deprecated code still works — it's discouraged, not removed. That's the whole point of the warning period."
+    ]
+  },
+  {
+    "id": "emigrate-vs-immigrate",
+    "term": "Emigrate vs Immigrate",
+    "level": "B2",
+    "meaning": "The same move, seen from each country.",
+    "items": [
+      { "term": "Emigrate", "meaning": "To leave your country to live elsewhere." },
+      { "term": "Immigrate", "meaning": "To come into a country to live there." }
+    ],
+    "difference": "You emigrate FROM a country and immigrate TO one.",
+    "examples": [
+      { "context": "Both", "sentence": "She emigrated from Ireland and immigrated to Canada." },
+      { "context": "Emigrate", "sentence": "Thousands emigrated in the 1950s." }
+    ],
+    "remember": [
+      "E for Exit, I for In. The prefixes carry the direction."
+    ]
+  },
+  {
+    "id": "explicit-vs-implicit",
+    "term": "Explicit vs Implicit",
+    "level": "B2",
+    "meaning": "One is stated, the other is understood.",
+    "items": [
+      { "term": "Explicit", "meaning": "Stated directly and clearly." },
+      { "term": "Implicit", "meaning": "Understood without being stated." }
+    ],
+    "difference": "Explicit is said; implicit is implied.",
+    "examples": [
+      { "context": "Explicit", "sentence": "Let's be explicit about who owns this." },
+      { "context": "Implicit", "sentence": "There's an implicit assumption that traffic stays flat." }
+    ],
+    "remember": [
+      "Implicit assumptions cause most planning failures — making them explicit is the whole value of a design review."
+    ]
+  },
+  {
+    "id": "formally-vs-formerly",
+    "term": "Formally vs Formerly",
+    "level": "B2",
+    "meaning": "One means officially, the other means previously.",
+    "items": [
+      { "term": "Formally", "meaning": "In an official or proper manner." },
+      { "term": "Formerly", "meaning": "In the past; previously." }
+    ],
+    "difference": "Formally is how; formerly is when.",
+    "examples": [
+      { "context": "Formally", "sentence": "The change was formally approved on Tuesday." },
+      { "context": "Formerly", "sentence": "The service was formerly known as Atlas." }
+    ],
+    "remember": [
+      "'Formerly known as' is the standard phrase for a renamed product or company."
+    ]
+  },
+  {
+    "id": "hoard-vs-horde",
+    "term": "Hoard vs Horde",
+    "level": "C1",
+    "meaning": "One is a stockpile, the other is a crowd.",
+    "items": [
+      { "term": "Hoard", "meaning": "A hidden store of things — or to accumulate them." },
+      { "term": "Horde", "meaning": "A large, often unruly crowd." }
+    ],
+    "difference": "A hoard is things; a horde is people.",
+    "examples": [
+      { "context": "Hoard", "sentence": "He hoards old hardware in the server room." },
+      { "context": "Horde", "sentence": "A horde of support tickets arrived after the outage." }
+    ],
+    "remember": [
+      "Panic buying causes hoarding, not hording — a common headline error."
+    ]
+  },
+  {
+    "id": "incredible-vs-incredulous",
+    "term": "Incredible vs Incredulous",
+    "level": "C1",
+    "meaning": "One is unbelievable, the other is disbelieving.",
+    "items": [
+      { "term": "Incredible", "meaning": "So remarkable it's hard to believe." },
+      { "term": "Incredulous", "meaning": "Unwilling or unable to believe something." }
+    ],
+    "difference": "The thing is incredible; the person is incredulous.",
+    "examples": [
+      { "context": "Incredible", "sentence": "The turnaround was incredible." },
+      { "context": "Incredulous", "sentence": "She was incredulous when she saw the invoice." }
+    ],
+    "remember": [
+      "Same pattern as credible/credulous — the '-ulous' form always describes the person's state of mind."
+    ]
+  },
+  {
+    "id": "loath-vs-loathe",
+    "term": "Loath vs Loathe",
+    "level": "C2",
+    "meaning": "One means reluctant, the other means hate.",
+    "items": [
+      { "term": "Loath", "meaning": "Reluctant; unwilling. An adjective." },
+      { "term": "Loathe", "meaning": "To hate intensely. A verb." }
+    ],
+    "difference": "Loath is mild reluctance; loathe is strong hatred.",
+    "examples": [
+      { "context": "Loath", "sentence": "I'm loath to refactor this close to release." },
+      { "context": "Loathe", "sentence": "I loathe meetings without an agenda." }
+    ],
+    "remember": [
+      "The silent e makes it a verb — the same pattern as breath/breathe."
+    ]
+  },
+  {
+    "id": "moral-vs-morale",
+    "term": "Moral vs Morale",
+    "level": "B2",
+    "meaning": "One is about ethics, the other about mood.",
+    "items": [
+      { "term": "Moral", "meaning": "Relating to right and wrong; also the lesson of a story." },
+      { "term": "Morale", "meaning": "The confidence and spirit of a group." }
+    ],
+    "difference": "Moral is about ethics; morale is about how a team feels.",
+    "examples": [
+      { "context": "Morale", "sentence": "Team morale is low after the reorganisation." },
+      { "context": "Moral", "sentence": "There's a moral argument as well as a legal one." }
+    ],
+    "remember": [
+      "The stress differs: MOR-al but mor-ALE. That difference is what the extra e signals."
+    ]
+  },
+  {
+    "id": "perspective-vs-prospective",
+    "term": "Perspective vs Prospective",
+    "level": "B2",
+    "meaning": "One is a viewpoint, the other means potential.",
+    "items": [
+      { "term": "Perspective", "meaning": "A point of view or way of seeing something." },
+      { "term": "Prospective", "meaning": "Expected or potential in the future." }
+    ],
+    "difference": "Perspective is how you see; prospective is what might come.",
+    "examples": [
+      { "context": "Prospective", "sentence": "Three prospective clients are in the pipeline." },
+      { "context": "Perspective", "sentence": "From a support perspective, this is a big change." }
+    ],
+    "remember": [
+      "'Put it in perspective' means judge its real importance compared with other things."
+    ]
+  },
+  {
+    "id": "persecute-vs-prosecute",
+    "term": "Persecute vs Prosecute",
+    "level": "C1",
+    "meaning": "One oppresses, the other takes to court.",
+    "items": [
+      { "term": "Persecute", "meaning": "To treat someone cruelly over a long period, often for their identity." },
+      { "term": "Prosecute", "meaning": "To bring legal proceedings against someone." }
+    ],
+    "difference": "Persecution is oppression; prosecution is a legal process.",
+    "examples": [
+      { "context": "Prosecute", "sentence": "The company was prosecuted for the data breach." },
+      { "context": "Persecute", "sentence": "The group was persecuted for decades." }
+    ],
+    "remember": [
+      "Getting these wrong in any legal or HR context is a serious error — they make very different accusations."
+    ]
+  },
+  {
+    "id": "pore-vs-pour",
+    "term": "Pore vs Pour",
+    "level": "C1",
+    "meaning": "One means study closely, the other means to tip liquid.",
+    "items": [
+      { "term": "Pore", "meaning": "To examine something closely — always 'pore over'." },
+      { "term": "Pour", "meaning": "To make liquid flow out of a container." }
+    ],
+    "difference": "You pore over documents; you pour a drink.",
+    "examples": [
+      { "context": "Pore", "sentence": "We pored over the logs for three hours." },
+      { "context": "Pour", "sentence": "Pour the sample into the second container." }
+    ],
+    "remember": [
+      "'Pouring over the logs' is the common error — and an odd image."
+    ]
+  },
+  {
+    "id": "reticent-vs-reluctant",
+    "term": "Reticent vs Reluctant",
+    "level": "C2",
+    "meaning": "One is quiet, the other is unwilling.",
+    "items": [
+      { "term": "Reticent", "meaning": "Not willing to talk or reveal much." },
+      { "term": "Reluctant", "meaning": "Unwilling to do something." }
+    ],
+    "difference": "Reticent is about speaking; reluctant is about acting.",
+    "examples": [
+      { "context": "Reticent", "sentence": "He was reticent about why he left." },
+      { "context": "Reluctant", "sentence": "The client was reluctant to sign without a discount." }
+    ],
+    "remember": [
+      "'Reticent to do something' is widespread but strictly wrong — reticence is about silence, so use 'reluctant'."
+    ]
+  },
+  {
+    "id": "simple-vs-simplistic",
+    "term": "Simple vs Simplistic",
+    "level": "C1",
+    "meaning": "One is a compliment, the other is not.",
+    "items": [
+      { "term": "Simple", "meaning": "Not complicated — usually positive in design and writing." },
+      { "term": "Simplistic", "meaning": "Oversimplified, ignoring important complexity." }
+    ],
+    "difference": "Simple is praise; simplistic is criticism.",
+    "examples": [
+      { "context": "Simple", "sentence": "It's a simple solution and it works." },
+      { "context": "Simplistic", "sentence": "That's a simplistic view of why customers leave." }
+    ],
+    "remember": [
+      "Calling someone's design 'simplistic' when you meant 'simple' turns a compliment into an insult."
+    ]
+  },
+  {
+    "id": "verbal-vs-oral",
+    "term": "Verbal vs Oral",
+    "level": "C1",
+    "meaning": "One means in words, the other means spoken.",
+    "items": [
+      { "term": "Verbal", "meaning": "Expressed in words — which can be spoken or written." },
+      { "term": "Oral", "meaning": "Spoken aloud, not written." }
+    ],
+    "difference": "Verbal covers all words; oral covers only speech.",
+    "examples": [
+      { "context": "Oral", "sentence": "We had an oral agreement, nothing in writing." },
+      { "context": "Verbal", "sentence": "Verbal reasoning is part of the assessment." }
+    ],
+    "remember": [
+      "'A verbal agreement' is used everywhere to mean an unwritten one, though strictly 'oral agreement' is the precise term."
+    ]
+  }
+]

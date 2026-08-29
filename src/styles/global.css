@@ -435,6 +435,47 @@ input:focus-visible {
   text-wrap: balance;
 }
 
+.learn-hero__word-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.speak-button {
+  border: 1px solid var(--gbord);
+  background: var(--glass);
+  color: var(--sub);
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  flex: none;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  transition:
+    background 0.15s,
+    color 0.15s,
+    transform 0.15s;
+}
+.speak-button:hover {
+  background: var(--glass2);
+  color: var(--acc);
+}
+.speak-button:active {
+  transform: scale(0.94);
+}
+/* While speaking, the button holds the accent so it is obvious which word is playing. */
+.speak-button[data-speaking='true'] {
+  color: #fff;
+  background: var(--acc);
+  border-color: transparent;
+}
+
 .learn-hero__meta {
   font-size: 12px;
   font-weight: 700;

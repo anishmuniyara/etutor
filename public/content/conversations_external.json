@@ -1,0 +1,178 @@
+[
+  {
+    "id": "rejecting-a-customer-request",
+    "term": "Rejecting a Feature Request From a Big Customer",
+    "level": "C1",
+    "situation": "An important customer wants something you can't safely build in the time available.",
+    "conversation": [
+      { "speaker": "Customer", "text": "We need custom retry logic per workflow by next release." },
+      { "speaker": "You", "text": "I appreciate you being specific about the need. I want to be transparent: per-workflow retries would touch the core scheduler, and we can't do that safely in one release. What I can offer is a global retry policy now, and we'll scope the per-workflow version for Q1. Would that unblock you in the meantime?" },
+      { "speaker": "Customer", "text": "It would help, but I'd want the Q1 commitment in writing." },
+      { "speaker": "You", "text": "That's fair. I'll confirm the scope and the date by email this week." }
+    ],
+    "keyExpressions": [
+      "I appreciate you being specific about the need.",
+      "I want to be transparent…",
+      "What I can offer is…",
+      "Would that unblock you in the meantime?"
+    ],
+    "remember": [
+      "Never say only no to a customer. 'What I can offer is' converts a refusal into a smaller yes.",
+      "Asking whether it unblocks them keeps the focus on their problem rather than your roadmap."
+    ]
+  },
+  {
+    "id": "presenting-to-leadership",
+    "term": "Presenting a Proposal to Leadership",
+    "level": "C1",
+    "situation": "You have a few minutes with executives to ask for resources.",
+    "conversation": [
+      { "speaker": "You", "text": "I'll keep this to three points. The problem: our agent runtime can't scale beyond ten concurrent graphs. The proposal: move to a work-stealing scheduler, which our prototype shows handles two hundred. The ask: two engineers for six weeks. The main risk is migration complexity, and we'd mitigate that with a feature flag and a phased rollout. Happy to take questions." },
+      { "speaker": "Executive", "text": "What happens if we do nothing?" },
+      { "speaker": "You", "text": "We cap out at our three largest customers' current volume. The next enterprise deal would need this work anyway, just under more time pressure." },
+      { "speaker": "Executive", "text": "That's the argument. Send me the one-pager." }
+    ],
+    "keyExpressions": [
+      "I'll keep this to three points.",
+      "The problem… the proposal… the ask…",
+      "The main risk is…, and we'd mitigate that with…",
+      "If we do nothing, …"
+    ],
+    "remember": [
+      "Problem, proposal, ask — in that order, in under a minute. Executives decide on structure as much as content.",
+      "Name the risk yourself. If they find it first, your proposal looks incomplete."
+    ]
+  },
+  {
+    "id": "handling-a-hostile-question",
+    "term": "Handling a Hostile Question in a Demo",
+    "level": "C2",
+    "situation": "Someone in the audience challenges whether your work is serious.",
+    "conversation": [
+      { "speaker": "Skeptic", "text": "This looks like a toy. How does it handle real failure?" },
+      { "speaker": "You", "text": "That's the right question to ask. Let me show you rather than tell you — I'll kill a worker mid-execution now. As you can see, the graph resumes from the last checkpoint. That said, we haven't tested at ten thousand nodes yet, and I'd rather be upfront about that than overclaim." },
+      { "speaker": "Skeptic", "text": "Fair enough. What's your plan for that scale?" },
+      { "speaker": "You", "text": "Load testing starts next month. I'll share the results publicly either way." }
+    ],
+    "keyExpressions": [
+      "That's the right question to ask.",
+      "Let me show you rather than tell you.",
+      "That said, we haven't tested…",
+      "I'd rather be upfront than overclaim."
+    ],
+    "remember": [
+      "Validating a hostile question defuses it instantly, and costs you nothing.",
+      "Volunteering your own limitation is what converts a sceptic — overclaiming is what loses them permanently."
+    ]
+  },
+  {
+    "id": "negotiating-with-a-vendor",
+    "term": "Negotiating With a Vendor",
+    "level": "C1",
+    "situation": "A supplier's quote is above your budget and you have alternatives.",
+    "conversation": [
+      { "speaker": "Vendor", "text": "The enterprise tier is forty thousand a year." },
+      { "speaker": "You", "text": "That's above what we've budgeted. To be candid, we're evaluating two alternatives. What I can commit to is a three-year term and a public case study — is there room to move on price for that, or on including the premium support tier?" },
+      { "speaker": "Vendor", "text": "A three-year term changes things. Let me take it to my director." },
+      { "speaker": "You", "text": "Appreciated. We're deciding in two weeks, so anything before then would be useful." }
+    ],
+    "keyExpressions": [
+      "That's above what we've budgeted.",
+      "To be candid, we're evaluating two alternatives.",
+      "What I can commit to is…",
+      "Is there room to move on price for that?"
+    ],
+    "remember": [
+      "Offer something before asking for a discount. A concession that costs you little — term length, a reference — gives them a reason to move.",
+      "Naming your decision date creates real pressure without a threat."
+    ]
+  },
+  {
+    "id": "persuading-a-stakeholder-to-cut-scope",
+    "term": "Persuading a Stakeholder to Cut Scope",
+    "level": "C2",
+    "situation": "A stakeholder insists every item in the specification is essential.",
+    "conversation": [
+      { "speaker": "Stakeholder", "text": "Everything in the spec is essential." },
+      { "speaker": "You", "text": "If everything is essential, then effectively nothing is prioritized, and that's what worries me. Let me propose a different lens: which three items would the customer notice missing on day one? Those we ship first. Everything else isn't cut — it's sequenced." },
+      { "speaker": "Stakeholder", "text": "Put like that — search, export, and the audit log." },
+      { "speaker": "You", "text": "Then that's release one. I'll write the rest up as release two with dates, so nothing looks abandoned." }
+    ],
+    "keyExpressions": [
+      "If everything is essential, then nothing is prioritized.",
+      "Let me propose a different lens.",
+      "Which would the customer notice missing on day one?",
+      "It isn't cut — it's sequenced."
+    ],
+    "remember": [
+      "'Sequenced, not cut' is the phrase that unlocks these conversations — people resist losing things, not waiting for them.",
+      "Changing the question rather than arguing the answer is the most reliable way through a deadlock."
+    ]
+  },
+  {
+    "id": "handling-credit-being-taken",
+    "term": "When Someone Else Gets the Credit",
+    "level": "C2",
+    "situation": "Your manager praises a colleague for work that was largely yours.",
+    "conversation": [
+      { "speaker": "Manager", "text": "Great work on the scheduler, Rijo." },
+      { "speaker": "You", "text": "Rijo did drive the rollout, and it went smoothly. For context, the scheduler design and implementation were mine — I mention it only because it's relevant to what I'll be picking up next. Happy to walk through the design if useful." },
+      { "speaker": "Manager", "text": "I hadn't realised. Yes, let's go through it this week." },
+      { "speaker": "You", "text": "I'll send an invite." }
+    ],
+    "keyExpressions": [
+      "X did drive the rollout, and it went smoothly.",
+      "For context, …",
+      "I mention it only because it's relevant to…",
+      "Happy to walk through it if useful."
+    ],
+    "remember": [
+      "Credit the other person genuinely first. Correcting the record without that reads as resentment.",
+      "'I mention it only because' gives a forward-looking reason, which keeps you from sounding like you're complaining about the past."
+    ]
+  },
+  {
+    "id": "delivering-bad-news-to-a-junior",
+    "term": "Delivering Difficult News to a Junior",
+    "level": "C2",
+    "situation": "You have to tell someone their contract won't be renewed.",
+    "conversation": [
+      { "speaker": "You", "text": "I want to talk to you directly rather than have you hear it elsewhere. Your contract won't be renewed at the end of the quarter. This is a budget decision, not a performance one — your work has been solid, and I'll say so in any reference." },
+      { "speaker": "Team member", "text": "Is there anything I could have done differently?" },
+      { "speaker": "You", "text": "Honestly, no. What I can do is give you time during work hours for interviews and introduce you to two teams I know are hiring." },
+      { "speaker": "Team member", "text": "I'd appreciate both. Thank you for telling me straight." }
+    ],
+    "keyExpressions": [
+      "I want to talk to you directly rather than have you hear it elsewhere.",
+      "This is a budget decision, not a performance one.",
+      "I'll say so in any reference.",
+      "What I can do is…"
+    ],
+    "remember": [
+      "Say the news in the first thirty seconds. Delaying it with preamble is harder on the person, not kinder.",
+      "Separating the decision from their performance matters enormously — and only say it if it's true."
+    ]
+  },
+  {
+    "id": "resigning-gracefully",
+    "term": "Resigning Gracefully",
+    "level": "C1",
+    "situation": "You've accepted another job and are telling your manager first.",
+    "conversation": [
+      { "speaker": "You", "text": "I wanted to tell you in person before anything formal. I've accepted an offer elsewhere and my last day will be in four weeks. This isn't about anything going wrong here — it's a role I couldn't turn down." },
+      { "speaker": "Manager", "text": "I'm sorry to hear that, though congratulations. Is there anything that would change your mind?" },
+      { "speaker": "You", "text": "I've thought it through carefully, so no — but I appreciate you asking. I'll make sure the runtime handover is thorough; I've already drafted a transition plan and I'd like your input on who takes it over." },
+      { "speaker": "Manager", "text": "Let's go through it tomorrow." }
+    ],
+    "keyExpressions": [
+      "I wanted to tell you in person before anything formal.",
+      "This isn't about anything going wrong here.",
+      "I've thought it through carefully.",
+      "I've already drafted a transition plan."
+    ],
+    "remember": [
+      "Lead with the decision and the date. Explaining your reasons at length invites a counter-offer conversation you may not want.",
+      "Arriving with a handover plan is what people remember about how you left — often for years."
+    ]
+  }
+]

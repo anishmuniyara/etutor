@@ -1,0 +1,492 @@
+[
+  {
+    "id": "reinvent-the-wheel",
+    "term": "Let's not reinvent the wheel.",
+    "level": "B2",
+    "meaning": "Let's not rebuild something that already exists and works.",
+    "usage": "Use it to argue for adopting an existing tool or pattern instead of building your own.",
+    "examples": [
+      { "context": "Engineering", "sentence": "There's a library for this — let's not reinvent the wheel." },
+      { "context": "Process", "sentence": "Marketing already has a template. No need to reinvent the wheel." }
+    ],
+    "remember": [
+      "Sometimes rebuilding is right — when the existing wheel doesn't fit. Be ready for that counter-argument."
+    ]
+  },
+  {
+    "id": "eat-our-own-dog-food",
+    "term": "We should eat our own dog food.",
+    "level": "C1",
+    "meaning": "We should use our own product ourselves.",
+    "usage": "Use it to argue that a team will only notice problems if it depends on what it builds.",
+    "examples": [
+      { "context": "Product", "sentence": "We should eat our own dog food and run support on our own tool." },
+      { "context": "Engineering", "sentence": "Dogfooding caught three bugs before release." }
+    ],
+    "remember": [
+      "'Dogfooding' is the usual noun form. Some companies prefer 'drinking our own champagne' for the same idea."
+    ]
+  },
+  {
+    "id": "get-everyone-up-to-speed",
+    "term": "Let's get everyone up to speed.",
+    "level": "B2",
+    "meaning": "Let's make sure everyone has the same background information.",
+    "usage": "Use it at the start of a meeting where some people are missing context.",
+    "examples": [
+      { "context": "Meeting", "sentence": "Two people are new — let's get everyone up to speed first." },
+      { "context": "Onboarding", "sentence": "It took a week to get up to speed." }
+    ],
+    "remember": [
+      "'Up to speed' describes catching up to a level others already have — not learning something new to everyone."
+    ]
+  },
+  {
+    "id": "all-hands-on-deck",
+    "term": "It's all hands on deck this week.",
+    "level": "B2",
+    "meaning": "Everyone is needed, including people who normally wouldn't help.",
+    "usage": "Use it about a temporary crunch where normal role boundaries are suspended.",
+    "examples": [
+      { "context": "Crisis", "sentence": "It's all hands on deck until the outage is resolved." },
+      { "context": "Launch", "sentence": "Launch week is all hands on deck." }
+    ],
+    "remember": [
+      "From sailing. It should be genuinely temporary — a permanent state of all hands on deck is just understaffing."
+    ]
+  },
+  {
+    "id": "credit-where-its-due",
+    "term": "Credit where it's due",
+    "level": "B2",
+    "meaning": "Acknowledging someone's contribution honestly, even if it complicates your point.",
+    "usage": "Use it to give someone recognition publicly, especially when it wasn't expected of you.",
+    "examples": [
+      { "context": "Meeting", "sentence": "Credit where it's due — Priya did most of this." },
+      { "context": "Review", "sentence": "Credit where it's due, their support team was excellent." }
+    ],
+    "remember": [
+      "Naming the person specifically is what makes this land. A vague 'the team did well' gives nobody credit."
+    ]
+  },
+  {
+    "id": "keep-each-other-in-the-loop",
+    "term": "Let's keep each other in the loop.",
+    "level": "B1",
+    "meaning": "Let's keep each other informed as things develop.",
+    "usage": "Use it to agree on ongoing communication when work is split between people.",
+    "examples": [
+      { "context": "Work", "sentence": "You take the vendor call — let's keep each other in the loop." },
+      { "context": "Email", "sentence": "Keeping you in the loop on the timeline change." }
+    ],
+    "remember": [
+      "'Loop someone in' means add them to a thread; 'keep in the loop' means keep them informed over time."
+    ]
+  },
+  {
+    "id": "the-bottom-line-is",
+    "term": "So, the bottom line is…",
+    "level": "B2",
+    "meaning": "Here is the single most important conclusion.",
+    "usage": "Use it to cut through a long discussion to the one thing that matters.",
+    "examples": [
+      { "context": "Meeting", "sentence": "The bottom line is we can't hit both dates." },
+      { "context": "Report", "sentence": "Bottom line: costs are up eleven per cent." }
+    ],
+    "remember": [
+      "From accounting, where the bottom line of a statement is the profit. What follows should be one sentence."
+    ]
+  },
+  {
+    "id": "long-story-short",
+    "term": "Long story short, …",
+    "level": "B1",
+    "meaning": "Skipping the details, here's the outcome.",
+    "usage": "Use it to jump to the ending when the full account would take too long.",
+    "examples": [
+      { "context": "Work", "sentence": "Long story short, the vendor pulled out." },
+      { "context": "Daily life", "sentence": "Long story short, we missed the train and drove instead." }
+    ],
+    "remember": [
+      "Say it before the summary, not after — and keep what follows to a sentence or two."
+    ]
+  },
+  {
+    "id": "call-it-a-day",
+    "term": "Let's call it a day.",
+    "level": "B1",
+    "meaning": "Let's stop working — we've done enough.",
+    "usage": "Use it to end a work session, either at the natural end or when further effort isn't paying off.",
+    "examples": [
+      { "context": "Work", "sentence": "It's nearly seven — let's call it a day." },
+      { "context": "Debugging", "sentence": "Three hours on this. Let's call it a day and look again fresh." }
+    ],
+    "remember": [
+      "'Call it a night' is the evening, social version."
+    ]
+  },
+  {
+    "id": "set-the-ball-rolling",
+    "term": "Let's set the ball rolling.",
+    "level": "B2",
+    "meaning": "Let's begin, so the process can build from here.",
+    "usage": "Use it to open a process where the first step unlocks the rest.",
+    "examples": [
+      { "context": "Project", "sentence": "I'll set the ball rolling by booking the workshop." },
+      { "context": "Hiring", "sentence": "Let's set the ball rolling on the job description." }
+    ],
+    "remember": [
+      "Interchangeable with 'get the ball rolling'. 'Set' is slightly more British."
+    ]
+  },
+  {
+    "id": "next-steps",
+    "term": "Next steps: I'll…, you'll…",
+    "level": "B1",
+    "meaning": "A clear statement of who does what after this conversation.",
+    "usage": "Use it to close a meeting so nobody leaves unsure what they agreed to.",
+    "examples": [
+      { "context": "Meeting", "sentence": "Next steps: I'll draft the spec, you'll confirm the budget by Friday." },
+      { "context": "Email", "sentence": "Next steps are below with owners and dates." }
+    ],
+    "remember": [
+      "Name a person and a date for each step. Without both, it isn't a next step — it's a hope."
+    ]
+  },
+  {
+    "id": "on-the-same-wavelength",
+    "term": "On the same wavelength",
+    "level": "B2",
+    "meaning": "Understanding each other easily, without much explanation.",
+    "usage": "Use it about people who think similarly and communicate efficiently.",
+    "examples": [
+      { "context": "Team", "sentence": "We're on the same wavelength about the architecture." },
+      { "context": "Work", "sentence": "It's easy working with her — we're on the same wavelength." }
+    ],
+    "remember": [
+      "It's about ease of understanding. 'On the same page' is about agreeing on the facts — related but not identical."
+    ]
+  },
+  {
+    "id": "touch-base",
+    "term": "Touch base",
+    "level": "B1",
+    "meaning": "To make brief contact to exchange updates.",
+    "usage": "Use it to propose a short catch-up rather than a full meeting.",
+    "examples": [
+      { "context": "Email", "sentence": "Let's touch base on Friday before the client call." },
+      { "context": "Work", "sentence": "I touched base with legal — they're happy." }
+    ],
+    "remember": [
+      "From baseball: you touch the base briefly, you don't stay there. It promises a short conversation."
+    ]
+  },
+  {
+    "id": "speak-the-same-language",
+    "term": "Speak the same language",
+    "level": "B2",
+    "meaning": "To share the same assumptions and terms, so communication is easy.",
+    "usage": "Use it about people from different backgrounds who do — or don't — share vocabulary and priorities.",
+    "examples": [
+      { "context": "Business", "sentence": "Engineering and sales don't always speak the same language." },
+      { "context": "Meeting", "sentence": "Once we agreed the terms, we were speaking the same language." }
+    ],
+    "remember": [
+      "Nothing to do with actual languages. Two people speaking English can fail to speak the same language."
+    ]
+  },
+  {
+    "id": "keep-someone-posted",
+    "term": "Keep someone posted",
+    "level": "B1",
+    "meaning": "To keep giving someone updates as things develop.",
+    "usage": "Use it when handing something over but wanting to stay informed.",
+    "examples": [
+      { "context": "Work", "sentence": "You handle the vendor call — just keep me posted." },
+      { "context": "Email", "sentence": "I'll keep you posted on the timeline." }
+    ],
+    "remember": [
+      "'Keep me posted' and 'keep me in the loop' are interchangeable in almost every workplace context."
+    ]
+  },
+  {
+    "id": "a-blessing-in-disguise",
+    "term": "A blessing in disguise",
+    "level": "B2",
+    "meaning": "Something that seemed bad at the time but turned out well.",
+    "usage": "Use it looking back at a setback that led somewhere better.",
+    "examples": [
+      { "context": "Career", "sentence": "Losing that contract was a blessing in disguise — we found a better client." },
+      { "context": "Project", "sentence": "The delay was a blessing in disguise; we caught the security flaw." }
+    ],
+    "remember": [
+      "Only works in hindsight. You can't call something a blessing in disguise while it's still going wrong."
+    ]
+  },
+  {
+    "id": "think-outside-the-box",
+    "term": "Think outside the box",
+    "level": "B2",
+    "meaning": "To approach a problem in an unconventional way.",
+    "usage": "Use it to invite ideas that break the usual assumptions.",
+    "examples": [
+      { "context": "Workshop", "sentence": "Let's think outside the box — what if we didn't build it at all?" },
+      { "context": "Problem", "sentence": "It took thinking outside the box to spot the workaround." }
+    ],
+    "remember": [
+      "So overused it can sound like empty management-speak. A specific question — 'what if we removed this constraint?' — works better."
+    ]
+  },
+  {
+    "id": "connect-the-dots",
+    "term": "Connect the dots",
+    "level": "B2",
+    "meaning": "To see how separate pieces of information relate.",
+    "usage": "Use it about drawing a conclusion from scattered evidence nobody had joined up before.",
+    "examples": [
+      { "context": "Analysis", "sentence": "Once we connected the dots, the pattern was obvious." },
+      { "context": "Presentation", "sentence": "I'll connect the dots between the three findings." }
+    ],
+    "remember": [
+      "It's a claim about interpretation. Be ready to show the dots, not just the line you drew."
+    ]
+  },
+  {
+    "id": "see-the-big-picture",
+    "term": "See the big picture",
+    "level": "B1",
+    "meaning": "To understand the overall situation rather than one part of it.",
+    "usage": "Use it to argue for stepping back from detail to strategy.",
+    "examples": [
+      { "context": "Strategy", "sentence": "Let's step back and look at the big picture." },
+      { "context": "Feedback", "sentence": "She's good at detail and sees the big picture too." }
+    ],
+    "remember": [
+      "Telling someone they 'can't see the big picture' is a real criticism — it says their judgement is too narrow."
+    ]
+  },
+  {
+    "id": "get-the-gist",
+    "term": "Get the gist",
+    "level": "B2",
+    "meaning": "To understand the general meaning without every detail.",
+    "usage": "Use it to confirm rough understanding, or to say a summary is enough.",
+    "examples": [
+      { "context": "Meeting", "sentence": "I got the gist — you need the data by Thursday." },
+      { "context": "Reading", "sentence": "Skim it and get the gist; we'll go through the detail later." }
+    ],
+    "remember": [
+      "Pronounced with a soft g, like 'jist'."
+    ]
+  },
+  {
+    "id": "wrap-your-head-around",
+    "term": "Wrap your head around",
+    "level": "B2",
+    "meaning": "To manage to understand something difficult.",
+    "usage": "Use it about concepts that take real effort to grasp — and often about not yet managing it.",
+    "examples": [
+      { "context": "Learning", "sentence": "It took me a week to wrap my head around the scheduler." },
+      { "context": "News", "sentence": "I still can't wrap my head around the numbers." }
+    ],
+    "remember": [
+      "Informal but common at work. It implies difficulty, not stupidity."
+    ]
+  },
+  {
+    "id": "hindsight-is-2020",
+    "term": "Hindsight is 20/20",
+    "level": "C1",
+    "meaning": "Everything is obvious once you already know how it turned out.",
+    "usage": "Use it to defend a past decision that looks wrong now but was reasonable with the information available.",
+    "examples": [
+      { "context": "Postmortem", "sentence": "Hindsight is 20/20 — nobody could have known the API would change." },
+      { "context": "Review", "sentence": "It's easy to criticise now, but hindsight is 20/20." }
+    ],
+    "remember": [
+      "20/20 is the American measure of perfect eyesight. It's the standard phrase in blameless postmortems."
+    ]
+  },
+  {
+    "id": "learn-the-hard-way",
+    "term": "Learn the hard way",
+    "level": "B2",
+    "meaning": "To learn something through a painful experience rather than advice.",
+    "usage": "Use it to explain where a conviction came from, usually with some self-deprecation.",
+    "examples": [
+      { "context": "Work", "sentence": "Always back up first — I learned that the hard way." },
+      { "context": "Advice", "sentence": "You can take my word for it or learn the hard way." }
+    ],
+    "remember": [
+      "It gives your advice weight, because you paid for it."
+    ]
+  },
+  {
+    "id": "pull-strings",
+    "term": "Pull strings",
+    "level": "C1",
+    "meaning": "To use personal influence to get something done outside the normal process.",
+    "usage": "Use it about informal influence — getting a meeting, a place, or an approval through who you know.",
+    "examples": [
+      { "context": "Work", "sentence": "She pulled some strings to get us on the roadmap." },
+      { "context": "Admin", "sentence": "I can't pull strings on this — it has to go through procurement." }
+    ],
+    "remember": [
+      "Slightly disapproving. It suggests the outcome came from connections rather than merit."
+    ]
+  },
+  {
+    "id": "take-the-lead",
+    "term": "Take the lead",
+    "level": "B1",
+    "meaning": "To take charge of something and be the person driving it.",
+    "usage": "Use it to assign or volunteer for ownership of a piece of work.",
+    "examples": [
+      { "context": "Project", "sentence": "Would you take the lead on the migration?" },
+      { "context": "Meeting", "sentence": "I'll take the lead on the client relationship." }
+    ],
+    "remember": [
+      "Taking the lead means being accountable for the outcome, not just doing the most work."
+    ]
+  },
+  {
+    "id": "bring-to-the-table",
+    "term": "Bring to the table",
+    "level": "B2",
+    "meaning": "To contribute something of value to a group or negotiation.",
+    "usage": "Use it about what a person, team, or partner adds that others don't.",
+    "examples": [
+      { "context": "Hiring", "sentence": "What would you bring to the table that we don't have?" },
+      { "context": "Partnership", "sentence": "They bring distribution to the table; we bring the technology." }
+    ],
+    "remember": [
+      "Common in interviews and partnership talks. It asks about your distinctive contribution, not your general skills."
+    ]
+  },
+  {
+    "id": "a-safe-pair-of-hands",
+    "term": "A safe pair of hands",
+    "level": "C1",
+    "meaning": "Someone reliable who won't make mistakes.",
+    "usage": "Use it as praise for dependability, especially when handing over something important.",
+    "examples": [
+      { "context": "Work", "sentence": "Give it to Meera — she's a safe pair of hands." },
+      { "context": "Leadership", "sentence": "They wanted a safe pair of hands rather than a visionary." }
+    ],
+    "remember": [
+      "Praises reliability, but can quietly imply a lack of ambition or flair. Context decides which."
+    ]
+  },
+  {
+    "id": "wear-many-hats",
+    "term": "Wear many hats",
+    "level": "B2",
+    "meaning": "To do several different roles.",
+    "usage": "Use it about small teams and startups where one person covers work that would be several jobs elsewhere.",
+    "examples": [
+      { "context": "Startup", "sentence": "In a team of five you wear many hats." },
+      { "context": "CV", "sentence": "I wore many hats — support, QA, and release management." }
+    ],
+    "remember": [
+      "Positive about versatility, but it can also describe being stretched too thin. Tone tells you which."
+    ]
+  },
+  {
+    "id": "step-up-to-the-plate",
+    "term": "Step up to the plate",
+    "level": "C1",
+    "meaning": "To take responsibility when it's needed.",
+    "usage": "Use it as praise for someone taking on a difficult job that others avoided.",
+    "examples": [
+      { "context": "Team", "sentence": "When the lead left, she stepped up to the plate." },
+      { "context": "Crisis", "sentence": "We need someone to step up to the plate on this." }
+    ],
+    "remember": [
+      "Another baseball phrase. 'Step up' alone works the same way and is more neutral internationally."
+    ]
+  },
+  {
+    "id": "have-someones-back",
+    "term": "Have someone's back",
+    "level": "B2",
+    "meaning": "To support and protect someone, especially when they're under pressure.",
+    "usage": "Use it to reassure a colleague that you'll defend them publicly.",
+    "examples": [
+      { "context": "Team", "sentence": "Go into the meeting and say it — I've got your back." },
+      { "context": "Management", "sentence": "A good manager has your back when things go wrong." }
+    ],
+    "remember": [
+      "It's a promise about what you'll do when you're not both in the room. Say it only if you mean it."
+    ]
+  },
+  {
+    "id": "sing-from-the-same-hymn-sheet",
+    "term": "Sing from the same hymn sheet",
+    "level": "C1",
+    "meaning": "To give a consistent message publicly.",
+    "usage": "Use it about a group agreeing what they'll say before facing customers or the public.",
+    "examples": [
+      { "context": "Meeting", "sentence": "Before the client call, let's make sure we're singing from the same hymn sheet." },
+      { "context": "Comms", "sentence": "The two departments weren't singing from the same hymn sheet." }
+    ],
+    "remember": [
+      "Strongly British. It's about presenting one message outward, whereas 'on the same page' is about genuinely sharing understanding."
+    ]
+  },
+  {
+    "id": "bang-for-the-buck",
+    "term": "Bang for the buck",
+    "level": "C1",
+    "meaning": "Value received for the money spent.",
+    "usage": "Use it informally when comparing the return on different options.",
+    "examples": [
+      { "context": "Business", "sentence": "Better bang for the buck than the enterprise tier." },
+      { "context": "Engineering", "sentence": "Caching gives the most bang for the buck here." }
+    ],
+    "remember": [
+      "Informal and American in origin. 'Value for money' is the neutral phrase for written work."
+    ]
+  },
+  {
+    "id": "take-it-in-stride",
+    "term": "Take it in stride",
+    "level": "C1",
+    "meaning": "To handle a difficulty calmly, without being knocked off course.",
+    "usage": "Use it as praise for someone who absorbed bad news or criticism without drama.",
+    "examples": [
+      { "context": "Feedback", "sentence": "He took the criticism in stride and got on with it." },
+      { "context": "Team", "sentence": "The team took the reorganisation in stride." }
+    ],
+    "remember": [
+      "British English says 'take it in your stride', with the possessive. American English drops it."
+    ]
+  },
+  {
+    "id": "keep-your-chin-up",
+    "term": "Keep your chin up",
+    "level": "B1",
+    "meaning": "Stay positive during a difficult time.",
+    "usage": "Use it to encourage someone going through a setback. Warm and informal.",
+    "examples": [
+      { "context": "Support", "sentence": "Keep your chin up — the next interview will go better." },
+      { "context": "Team", "sentence": "Tough quarter, but chin up." }
+    ],
+    "remember": [
+      "Kind, but it can sound dismissive if the person wants their problem acknowledged first. Listen before you say it."
+    ]
+  },
+  {
+    "id": "light-at-the-end-of-the-tunnel",
+    "term": "Light at the end of the tunnel",
+    "level": "B2",
+    "meaning": "The first sign that a long, difficult period is nearly over.",
+    "usage": "Use it to encourage a team late in a hard project, when the end is finally visible.",
+    "examples": [
+      { "context": "Project", "sentence": "Two weeks to go — there's light at the end of the tunnel." },
+      { "context": "Recovery", "sentence": "After six months, we're finally seeing light at the end of the tunnel." }
+    ],
+    "remember": [
+      "Only say it when the end really is in sight. Said too early, it costs you credibility when the tunnel continues."
+    ]
+  }
+]

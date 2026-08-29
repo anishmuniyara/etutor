@@ -1,0 +1,644 @@
+[
+  {
+    "id": "silly",
+    "term": "Silly",
+    "partOfSpeech": "Adjective",
+    "level": "A1",
+    "meaning": "Foolish in a harmless, often funny way.",
+    "usage": "Use it for behaviour that is not serious rather than genuinely stupid. It is gentle — you can call your own idea silly without insulting yourself.",
+    "examples": [
+      { "context": "Family", "sentence": "The kids were being silly at the dinner table." },
+      { "context": "Self", "sentence": "I know it's a silly question, but where does the water go?" },
+      { "context": "Daily Life", "sentence": "It was a silly mistake — I read the date wrong." }
+    ],
+    "remember": [
+      "'Silly' is affectionate; 'stupid' is an insult. Never swap one for the other about a person."
+    ]
+  },
+  {
+    "id": "ridiculous",
+    "term": "Ridiculous",
+    "partOfSpeech": "Adjective",
+    "level": "A2",
+    "meaning": "So unreasonable that it deserves to be laughed at.",
+    "usage": "Use it to reject something strongly — a price, a rule, an excuse. It is much harsher than 'silly'.",
+    "examples": [
+      { "context": "Shopping", "sentence": "Forty pounds for a T-shirt is ridiculous." },
+      { "context": "Work", "sentence": "The deadline they've set is frankly ridiculous." },
+      { "context": "Daily Life", "sentence": "We queued for two hours — it was ridiculous." }
+    ],
+    "remember": [
+      "Aimed at a person it is an insult. Aim it at the situation instead: 'that's ridiculous', not 'you're ridiculous'."
+    ]
+  },
+  {
+    "id": "spooky",
+    "term": "Spooky",
+    "partOfSpeech": "Adjective",
+    "level": "A2",
+    "meaning": "Strange and slightly frightening, in a ghostly way.",
+    "usage": "Use it for atmosphere — dark places, odd noises, unexplained coincidences. It is light-hearted, not genuinely fearful.",
+    "examples": [
+      { "context": "Place", "sentence": "The old house at the end of the lane is a bit spooky." },
+      { "context": "Coincidence", "sentence": "We said the same thing at once — spooky." },
+      { "context": "Film", "sentence": "It's a spooky film, but not a scary one." }
+    ],
+    "remember": [
+      "'Spooky' is enjoyable fear. Real fear is 'terrifying' or 'frightening'."
+    ]
+  },
+  {
+    "id": "wicked",
+    "term": "Wicked",
+    "partOfSpeech": "Adjective",
+    "level": "B1",
+    "meaning": "Evil — or, in British slang, excellent.",
+    "usage": "The literal sense appears in stories and moral discussion. The slang sense is casual British praise, and context makes clear which you mean.",
+    "examples": [
+      { "context": "Story", "sentence": "The wicked stepmother locked her in the tower." },
+      { "context": "British Slang", "sentence": "That was a wicked concert." },
+      { "context": "Humour", "sentence": "She has a wicked sense of humour." }
+    ],
+    "remember": [
+      "'A wicked sense of humour' is a compliment — it means sharp and mischievous, not evil."
+    ]
+  },
+  {
+    "id": "sloppy",
+    "term": "Sloppy",
+    "partOfSpeech": "Adjective",
+    "level": "B1",
+    "meaning": "Careless and untidy.",
+    "usage": "Use it about work done without attention, or about messy appearance. It is direct criticism, so it stings.",
+    "examples": [
+      { "context": "Work", "sentence": "The report was sloppy — three names were misspelled." },
+      { "context": "Appearance", "sentence": "He turned up in a sloppy old jumper." },
+      { "context": "Sport", "sentence": "Sloppy passing cost us the match." }
+    ],
+    "remember": [
+      "'Sloppy' says the person didn't care. If they tried and failed, 'inaccurate' is fairer."
+    ]
+  },
+  {
+    "id": "tidy-up",
+    "term": "Tidy up",
+    "partOfSpeech": "Phrasal verb",
+    "level": "A1",
+    "meaning": "To put things back where they belong.",
+    "usage": "Use it for the quick, ordinary act of restoring order to a room or desk — lighter than cleaning.",
+    "examples": [
+      { "context": "Home", "sentence": "Can you tidy up before your grandmother arrives?" },
+      { "context": "Work", "sentence": "I'll tidy up my desk before I leave." },
+      { "context": "Figurative", "sentence": "Let's tidy up the wording in this paragraph." }
+    ],
+    "remember": [
+      "Tidying is about order; cleaning is about dirt. A tidy kitchen can still be dirty.",
+      "Mostly British. Americans usually say 'clean up' or 'straighten up'."
+    ]
+  },
+  {
+    "id": "chores",
+    "term": "Chores",
+    "partOfSpeech": "Noun",
+    "level": "A2",
+    "meaning": "Small, routine household jobs.",
+    "usage": "Use it for the unglamorous tasks that keep a home running — washing up, laundry, taking out the bins.",
+    "examples": [
+      { "context": "Home", "sentence": "We split the chores between us." },
+      { "context": "Family", "sentence": "The children get pocket money for doing chores." },
+      { "context": "Weekend", "sentence": "I spent Saturday morning on chores." }
+    ],
+    "remember": [
+      "Almost always plural. A single 'chore' usually means something tedious: 'paperwork is a chore'."
+    ]
+  },
+  {
+    "id": "leftover",
+    "term": "Leftover",
+    "partOfSpeech": "Noun / Adjective",
+    "level": "A2",
+    "meaning": "Food, money, or material remaining after the rest has been used.",
+    "usage": "Most often about food from a previous meal. Also used for anything left unused from a larger amount.",
+    "examples": [
+      { "context": "Food", "sentence": "We had leftovers from last night's curry." },
+      { "context": "Budget", "sentence": "There's a bit of leftover money in the project budget." },
+      { "context": "DIY", "sentence": "I used some leftover paint on the shed." }
+    ],
+    "remember": [
+      "As a noun about food it is normally plural: 'the leftovers'. As an adjective it stays singular: 'leftover rice'."
+    ]
+  },
+  {
+    "id": "frisbee",
+    "term": "Frisbee",
+    "partOfSpeech": "Noun",
+    "level": "A2",
+    "meaning": "A flat plastic disc thrown between players in a park or on a beach.",
+    "usage": "Use it for the object and the casual game. Started as a brand name and became the everyday word.",
+    "examples": [
+      { "context": "Park", "sentence": "We threw a frisbee around for an hour." },
+      { "context": "Beach", "sentence": "Don't forget the frisbee." },
+      { "context": "Sport", "sentence": "He plays ultimate frisbee on Sundays." }
+    ],
+    "remember": [
+      "Strictly a trademark, so formal writing uses 'flying disc' — but nobody says that in conversation."
+    ]
+  },
+  {
+    "id": "ghoul",
+    "term": "Ghoul",
+    "partOfSpeech": "Noun",
+    "level": "B2",
+    "meaning": "An evil spirit from folklore — or a person with a morbid fascination with death.",
+    "usage": "The folklore sense appears in horror stories. The figurative sense criticises people who are drawn to disasters and tragedy.",
+    "examples": [
+      { "context": "Folklore", "sentence": "The film is full of ghouls and other night creatures." },
+      { "context": "Criticism", "sentence": "The ghouls were filming the crash instead of helping." }
+    ],
+    "remember": [
+      "'Ghoulish' is the more common form: 'a ghoulish interest in the details'."
+    ]
+  },
+  {
+    "id": "copycat",
+    "term": "Copycat",
+    "partOfSpeech": "Noun",
+    "level": "B1",
+    "meaning": "Someone who imitates another person, usually without credit.",
+    "usage": "Used by children as an accusation, and by adults about products or crimes that imitate an earlier one.",
+    "examples": [
+      { "context": "Children", "sentence": "Stop it, you copycat!" },
+      { "context": "Business", "sentence": "A dozen copycat apps appeared within a month." },
+      { "context": "News", "sentence": "Police are treating it as a copycat attack." }
+    ],
+    "remember": [
+      "Always disapproving. Neutral imitation is 'inspired by' or 'modelled on'."
+    ]
+  },
+  {
+    "id": "miserable",
+    "term": "Miserable",
+    "partOfSpeech": "Adjective",
+    "level": "A2",
+    "meaning": "Very unhappy — or deeply unpleasant.",
+    "usage": "Use it about people who are thoroughly low, and about weather, conditions, or experiences that make you feel that way.",
+    "examples": [
+      { "context": "Feelings", "sentence": "He's been miserable since the team lost." },
+      { "context": "Weather", "sentence": "It was a miserable, wet weekend." },
+      { "context": "Conditions", "sentence": "They were living in miserable conditions." }
+    ],
+    "remember": [
+      "Much stronger than 'sad'. 'A miserable person' can also mean someone permanently grumpy."
+    ]
+  },
+  {
+    "id": "mighty",
+    "term": "Mighty",
+    "partOfSpeech": "Adjective",
+    "level": "B1",
+    "meaning": "Very powerful or impressively large.",
+    "usage": "Slightly literary or dramatic. Use it for rivers, armies, and efforts, or humorously for something ordinary.",
+    "examples": [
+      { "context": "Nature", "sentence": "The mighty Ganges flows for over two thousand kilometres." },
+      { "context": "Sport", "sentence": "The mighty champions lost to a village team." },
+      { "context": "Humour", "sentence": "Behold, my mighty sandwich." }
+    ],
+    "remember": [
+      "'High and mighty' is a fixed phrase meaning arrogant — quite different in tone."
+    ]
+  },
+  {
+    "id": "curtly",
+    "term": "Curtly",
+    "partOfSpeech": "Adverb",
+    "level": "C1",
+    "meaning": "In a short, abrupt way that sounds rude.",
+    "usage": "Use it in writing to describe how someone spoke when they were annoyed or dismissive.",
+    "examples": [
+      { "context": "Narrative", "sentence": "'Not now,' he said curtly, and closed the door." },
+      { "context": "Work", "sentence": "She replied curtly and left the meeting." }
+    ],
+    "remember": [
+      "It describes manner, not length. A one-word answer said warmly is not curt."
+    ]
+  },
+  {
+    "id": "pack-rat",
+    "term": "Pack rat",
+    "partOfSpeech": "Noun",
+    "level": "B2",
+    "meaning": "Someone who keeps far too many things they will never use.",
+    "usage": "Informal and affectionate, used about a person who cannot throw anything away.",
+    "examples": [
+      { "context": "Home", "sentence": "My father's a pack rat — he still has receipts from 1998." },
+      { "context": "Self", "sentence": "I'm a bit of a pack rat when it comes to books." }
+    ],
+    "remember": [
+      "Mainly American. British English says 'hoarder', which sounds more serious.",
+      "Named after an actual rodent that collects objects in its nest."
+    ]
+  },
+  {
+    "id": "decluttering",
+    "term": "Decluttering",
+    "partOfSpeech": "Noun / Verb",
+    "level": "B2",
+    "meaning": "Getting rid of things you no longer need, to create space.",
+    "usage": "Use it for a deliberate clear-out rather than routine tidying. Also used figuratively about schedules and thinking.",
+    "examples": [
+      { "context": "Home", "sentence": "I spent the weekend decluttering the loft." },
+      { "context": "Figurative", "sentence": "Decluttering my calendar made a real difference." },
+      { "context": "Work", "sentence": "The redesign is mostly decluttering — we removed half the buttons." }
+    ],
+    "remember": [
+      "Tidying moves things; decluttering removes them. That is the whole distinction."
+    ]
+  },
+  {
+    "id": "astounding",
+    "term": "Astounding",
+    "partOfSpeech": "Adjective",
+    "level": "B2",
+    "meaning": "So surprising that it is hard to believe.",
+    "usage": "Use it for genuinely remarkable numbers, achievements, and results. It is strong, so overuse makes it meaningless.",
+    "examples": [
+      { "context": "Statistics", "sentence": "The response rate was astounding — over eighty per cent." },
+      { "context": "Achievement", "sentence": "She made an astounding recovery." },
+      { "context": "Criticism", "sentence": "The level of waste is astounding." }
+    ],
+    "remember": [
+      "Works for good and bad surprises alike: astounding generosity, astounding incompetence."
+    ]
+  },
+  {
+    "id": "apparent",
+    "term": "Apparent",
+    "partOfSpeech": "Adjective",
+    "level": "B2",
+    "meaning": "Obvious — or only seeming to be true.",
+    "usage": "Two nearly opposite senses. 'It became apparent' means it became clear. 'His apparent calm' hints that the calm may not be real.",
+    "examples": [
+      { "context": "Clear", "sentence": "It soon became apparent that the data was wrong." },
+      { "context": "Seeming", "sentence": "Despite his apparent confidence, he was nervous." },
+      { "context": "News", "sentence": "There was no apparent reason for the delay." }
+    ],
+    "remember": [
+      "'Apparently' almost always signals second-hand information: 'apparently they've sold the company' means you heard it, not that you know it."
+    ]
+  },
+  {
+    "id": "monetary",
+    "term": "Monetary",
+    "partOfSpeech": "Adjective",
+    "level": "B2",
+    "meaning": "Relating to money, especially a country's money supply.",
+    "usage": "Formal. Use it in economics and policy writing, and for the money value of something as opposed to its other worth.",
+    "examples": [
+      { "context": "Economics", "sentence": "The central bank tightened monetary policy." },
+      { "context": "Value", "sentence": "The ring has little monetary value but means a lot to her." },
+      { "context": "Business", "sentence": "There was no monetary compensation for the delay." }
+    ],
+    "remember": [
+      "Don't confuse it with 'monitory', which means warning. Different word entirely."
+    ]
+  },
+  {
+    "id": "fall",
+    "term": "Fall",
+    "partOfSpeech": "Noun",
+    "level": "B1",
+    "meaning": "A sudden loss of power or status — the collapse of something once strong.",
+    "usage": "Beyond its everyday sense of dropping, 'fall' names a decline from greatness. Common in history, business, and biography.",
+    "examples": [
+      { "context": "History", "sentence": "The fall of the Roman Empire took centuries." },
+      { "context": "Business", "sentence": "The rise and fall of the company took just five years." },
+      { "context": "Politics", "sentence": "His fall from grace was swift." }
+    ],
+    "remember": [
+      "'Fall from grace' means losing others' respect after a mistake.",
+      "In American English 'fall' is also the season British English calls autumn."
+    ]
+  },
+  {
+    "id": "knit",
+    "term": "Knit",
+    "partOfSpeech": "Verb",
+    "level": "B2",
+    "meaning": "To join threads into fabric — or, figuratively, to bind people or ideas together.",
+    "usage": "The literal sense is the craft. The figurative sense describes groups and arguments that hold together well.",
+    "examples": [
+      { "context": "Craft", "sentence": "She knitted a scarf over the winter." },
+      { "context": "Community", "sentence": "It's a close-knit village where everyone helps out." },
+      { "context": "Healing", "sentence": "The bone should knit within six weeks." }
+    ],
+    "remember": [
+      "'Close-knit' is the form you will meet most often — it describes families, teams, and communities."
+    ]
+  },
+  {
+    "id": "prey",
+    "term": "Prey",
+    "partOfSpeech": "Noun / Verb",
+    "level": "B2",
+    "meaning": "An animal hunted by another — or a person targeted by someone exploitative.",
+    "usage": "The figurative sense is common in reporting on fraud and abuse: someone 'preys on' a vulnerable group.",
+    "examples": [
+      { "context": "Nature", "sentence": "Owls hunt their prey at night." },
+      { "context": "Crime", "sentence": "The scam preys on elderly people living alone." },
+      { "context": "Feelings", "sentence": "The decision preyed on his mind for weeks." }
+    ],
+    "remember": [
+      "'Prey' and 'pray' sound identical but are unrelated. Prey is hunted; pray is spoken to a god.",
+      "The verb needs 'on': prey on someone, never prey someone."
+    ]
+  },
+  {
+    "id": "often",
+    "term": "Often",
+    "partOfSpeech": "Adverb",
+    "level": "A1",
+    "meaning": "Many times; frequently.",
+    "usage": "Sits before the main verb but after 'be': 'I often forget', 'he is often late'. Worth studying for its pronunciation as much as its meaning.",
+    "examples": [
+      { "context": "Habit", "sentence": "I often walk to work when the weather's good." },
+      { "context": "Position", "sentence": "She is often the last to leave." },
+      { "context": "Question", "sentence": "How often do you travel for work?" }
+    ],
+    "remember": [
+      "Both pronunciations are correct: OFF-en with a silent t is the traditional one, OFF-ten is now equally common. Neither is a mistake.",
+      "'How often…?' is the standard question about frequency."
+    ]
+  },
+  {
+    "id": "seduce",
+    "term": "Seduce",
+    "partOfSpeech": "Verb",
+    "level": "C1",
+    "meaning": "To persuade someone into something by making it feel irresistible.",
+    "usage": "Beyond the romantic sense, it describes being tempted into a decision against your better judgement — common in writing about money and marketing.",
+    "examples": [
+      { "context": "Business", "sentence": "Investors were seduced by the promise of quick returns." },
+      { "context": "Marketing", "sentence": "The packaging is designed to seduce you at the shelf." },
+      { "context": "Writing", "sentence": "Don't be seduced by a clever phrase that says nothing." }
+    ],
+    "remember": [
+      "'Seductive' applied to ideas and arguments is common and carries no romantic sense: 'a seductive but flawed theory'."
+    ]
+  },
+  {
+    "id": "grief-counselor",
+    "term": "Grief counsellor",
+    "partOfSpeech": "Noun",
+    "level": "B2",
+    "meaning": "A trained professional who helps people cope after someone close to them dies.",
+    "usage": "Use it when talking about bereavement support, in healthcare, workplaces, and after disasters.",
+    "examples": [
+      { "context": "Healthcare", "sentence": "The hospital arranged for a grief counsellor to see the family." },
+      { "context": "Workplace", "sentence": "The company brought in grief counsellors after the accident." }
+    ],
+    "remember": [
+      "British English spells it 'counsellor'; American English uses 'counselor'. Both are correct in their own regions.",
+      "A counsellor advises; a councillor sits on a council. Entirely different jobs."
+    ]
+  },
+  {
+    "id": "summon",
+    "term": "Summon",
+    "partOfSpeech": "Verb",
+    "level": "B2",
+    "meaning": "To order someone to come — or to gather up an inner quality you had to search for.",
+    "usage": "The first sense is formal and carries authority. The second, 'summon the courage', is very common in everyday speech.",
+    "examples": [
+      { "context": "Authority", "sentence": "He was summoned to the head office." },
+      { "context": "Inner effort", "sentence": "She summoned the courage to ask for a raise." },
+      { "context": "Legal", "sentence": "Three witnesses were summoned to appear." }
+    ],
+    "remember": [
+      "'Summon up' works the same way for feelings and memories: 'summon up the energy'."
+    ]
+  },
+  {
+    "id": "propelled",
+    "term": "Propelled",
+    "partOfSpeech": "Verb",
+    "level": "B2",
+    "meaning": "Driven forward by a force.",
+    "usage": "Literal for physical movement, and figurative for what pushes a person or company into a new position.",
+    "examples": [
+      { "context": "Physics", "sentence": "The boat is propelled by a small electric motor." },
+      { "context": "Career", "sentence": "That one project propelled her into a leadership role." },
+      { "context": "Business", "sentence": "Word of mouth propelled the app to the top of the charts." }
+    ],
+    "remember": [
+      "The figurative sense implies speed and force, not gradual progress. For slow change, use 'led to'."
+    ]
+  },
+  {
+    "id": "fatal",
+    "term": "Fatal",
+    "partOfSpeech": "Adjective",
+    "level": "B1",
+    "meaning": "Causing death — or causing total failure.",
+    "usage": "Use the literal sense for accidents and illness. The figurative sense describes a mistake that destroys a plan.",
+    "examples": [
+      { "context": "News", "sentence": "There was a fatal crash on the motorway." },
+      { "context": "Business", "sentence": "Ignoring the warning signs proved fatal to the company." },
+      { "context": "Mistake", "sentence": "The fatal flaw was assuming customers would read the manual." }
+    ],
+    "remember": [
+      "'Fatal' means it caused death. 'Fateful' means it decided what happened next. Easy to confuse and quite different."
+    ]
+  },
+  {
+    "id": "plateau",
+    "term": "Plateau",
+    "partOfSpeech": "Noun / Verb",
+    "level": "B2",
+    "meaning": "A period where progress stops and levels off after a rise.",
+    "usage": "Very common when talking about learning, fitness, and sales — the frustrating stage where effort continues but results stop improving.",
+    "examples": [
+      { "context": "Learning", "sentence": "Most learners hit a plateau at intermediate level." },
+      { "context": "Fitness", "sentence": "My progress plateaued after three months." },
+      { "context": "Business", "sentence": "Sales have plateaued since the summer." }
+    ],
+    "remember": [
+      "A plateau is flat, not falling. It means 'stopped improving', not 'getting worse'.",
+      "Pronounced PLAT-oh, from the French for a flat area of high ground."
+    ]
+  },
+  {
+    "id": "tectonic",
+    "term": "Tectonic",
+    "partOfSpeech": "Adjective",
+    "level": "C1",
+    "meaning": "Relating to the movement of the Earth's plates — or describing a huge, structural change.",
+    "usage": "The figurative use, almost always as 'a tectonic shift', signals change so large that everything built on top of it moves too.",
+    "examples": [
+      { "context": "Geology", "sentence": "The region sits on a tectonic fault line." },
+      { "context": "Industry", "sentence": "Streaming caused a tectonic shift in how music is sold." },
+      { "context": "Politics", "sentence": "The result marked a tectonic change in the party." }
+    ],
+    "remember": [
+      "Reserve it for genuinely structural change. Applied to a small announcement it sounds absurd."
+    ]
+  },
+  {
+    "id": "inert",
+    "term": "Inert",
+    "partOfSpeech": "Adjective",
+    "level": "C1",
+    "meaning": "Not moving, and not reacting.",
+    "usage": "In science, describes substances that don't react chemically. More generally, describes a person or organisation that has become passive.",
+    "examples": [
+      { "context": "Science", "sentence": "Argon is an inert gas." },
+      { "context": "Organisation", "sentence": "The committee has been inert for the best part of a year." },
+      { "context": "Body", "sentence": "He lay inert on the sofa all afternoon." }
+    ],
+    "remember": [
+      "'Inert' is stronger than 'inactive' — it suggests something incapable of acting, not merely resting."
+    ]
+  },
+  {
+    "id": "undesirable",
+    "term": "Undesirable",
+    "partOfSpeech": "Adjective",
+    "level": "B2",
+    "meaning": "Not wanted, because it causes harm or problems.",
+    "usage": "Formal and neutral. Use it in reports and policy writing to flag an unwanted outcome without emotional language.",
+    "examples": [
+      { "context": "Medicine", "sentence": "The drug has some undesirable side effects." },
+      { "context": "Policy", "sentence": "This would set an undesirable precedent." },
+      { "context": "Engineering", "sentence": "The change had undesirable consequences downstream." }
+    ],
+    "remember": [
+      "It is the diplomatic word for 'bad'. Its formality is exactly why it appears in official writing."
+    ]
+  },
+  {
+    "id": "prevailing",
+    "term": "Prevailing",
+    "partOfSpeech": "Adjective",
+    "level": "C1",
+    "meaning": "Most common or most influential at a particular time.",
+    "usage": "Use it for the dominant opinion, mood, or condition of a period — often implying it may not last.",
+    "examples": [
+      { "context": "Opinion", "sentence": "The prevailing view is that rates will fall." },
+      { "context": "Weather", "sentence": "The prevailing wind here comes from the south-west." },
+      { "context": "Market", "sentence": "Under prevailing conditions, expansion is risky." }
+    ],
+    "remember": [
+      "'Prevailing' means most widespread, not correct. It describes what people think, not what is true."
+    ]
+  },
+  {
+    "id": "trajectory",
+    "term": "Trajectory",
+    "partOfSpeech": "Noun",
+    "level": "C1",
+    "meaning": "The path something follows — and, figuratively, the direction something is heading.",
+    "usage": "Use the figurative sense about careers, companies, and trends where the direction matters more than the current position.",
+    "examples": [
+      { "context": "Career", "sentence": "Her career trajectory has been remarkable." },
+      { "context": "Business", "sentence": "The growth trajectory flattened after the second year." },
+      { "context": "Physics", "sentence": "They calculated the trajectory of the rocket." }
+    ],
+    "remember": [
+      "Trajectory is about direction over time. 'We're on a good trajectory' can be true even when today's numbers are poor."
+    ]
+  },
+  {
+    "id": "ally",
+    "term": "Ally",
+    "partOfSpeech": "Noun / Verb",
+    "level": "B2",
+    "meaning": "Someone who supports you, especially when it matters.",
+    "usage": "Use it in politics, work, and social contexts for a person or group on your side in a specific situation.",
+    "examples": [
+      { "context": "Work", "sentence": "You'll need an ally in finance to get this approved." },
+      { "context": "Politics", "sentence": "The two countries have been allies for decades." },
+      { "context": "Verb", "sentence": "They allied themselves with the smaller parties." }
+    ],
+    "remember": [
+      "Stress moves with the part of speech: AL-ly for the noun, a-LLY for the verb."
+    ]
+  },
+  {
+    "id": "antidote",
+    "term": "Antidote",
+    "partOfSpeech": "Noun",
+    "level": "B2",
+    "meaning": "A medicine that cancels a poison — or anything that counteracts something bad.",
+    "usage": "The figurative sense is far more common in everyday English: something that relieves a bad feeling or situation.",
+    "examples": [
+      { "context": "Medicine", "sentence": "There is no known antidote for that venom." },
+      { "context": "Everyday", "sentence": "A walk by the sea is the perfect antidote to a stressful week." },
+      { "context": "Culture", "sentence": "The book is an antidote to all the doom in the news." }
+    ],
+    "remember": [
+      "Always takes 'to': an antidote to boredom, not an antidote of boredom."
+    ]
+  },
+  {
+    "id": "slandered",
+    "term": "Slandered",
+    "partOfSpeech": "Verb",
+    "level": "C1",
+    "meaning": "Damaged someone's reputation by saying something false about them.",
+    "usage": "Use it when the false statement was spoken. It is a legal term as well as an everyday accusation.",
+    "examples": [
+      { "context": "Legal", "sentence": "He claims he was slandered at the meeting." },
+      { "context": "Work", "sentence": "She felt slandered by the rumours going round the office." }
+    ],
+    "remember": [
+      "Slander is spoken; libel is written or published. Getting this pair right matters in any legal context.",
+      "Both require the statement to be false. A damaging truth is neither."
+    ]
+  },
+  {
+    "id": "mediocrity",
+    "term": "Mediocrity",
+    "partOfSpeech": "Noun",
+    "level": "C1",
+    "meaning": "The state of being merely average when better was possible.",
+    "usage": "Use it as criticism of work or standards that are acceptable but uninspired. The disappointment is built into the word.",
+    "examples": [
+      { "context": "Work", "sentence": "The culture rewards mediocrity and punishes risk." },
+      { "context": "Review", "sentence": "The film never rises above mediocrity." },
+      { "context": "Education", "sentence": "He settled for mediocrity when he could have led the field." }
+    ],
+    "remember": [
+      "The adjective is 'mediocre'. Both are insults — 'average' is neutral, 'mediocre' is not."
+    ]
+  },
+  {
+    "id": "conversely",
+    "term": "Conversely",
+    "partOfSpeech": "Adverb",
+    "level": "C1",
+    "meaning": "From the opposite point of view; the reverse is also true.",
+    "usage": "Use it in writing to introduce a statement that mirrors the previous one in reverse. Formal — common in essays and reports.",
+    "examples": [
+      { "context": "Report", "sentence": "Sales rose in the north. Conversely, they fell sharply in the south." },
+      { "context": "Essay", "sentence": "Small teams move fast. Conversely, large teams bring more expertise." }
+    ],
+    "remember": [
+      "It needs a genuine reversal, not just any contrast. If the second point isn't the mirror of the first, use 'however'."
+    ]
+  },
+  {
+    "id": "latent",
+    "term": "Latent",
+    "partOfSpeech": "Adjective",
+    "level": "C1",
+    "meaning": "Present but not yet visible or active.",
+    "usage": "Use it for abilities, demand, and problems that exist already but haven't shown themselves.",
+    "examples": [
+      { "context": "Talent", "sentence": "Good teaching brings out latent ability." },
+      { "context": "Business", "sentence": "There's latent demand for this that no one is serving." },
+      { "context": "Medicine", "sentence": "The infection can stay latent for years." }
+    ],
+    "remember": [
+      "Latent means already there but hidden. Something that doesn't exist yet is 'potential', not latent."
+    ]
+  }
+]

@@ -1,0 +1,629 @@
+[
+  {
+    "id": "use",
+    "term": "Use",
+    "level": "B2",
+    "meaning": "To put something to work for a purpose.",
+    "alternatives": [
+      { "term": "Utilize", "usage": "Sounds formal, but usually adds nothing. Reserve it for putting something to a use it wasn't designed for." },
+      { "term": "Apply", "usage": "For rules, methods, and pressure: apply a patch, apply a discount." },
+      { "term": "Leverage", "usage": "When an existing asset produces an outsized result — a customer base, a brand." },
+      { "term": "Harness", "usage": "For channelling something powerful and unruly: harness demand, harness enthusiasm." },
+      { "term": "Employ", "usage": "Formal writing, for methods and techniques: 'the study employed two models'." }
+    ],
+    "examples": [
+      { "context": "Plain", "sentence": "We use the same tool for both teams." },
+      { "context": "Business", "sentence": "We can leverage our existing customers to launch this." },
+      { "context": "Academic", "sentence": "The study employed a mixed-methods approach." }
+    ],
+    "remember": [
+      "'Utilize' is the classic example of a longer word that means nothing more than the short one. Editors delete it on sight."
+    ]
+  },
+  {
+    "id": "make",
+    "term": "Make",
+    "level": "B2",
+    "meaning": "To bring something into existence.",
+    "alternatives": [
+      { "term": "Create", "usage": "Neutral and slightly more formal; good for anything original." },
+      { "term": "Produce", "usage": "For output at volume, or a required result: produce a report, produce evidence." },
+      { "term": "Generate", "usage": "When something is produced automatically or continuously: generate revenue, generate a token." },
+      { "term": "Formulate", "usage": "For carefully constructing a plan, policy, or hypothesis." },
+      { "term": "Devise", "usage": "For inventing a clever method to solve a specific problem." }
+    ],
+    "examples": [
+      { "context": "Plain", "sentence": "We made a prototype in two days." },
+      { "context": "Business", "sentence": "The service generates most of our recurring revenue." },
+      { "context": "Formal", "sentence": "They devised a workaround that avoided the migration entirely." }
+    ],
+    "remember": [
+      "'Generate' implies a process doing the work; 'create' implies a person. Choosing wrongly makes writing sound mechanical or inflated."
+    ]
+  },
+  {
+    "id": "fix",
+    "term": "Fix",
+    "level": "B2",
+    "meaning": "To repair something broken.",
+    "alternatives": [
+      { "term": "Resolve", "usage": "For issues, tickets, and disputes — standard in support and project language." },
+      { "term": "Correct", "usage": "For errors in data, text, or calculations." },
+      { "term": "Rectify", "usage": "Formal, often about putting right something that was someone's fault." },
+      { "term": "Remediate", "usage": "Technical and regulatory: fixing a security finding or a compliance gap." },
+      { "term": "Address", "usage": "Deliberately vague — you're dealing with it, without promising a full fix." }
+    ],
+    "examples": [
+      { "context": "Support", "sentence": "The ticket was resolved within an hour." },
+      { "context": "Formal", "sentence": "We will rectify the error in the next statement." },
+      { "context": "Meeting", "sentence": "We're addressing the performance concerns this quarter." }
+    ],
+    "remember": [
+      "'Address' promises attention, not a solution. Listeners often hear it as a full commitment — be careful which you mean."
+    ]
+  },
+  {
+    "id": "check",
+    "term": "Check",
+    "level": "B2",
+    "meaning": "To look at something to make sure it's right.",
+    "alternatives": [
+      { "term": "Verify", "usage": "To confirm against a known standard or source." },
+      { "term": "Confirm", "usage": "To get certainty, often from another person." },
+      { "term": "Validate", "usage": "To test that something meets its requirements — technical and formal." },
+      { "term": "Corroborate", "usage": "To support a claim with independent evidence." },
+      { "term": "Ascertain", "usage": "Very formal, for establishing a fact that wasn't known." }
+    ],
+    "examples": [
+      { "context": "Technical", "sentence": "We validate the input before it reaches the database." },
+      { "context": "Journalism", "sentence": "We need a second source to corroborate the story." },
+      { "context": "Everyday", "sentence": "Let me check and confirm by this afternoon." }
+    ],
+    "remember": [
+      "'Verify' checks against a source; 'validate' checks against a requirement. Engineers treat these as distinct."
+    ]
+  },
+  {
+    "id": "change",
+    "term": "Change",
+    "level": "B2",
+    "meaning": "To make something different.",
+    "alternatives": [
+      { "term": "Modify", "usage": "For a targeted change that leaves the rest intact." },
+      { "term": "Adjust", "usage": "For small tuning of a setting or approach." },
+      { "term": "Revise", "usage": "For documents, estimates, and plans updated after new information." },
+      { "term": "Amend", "usage": "Formal, for contracts, policies, and records." },
+      { "term": "Overhaul", "usage": "For a large, structural rework of the whole thing." }
+    ],
+    "examples": [
+      { "context": "Document", "sentence": "I've revised the estimate based on yesterday's numbers." },
+      { "context": "Legal", "sentence": "The clause was amended before signing." },
+      { "context": "Engineering", "sentence": "The pipeline needs an overhaul, not an adjustment." }
+    ],
+    "remember": [
+      "These sit on a scale of size: adjust → modify → revise → overhaul. Picking the wrong one misrepresents the work involved."
+    ]
+  },
+  {
+    "id": "improve",
+    "term": "Improve",
+    "level": "B2",
+    "meaning": "To make something better.",
+    "alternatives": [
+      { "term": "Enhance", "usage": "To add something that makes a good thing better — features, clarity, appeal." },
+      { "term": "Refine", "usage": "For small careful improvements to something already close to right." },
+      { "term": "Optimize", "usage": "To improve for one specific goal — always say which." },
+      { "term": "Elevate", "usage": "To raise the whole standard; slightly aspirational in tone." },
+      { "term": "Bolster", "usage": "To strengthen something that was weak: bolster defences, bolster the case." }
+    ],
+    "examples": [
+      { "context": "Technical", "sentence": "The query is optimized for read speed, not storage." },
+      { "context": "Product", "sentence": "We refined the onboarding after watching five sessions." },
+      { "context": "Argument", "sentence": "The new data bolsters our case considerably." }
+    ],
+    "remember": [
+      "'Optimize' with no stated goal is meaningless. Always ask: optimised for what?"
+    ]
+  },
+  {
+    "id": "find",
+    "term": "Find",
+    "level": "B2",
+    "meaning": "To discover or locate something.",
+    "alternatives": [
+      { "term": "Identify", "usage": "To recognise and name something among other things." },
+      { "term": "Locate", "usage": "For physical or logical position — where something is." },
+      { "term": "Pinpoint", "usage": "For finding an exact cause or location after searching." },
+      { "term": "Uncover", "usage": "For finding something that was hidden or concealed." },
+      { "term": "Detect", "usage": "For noticing something faint or automated — a signal, an anomaly." }
+    ],
+    "examples": [
+      { "context": "Debugging", "sentence": "We pinpointed the leak to a single handler." },
+      { "context": "Audit", "sentence": "The review uncovered three unreported incidents." },
+      { "context": "Monitoring", "sentence": "The system detects anomalies within seconds." }
+    ],
+    "remember": [
+      "'Uncover' implies something was hidden, which is an accusation as much as a discovery. Use it deliberately."
+    ]
+  },
+  {
+    "id": "show",
+    "term": "Show",
+    "level": "B2",
+    "meaning": "To let someone see or understand something.",
+    "alternatives": [
+      { "term": "Display", "usage": "For presenting information visually — a screen, a chart, a case." },
+      { "term": "Present", "usage": "For formally putting something before an audience." },
+      { "term": "Demonstrate", "usage": "To show something working, or to prove a point with evidence." },
+      { "term": "Illustrate", "usage": "To make an idea clear with an example or image." },
+      { "term": "Exhibit", "usage": "Formal, for displaying qualities or evidence: 'the sample exhibits corrosion'." }
+    ],
+    "examples": [
+      { "context": "Demo", "sentence": "Let me demonstrate rather than describe it." },
+      { "context": "Writing", "sentence": "The chart illustrates the seasonal pattern." },
+      { "context": "Meeting", "sentence": "I'll present the findings on Thursday." }
+    ],
+    "remember": [
+      "'Demonstrate' means you proved it. Claiming to have demonstrated something you only asserted is a common credibility mistake."
+    ]
+  },
+  {
+    "id": "explain",
+    "term": "Explain",
+    "level": "B2",
+    "meaning": "To make something clear to someone.",
+    "alternatives": [
+      { "term": "Describe", "usage": "To say what something is like, without necessarily making it understandable." },
+      { "term": "Clarify", "usage": "To remove confusion about something already said." },
+      { "term": "Articulate", "usage": "To put something difficult into precise words." },
+      { "term": "Elucidate", "usage": "Very formal and academic; rare in speech." },
+      { "term": "Outline", "usage": "To give the main points without the detail." }
+    ],
+    "examples": [
+      { "context": "Meeting", "sentence": "Could you clarify what you meant by 'phase two'?" },
+      { "context": "Strategy", "sentence": "We need to articulate the value in one sentence." },
+      { "context": "Proposal", "sentence": "I'll outline the approach, then take questions." }
+    ],
+    "remember": [
+      "'Explain this to me' — explain always needs 'to' before the person. 'Explain me this' is a very common error."
+    ]
+  },
+  {
+    "id": "think",
+    "term": "Think",
+    "level": "B2",
+    "meaning": "To have an opinion or belief.",
+    "alternatives": [
+      { "term": "Consider", "usage": "To weigh something before deciding, or to regard something as true." },
+      { "term": "Believe", "usage": "Stronger conviction than think, without necessarily more evidence." },
+      { "term": "Assume", "usage": "To take as true without checking — admitting you haven't verified." },
+      { "term": "Contend", "usage": "To argue firmly for a position in a debate." },
+      { "term": "Posit", "usage": "Academic; to put an idea forward for examination." }
+    ],
+    "examples": [
+      { "context": "Caution", "sentence": "Don't assume the data has been cleaned." },
+      { "context": "Debate", "sentence": "Critics contend that the figures are misleading." },
+      { "context": "Academic", "sentence": "The paper posits a shared underlying cause." }
+    ],
+    "remember": [
+      "Saying 'I'm assuming X' out loud is one of the most useful habits in technical work — it invites someone to check."
+    ]
+  },
+  {
+    "id": "decide",
+    "term": "Decide",
+    "level": "B2",
+    "meaning": "To choose after considering options.",
+    "alternatives": [
+      { "term": "Choose", "usage": "Neutral, for picking between available options." },
+      { "term": "Select", "usage": "Slightly formal, often when criteria are involved." },
+      { "term": "Determine", "usage": "To establish a fact, or to settle something conclusively." },
+      { "term": "Conclude", "usage": "To reach a judgement after reasoning through evidence." },
+      { "term": "Resolve", "usage": "Formal; to decide firmly, with commitment to act." }
+    ],
+    "examples": [
+      { "context": "Analysis", "sentence": "We concluded that the two issues share a root cause." },
+      { "context": "Formal", "sentence": "The board resolved to proceed with the acquisition." },
+      { "context": "Technical", "sentence": "The script determines the correct region automatically." }
+    ],
+    "remember": [
+      "'Determine' means work out the answer; 'decide' means make a choice. A fact is determined, a course of action is decided."
+    ]
+  },
+  {
+    "id": "start",
+    "term": "Start",
+    "level": "B2",
+    "meaning": "To begin something.",
+    "alternatives": [
+      { "term": "Begin", "usage": "Slightly more formal than start; interchangeable in most sentences." },
+      { "term": "Launch", "usage": "For starting something publicly — a product, campaign, or service." },
+      { "term": "Initiate", "usage": "Formal and procedural, common in written processes." },
+      { "term": "Commence", "usage": "Very formal, mostly legal and ceremonial." },
+      { "term": "Kick off", "usage": "Informal; for meetings and projects getting under way." }
+    ],
+    "examples": [
+      { "context": "Business", "sentence": "We're launching in three markets this spring." },
+      { "context": "Meeting", "sentence": "Let's kick off with a round of updates." },
+      { "context": "Formal", "sentence": "The review process was initiated in March." }
+    ],
+    "remember": [
+      "'Commence' in ordinary business writing sounds pompous. 'Start' is almost always the better word."
+    ]
+  },
+  {
+    "id": "finish",
+    "term": "Finish",
+    "level": "B2",
+    "meaning": "To bring something to an end.",
+    "alternatives": [
+      { "term": "Complete", "usage": "Formal; implies everything required was done." },
+      { "term": "Conclude", "usage": "For meetings, reports, and arguments reaching their end." },
+      { "term": "Finalize", "usage": "For settling the last details of something nearly done." },
+      { "term": "Wrap up", "usage": "Informal; for ending a session or piece of work." },
+      { "term": "Deliver", "usage": "For handing over the finished result — the word that matters in project work." }
+    ],
+    "examples": [
+      { "context": "Project", "sentence": "We delivered on Friday, two days early." },
+      { "context": "Meeting", "sentence": "Let's wrap up — we're at time." },
+      { "context": "Formal", "sentence": "Please finalize the figures before circulation." }
+    ],
+    "remember": [
+      "'Finished' means you stopped; 'delivered' means someone else has it. In project reporting only the second one counts."
+    ]
+  },
+  {
+    "id": "reduce",
+    "term": "Reduce",
+    "level": "B2",
+    "meaning": "To make something smaller in size or amount.",
+    "alternatives": [
+      { "term": "Lower", "usage": "For numbers and levels: lower the price, lower the threshold." },
+      { "term": "Decrease", "usage": "Neutral and measurable, common in reporting." },
+      { "term": "Mitigate", "usage": "For risks and harms — reduce severity or likelihood, never eliminate." },
+      { "term": "Minimize", "usage": "To reduce as far as possible, implying an active effort." },
+      { "term": "Curtail", "usage": "Formal; to cut something short, often against someone's wishes." }
+    ],
+    "examples": [
+      { "context": "Risk", "sentence": "We can mitigate the risk with a staged rollout." },
+      { "context": "Report", "sentence": "Complaints decreased for the third quarter running." },
+      { "context": "Formal", "sentence": "Travel budgets were curtailed in January." }
+    ],
+    "remember": [
+      "'Mitigate' never means remove. Saying a risk is mitigated when it's actually eliminated understates your own work."
+    ]
+  },
+  {
+    "id": "increase",
+    "term": "Increase",
+    "level": "B2",
+    "meaning": "To make something larger in amount.",
+    "alternatives": [
+      { "term": "Grow", "usage": "For gradual, organic expansion over time." },
+      { "term": "Raise", "usage": "Needs an object: raise prices, raise standards, raise capital." },
+      { "term": "Amplify", "usage": "To make a signal or effect stronger, not just bigger." },
+      { "term": "Scale", "usage": "To increase capacity while keeping cost per unit under control." },
+      { "term": "Accelerate", "usage": "To increase the rate of change, not the amount." }
+    ],
+    "examples": [
+      { "context": "Business", "sentence": "We need to scale support without doubling headcount." },
+      { "context": "Marketing", "sentence": "The partnership amplified our reach considerably." },
+      { "context": "Finance", "sentence": "They raised prices by four per cent." }
+    ],
+    "remember": [
+      "'Raise' takes an object and 'rise' does not: you raise prices, and prices rise. Mixing them is a very common error."
+    ]
+  },
+  {
+    "id": "ask",
+    "term": "Ask",
+    "level": "B2",
+    "meaning": "To request something, or to put a question.",
+    "alternatives": [
+      { "term": "Request", "usage": "Formal and neutral, especially in writing." },
+      { "term": "Inquire", "usage": "To ask for information politely; 'enquire' in British English." },
+      { "term": "Solicit", "usage": "To actively seek input or contributions: solicit feedback, solicit bids." },
+      { "term": "Seek", "usage": "Formal, for pursuing something: seek approval, seek clarification." },
+      { "term": "Consult", "usage": "To ask someone specifically for their expertise before deciding." }
+    ],
+    "examples": [
+      { "context": "Formal", "sentence": "We are seeking approval from the steering group." },
+      { "context": "Process", "sentence": "We solicited feedback from twelve customers." },
+      { "context": "Work", "sentence": "Consult legal before you send it." }
+    ],
+    "remember": [
+      "'Consult' implies you'll actually weigh their view. Using it when the decision is already made damages trust quickly."
+    ]
+  },
+  {
+    "id": "tell",
+    "term": "Tell",
+    "level": "B2",
+    "meaning": "To give someone information.",
+    "alternatives": [
+      { "term": "Inform", "usage": "Formal and neutral; standard in official notification." },
+      { "term": "Notify", "usage": "For a formal, often automated alert with a record of it." },
+      { "term": "Convey", "usage": "For passing on meaning, tone, or a message from someone else." },
+      { "term": "Communicate", "usage": "Broad; for the whole act of getting a message across." },
+      { "term": "Relay", "usage": "To pass a message on unchanged from one party to another." }
+    ],
+    "examples": [
+      { "context": "Formal", "sentence": "Customers will be notified before the change takes effect." },
+      { "context": "Message", "sentence": "Please convey my thanks to the whole team." },
+      { "context": "Work", "sentence": "I'll relay your concerns to the architect." }
+    ],
+    "remember": [
+      "'Tell' needs a person after it: tell me the status, not 'tell the status'. 'Say' works the other way round."
+    ]
+  },
+  {
+    "id": "help",
+    "term": "Help",
+    "level": "B2",
+    "meaning": "To make something easier for someone.",
+    "alternatives": [
+      { "term": "Assist", "usage": "Formal; standard in customer service and written procedure." },
+      { "term": "Support", "usage": "For ongoing help rather than a single act." },
+      { "term": "Facilitate", "usage": "To make a process possible without doing the work yourself." },
+      { "term": "Enable", "usage": "To remove what was stopping someone from doing it themselves." },
+      { "term": "Empower", "usage": "To give someone the authority as well as the means." }
+    ],
+    "examples": [
+      { "context": "Service", "sentence": "How may I assist you today?" },
+      { "context": "Management", "sentence": "My job is to enable the team, not to review every decision." },
+      { "context": "Workshop", "sentence": "She facilitated the session without steering the outcome." }
+    ],
+    "remember": [
+      "'Assist' in speech sounds stiff. In conversation 'help' is almost always better."
+    ]
+  },
+  {
+    "id": "agree",
+    "term": "Agree",
+    "level": "B2",
+    "meaning": "To have the same opinion, or to accept a proposal.",
+    "alternatives": [
+      { "term": "Accept", "usage": "To receive or take on something, without necessarily agreeing with it." },
+      { "term": "Approve", "usage": "To give formal authorisation." },
+      { "term": "Endorse", "usage": "To publicly support something, putting your name behind it." },
+      { "term": "Concur", "usage": "Formal; to agree with a stated view, common in written analysis." },
+      { "term": "Align with", "usage": "To be consistent with a position or strategy." }
+    ],
+    "examples": [
+      { "context": "Formal", "sentence": "I concur with the committee's assessment." },
+      { "context": "Public", "sentence": "Two industry bodies endorsed the standard." },
+      { "context": "Meeting", "sentence": "That aligns with what we agreed last month." }
+    ],
+    "remember": [
+      "'Accept' is not agreement. You can accept a decision you argued against — and saying so precisely is often the honest move."
+    ]
+  },
+  {
+    "id": "disagree",
+    "term": "Disagree",
+    "level": "B2",
+    "meaning": "To have a different opinion.",
+    "alternatives": [
+      { "term": "Object", "usage": "To state formal opposition, often on principle." },
+      { "term": "Oppose", "usage": "To actively work against something, not just disagree with it." },
+      { "term": "Contest", "usage": "To formally challenge a claim, decision, or result." },
+      { "term": "Dispute", "usage": "To argue that something stated is not correct." },
+      { "term": "Push back on", "usage": "Informal workplace English for resisting a request or plan." }
+    ],
+    "examples": [
+      { "context": "Work", "sentence": "I pushed back on the deadline and offered two options." },
+      { "context": "Formal", "sentence": "The supplier disputes the charge." },
+      { "context": "Meeting", "sentence": "I'd object to that on data protection grounds." }
+    ],
+    "remember": [
+      "'Push back' is now standard workplace English and sounds constructive; 'oppose' sounds adversarial. The choice matters."
+    ]
+  },
+  {
+    "id": "need",
+    "term": "Need",
+    "level": "B2",
+    "meaning": "To require something.",
+    "alternatives": [
+      { "term": "Require", "usage": "More formal; standard in specifications and policy." },
+      { "term": "Necessitate", "usage": "Formal; when one thing makes another unavoidable." },
+      { "term": "Warrant", "usage": "To justify an action being taken: 'this warrants investigation'." },
+      { "term": "Call for", "usage": "Slightly softer; to indicate what a situation demands." }
+    ],
+    "examples": [
+      { "context": "Formal", "sentence": "The change necessitates a full regression test." },
+      { "context": "Review", "sentence": "The anomaly warrants a closer look." },
+      { "context": "Meeting", "sentence": "This calls for a different approach entirely." }
+    ],
+    "remember": [
+      "'Warrant' is useful for raising a concern proportionately — it says 'worth looking at' without claiming a crisis."
+    ]
+  },
+  {
+    "id": "get",
+    "term": "Get",
+    "level": "B2",
+    "meaning": "To come to have something.",
+    "alternatives": [
+      { "term": "Obtain", "usage": "Formal; for getting something through a proper process." },
+      { "term": "Receive", "usage": "For something given or sent to you." },
+      { "term": "Acquire", "usage": "For gaining possession, especially of assets, companies, or skills." },
+      { "term": "Secure", "usage": "For getting something competitive or uncertain: secure funding, secure a slot." },
+      { "term": "Procure", "usage": "Specifically for purchasing through a formal process." }
+    ],
+    "examples": [
+      { "context": "Business", "sentence": "We secured funding for another eighteen months." },
+      { "context": "Procurement", "sentence": "Hardware is procured through the central team." },
+      { "context": "Skills", "sentence": "She acquired the certification last year." }
+    ],
+    "remember": [
+      "'Get' is fine in speech and often clearer. Replacing every 'get' with a formal alternative makes writing stiff, not professional."
+    ]
+  },
+  {
+    "id": "give",
+    "term": "Give",
+    "level": "B2",
+    "meaning": "To hand something over or make it available.",
+    "alternatives": [
+      { "term": "Provide", "usage": "Neutral and formal; the standard business choice." },
+      { "term": "Offer", "usage": "To make available for acceptance — the other person may decline." },
+      { "term": "Furnish", "usage": "Formal and slightly old-fashioned: furnish details, furnish evidence." },
+      { "term": "Supply", "usage": "For goods, materials, and data delivered on request." },
+      { "term": "Allocate", "usage": "To assign a share of a limited resource: budget, time, headcount." }
+    ],
+    "examples": [
+      { "context": "Business", "sentence": "We provide support in three time zones." },
+      { "context": "Planning", "sentence": "Two engineers have been allocated to the migration." },
+      { "context": "Formal", "sentence": "Please furnish the supporting documents by Friday." }
+    ],
+    "remember": [
+      "'Allocate' implies the resource is limited and someone else now gets less. That's exactly why it appears in budget discussions."
+    ]
+  },
+  {
+    "id": "stop",
+    "term": "Stop",
+    "level": "B2",
+    "meaning": "To bring something to an end.",
+    "alternatives": [
+      { "term": "End", "usage": "Neutral; for something reaching its conclusion." },
+      { "term": "Halt", "usage": "For stopping something suddenly, often mid-process." },
+      { "term": "Discontinue", "usage": "For permanently ending a product, service, or practice." },
+      { "term": "Suspend", "usage": "For stopping temporarily, with the intention to resume." },
+      { "term": "Cease", "usage": "Formal and legal: 'cease and desist', 'operations ceased'." }
+    ],
+    "examples": [
+      { "context": "Product", "sentence": "The legacy plan was discontinued in June." },
+      { "context": "Operations", "sentence": "We suspended deployments during the incident." },
+      { "context": "Formal", "sentence": "The service will cease on 31 March." }
+    ],
+    "remember": [
+      "'Suspend' promises a return; 'discontinue' does not. Customers read that difference carefully."
+    ]
+  },
+  {
+    "id": "wait",
+    "term": "Wait",
+    "level": "B2",
+    "meaning": "To stay where you are until something happens.",
+    "alternatives": [
+      { "term": "Hold", "usage": "Informal; to pause briefly, often on a call." },
+      { "term": "Pause", "usage": "To stop temporarily with the clear intention to continue." },
+      { "term": "Defer", "usage": "To postpone a decision or action to a later time." },
+      { "term": "Postpone", "usage": "To move a scheduled event to a later date." },
+      { "term": "Stand by", "usage": "To be ready to act as soon as needed." }
+    ],
+    "examples": [
+      { "context": "Meeting", "sentence": "Let's defer the pricing decision until we have the data." },
+      { "context": "Operations", "sentence": "The team is standing by for the rollback." },
+      { "context": "Scheduling", "sentence": "We postponed the review to next Thursday." }
+    ],
+    "remember": [
+      "'Defer' is for decisions, 'postpone' for scheduled events. Deferring a meeting sounds odd; postponing a decision sounds vague."
+    ]
+  },
+  {
+    "id": "talk-about",
+    "term": "Talk about",
+    "level": "B2",
+    "meaning": "To discuss a subject.",
+    "alternatives": [
+      { "term": "Discuss", "usage": "Neutral and standard; takes no preposition." },
+      { "term": "Cover", "usage": "To get through a topic, often against an agenda." },
+      { "term": "Address", "usage": "To deal with a concern directly rather than mention it." },
+      { "term": "Examine", "usage": "To look at a topic in detail and critically." },
+      { "term": "Deliberate on", "usage": "Formal; to consider carefully before deciding." }
+    ],
+    "examples": [
+      { "context": "Meeting", "sentence": "We covered three of the five items." },
+      { "context": "Concern", "sentence": "Let me address the security question directly." },
+      { "context": "Formal", "sentence": "The committee deliberated on the proposal for two hours." }
+    ],
+    "remember": [
+      "'Discuss' never takes 'about': 'discuss the budget', not 'discuss about the budget'. Very common error."
+    ]
+  },
+  {
+    "id": "look-at",
+    "term": "Look at",
+    "level": "B2",
+    "meaning": "To examine something.",
+    "alternatives": [
+      { "term": "Review", "usage": "To go through something to check quality or correctness." },
+      { "term": "Examine", "usage": "To inspect closely and in detail." },
+      { "term": "Assess", "usage": "To form a judgement about value, risk, or quality." },
+      { "term": "Evaluate", "usage": "To judge against defined criteria." },
+      { "term": "Scrutinize", "usage": "To examine very closely, looking for problems." }
+    ],
+    "examples": [
+      { "context": "Work", "sentence": "Could you review the draft before it goes out?" },
+      { "context": "Decision", "sentence": "We evaluated four vendors against the same criteria." },
+      { "context": "Audit", "sentence": "Every expense over a thousand is scrutinized." }
+    ],
+    "remember": [
+      "'Evaluate' implies stated criteria. If you haven't defined them, you're assessing, not evaluating."
+    ]
+  },
+  {
+    "id": "plan",
+    "term": "Plan",
+    "level": "B2",
+    "meaning": "To decide in advance what will happen.",
+    "alternatives": [
+      { "term": "Organize", "usage": "For arranging people, resources, and logistics." },
+      { "term": "Arrange", "usage": "For setting up a specific event or agreement." },
+      { "term": "Strategize", "usage": "For high-level planning about direction; overused in business writing." },
+      { "term": "Orchestrate", "usage": "For coordinating many moving parts to work together." },
+      { "term": "Map out", "usage": "Informal; to sketch a sequence of steps." }
+    ],
+    "examples": [
+      { "context": "Project", "sentence": "Let's map out the first four weeks." },
+      { "context": "Operations", "sentence": "She orchestrated a migration across six teams." },
+      { "context": "Admin", "sentence": "I'll arrange the workshop for early March." }
+    ],
+    "remember": [
+      "'Orchestrate' implies many parts moving in coordination. For a simple sequence it's overblown."
+    ]
+  },
+  {
+    "id": "guess",
+    "term": "Guess",
+    "level": "B2",
+    "meaning": "To give an answer without being sure.",
+    "alternatives": [
+      { "term": "Estimate", "usage": "A calculated approximation based on some evidence." },
+      { "term": "Approximate", "usage": "To get close to a figure without precision." },
+      { "term": "Project", "usage": "To state a future figure based on current trends." },
+      { "term": "Extrapolate", "usage": "To extend an existing pattern beyond the data you have." }
+    ],
+    "examples": [
+      { "context": "Planning", "sentence": "I'd estimate three weeks, with a week of buffer." },
+      { "context": "Finance", "sentence": "We project eleven per cent growth next year." },
+      { "context": "Caution", "sentence": "It's risky to extrapolate from a single week." }
+    ],
+    "remember": [
+      "An estimate has reasoning behind it; a guess doesn't. Saying 'that's a guess' honestly is better than dressing one up as an estimate."
+    ]
+  },
+  {
+    "id": "copy",
+    "term": "Copy",
+    "level": "B2",
+    "meaning": "To make something the same as something else.",
+    "alternatives": [
+      { "term": "Duplicate", "usage": "To make an identical second version." },
+      { "term": "Replicate", "usage": "To reproduce a result or setup deliberately, often to verify it." },
+      { "term": "Mirror", "usage": "To keep a second copy continuously in sync." },
+      { "term": "Reproduce", "usage": "To recreate something — especially a bug or an experimental result." }
+    ],
+    "examples": [
+      { "context": "Engineering", "sentence": "I can't reproduce the bug on my machine." },
+      { "context": "Research", "sentence": "Two labs replicated the finding independently." },
+      { "context": "Infrastructure", "sentence": "The database is mirrored to a second region." }
+    ],
+    "remember": [
+      "'Can you reproduce it?' is the first question in any bug report — a problem nobody can reproduce usually can't be fixed."
+    ]
+  }
+]

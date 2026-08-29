@@ -55,6 +55,9 @@ for (const category of manifest) {
     fail(where, `template "${category.template}" is not one of ${[...TEMPLATES].join(', ')}`)
   }
   if (!category.icon) warn(where, 'no icon path — the tile will render an empty square')
+  if (category.speech !== undefined && typeof category.speech !== 'boolean') {
+    fail(where, `speech must be true or false, got ${JSON.stringify(category.speech)}`)
+  }
 
   let cards
   try {

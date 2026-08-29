@@ -1,13 +1,24 @@
+import { useMemo } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
 import type { CategoryMeta } from '../types'
 import { useFavorites } from '../hooks/useFavorites'
 import { useLastSeen } from '../hooks/useLastSeen'
+import { idsFor } from '../lib/storage'
 import { ChevronRight, Star } from '../components/Icons'
 
 export function HomePage({ categories }: { categories: CategoryMeta[] }) {
   const navigate = useNavigate()
   const { lastCategory, resumeCardId } = useLastSeen()
-  const { totalFavorites } = useFavorites()
+  const { map: favoritesByCategory } = useFavorites()
+
+  // Counted against the live manifest, not the raw store. Favourites saved under
+  // a category that has since been retired still sit in localStorage, and Saved
+  // filters those out — so counting them here would advertise cards that page
+  // cannot show.
+  const totalFavorites = useMemo(
+    () => categories.reduce((sum, c) => sum + idsFor(favoritesByCategory, c.slug).length, 0),
+    [categories, favoritesByCategory],
+  )
 
   const resumeCategory = categories.find((c) => c.slug === lastCategory)
 

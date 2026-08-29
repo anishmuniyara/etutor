@@ -1,106 +1,150 @@
 [
   {
-    "slug": "tenses",
-    "name": "Tenses",
-    "template": "grammar",
-    "icon": "M12 20h9",
-    "icon2": "M16.5 3.5a2.1 2.1 0 0 1 3 3L7 19l-4 1 1-4Z",
-    "count": 21
-  },
-  {
-    "slug": "vocabulary",
-    "name": "Vocabulary",
+    "slug": "vocabulary_everyday",
+    "name": "Everyday Words",
     "template": "explanation",
-    "icon": "M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1 0-5H20",
-    "icon2": "",
-    "count": 22
+    "icon": "M2 12h20",
+    "icon2": "M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z",
+    "speech": true,
+    "count": 40
   },
   {
-    "slug": "phrases",
-    "name": "Phrases",
+    "slug": "vocabulary_mind",
+    "name": "Mind & Character",
     "template": "explanation",
-    "icon": "M7.9 20A9 9 0 1 0 4 16.1L2 22Z",
-    "icon2": "",
-    "count": 21
+    "icon": "M12 5a3 3 0 1 0-5.997.125 4 4 0 0 0-2.526 5.77 4 4 0 0 0 .556 6.588A4 4 0 1 0 12 18Z",
+    "icon2": "M12 5a3 3 0 1 1 5.997.125 4 4 0 0 1 2.526 5.77 4 4 0 0 1-.556 6.588A4 4 0 1 1 12 18Z",
+    "speech": true,
+    "count": 40
   },
   {
-    "slug": "idioms",
-    "name": "Idioms",
+    "slug": "vocabulary_workplace",
+    "name": "Workplace & Delivery",
     "template": "explanation",
-    "icon": "M9.9 2.7 11.5 7a1 1 0 0 0 .6.6l4.3 1.6a1 1 0 0 1 0 1.8l-4.3 1.6a1 1 0 0 0-.6.6l-1.6 4.3a1 1 0 0 1-1.8 0l-1.6-4.3a1 1 0 0 0-.6-.6l-4.3-1.6a1 1 0 0 1 0-1.8l4.3-1.6a1 1 0 0 0 .6-.6l1.6-4.3a1 1 0 0 1 1.8 0Z",
-    "icon2": "M19 15l.9 2.4L22.3 18.3l-2.4.9-.9 2.4-.9-2.4-2.4-.9 2.4-.9Z",
-    "count": 21
+    "icon": "M3 3v18h18",
+    "icon2": "m19 9-5 5-4-4-3 3",
+    "speech": true,
+    "count": 40
   },
   {
-    "slug": "daily_expressions",
-    "name": "Daily Expressions",
+    "slug": "vocabulary_analysis",
+    "name": "Analysis & Argument",
     "template": "explanation",
-    "icon": "M12 22a10 10 0 1 0-10-10",
-    "icon2": "M12 6v6l4 2",
-    "count": 21
+    "icon": "M9 18V5l12-2v13",
+    "icon2": "M9 9 21 7M6 21a3 3 0 1 0 0-6 3 3 0 0 0 0 6ZM18 19a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z",
+    "speech": true,
+    "count": 41
   },
   {
-    "slug": "business_english",
-    "name": "Business English",
+    "slug": "phrases_problems",
+    "name": "Problems & Risk",
     "template": "explanation",
-    "icon": "M16 20V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16",
-    "icon2": "M2 8a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2z",
-    "count": 22
+    "icon": "m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3Z",
+    "icon2": "M12 9v4M12 17h.01",
+    "count": 36
   },
   {
-    "slug": "situations",
-    "name": "Situational English",
-    "template": "conversation",
-    "icon": "M17 6.1H3a2 2 0 0 0-2 2V15a2 2 0 0 0 2 2h1v3l4-3h9a2 2 0 0 0 2-2V8.1a2 2 0 0 0-2-2Z",
-    "icon2": "M21 3h-7a1 1 0 0 0-1 1v1",
-    "count": 21
-  },
-  {
-    "slug": "conversation_starters",
-    "name": "Conversation Starters",
-    "template": "conversation",
+    "slug": "phrases_opinions",
+    "name": "Opinions & Decisions",
+    "template": "explanation",
     "icon": "M14 9a2 2 0 0 1-2 2H6l-4 4V4a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2Z",
     "icon2": "M18 9h2a2 2 0 0 1 2 2v11l-4-4h-6a2 2 0 0 1-2-2v-1",
-    "count": 21
+    "count": 36
   },
   {
-    "slug": "polite_english",
-    "name": "Polite English",
+    "slug": "phrases_progress",
+    "name": "Progress & Delivery",
     "template": "explanation",
-    "icon": "M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z",
-    "icon2": "",
-    "count": 21
+    "icon": "M3 3v18h18",
+    "icon2": "m19 9-5 5-4-4-3 3",
+    "count": 35
   },
   {
-    "slug": "slang",
-    "name": "Informal English",
+    "slug": "phrases_teamwork",
+    "name": "Teamwork & Money",
     "template": "explanation",
-    "icon": "M13 2 3 14h9l-1 8 10-12h-9l1-8Z",
-    "icon2": "",
-    "count": 21
+    "icon": "M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2",
+    "icon2": "M9 7a4 4 0 1 0 0 8 4 4 0 0 0 0-8ZM22 21v-2a4 4 0 0 0-3-3.87",
+    "count": 35
   },
   {
-    "slug": "confusing_words",
-    "name": "Confusing Words",
-    "template": "comparison",
-    "icon": "m8 3 4 8 5-5 5 15H2L8 3Z",
-    "icon2": "",
-    "count": 21
-  },
-  {
-    "slug": "short_conversations",
-    "name": "Short Conversations",
-    "template": "conversation",
-    "icon": "M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z",
-    "icon2": "M8 9h8M8 13h5",
-    "count": 21
-  },
-  {
-    "slug": "synonyms",
-    "name": "Synonyms & Alternatives",
+    "slug": "synonyms_verbs",
+    "name": "Synonyms: Verbs",
     "template": "comparison",
     "icon": "M16 3h5v5",
     "icon2": "M4 20 21 3M21 16v5h-5M15 15l6 6M4 4l5 5",
-    "count": 21
+    "count": 30
+  },
+  {
+    "slug": "synonyms_adjectives",
+    "name": "Synonyms: Adjectives",
+    "template": "comparison",
+    "icon": "m12 2 3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01Z",
+    "icon2": "",
+    "count": 26
+  },
+  {
+    "slug": "synonyms_nouns",
+    "name": "Synonyms: Nouns & Connectors",
+    "template": "comparison",
+    "icon": "M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1 0-5H20",
+    "icon2": "",
+    "count": 32
+  },
+  {
+    "slug": "confusing_everyday",
+    "name": "Confusing: Everyday Mix-ups",
+    "template": "comparison",
+    "icon": "m8 3 4 8 5-5 5 15H2L8 3Z",
+    "icon2": "",
+    "count": 25
+  },
+  {
+    "slug": "confusing_natives",
+    "name": "Confusing: Even Natives Slip",
+    "template": "comparison",
+    "icon": "M12 16v-4M12 8h.01",
+    "icon2": "M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Z",
+    "count": 24
+  },
+  {
+    "slug": "confusing_spelling",
+    "name": "Confusing: Spelling & Homophones",
+    "template": "comparison",
+    "icon": "M4 7V4h16v3",
+    "icon2": "M9 20h6M12 4v16",
+    "count": 25
+  },
+  {
+    "slug": "confusing_advanced",
+    "name": "Confusing: Advanced Near-Twins",
+    "template": "comparison",
+    "icon": "M12 3v18",
+    "icon2": "M5 8h14M5 16h14",
+    "count": 24
+  },
+  {
+    "slug": "conversations_team",
+    "name": "Conversations: Team & Craft",
+    "template": "conversation",
+    "icon": "M17 6.1H3a2 2 0 0 0-2 2V15a2 2 0 0 0 2 2h1v3l4-3h9a2 2 0 0 0 2-2V8.1a2 2 0 0 0-2-2Z",
+    "icon2": "M21 3h-7a1 1 0 0 0-1 1v1",
+    "count": 10
+  },
+  {
+    "slug": "conversations_upward",
+    "name": "Conversations: Speaking Upward",
+    "template": "conversation",
+    "icon": "M12 19V5",
+    "icon2": "m5 12 7-7 7 7",
+    "count": 10
+  },
+  {
+    "slug": "conversations_external",
+    "name": "Conversations: High-Stakes",
+    "template": "conversation",
+    "icon": "M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z",
+    "icon2": "M8 9h8M8 13h5",
+    "count": 8
   }
 ]

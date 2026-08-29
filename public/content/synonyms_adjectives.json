@@ -1,0 +1,541 @@
+[
+  {
+    "id": "good",
+    "term": "Good",
+    "level": "B2",
+    "meaning": "Of a high standard.",
+    "alternatives": [
+      { "term": "Solid", "usage": "Dependable and competent without being spectacular — honest, useful praise." },
+      { "term": "Effective", "usage": "It achieves the intended result, whatever else can be said about it." },
+      { "term": "Robust", "usage": "Holds up under stress or scrutiny." },
+      { "term": "Exemplary", "usage": "Good enough to be held up as the standard for others." },
+      { "term": "Sound", "usage": "Logically or structurally correct: a sound argument, a sound design." }
+    ],
+    "examples": [
+      { "context": "Feedback", "sentence": "That's a solid first draft." },
+      { "context": "Review", "sentence": "The methodology is sound." },
+      { "context": "Appraisal", "sentence": "Her handling of the incident was exemplary." }
+    ],
+    "remember": [
+      "'Solid' is the most useful of these at work: it's genuine praise that doesn't overstate."
+    ]
+  },
+  {
+    "id": "bad",
+    "term": "Bad",
+    "level": "B2",
+    "meaning": "Of low quality.",
+    "alternatives": [
+      { "term": "Poor", "usage": "Neutral and professional; the standard word for weak quality in writing." },
+      { "term": "Weak", "usage": "For arguments and evidence that don't hold up." },
+      { "term": "Flawed", "usage": "Has a specific defect, though parts may be fine." },
+      { "term": "Inadequate", "usage": "Not enough to meet a stated requirement." },
+      { "term": "Suboptimal", "usage": "Works, but a better option exists. Often deliberate understatement." }
+    ],
+    "examples": [
+      { "context": "Report", "sentence": "Response times have been poor this quarter." },
+      { "context": "Review", "sentence": "The reasoning is flawed in section two." },
+      { "context": "Technical", "sentence": "It's suboptimal but acceptable for now." }
+    ],
+    "remember": [
+      "'Suboptimal' is often ironic understatement for something quite bad. Read the tone before taking it literally."
+    ]
+  },
+  {
+    "id": "big",
+    "term": "Big",
+    "level": "B2",
+    "meaning": "Large in size or amount.",
+    "alternatives": [
+      { "term": "Large", "usage": "Slightly more formal; the standard for sizes and quantities." },
+      { "term": "Major", "usage": "Important as well as big — a major release, a major client." },
+      { "term": "Substantial", "usage": "Large enough to matter; common in reporting." },
+      { "term": "Significant", "usage": "Worth noticing; has a strict technical meaning in statistics." },
+      { "term": "Considerable", "usage": "Formal, often about time, cost, or effort." }
+    ],
+    "examples": [
+      { "context": "Report", "sentence": "There was a substantial increase in enquiries." },
+      { "context": "Project", "sentence": "It required considerable rework." },
+      { "context": "Business", "sentence": "This is a major client for us." }
+    ],
+    "remember": [
+      "In a statistical context 'significant' means something precise. Using it loosely in a research report is a real error."
+    ]
+  },
+  {
+    "id": "small",
+    "term": "Small",
+    "level": "B2",
+    "meaning": "Limited in size or amount.",
+    "alternatives": [
+      { "term": "Minor", "usage": "Not important — a minor bug, a minor change." },
+      { "term": "Limited", "usage": "Restricted in scope or availability." },
+      { "term": "Marginal", "usage": "Barely enough to notice; in economics, 'of the next unit'." },
+      { "term": "Negligible", "usage": "So small it can safely be ignored in a calculation." },
+      { "term": "Nominal", "usage": "Symbolic — a nominal fee charged only for the formality." }
+    ],
+    "examples": [
+      { "context": "Result", "sentence": "The improvement was marginal — about one per cent." },
+      { "context": "Cost", "sentence": "The additional cost is negligible." },
+      { "context": "Admin", "sentence": "There's a nominal fee to register." }
+    ],
+    "remember": [
+      "Calling something negligible is a decision to stop tracking it. Be sure before you say it."
+    ]
+  },
+  {
+    "id": "important",
+    "term": "Important",
+    "level": "B2",
+    "meaning": "Mattering a great deal.",
+    "alternatives": [
+      { "term": "Key", "usage": "Informal and very common at work: the key point, a key hire." },
+      { "term": "Critical", "usage": "Failure here causes failure overall." },
+      { "term": "Essential", "usage": "Absolutely necessary — without it the thing cannot work." },
+      { "term": "Paramount", "usage": "Above everything else in importance; formal." },
+      { "term": "Pivotal", "usage": "The point on which the outcome turns." }
+    ],
+    "examples": [
+      { "context": "Instructions", "sentence": "It's essential that you back up first." },
+      { "context": "Business", "sentence": "Timing is critical for this launch." },
+      { "context": "History", "sentence": "That meeting proved pivotal." }
+    ],
+    "remember": [
+      "If everything in your document is 'critical', nothing is. These words only work when used sparingly."
+    ]
+  },
+  {
+    "id": "hard",
+    "term": "Hard",
+    "level": "B2",
+    "meaning": "Requiring a lot of effort or skill.",
+    "alternatives": [
+      { "term": "Difficult", "usage": "Neutral and standard." },
+      { "term": "Complex", "usage": "Many interconnected parts — not the same as hard." },
+      { "term": "Challenging", "usage": "Positive framing: difficult but worth doing." },
+      { "term": "Non-trivial", "usage": "Understated technical warning that it's harder than it looks." },
+      { "term": "Intricate", "usage": "Detailed and finely constructed; difficult because of delicacy." }
+    ],
+    "examples": [
+      { "context": "Engineering", "sentence": "That's a non-trivial change — probably two weeks." },
+      { "context": "Analysis", "sentence": "The problem is complex rather than difficult." },
+      { "context": "Career", "sentence": "It's a challenging role, but rewarding." }
+    ],
+    "remember": [
+      "Complex and hard are genuinely different. Something complex can be easy once understood; something hard can be very simple."
+    ]
+  },
+  {
+    "id": "easy",
+    "term": "Easy",
+    "level": "B2",
+    "meaning": "Requiring little effort.",
+    "alternatives": [
+      { "term": "Simple", "usage": "Few parts; not complicated in structure." },
+      { "term": "Basic", "usage": "At the most fundamental level; can imply lacking depth." },
+      { "term": "Straightforward", "usage": "Clear and without complications — reassuring rather than dismissive." },
+      { "term": "Trivial", "usage": "So easy it's not worth discussing. Often sounds dismissive." },
+      { "term": "Effortless", "usage": "Appears to take no work at all — usually praise for a result." }
+    ],
+    "examples": [
+      { "context": "Support", "sentence": "The setup is straightforward — about five minutes." },
+      { "context": "Engineering", "sentence": "It's a trivial change, one line." },
+      { "context": "Design", "sentence": "The interaction feels effortless." }
+    ],
+    "remember": [
+      "Calling someone else's problem 'trivial' is one of the fastest ways to sound dismissive. 'Straightforward' does the same job kindly."
+    ]
+  },
+  {
+    "id": "fast",
+    "term": "Fast",
+    "level": "B2",
+    "meaning": "Moving or happening quickly.",
+    "alternatives": [
+      { "term": "Quick", "usage": "For short duration: a quick call, a quick fix." },
+      { "term": "Rapid", "usage": "Formal, often about growth, change, or decline." },
+      { "term": "Swift", "usage": "Formal and slightly literary: swift action, a swift response." },
+      { "term": "Expedient", "usage": "Convenient and quick — but often implying principle was sacrificed." },
+      { "term": "Accelerated", "usage": "For a timeline deliberately compressed." }
+    ],
+    "examples": [
+      { "context": "Business", "sentence": "The company saw rapid growth in its second year." },
+      { "context": "Programme", "sentence": "There's an accelerated track for experienced hires." },
+      { "context": "Response", "sentence": "Swift action prevented a bigger outage." }
+    ],
+    "remember": [
+      "'Expedient' is not a compliment. It suggests the quick option was taken rather than the right one."
+    ]
+  },
+  {
+    "id": "slow",
+    "term": "Slow",
+    "level": "B2",
+    "meaning": "Taking more time than expected.",
+    "alternatives": [
+      { "term": "Delayed", "usage": "Later than planned, for a reason." },
+      { "term": "Gradual", "usage": "Neutral; happening in small steps over time." },
+      { "term": "Sluggish", "usage": "Disappointingly slow — used about performance and markets." },
+      { "term": "Protracted", "usage": "Formal; drawn out much longer than it should have been." },
+      { "term": "Incremental", "usage": "In small stages; can be praise or criticism." }
+    ],
+    "examples": [
+      { "context": "Performance", "sentence": "The dashboard has felt sluggish since the update." },
+      { "context": "Formal", "sentence": "After protracted negotiations, they signed in March." },
+      { "context": "Delivery", "sentence": "We're taking an incremental approach." }
+    ],
+    "remember": [
+      "'Protracted' always carries a note of frustration. 'Lengthy' is the neutral alternative."
+    ]
+  },
+  {
+    "id": "new",
+    "term": "New",
+    "level": "B2",
+    "meaning": "Recently made or introduced.",
+    "alternatives": [
+      { "term": "Recent", "usage": "About timing rather than novelty." },
+      { "term": "Modern", "usage": "Belonging to the current era; contrasted with old-fashioned." },
+      { "term": "Novel", "usage": "Genuinely original — not done before, not merely new to you." },
+      { "term": "Emerging", "usage": "Beginning to appear and grow in importance." },
+      { "term": "Cutting-edge", "usage": "At the very front of what's currently possible." }
+    ],
+    "examples": [
+      { "context": "Research", "sentence": "The paper proposes a novel approach to caching." },
+      { "context": "Market", "sentence": "It's an emerging market with real risk attached." },
+      { "context": "Marketing", "sentence": "Cutting-edge is a claim you need evidence for." }
+    ],
+    "remember": [
+      "'Novel' means nobody has done it before. Using it for something merely new to your team is a claim you can't defend."
+    ]
+  },
+  {
+    "id": "old",
+    "term": "Old",
+    "level": "B2",
+    "meaning": "Existing for a long time; no longer current.",
+    "alternatives": [
+      { "term": "Outdated", "usage": "No longer reflecting current facts or standards." },
+      { "term": "Legacy", "usage": "Technical; still in use and still needed, but built long ago." },
+      { "term": "Obsolete", "usage": "Completely superseded and no longer useful." },
+      { "term": "Antiquated", "usage": "Old-fashioned to the point of being a problem." },
+      { "term": "Deprecated", "usage": "Still works, but officially discouraged and due to be removed." }
+    ],
+    "examples": [
+      { "context": "Engineering", "sentence": "That endpoint is deprecated — migrate when you can." },
+      { "context": "Systems", "sentence": "The legacy system still handles all billing." },
+      { "context": "Process", "sentence": "The approval process is antiquated." }
+    ],
+    "remember": [
+      "'Deprecated' and 'obsolete' are not the same. Deprecated still works and is supported for now; obsolete does not."
+    ]
+  },
+  {
+    "id": "clear",
+    "term": "Clear",
+    "level": "B2",
+    "meaning": "Easy to understand, with no confusion.",
+    "alternatives": [
+      { "term": "Obvious", "usage": "So clear that it needs no explanation — can sound condescending." },
+      { "term": "Evident", "usage": "Formal; clear from the available evidence." },
+      { "term": "Unambiguous", "usage": "Has only one possible reading." },
+      { "term": "Explicit", "usage": "Stated directly rather than implied." },
+      { "term": "Transparent", "usage": "Open about how something works or why it was decided." }
+    ],
+    "examples": [
+      { "context": "Contract", "sentence": "The wording needs to be unambiguous." },
+      { "context": "Work", "sentence": "Let's be explicit about who owns this." },
+      { "context": "Governance", "sentence": "We want a transparent decision process." }
+    ],
+    "remember": [
+      "Saying something is 'obvious' when someone has just asked about it makes them feel foolish. Prefer 'clear'."
+    ]
+  },
+  {
+    "id": "unclear",
+    "term": "Unclear",
+    "level": "B2",
+    "meaning": "Not easy to understand.",
+    "alternatives": [
+      { "term": "Vague", "usage": "Lacking necessary detail." },
+      { "term": "Confusing", "usage": "Actively causes misunderstanding." },
+      { "term": "Ambiguous", "usage": "Has more than one reasonable reading — a precise complaint." },
+      { "term": "Opaque", "usage": "Impossible to see into or understand from outside." },
+      { "term": "Ill-defined", "usage": "The boundaries or terms were never properly set." }
+    ],
+    "examples": [
+      { "context": "Requirements", "sentence": "The acceptance criteria are ill-defined." },
+      { "context": "Contract", "sentence": "Clause four is ambiguous and should be rewritten." },
+      { "context": "Process", "sentence": "The approval process is completely opaque." }
+    ],
+    "remember": [
+      "'Ambiguous' is a stronger, more specific criticism than 'unclear' — it says there are two defensible readings."
+    ]
+  },
+  {
+    "id": "useful",
+    "term": "Useful",
+    "level": "B2",
+    "meaning": "Serving a helpful purpose.",
+    "alternatives": [
+      { "term": "Helpful", "usage": "Warmer and more personal." },
+      { "term": "Practical", "usage": "Works in real conditions, not just in theory." },
+      { "term": "Valuable", "usage": "Worth a lot, in money or in benefit." },
+      { "term": "Instrumental", "usage": "Played a key part in achieving a result." },
+      { "term": "Beneficial", "usage": "Formal; produces a good effect." }
+    ],
+    "examples": [
+      { "context": "Credit", "sentence": "She was instrumental in getting the deal signed." },
+      { "context": "Feedback", "sentence": "That was a genuinely useful review, thank you." },
+      { "context": "Health", "sentence": "Regular walking is beneficial for your heart." }
+    ],
+    "remember": [
+      "'Instrumental' is strong praise — it says the result wouldn't have happened without them."
+    ]
+  },
+  {
+    "id": "useless",
+    "term": "Useless",
+    "level": "B2",
+    "meaning": "Serving no purpose.",
+    "alternatives": [
+      { "term": "Pointless", "usage": "Informal; there's no good reason to do it." },
+      { "term": "Redundant", "usage": "Unnecessary because it duplicates something else." },
+      { "term": "Ineffective", "usage": "Doesn't achieve the intended result." },
+      { "term": "Futile", "usage": "Formal; certain to fail however much effort is spent." }
+    ],
+    "examples": [
+      { "context": "Review", "sentence": "The second check is redundant — the first already covers it." },
+      { "context": "Process", "sentence": "The current approach is ineffective for large files." },
+      { "context": "Formal", "sentence": "Further negotiation would be futile." }
+    ],
+    "remember": [
+      "In engineering, redundancy is deliberate and good — a spare that takes over on failure. Same word, opposite value."
+    ]
+  },
+  {
+    "id": "sure",
+    "term": "Sure",
+    "level": "B2",
+    "meaning": "Having no doubt.",
+    "alternatives": [
+      { "term": "Certain", "usage": "Neutral and stronger than sure." },
+      { "term": "Confident", "usage": "About your own judgement rather than the fact itself." },
+      { "term": "Definitive", "usage": "Settles the question finally — a definitive answer." },
+      { "term": "Conclusive", "usage": "For evidence strong enough to end the debate." },
+      { "term": "Unequivocal", "usage": "Leaves absolutely no room for another interpretation." }
+    ],
+    "examples": [
+      { "context": "Research", "sentence": "The results aren't conclusive yet." },
+      { "context": "Formal", "sentence": "The board gave an unequivocal no." },
+      { "context": "Work", "sentence": "I'm confident, but I'd like a second opinion." }
+    ],
+    "remember": [
+      "'Confident' is about you; 'certain' is about the fact. Saying which you mean is more honest and more useful."
+    ]
+  },
+  {
+    "id": "not-sure",
+    "term": "Not sure",
+    "level": "B2",
+    "meaning": "Having some doubt.",
+    "alternatives": [
+      { "term": "Unsure", "usage": "Neutral; about your own state of mind." },
+      { "term": "Doubtful", "usage": "Leaning towards thinking it isn't true or won't happen." },
+      { "term": "Uncertain", "usage": "Formal; the situation itself is unsettled." },
+      { "term": "Tentative", "usage": "Provisional and subject to change — a tentative date, a tentative conclusion." },
+      { "term": "Inconclusive", "usage": "For evidence that doesn't settle the question either way." }
+    ],
+    "examples": [
+      { "context": "Research", "sentence": "The first round of tests was inconclusive." },
+      { "context": "Planning", "sentence": "That's a tentative date — treat it as provisional." },
+      { "context": "Business", "sentence": "The outlook remains uncertain." }
+    ],
+    "remember": [
+      "'Inconclusive' means the test worked but didn't answer the question. It isn't the same as a failed test."
+    ]
+  },
+  {
+    "id": "careful",
+    "term": "Careful",
+    "level": "B2",
+    "meaning": "Paying close attention to avoid mistakes.",
+    "alternatives": [
+      { "term": "Cautious", "usage": "Avoiding risk; about decisions rather than execution." },
+      { "term": "Prudent", "usage": "Formal; sensible and forward-looking, especially with money." },
+      { "term": "Judicious", "usage": "Showing good judgement in what to do and what to leave." },
+      { "term": "Meticulous", "usage": "Extremely careful about small details." }
+    ],
+    "examples": [
+      { "context": "Finance", "sentence": "It would be prudent to keep three months of reserves." },
+      { "context": "Work", "sentence": "She keeps meticulous records of every change." },
+      { "context": "Writing", "sentence": "Judicious use of examples makes the point land." }
+    ],
+    "remember": [
+      "'Cautious' is about risk appetite; 'meticulous' is about attention to detail. A person can easily be one and not the other."
+    ]
+  },
+  {
+    "id": "risky",
+    "term": "Risky",
+    "level": "B2",
+    "meaning": "Involving a real chance of something going wrong.",
+    "alternatives": [
+      { "term": "Dangerous", "usage": "Risk of physical harm." },
+      { "term": "Precarious", "usage": "Unstable and liable to collapse — holding for now." },
+      { "term": "Hazardous", "usage": "Formal and technical, especially about materials and conditions." },
+      { "term": "High-stakes", "usage": "The consequences of failure are large, whatever the probability." }
+    ],
+    "examples": [
+      { "context": "Business", "sentence": "The company is in a precarious financial position." },
+      { "context": "Decision", "sentence": "It's a high-stakes decision — worth taking a week over." },
+      { "context": "Safety", "sentence": "Hazardous materials require separate handling." }
+    ],
+    "remember": [
+      "'Risky' is about likelihood; 'high-stakes' is about consequence. A low-probability, high-stakes risk still deserves a plan."
+    ]
+  },
+  {
+    "id": "safe",
+    "term": "Safe",
+    "level": "B2",
+    "meaning": "Not likely to cause harm or fail.",
+    "alternatives": [
+      { "term": "Secure", "usage": "Protected against deliberate attack or loss." },
+      { "term": "Stable", "usage": "Not changing unexpectedly; reliable over time." },
+      { "term": "Resilient", "usage": "Recovers quickly when something does go wrong." },
+      { "term": "Fault-tolerant", "usage": "Keeps working even while a component has failed." },
+      { "term": "Dependable", "usage": "Can be counted on, about people and systems alike." }
+    ],
+    "examples": [
+      { "context": "Engineering", "sentence": "The design is fault-tolerant across two regions." },
+      { "context": "Business", "sentence": "The company proved resilient through the downturn." },
+      { "context": "Release", "sentence": "The build has been stable for three weeks." }
+    ],
+    "remember": [
+      "'Resilient' means it recovers; 'fault-tolerant' means it never stopped. That distinction matters in an incident review."
+    ]
+  },
+  {
+    "id": "busy",
+    "term": "Busy",
+    "level": "B2",
+    "meaning": "Having a great deal to do.",
+    "alternatives": [
+      { "term": "Occupied", "usage": "Neutral and slightly formal; currently engaged with something." },
+      { "term": "Swamped", "usage": "Informal; buried in work. Common and acceptable in most offices." },
+      { "term": "At capacity", "usage": "Neutral and professional — you can take nothing more on." },
+      { "term": "Stretched thin", "usage": "Spread across too many things to do any well." }
+    ],
+    "examples": [
+      { "context": "Work", "sentence": "I'm at capacity this sprint — I'd have to drop something." },
+      { "context": "Email", "sentence": "Sorry for the slow reply, I've been swamped." },
+      { "context": "Team", "sentence": "The whole team is stretched thin." }
+    ],
+    "remember": [
+      "'At capacity' is the most useful of these for declining work: it's factual rather than emotional, and invites a trade-off discussion."
+    ]
+  },
+  {
+    "id": "enough",
+    "term": "Enough",
+    "level": "B2",
+    "meaning": "As much as is needed.",
+    "alternatives": [
+      { "term": "Sufficient", "usage": "Formal; meets the requirement exactly." },
+      { "term": "Adequate", "usage": "Meets the minimum — often faint praise." },
+      { "term": "Ample", "usage": "More than enough, with room to spare." }
+    ],
+    "examples": [
+      { "context": "Formal", "sentence": "The evidence is sufficient to proceed." },
+      { "context": "Review", "sentence": "Documentation is adequate but not good." },
+      { "context": "Planning", "sentence": "There's ample time if we start this week." }
+    ],
+    "remember": [
+      "'Adequate' in a review usually reads as criticism — it means it passed and nothing more."
+    ]
+  },
+  {
+    "id": "wrong",
+    "term": "Wrong",
+    "level": "B2",
+    "meaning": "Not correct.",
+    "alternatives": [
+      { "term": "Incorrect", "usage": "Neutral and factual, without blame." },
+      { "term": "Erroneous", "usage": "Formal; containing an error." },
+      { "term": "Inaccurate", "usage": "Close but not precise — about measurements and reporting." },
+      { "term": "Invalid", "usage": "Fails the rules or conditions required to count at all." }
+    ],
+    "examples": [
+      { "context": "Data", "sentence": "The figures in table two are inaccurate." },
+      { "context": "Technical", "sentence": "The token is invalid, not merely expired." },
+      { "context": "Formal", "sentence": "The report contained an erroneous assumption." }
+    ],
+    "remember": [
+      "'Inaccurate' means nearly right; 'invalid' means it doesn't count at all. Very different severity."
+    ]
+  },
+  {
+    "id": "right",
+    "term": "Right",
+    "level": "B2",
+    "meaning": "Correct.",
+    "alternatives": [
+      { "term": "Correct", "usage": "Neutral and standard." },
+      { "term": "Accurate", "usage": "Matches reality closely; about measurement and reporting." },
+      { "term": "Precise", "usage": "Exact and detailed — not the same as accurate." },
+      { "term": "Valid", "usage": "Meets the rules or conditions required." },
+      { "term": "Sound", "usage": "Logically well-constructed: a sound argument." }
+    ],
+    "examples": [
+      { "context": "Data", "sentence": "The figure is accurate to within two per cent." },
+      { "context": "Argument", "sentence": "The reasoning is sound even if I disagree with the premise." },
+      { "context": "Technical", "sentence": "That's a valid configuration." }
+    ],
+    "remember": [
+      "Accurate means close to the truth; precise means finely detailed. A measurement can be precisely wrong."
+    ]
+  },
+  {
+    "id": "the-same",
+    "term": "The same",
+    "level": "B2",
+    "meaning": "Not different.",
+    "alternatives": [
+      { "term": "Similar", "usage": "Alike in some respects but not identical." },
+      { "term": "Equal", "usage": "The same in quantity or value." },
+      { "term": "Equivalent", "usage": "Different in form but the same in effect or value." },
+      { "term": "Consistent", "usage": "Not contradicting; steady over time." },
+      { "term": "Identical", "usage": "Exactly the same in every respect." }
+    ],
+    "examples": [
+      { "context": "Technical", "sentence": "The two approaches are functionally equivalent." },
+      { "context": "Data", "sentence": "These results are consistent with last quarter's." },
+      { "context": "Comparison", "sentence": "The files are identical apart from the timestamp." }
+    ],
+    "remember": [
+      "'Equivalent' allows a different form with the same result — often the most precise word in a technical comparison."
+    ]
+  },
+  {
+    "id": "different",
+    "term": "Different",
+    "level": "B2",
+    "meaning": "Not the same.",
+    "alternatives": [
+      { "term": "Separate", "usage": "Existing independently rather than being unlike." },
+      { "term": "Distinct", "usage": "Clearly different and easy to tell apart." },
+      { "term": "Divergent", "usage": "Moving further apart over time." },
+      { "term": "Disparate", "usage": "So different that comparison is difficult." },
+      { "term": "Orthogonal", "usage": "Independent — changing one has no effect on the other." }
+    ],
+    "examples": [
+      { "context": "Meeting", "sentence": "That's an orthogonal concern — let's not tangle the decisions." },
+      { "context": "Analysis", "sentence": "The two teams have divergent views on priority." },
+      { "context": "Data", "sentence": "We're pulling from three disparate systems." }
+    ],
+    "remember": [
+      "'Orthogonal' means independent, not merely different. Two related problems are not orthogonal, however distinct they seem."
+    ]
+  }
+]

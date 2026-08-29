@@ -8,6 +8,7 @@ import { useHiddenCards } from '../hooks/useHiddenCards'
 import { useFavorites } from '../hooks/useFavorites'
 import { useLastSeen } from '../hooks/useLastSeen'
 import { CardTemplate } from '../components/cards'
+import { SpeakButton } from '../components/SpeakButton'
 import { ChevronLeft, ChevronRight, HomeIcon, Star } from '../components/Icons'
 
 export function LearnPage({ categories }: { categories: CategoryMeta[] }) {
@@ -130,7 +131,10 @@ export function LearnPage({ categories }: { categories: CategoryMeta[] }) {
       </div>
 
       <div className="learn-hero glass-solid">
-        <div className="learn-hero__word">{shown.term}</div>
+        <div className="learn-hero__word-row">
+          <div className="learn-hero__word">{shown.term}</div>
+          {meta.speech ? <SpeakButton text={shown.term} /> : null}
+        </div>
         {cardMeta ? <div className="learn-hero__meta">{cardMeta}</div> : null}
       </div>
 

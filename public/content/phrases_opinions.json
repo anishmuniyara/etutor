@@ -1,0 +1,506 @@
+[
+  {
+    "id": "this-has-legs",
+    "term": "This has legs.",
+    "level": "C1",
+    "meaning": "This idea is strong enough to go somewhere.",
+    "usage": "Use it as early encouragement for a proposal you think is worth pursuing further.",
+    "examples": [
+      { "context": "Product", "sentence": "I've read the pitch twice — this has legs." },
+      { "context": "Research", "sentence": "Early numbers are small, but this has legs." }
+    ],
+    "remember": [
+      "The opposite is 'it has no legs' or 'it won't run'. Both judge potential, not current results."
+    ]
+  },
+  {
+    "id": "pick-our-battles",
+    "term": "Let's pick our battles.",
+    "level": "B2",
+    "meaning": "Let's only argue about the things that really matter.",
+    "usage": "Use it to advise against fighting every point, so influence is saved for what counts.",
+    "examples": [
+      { "context": "Team", "sentence": "We can't push back on all of it — let's pick our battles." },
+      { "context": "Review", "sentence": "I picked my battles and only flagged the two real risks." }
+    ],
+    "remember": [
+      "It's advice about influence, not about being agreeable. Conceding small points makes the big objection land harder."
+    ]
+  },
+  {
+    "id": "play-this-back",
+    "term": "Let me play this back to you…",
+    "level": "C1",
+    "meaning": "Let me repeat what I understood so you can correct me.",
+    "usage": "Use it after a long explanation to confirm you've understood before acting.",
+    "examples": [
+      { "context": "Meeting", "sentence": "Let me play this back to you: two environments, one shared database." },
+      { "context": "Client", "sentence": "Let me play that back and make sure I've got it right." }
+    ],
+    "remember": [
+      "One of the most useful phrases in professional English — it catches misunderstandings before they cost a week."
+    ]
+  },
+  {
+    "id": "my-two-cents",
+    "term": "Here's my two cents.",
+    "level": "B2",
+    "meaning": "Here's my opinion, offered modestly.",
+    "usage": "Use it to add a view without claiming authority, especially when you weren't asked.",
+    "examples": [
+      { "context": "Meeting", "sentence": "Here's my two cents: ship the smaller version first." },
+      { "context": "Chat", "sentence": "Just my two cents, but the naming is confusing." }
+    ],
+    "remember": [
+      "British English also says 'my tuppence worth'. Both downplay the opinion on purpose."
+    ]
+  },
+  {
+    "id": "make-the-case-for",
+    "term": "I'd like to make the case for…",
+    "level": "C1",
+    "meaning": "I want to argue in favour of this properly.",
+    "usage": "Use it to open a considered argument, signalling that reasons are coming rather than a preference.",
+    "examples": [
+      { "context": "Meeting", "sentence": "I'd like to make the case for delaying by two weeks." },
+      { "context": "Proposal", "sentence": "Let me make the case for hiring rather than outsourcing." }
+    ],
+    "remember": [
+      "It commits you to giving reasons. Saying it and then offering only an opinion is worse than not saying it."
+    ]
+  },
+  {
+    "id": "meet-halfway",
+    "term": "Can we meet halfway?",
+    "level": "B1",
+    "meaning": "Can we each move part of the way to reach agreement?",
+    "usage": "Use it to propose a compromise when two positions are far apart.",
+    "examples": [
+      { "context": "Negotiation", "sentence": "You want four weeks, I need two — can we meet halfway?" },
+      { "context": "Team", "sentence": "Let's meet halfway and review it monthly." }
+    ],
+    "remember": [
+      "It implies you'll move too. Saying it while conceding nothing sounds insincere."
+    ]
+  },
+  {
+    "id": "deal-breaker",
+    "term": "That's a deal-breaker for me.",
+    "level": "B2",
+    "meaning": "If this stays, I can't agree to any of it.",
+    "usage": "Use it to mark a genuine limit — the one point you cannot accept.",
+    "examples": [
+      { "context": "Negotiation", "sentence": "No data residency guarantee is a deal-breaker for us." },
+      { "context": "Hiring", "sentence": "Full-time in the office would be a deal-breaker." }
+    ],
+    "remember": [
+      "Only use it when it's true. Calling several things deal-breakers destroys the word's force."
+    ]
+  },
+  {
+    "id": "willing-to-compromise",
+    "term": "I'm willing to compromise on X if we keep Y.",
+    "level": "C1",
+    "meaning": "I'll give up one thing provided another is protected.",
+    "usage": "Use it to make a trade explicit, so the concession buys something rather than being taken.",
+    "examples": [
+      { "context": "Negotiation", "sentence": "I'm willing to compromise on the timeline if we keep the test coverage." },
+      { "context": "Planning", "sentence": "I'll compromise on scope if we keep the launch date." }
+    ],
+    "remember": [
+      "Naming both halves is the point. An unconditional concession usually just moves the baseline."
+    ]
+  },
+  {
+    "id": "find-middle-ground",
+    "term": "Let's find some middle ground.",
+    "level": "B2",
+    "meaning": "Let's look for a position we can both accept.",
+    "usage": "Use it to shift a discussion from winning to problem-solving.",
+    "examples": [
+      { "context": "Meeting", "sentence": "We're both entrenched — let's find some middle ground." },
+      { "context": "Team", "sentence": "There's middle ground here: pilot it with one team." }
+    ],
+    "remember": [
+      "Softer than 'meet halfway', which implies an even split. Middle ground can be anywhere between."
+    ]
+  },
+  {
+    "id": "fairly-confident",
+    "term": "I'm fairly confident, but happy to be proven wrong.",
+    "level": "C1",
+    "meaning": "I believe this, and I'm open to evidence against it.",
+    "usage": "Use it to state a view while keeping the discussion open — it invites challenge instead of resistance.",
+    "examples": [
+      { "context": "Engineering", "sentence": "I'm fairly confident it's the connection pool, but happy to be proven wrong." },
+      { "context": "Meeting", "sentence": "Fairly confident on the numbers — happy to be corrected." }
+    ],
+    "remember": [
+      "Calibrating your confidence out loud makes people trust your certain statements more, not less."
+    ]
+  },
+  {
+    "id": "from-what-ive-seen",
+    "term": "From what I've seen, …",
+    "level": "B2",
+    "meaning": "Based on my own limited observation.",
+    "usage": "Use it to offer evidence while being honest that your view is partial.",
+    "examples": [
+      { "context": "Work", "sentence": "From what I've seen, most users never open settings." },
+      { "context": "Review", "sentence": "From what I've seen so far, the approach holds up." }
+    ],
+    "remember": [
+      "It scopes your claim to your own experience, which protects you if the wider picture differs."
+    ]
+  },
+  {
+    "id": "in-my-experience",
+    "term": "In my experience, …",
+    "level": "B1",
+    "meaning": "This is what has happened in cases I've worked on.",
+    "usage": "Use it to bring your track record into an argument without claiming a general rule.",
+    "examples": [
+      { "context": "Meeting", "sentence": "In my experience, phased rollouts catch more than a big launch." },
+      { "context": "Advice", "sentence": "In my experience that estimate will double." }
+    ],
+    "remember": [
+      "Stronger than 'I think' because it points to evidence — but it's still anecdotal, and listeners know it."
+    ]
+  },
+  {
+    "id": "id-bet-on",
+    "term": "I'd bet on approach B.",
+    "level": "C1",
+    "meaning": "If I had to choose without certainty, I'd pick this one.",
+    "usage": "Use it to give a clear recommendation while admitting the evidence isn't conclusive.",
+    "examples": [
+      { "context": "Engineering", "sentence": "Both could work, but I'd bet on B." },
+      { "context": "Strategy", "sentence": "I'd bet on the smaller market first." }
+    ],
+    "remember": [
+      "Useful when a decision is needed now. It's a judgement call stated honestly as one."
+    ]
+  },
+  {
+    "id": "aligns-with-what-i-was-thinking",
+    "term": "That aligns with what I was thinking.",
+    "level": "B2",
+    "meaning": "Your view matches mine.",
+    "usage": "Use it to agree in a way that adds weight, showing you'd reached the same conclusion independently.",
+    "examples": [
+      { "context": "Meeting", "sentence": "That aligns with what I was thinking — let's go with it." },
+      { "context": "Review", "sentence": "Your read aligns with what I was thinking about the risk." }
+    ],
+    "remember": [
+      "Two people arriving separately at the same view is real evidence. Say so — it's stronger than a simple 'I agree'."
+    ]
+  },
+  {
+    "id": "good-catch",
+    "term": "That's a good catch.",
+    "level": "B1",
+    "meaning": "Well spotted — you found something I'd missed.",
+    "usage": "Use it in code review and proofreading to credit someone for finding a real problem.",
+    "examples": [
+      { "context": "Code review", "sentence": "Good catch — that would have failed on an empty list." },
+      { "context": "Document", "sentence": "Good catch on the wrong figure in table two." }
+    ],
+    "remember": [
+      "Standard in technical review. It credits the finder and accepts the correction in three words."
+    ]
+  },
+  {
+    "id": "fair-enough",
+    "term": "Fair enough.",
+    "level": "B1",
+    "meaning": "I accept your point, even if I don't fully agree.",
+    "usage": "Use it to close a small disagreement gracefully once the other person has given a reasonable explanation.",
+    "examples": [
+      { "context": "Work", "sentence": "A: I'd rather wait for the data. B: Fair enough." },
+      { "context": "Friends", "sentence": "A: I'm too tired tonight. B: Fair enough." }
+    ],
+    "remember": [
+      "It closes a topic. Said flatly, it can mean 'I still disagree, but I'm dropping it'."
+    ]
+  },
+  {
+    "id": "noted-ill-factor-that-in",
+    "term": "Noted — I'll factor that in.",
+    "level": "B2",
+    "meaning": "I've heard your point and I'll take it into account.",
+    "usage": "Use it to accept input without committing to act on it in a particular way.",
+    "examples": [
+      { "context": "Meeting", "sentence": "Noted — I'll factor that into the estimate." },
+      { "context": "Feedback", "sentence": "Noted. I'll factor it into the next draft." }
+    ],
+    "remember": [
+      "'Noted' on its own can sound cold or dismissive. The second half is what makes it warm."
+    ]
+  },
+  {
+    "id": "point-taken",
+    "term": "Point taken.",
+    "level": "B2",
+    "meaning": "You're right and I accept it.",
+    "usage": "Use it to concede a point cleanly in a discussion, without a long explanation.",
+    "examples": [
+      { "context": "Debate", "sentence": "Point taken — I hadn't considered the licence cost." },
+      { "context": "Feedback", "sentence": "Point taken. I'll change the wording." }
+    ],
+    "remember": [
+      "Conceding cleanly makes your other arguments more credible, not less."
+    ]
+  },
+  {
+    "id": "thats-news-to-me",
+    "term": "That's news to me.",
+    "level": "B2",
+    "meaning": "Nobody told me that.",
+    "usage": "Use it when you learn something you should already have known — it flags the gap without accusing anyone.",
+    "examples": [
+      { "context": "Meeting", "sentence": "The date moved? That's news to me." },
+      { "context": "Work", "sentence": "That's news to me — who made that decision?" }
+    ],
+    "remember": [
+      "Tone decides everything. Said sharply it's a complaint about being left out; said lightly it's just surprise."
+    ]
+  },
+  {
+    "id": "sit-with-that",
+    "term": "Let me sit with that for a moment.",
+    "level": "C1",
+    "meaning": "I need a little time to think before responding.",
+    "usage": "Use it to buy thinking time on a significant point without appearing to have no answer.",
+    "examples": [
+      { "context": "Meeting", "sentence": "That's a fair challenge — let me sit with that for a moment." },
+      { "context": "Feedback", "sentence": "I'd like to sit with that before I respond." }
+    ],
+    "remember": [
+      "Far stronger than filling the silence with a weak answer. It signals you're taking the point seriously."
+    ]
+  },
+  {
+    "id": "cross-that-bridge",
+    "term": "Cross that bridge when we come to it",
+    "level": "B2",
+    "meaning": "Let's deal with that problem later, if it happens.",
+    "usage": "Use it to postpone a hypothetical concern so the current discussion can finish.",
+    "examples": [
+      { "context": "Planning", "sentence": "If they double the volume we'll need more capacity — but let's cross that bridge when we come to it." },
+      { "context": "Meeting", "sentence": "That's a next-year problem. Cross that bridge when we come to it." }
+    ],
+    "remember": [
+      "Fine for unlikely problems; risky for likely ones. If it's probable, it belongs in the plan now."
+    ]
+  },
+  {
+    "id": "weigh-the-pros-and-cons",
+    "term": "Weigh the pros and cons",
+    "level": "B1",
+    "meaning": "To compare the advantages and disadvantages before deciding.",
+    "usage": "Use it to slow a decision down and make the comparison explicit.",
+    "examples": [
+      { "context": "Decision", "sentence": "Let's weigh the pros and cons before committing." },
+      { "context": "Personal", "sentence": "I weighed the pros and cons and took the offer." }
+    ],
+    "remember": [
+      "'Pros' and 'cons' come from Latin for 'for' and 'against', and only work as a pair."
+    ]
+  },
+  {
+    "id": "take-with-a-grain-of-salt",
+    "term": "Take it with a grain of salt",
+    "level": "C1",
+    "meaning": "Treat it with some doubt; don't fully rely on it.",
+    "usage": "Use it when passing on information from a source that may be biased or unreliable.",
+    "examples": [
+      { "context": "Research", "sentence": "It's self-reported data — take it with a grain of salt." },
+      { "context": "Review", "sentence": "Anonymous reviews should be taken with a grain of salt." }
+    ],
+    "remember": [
+      "British English says 'a pinch of salt'. Same meaning."
+    ]
+  },
+  {
+    "id": "ball-is-in-their-court",
+    "term": "The ball is in their court",
+    "level": "B2",
+    "meaning": "It's their turn to act; nothing can happen until they do.",
+    "usage": "Use it after you've done your part, to make clear where the delay now sits.",
+    "examples": [
+      { "context": "Work", "sentence": "I sent the revised terms, so the ball's in their court." },
+      { "context": "Negotiation", "sentence": "We've made our position clear — the ball is in their court." }
+    ],
+    "remember": [
+      "Shifts responsibility politely, and stops the assumption that you're the one holding things up."
+    ]
+  },
+  {
+    "id": "jump-the-gun",
+    "term": "Jump the gun",
+    "level": "B2",
+    "meaning": "To act before the right moment.",
+    "usage": "Use it about announcing, building, or deciding too early — before approval or before the facts are in.",
+    "examples": [
+      { "context": "Work", "sentence": "I jumped the gun and told the client before it was signed." },
+      { "context": "Analysis", "sentence": "Let's not jump the gun — one week isn't a trend." }
+    ],
+    "remember": [
+      "From athletics: starting before the starting pistol. It implies eagerness, not bad intent."
+    ]
+  },
+  {
+    "id": "play-it-by-ear",
+    "term": "Play it by ear",
+    "level": "B2",
+    "meaning": "To decide as you go rather than planning ahead.",
+    "usage": "Use it when the situation is too uncertain to plan, or when you want to keep options open.",
+    "examples": [
+      { "context": "Plans", "sentence": "Let's play it by ear and see how the demo goes." },
+      { "context": "Meeting", "sentence": "We'll play the agenda by ear depending on who joins." }
+    ],
+    "remember": [
+      "From music — playing without written notes. Fine for small things; using it for a real project reads as no plan."
+    ]
+  },
+  {
+    "id": "test-the-waters",
+    "term": "Test the waters",
+    "level": "B2",
+    "meaning": "To try something small first to see how people react.",
+    "usage": "Use it about a low-commitment trial before a full launch or a formal proposal.",
+    "examples": [
+      { "context": "Product", "sentence": "Let's test the waters with a beta for fifty users." },
+      { "context": "Career", "sentence": "He tested the waters before formally applying." }
+    ],
+    "remember": [
+      "The point is that you can still walk away. If you're committed already, you're not testing anything."
+    ]
+  },
+  {
+    "id": "read-between-the-lines",
+    "term": "Read between the lines",
+    "level": "B2",
+    "meaning": "To understand what someone means but hasn't said openly.",
+    "usage": "Use it about messages where the real meaning sits underneath the polite wording.",
+    "examples": [
+      { "context": "Email", "sentence": "Read between the lines — they're not going to renew." },
+      { "context": "Feedback", "sentence": "Reading between the lines, she wasn't happy with the approach." }
+    ],
+    "remember": [
+      "It's interpretation, not fact. Be careful acting on a reading the other person never intended."
+    ]
+  },
+  {
+    "id": "beat-around-the-bush",
+    "term": "Beat around the bush",
+    "level": "B2",
+    "meaning": "To avoid saying the main point directly.",
+    "usage": "Use it to complain about evasiveness, or to announce that you're about to be direct.",
+    "examples": [
+      { "context": "Meeting", "sentence": "Let me not beat around the bush: we're over budget." },
+      { "context": "Conversation", "sentence": "Stop beating around the bush and tell me." }
+    ],
+    "remember": [
+      "British English often says 'beat about the bush'. Both are understood."
+    ]
+  },
+  {
+    "id": "get-straight-to-the-point",
+    "term": "Get straight to the point",
+    "level": "B1",
+    "meaning": "To say the main thing immediately, without preamble.",
+    "usage": "Use it to open a short message or a difficult conversation efficiently.",
+    "examples": [
+      { "context": "Meeting", "sentence": "I'll get straight to the point: we need two more weeks." },
+      { "context": "Email", "sentence": "Getting straight to the point — can you approve this today?" }
+    ],
+    "remember": [
+      "Saying it prepares the listener for something direct, which softens the directness that follows."
+    ]
+  },
+  {
+    "id": "benefit-of-the-doubt",
+    "term": "Give the benefit of the doubt",
+    "level": "B2",
+    "meaning": "To assume someone had good intentions when you can't be sure.",
+    "usage": "Use it to hold back judgement about a mistake or an ambiguous message.",
+    "examples": [
+      { "context": "Team", "sentence": "Let's give them the benefit of the doubt — they may not have seen the thread." },
+      { "context": "Management", "sentence": "I gave him the benefit of the doubt the first time." }
+    ],
+    "remember": [
+      "It's a choice, not a conclusion — which is why 'the first time' so often follows it."
+    ]
+  },
+  {
+    "id": "err-on-the-side-of-caution",
+    "term": "Err on the side of caution",
+    "level": "C1",
+    "meaning": "When unsure, choose the safer option.",
+    "usage": "Use it to justify a conservative decision where the cost of being wrong is high.",
+    "examples": [
+      { "context": "Engineering", "sentence": "Let's err on the side of caution and roll back." },
+      { "context": "Health", "sentence": "They erred on the side of caution and ran more tests." }
+    ],
+    "remember": [
+      "'Err' here means to make a mistake deliberately in a chosen direction — accepting you may be over-careful. Pronounced 'ur' or 'air'; both are accepted."
+    ]
+  },
+  {
+    "id": "lay-your-cards-on-the-table",
+    "term": "Lay your cards on the table",
+    "level": "C1",
+    "meaning": "To say openly what you want and what your position is.",
+    "usage": "Use it in negotiation to end manoeuvring and state your real constraints.",
+    "examples": [
+      { "context": "Negotiation", "sentence": "Let me lay my cards on the table: our budget is thirty thousand." },
+      { "context": "Team", "sentence": "I'll lay my cards on the table — I'm not comfortable with this timeline." }
+    ],
+    "remember": [
+      "From card games. It's a deliberate loss of tactical advantage in exchange for trust and speed."
+    ]
+  },
+  {
+    "id": "on-the-fence",
+    "term": "On the fence",
+    "level": "B2",
+    "meaning": "Undecided between two options.",
+    "usage": "Use it about yourself or others who haven't committed either way.",
+    "examples": [
+      { "context": "Work", "sentence": "I'm still on the fence about the restructure." },
+      { "context": "Team", "sentence": "Half the team is on the fence, so let's discuss it properly." }
+    ],
+    "remember": [
+      "'Sitting on the fence' sounds more like a criticism — avoiding a decision rather than genuinely weighing it."
+    ]
+  },
+  {
+    "id": "have-second-thoughts",
+    "term": "Have second thoughts",
+    "level": "B2",
+    "meaning": "To start doubting a decision you already made.",
+    "usage": "Use it about growing reluctance after committing to something.",
+    "examples": [
+      { "context": "Work", "sentence": "I'm having second thoughts about the vendor." },
+      { "context": "Personal", "sentence": "She had second thoughts about accepting." }
+    ],
+    "remember": [
+      "The doubt comes after the decision. Doubt before deciding is being 'on the fence'."
+    ]
+  },
+  {
+    "id": "food-for-thought",
+    "term": "Food for thought",
+    "level": "B2",
+    "meaning": "Something worth thinking about further.",
+    "usage": "Use it to acknowledge an idea you're not ready to accept or reject — often to close a discussion politely.",
+    "examples": [
+      { "context": "Meeting", "sentence": "That's food for thought — let me come back to you." },
+      { "context": "Talk", "sentence": "The final section gave me plenty of food for thought." }
+    ],
+    "remember": [
+      "Genuine when you mean it, but it's also a common polite way to park an idea without committing to anything."
+    ]
+  }
+]

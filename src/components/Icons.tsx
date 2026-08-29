@@ -74,3 +74,12 @@ export const SearchIcon = (p: Omit<IconProps, 'children'>) => (
     <path d="m21 21-4.35-4.35" />
   </Icon>
 )
+
+export const Speaker = ({ active, ...p }: Omit<IconProps, 'children'> & { active?: boolean }) => (
+  <Icon width={2} {...p}>
+    <path d="M11 5 6 9H2v6h4l5 4z" />
+    {/* The outer arc only appears while speaking, so the icon shows state without a colour change. */}
+    <path d="M15.5 8.5a5 5 0 0 1 0 7" />
+    {active ? <path d="M19 5a10 10 0 0 1 0 14" /> : null}
+  </Icon>
+)

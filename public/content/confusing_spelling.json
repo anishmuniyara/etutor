@@ -1,0 +1,460 @@
+[
+  {
+    "id": "who-vs-whom",
+    "term": "Who vs Whom",
+    "level": "C1",
+    "meaning": "One is the subject of a verb, the other the object.",
+    "items": [
+      { "term": "Who", "meaning": "The subject — the one doing the action." },
+      { "term": "Whom", "meaning": "The object — the one receiving the action, or after a preposition." }
+    ],
+    "difference": "If you'd answer with 'he', use who; if you'd answer with 'him', use whom.",
+    "examples": [
+      { "context": "Who", "sentence": "Who approved it?" },
+      { "context": "Whom", "sentence": "To whom was it sent?" }
+    ],
+    "remember": [
+      "Both end in m: hi**m** → who**m**. That's the quickest test.",
+      "'Whom' is fading in speech. In conversation 'who' is now accepted almost everywhere."
+    ]
+  },
+  {
+    "id": "which-vs-that",
+    "term": "Which vs That",
+    "level": "C1",
+    "meaning": "One introduces essential information, the other adds extra.",
+    "items": [
+      { "term": "That", "meaning": "Essential information — the sentence changes meaning without it. No comma." },
+      { "term": "Which", "meaning": "Extra information you could remove. Takes a comma." }
+    ],
+    "difference": "That defines which one; which adds a detail about it.",
+    "examples": [
+      { "context": "That", "sentence": "The test that failed is in the auth module." },
+      { "context": "Which", "sentence": "The test, which was new, failed." }
+    ],
+    "remember": [
+      "The comma is the real signal. If you'd pause when speaking, use 'which'.",
+      "British English is more relaxed about using 'which' for both; American style guides enforce the split."
+    ]
+  },
+  {
+    "id": "lose-vs-loss",
+    "term": "Lose vs Loss",
+    "level": "B1",
+    "meaning": "The verb and the noun.",
+    "items": [
+      { "term": "Lose", "meaning": "The verb: to misplace or fail to keep something." },
+      { "term": "Loss", "meaning": "The noun: the fact or amount of something lost." }
+    ],
+    "difference": "You lose something, and the result is a loss.",
+    "examples": [
+      { "context": "Both", "sentence": "We may lose data; data loss is the real risk." },
+      { "context": "Business", "sentence": "The quarter closed at a loss." }
+    ],
+    "remember": [
+      "One 's' for the verb, two for the noun."
+    ]
+  },
+  {
+    "id": "choose-vs-chose",
+    "term": "Choose vs Chose",
+    "level": "A2",
+    "meaning": "Present and past tense of the same verb.",
+    "items": [
+      { "term": "Choose", "meaning": "Present tense. Rhymes with 'news'." },
+      { "term": "Chose", "meaning": "Past tense. Rhymes with 'nose'." }
+    ],
+    "difference": "Choose is now; chose is then.",
+    "examples": [
+      { "context": "Both", "sentence": "I chose Go, and I'd choose it again." },
+      { "context": "Past participle", "sentence": "We have chosen the second option." }
+    ],
+    "remember": [
+      "The past participle is a third form: chosen. Choose, chose, chosen."
+    ]
+  },
+  {
+    "id": "quiet-vs-quite",
+    "term": "Quiet vs Quite",
+    "level": "A2",
+    "meaning": "One means silent, the other means fairly.",
+    "items": [
+      { "term": "Quiet", "meaning": "Making little or no noise." },
+      { "term": "Quite", "meaning": "Fairly, or completely, depending on context." }
+    ],
+    "difference": "Quiet describes sound; quite modifies degree.",
+    "examples": [
+      { "context": "Both", "sentence": "It was quite a quiet release." },
+      { "context": "Degree", "sentence": "I'm quite happy with the result." }
+    ],
+    "remember": [
+      "A pure typo pair — the letters are simply swapped. Spellcheck won't catch it.",
+      "In British English 'quite good' often means 'not that good'. In American English it means 'very good'."
+    ]
+  },
+  {
+    "id": "breath-vs-breathe",
+    "term": "Breath vs Breathe",
+    "level": "B1",
+    "meaning": "The noun and the verb.",
+    "items": [
+      { "term": "Breath", "meaning": "The noun. Rhymes with 'death'." },
+      { "term": "Breathe", "meaning": "The verb. Rhymes with 'seethe'." }
+    ],
+    "difference": "You take a breath; you breathe.",
+    "examples": [
+      { "context": "Noun", "sentence": "Take a deep breath before you reply." },
+      { "context": "Verb", "sentence": "Breathe out slowly." }
+    ],
+    "remember": [
+      "The silent e lengthens the vowel and makes it a verb — the same pattern as bath/bathe and cloth/clothe."
+    ]
+  },
+  {
+    "id": "cloth-vs-clothes",
+    "term": "Cloth vs Clothes",
+    "level": "A2",
+    "meaning": "One is material, the other is garments.",
+    "items": [
+      { "term": "Cloth", "meaning": "The material itself, or a piece of it for cleaning." },
+      { "term": "Clothes", "meaning": "Garments you wear. Always plural." }
+    ],
+    "difference": "Cloth is the fabric; clothes are what's made from it.",
+    "examples": [
+      { "context": "Cloth", "sentence": "Wipe the screen with a soft cloth." },
+      { "context": "Clothes", "sentence": "Bring warm clothes — it gets cold at night." }
+    ],
+    "remember": [
+      "'Clothes' has no singular. One item is 'a piece of clothing' or 'a garment'."
+    ]
+  },
+  {
+    "id": "desert-vs-dessert",
+    "term": "Desert vs Dessert",
+    "level": "A2",
+    "meaning": "One is sand, the other is sweet.",
+    "items": [
+      { "term": "Desert", "meaning": "A dry, sandy region. Also a verb meaning to abandon." },
+      { "term": "Dessert", "meaning": "The sweet course at the end of a meal." }
+    ],
+    "difference": "One s for sand, two for sweet.",
+    "examples": [
+      { "context": "Desert", "sentence": "The Sahara is the largest hot desert." },
+      { "context": "Dessert", "sentence": "We skipped dessert." }
+    ],
+    "remember": [
+      "Two s's because you always want a second helping of dessert. That's the classic mnemonic."
+    ]
+  },
+  {
+    "id": "personal-vs-personnel",
+    "term": "Personal vs Personnel",
+    "level": "B2",
+    "meaning": "One means private, the other means staff.",
+    "items": [
+      { "term": "Personal", "meaning": "Relating to one individual; private." },
+      { "term": "Personnel", "meaning": "The people employed by an organisation." }
+    ],
+    "difference": "Personal is about an individual; personnel is a group of employees.",
+    "examples": [
+      { "context": "Personal", "sentence": "Please don't store personal data here." },
+      { "context": "Personnel", "sentence": "Personnel records are held by HR." }
+    ],
+    "remember": [
+      "The stress differs: PER-sonal, but person-NEL. Getting the stress right prevents the spelling error."
+    ]
+  },
+  {
+    "id": "council-vs-counsel",
+    "term": "Council vs Counsel",
+    "level": "B2",
+    "meaning": "One is a group, the other is advice.",
+    "items": [
+      { "term": "Council", "meaning": "A group of people who meet to decide things." },
+      { "term": "Counsel", "meaning": "Advice — or, as a verb, to advise. Also a lawyer." }
+    ],
+    "difference": "A council meets; counsel is given.",
+    "examples": [
+      { "context": "Council", "sentence": "The city council approved the plan." },
+      { "context": "Counsel", "sentence": "She sought legal counsel before signing." }
+    ],
+    "remember": [
+      "A councillor sits on a council; a counsellor gives advice. Two different jobs, one letter apart."
+    ]
+  },
+  {
+    "id": "device-vs-devise",
+    "term": "Device vs Devise",
+    "level": "B2",
+    "meaning": "The noun and the verb.",
+    "items": [
+      { "term": "Device", "meaning": "The noun: a piece of equipment or a method." },
+      { "term": "Devise", "meaning": "The verb: to invent or plan something." }
+    ],
+    "difference": "You devise a plan; a device is a thing.",
+    "examples": [
+      { "context": "Both", "sentence": "Devise a plan for testing the device." },
+      { "context": "Verb", "sentence": "They devised a workaround overnight." }
+    ],
+    "remember": [
+      "Same c/s pattern as advice/advise and practice/practise — the 'c' form is the noun."
+    ]
+  },
+  {
+    "id": "envelop-vs-envelope",
+    "term": "Envelop vs Envelope",
+    "level": "B2",
+    "meaning": "The verb and the noun, differing by one silent letter.",
+    "items": [
+      { "term": "Envelop", "meaning": "The verb: to wrap or surround completely." },
+      { "term": "Envelope", "meaning": "The noun: a paper cover for a letter." }
+    ],
+    "difference": "Envelop wraps; an envelope holds.",
+    "examples": [
+      { "context": "Verb", "sentence": "Fog enveloped the whole valley." },
+      { "context": "Noun", "sentence": "The contract is in the envelope." }
+    ],
+    "remember": [
+      "The stress moves too: en-VEL-op for the verb, EN-ve-lope for the noun."
+    ]
+  },
+  {
+    "id": "bear-vs-bare",
+    "term": "Bear vs Bare",
+    "level": "B2",
+    "meaning": "One means carry or tolerate, the other means uncovered.",
+    "items": [
+      { "term": "Bear", "meaning": "To carry, tolerate, or endure. Also the animal." },
+      { "term": "Bare", "meaning": "Uncovered, empty, or minimal." }
+    ],
+    "difference": "You bear a burden; a bare surface has nothing on it.",
+    "examples": [
+      { "context": "Bear", "sentence": "Bear with me while I find the file." },
+      { "context": "Bare", "sentence": "The bare minimum won't pass review." }
+    ],
+    "remember": [
+      "'Bare with me' is a very common and unfortunate typo. It's 'bear with me' — tolerate me for a moment."
+    ]
+  },
+  {
+    "id": "passed-vs-past",
+    "term": "Passed vs Past",
+    "level": "B1",
+    "meaning": "One is a verb, the other refers to time or position.",
+    "items": [
+      { "term": "Passed", "meaning": "The past tense of 'pass' — a verb." },
+      { "term": "Past", "meaning": "A time before now, or beyond a point." }
+    ],
+    "difference": "Passed is an action; past is a time or a position.",
+    "examples": [
+      { "context": "Both", "sentence": "The tests passed; past results were worse." },
+      { "context": "Position", "sentence": "The office is just past the bridge." }
+    ],
+    "remember": [
+      "If it's something someone did, it's 'passed'."
+    ]
+  },
+  {
+    "id": "weather-vs-whether",
+    "term": "Weather vs Whether",
+    "level": "A2",
+    "meaning": "One is climate, the other means 'if'.",
+    "items": [
+      { "term": "Weather", "meaning": "The state of the atmosphere — rain, sun, wind." },
+      { "term": "Whether", "meaning": "Introduces a choice between alternatives; means 'if'." }
+    ],
+    "difference": "Weather is outside; whether introduces a question.",
+    "examples": [
+      { "context": "Whether", "sentence": "I'm not sure whether we should wait." },
+      { "context": "Weather", "sentence": "The weather delayed the flight." }
+    ],
+    "remember": [
+      "'Weather' can also be a verb meaning to survive something: 'we weathered the outage'."
+    ]
+  },
+  {
+    "id": "whose-vs-whos",
+    "term": "Whose vs Who's",
+    "level": "B1",
+    "meaning": "Possession versus a contraction.",
+    "items": [
+      { "term": "Whose", "meaning": "Belonging to whom — possessive." },
+      { "term": "Who's", "meaning": "Short for 'who is' or 'who has'." }
+    ],
+    "difference": "If you can say 'who is', use the apostrophe.",
+    "examples": [
+      { "context": "Whose", "sentence": "Whose service is this?" },
+      { "context": "Who's", "sentence": "Who's on call tonight?" }
+    ],
+    "remember": [
+      "Exactly the same rule as its/it's — the apostrophe means a missing letter, never possession."
+    ]
+  },
+  {
+    "id": "your-vs-youre",
+    "term": "Your vs You're",
+    "level": "A2",
+    "meaning": "Possession versus a contraction.",
+    "items": [
+      { "term": "Your", "meaning": "Belonging to you." },
+      { "term": "You're", "meaning": "Short for 'you are'." }
+    ],
+    "difference": "If you can say 'you are', use the apostrophe.",
+    "examples": [
+      { "context": "Your", "sentence": "Your branch is out of date." },
+      { "context": "You're", "sentence": "You're on the right track." }
+    ],
+    "remember": [
+      "The most-noticed error in written English. It's worth the one-second check every time."
+    ]
+  },
+  {
+    "id": "their-there-theyre",
+    "term": "Their vs There vs They're",
+    "level": "A2",
+    "meaning": "Three identical-sounding words with three different jobs.",
+    "items": [
+      { "term": "Their", "meaning": "Belonging to them — possessive." },
+      { "term": "There", "meaning": "In that place; also used to start a sentence: 'there is'." },
+      { "term": "They're", "meaning": "Short for 'they are'." }
+    ],
+    "difference": "Their owns, there points, they're contracts.",
+    "examples": [
+      { "context": "All three", "sentence": "They're leaving their laptops over there." },
+      { "context": "Existence", "sentence": "There are three open issues." }
+    ],
+    "remember": [
+      "'There' contains 'here' — both are about place. That link makes it easy to place."
+    ]
+  },
+  {
+    "id": "later-vs-latter",
+    "term": "Later vs Latter",
+    "level": "B2",
+    "meaning": "One is about time, the other about order in a pair.",
+    "items": [
+      { "term": "Later", "meaning": "At a future time." },
+      { "term": "Latter", "meaning": "The second of two things just mentioned." }
+    ],
+    "difference": "Later is when; latter is which one.",
+    "examples": [
+      { "context": "Latter", "sentence": "Of REST and gRPC, I prefer the latter." },
+      { "context": "Later", "sentence": "Let's discuss it later this week." }
+    ],
+    "remember": [
+      "'Latter' pairs with 'former' and works only for exactly two items. With three, name them."
+    ]
+  },
+  {
+    "id": "beside-vs-besides",
+    "term": "Beside vs Besides",
+    "level": "B2",
+    "meaning": "One letter apart, and completely different in meaning.",
+    "items": [
+      { "term": "Beside", "meaning": "Next to; at the side of." },
+      { "term": "Besides", "meaning": "In addition to; also. Often introduces an extra argument." }
+    ],
+    "difference": "Beside is a position; besides adds something.",
+    "examples": [
+      { "context": "Beside", "sentence": "She sat beside me in the review." },
+      { "context": "Besides", "sentence": "Besides the cost, there's the migration time." }
+    ],
+    "remember": [
+      "'Beside the point' means irrelevant — note it takes the position word, not 'besides'."
+    ]
+  },
+  {
+    "id": "everyday-vs-every-day",
+    "term": "Everyday vs Every day",
+    "level": "B1",
+    "meaning": "One word is an adjective; two words is a time phrase.",
+    "items": [
+      { "term": "Everyday", "meaning": "One word, an adjective meaning ordinary or routine." },
+      { "term": "Every day", "meaning": "Two words, meaning each day." }
+    ],
+    "difference": "Everyday describes a noun; every day says how often.",
+    "examples": [
+      { "context": "Both", "sentence": "Everyday tasks happen every day." },
+      { "context": "Adjective", "sentence": "It's an everyday problem, nothing unusual." }
+    ],
+    "remember": [
+      "If you can put 'single' in the middle — 'every single day' — it's two words."
+    ]
+  },
+  {
+    "id": "anytime-vs-any-time",
+    "term": "Anytime vs Any time",
+    "level": "B2",
+    "meaning": "One word is an adverb; two words follow a preposition.",
+    "items": [
+      { "term": "Anytime", "meaning": "One word, an adverb meaning whenever." },
+      { "term": "Any time", "meaning": "Two words — required after a preposition, and when it means an amount of time." }
+    ],
+    "difference": "Use two words after 'at', and whenever you mean a quantity of time.",
+    "examples": [
+      { "context": "Adverb", "sentence": "Call me anytime." },
+      { "context": "After preposition", "sentence": "The alert can fire at any time." },
+      { "context": "Quantity", "sentence": "I don't have any time this week." }
+    ],
+    "remember": [
+      "'At anytime' is always wrong. After a preposition it's two words."
+    ]
+  },
+  {
+    "id": "setup-vs-set-up",
+    "term": "Setup vs Set up",
+    "level": "B1",
+    "meaning": "The noun and the verb, split by a space.",
+    "items": [
+      { "term": "Setup", "meaning": "One word — the noun: the arrangement or configuration." },
+      { "term": "Set up", "meaning": "Two words — the verb: to arrange or configure." }
+    ],
+    "difference": "The action is two words; the thing is one.",
+    "examples": [
+      { "context": "Both", "sentence": "Set up the setup exactly as documented." },
+      { "context": "Noun", "sentence": "The current setup won't scale." }
+    ],
+    "remember": [
+      "Same pattern across a whole family: backup / back up, login / log in, rollout / roll out, handover / hand over."
+    ]
+  },
+  {
+    "id": "login-vs-log-in",
+    "term": "Login vs Log in",
+    "level": "B1",
+    "meaning": "The same noun-versus-verb split as setup.",
+    "items": [
+      { "term": "Login", "meaning": "One word — the noun: your credentials or the screen itself." },
+      { "term": "Log in", "meaning": "Two words — the verb: the action of signing in." }
+    ],
+    "difference": "You log in using your login.",
+    "examples": [
+      { "context": "Both", "sentence": "Log in with the login we sent you." },
+      { "context": "Noun", "sentence": "The login page is timing out." }
+    ],
+    "remember": [
+      "If there's an object or a preposition after it — 'log in to the console' — it's two words.",
+      "'Log into' is widely used but 'log in to' is the careful form."
+    ]
+  },
+  {
+    "id": "sometime-some-time-sometimes",
+    "term": "Sometime vs Some time vs Sometimes",
+    "level": "B2",
+    "meaning": "Three similar forms meaning three different things.",
+    "items": [
+      { "term": "Sometime", "meaning": "At an unspecified point in time." },
+      { "term": "Some time", "meaning": "A period of time, usually a fairly long one." },
+      { "term": "Sometimes", "meaning": "Occasionally; on some occasions." }
+    ],
+    "difference": "Sometime is a point, some time is a duration, sometimes is a frequency.",
+    "examples": [
+      { "context": "Sometime", "sentence": "Let's catch up sometime next week." },
+      { "context": "Some time", "sentence": "This will take some time to fix properly." },
+      { "context": "Sometimes", "sentence": "Sometimes the job fails without logging anything." }
+    ],
+    "remember": [
+      "If you could say 'quite a lot of time' instead, it's two words."
+    ]
+  }
+]

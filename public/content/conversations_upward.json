@@ -1,0 +1,226 @@
+[
+  {
+    "id": "pushing-back-on-a-deadline",
+    "term": "Pushing Back on an Unrealistic Deadline",
+    "level": "C1",
+    "situation": "A director has promised a customer a date you don't believe is achievable.",
+    "conversation": [
+      { "speaker": "Director", "text": "We need this shipped by end of month. The customer is expecting it." },
+      { "speaker": "You", "text": "I understand the commitment, and I want to help you meet it. I also owe you an honest assessment: with the current scope, end of month means shipping without load testing, and that's a material risk for a customer of this size." },
+      { "speaker": "Director", "text": "What are my options?" },
+      { "speaker": "You", "text": "Three. One, we ship a reduced scope on time — core flow only. Two, we keep full scope and land it two weeks later with confidence. Three, we add one more engineer and I'll re-estimate by tomorrow. My recommendation is option one; it protects the relationship and the timeline." },
+      { "speaker": "Director", "text": "Let's go with one. Put it in writing." },
+      { "speaker": "You", "text": "I'll send a summary today with what's in, what's deferred, and the risks we're accepting." }
+    ],
+    "keyExpressions": [
+      "I understand the commitment, and I want to help you meet it.",
+      "I owe you an honest assessment.",
+      "What I can offer is… / My recommendation is…",
+      "What's in, what's deferred, and the risks we're accepting."
+    ],
+    "remember": [
+      "Never push back with only a problem. Arriving with three options turns you from an obstacle into an adviser.",
+      "Always state a recommendation. Presenting options without one pushes the whole decision back to them."
+    ]
+  },
+  {
+    "id": "disagree-and-commit",
+    "term": "Disagreeing With Your Manager — and Committing Anyway",
+    "level": "C1",
+    "situation": "Your manager has chosen an approach you think carries real long-term risk.",
+    "conversation": [
+      { "speaker": "Manager", "text": "We're going with the third-party orchestration library instead of building our own." },
+      { "speaker": "You", "text": "Can I share a concern before we lock it in? My worry is vendor lock-in — their API has changed twice this year, and we'd be building the core of the product on it." },
+      { "speaker": "Manager", "text": "Noted, but we don't have the bandwidth to build it ourselves." },
+      { "speaker": "You", "text": "That's a fair constraint. I'll disagree and commit. Two things I'd ask: we wrap the library behind our own interface so we can swap it later, and we revisit the decision in Q1 with real data." },
+      { "speaker": "Manager", "text": "Both reasonable." },
+      { "speaker": "You", "text": "Then I'm fully on board. I'll lead the integration." }
+    ],
+    "keyExpressions": [
+      "Can I share a concern before we lock it in?",
+      "That's a fair constraint.",
+      "I'll disagree and commit.",
+      "Then I'm fully on board."
+    ],
+    "remember": [
+      "'Disagree and commit' records your objection without becoming a blocker — one of the most valuable moves in professional English.",
+      "Asking for mitigations rather than reversal is what makes the disagreement productive."
+    ]
+  },
+  {
+    "id": "escalating-a-cross-team-blocker",
+    "term": "Escalating a Blocker Without Blaming Anyone",
+    "level": "C1",
+    "situation": "Another team's delay is putting your milestone at risk.",
+    "conversation": [
+      { "speaker": "You", "text": "I want to raise something before it becomes a bigger problem. We've been waiting eight days on the auth team for the token API, and our milestone is now at risk." },
+      { "speaker": "Manager", "text": "Have you spoken to them?" },
+      { "speaker": "You", "text": "Twice, and to be fair, they're stretched thin with their own release. I'm not looking to point fingers — I'm looking for a path forward. Options as I see them: we get a firm date from their lead, we build a temporary stub and proceed, or you and their manager agree on priority. I'd suggest the stub plus a date, so we're not blocked either way." },
+      { "speaker": "Manager", "text": "I'll talk to their manager today." },
+      { "speaker": "You", "text": "Thanks. I'll start the stub in parallel and keep both of you posted." }
+    ],
+    "keyExpressions": [
+      "I want to raise something before it becomes a bigger problem.",
+      "To be fair, they're stretched thin.",
+      "I'm not looking to point fingers — I'm looking for a path forward.",
+      "I'll start in parallel and keep you posted."
+    ],
+    "remember": [
+      "Defending the other team before escalating makes you credible rather than political.",
+      "Escalate with a proposal, not a complaint. Say what decision you need from the person you're escalating to."
+    ]
+  },
+  {
+    "id": "taking-ownership-of-an-incident",
+    "term": "Taking Ownership of a Production Incident",
+    "level": "C1",
+    "situation": "Your change caused an outage overnight and your manager wants an account.",
+    "conversation": [
+      { "speaker": "Manager", "text": "What happened last night?" },
+      { "speaker": "You", "text": "A change I merged introduced a nil dereference under a rare race condition. I take full responsibility. We rolled back within twelve minutes, no data was lost, and I've already opened a postmortem. The systemic gap is that our integration tests don't cover concurrent cancellation — I'll fix that this week so it can't recur." },
+      { "speaker": "Manager", "text": "Good. Anything you need from me?" },
+      { "speaker": "You", "text": "Just half a day of protected time to write the tests properly rather than patching around it." }
+    ],
+    "keyExpressions": [
+      "I take full responsibility.",
+      "We rolled back within twelve minutes; no data was lost.",
+      "The systemic gap is…",
+      "So it can't recur."
+    ],
+    "remember": [
+      "Facts, ownership, impact, fix — in that order. Explanations of why it happened come last, if at all.",
+      "Naming the systemic gap rather than your own mistake is what turns an apology into an improvement."
+    ]
+  },
+  {
+    "id": "asking-for-a-raise",
+    "term": "Asking for a Raise",
+    "level": "C1",
+    "situation": "You believe your pay no longer matches the scope you're carrying.",
+    "conversation": [
+      { "speaker": "You", "text": "I'd like to discuss my compensation. Over the past year I've taken ownership of the runtime engine, mentored two engineers, and reduced p99 latency by forty percent. Based on market data and the scope I'm carrying, I believe my pay is behind where it should be. What would it take to close that gap?" },
+      { "speaker": "Manager", "text": "I'll need to look at the bands." },
+      { "speaker": "You", "text": "Understood. Could we agree on a timeline — say, a follow-up in two weeks?" },
+      { "speaker": "Manager", "text": "Two weeks works. Send me the summary of what you've listed." }
+    ],
+    "keyExpressions": [
+      "I'd like to discuss my compensation.",
+      "Based on market data and the scope I'm carrying…",
+      "What would it take to close that gap?",
+      "Could we agree on a timeline?"
+    ],
+    "remember": [
+      "'What would it take?' is the key question — it turns a refusal into a conversation about conditions.",
+      "Always leave with a date. Without one, 'I'll look into it' becomes indefinite."
+    ]
+  },
+  {
+    "id": "declining-extra-work",
+    "term": "Declining Extra Work Without Sounding Lazy",
+    "level": "C1",
+    "situation": "Your lead asks you to take on a second workstream while you're already full.",
+    "conversation": [
+      { "speaker": "Lead", "text": "Can you also pick up the migration tickets?" },
+      { "speaker": "You", "text": "I want to be useful here, so let me be honest about capacity. I'm at full load with the runtime milestone, and taking those on would put both at risk. If the migration is the higher priority, I'm happy to swap — but I'd rather you make that call than have me quietly under-deliver on both." },
+      { "speaker": "Lead", "text": "Runtime stays first. I'll find someone else for the migration." },
+      { "speaker": "You", "text": "That works. If it helps, I can spend an hour writing up the context so whoever picks it up isn't starting cold." }
+    ],
+    "keyExpressions": [
+      "I want to be useful here, so let me be honest about capacity.",
+      "Taking those on would put both at risk.",
+      "I'd rather you make that call.",
+      "Than have me quietly under-deliver on both."
+    ],
+    "remember": [
+      "Offering to swap rather than refuse keeps you cooperative while protecting the work — the decision goes back to the person who owns priority.",
+      "Ending with a smaller offer of help shows the 'no' was about capacity, not willingness."
+    ]
+  },
+  {
+    "id": "interrupting-a-senior-person",
+    "term": "Interrupting a Senior Person Who Is Wrong",
+    "level": "C2",
+    "situation": "A VP is confidently blaming the wrong component in front of the room.",
+    "conversation": [
+      { "speaker": "VP", "text": "The latency issue is clearly the database." },
+      { "speaker": "You", "text": "Sorry to jump in — I want to make sure we don't chase the wrong thing. The profiling from Tuesday actually points to serialization on our side; the DB was under five milliseconds throughout. I can share the flame graph after this if that helps." },
+      { "speaker": "VP", "text": "Show me after. If that's right, it changes the plan." },
+      { "speaker": "You", "text": "I'll send it straight after the meeting." }
+    ],
+    "keyExpressions": [
+      "Sorry to jump in —",
+      "I want to make sure we don't chase the wrong thing.",
+      "The data actually points to…",
+      "I can share it after this if that helps."
+    ],
+    "remember": [
+      "Justify the interruption by the cost of not interrupting — 'so we don't chase the wrong thing' — rather than by who is right.",
+      "Lead with evidence and offer to show it. Correcting a senior person without data is a much riskier move."
+    ]
+  },
+  {
+    "id": "managing-up",
+    "term": "Managing Up When Priorities Keep Shifting",
+    "level": "C1",
+    "situation": "Your manager has changed direction several times and you need stability.",
+    "conversation": [
+      { "speaker": "You", "text": "I've noticed priorities have shifted a few times this month, and I want to make sure I'm working on what matters most to you. Would it help if I sent you a short weekly note — top three items, what's at risk, what I need from you? That way we stay aligned without extra meetings." },
+      { "speaker": "Manager", "text": "That would actually help a lot. Fridays?" },
+      { "speaker": "You", "text": "Fridays it is. If anything changes mid-week, just reply on the thread and I'll re-order." }
+    ],
+    "keyExpressions": [
+      "I want to make sure I'm working on what matters most to you.",
+      "Would it help if I sent you…?",
+      "Top three items, what's at risk, what I need from you.",
+      "Without extra meetings."
+    ],
+    "remember": [
+      "Frame it as your problem to solve, not their failing. 'I want to make sure I'm working on the right thing' criticises nobody.",
+      "'Without extra meetings' is what makes a busy manager say yes."
+    ]
+  },
+  {
+    "id": "responding-to-an-unfair-review",
+    "term": "Responding to an Unfair Performance Review",
+    "level": "C2",
+    "situation": "Your review blames you for a delay caused by a dependency you escalated.",
+    "conversation": [
+      { "speaker": "You", "text": "Thank you for the review. I want to engage with it seriously, and there are two points I'd like to discuss. The rating on 'delivery' cites the delayed migration — that delay was caused by the auth dependency, which I escalated twice in writing. I'd ask that the context be reflected." },
+      { "speaker": "Manager", "text": "I wasn't aware you'd escalated it twice." },
+      { "speaker": "You", "text": "I'll forward both threads. On 'communication', I accept the feedback fully and have already changed my update format. Can we revisit the delivery rating with that context?" },
+      { "speaker": "Manager", "text": "Send them over and I'll look again before it's finalised." }
+    ],
+    "keyExpressions": [
+      "I want to engage with it seriously.",
+      "I'd ask that the context be reflected.",
+      "I accept the feedback fully.",
+      "Can we revisit that with the context?"
+    ],
+    "remember": [
+      "Accept what's fair before contesting what isn't. Disputing everything makes the valid objection easy to dismiss.",
+      "Contest with evidence and a specific request — 'revisit this rating' — not with general unfairness."
+    ]
+  },
+  {
+    "id": "escalating-a-security-concern",
+    "term": "Escalating a Security Concern",
+    "level": "C1",
+    "situation": "You've found production credentials committed to the repository.",
+    "conversation": [
+      { "speaker": "You", "text": "I need to flag something that can't wait. The staging environment is using production credentials in a config that's committed to the repo. I've rotated the keys and removed the file, but we should assume exposure." },
+      { "speaker": "Manager", "text": "How long has it been like that?" },
+      { "speaker": "You", "text": "I'm not certain yet. I'd recommend we notify security today and audit the last thirty days of access. I'm happy to write it up." },
+      { "speaker": "Manager", "text": "Do that now and copy me. I'll let security know you're sending it." }
+    ],
+    "keyExpressions": [
+      "I need to flag something that can't wait.",
+      "I've already… but we should assume exposure.",
+      "I'd recommend we…",
+      "I'm happy to write it up."
+    ],
+    "remember": [
+      "Lead with urgency, then facts, then what you've already done. 'Can't wait' gets the right level of attention immediately.",
+      "'Assume exposure' is the correct security posture — never claim data is safe before an audit confirms it."
+    ]
+  }
+]

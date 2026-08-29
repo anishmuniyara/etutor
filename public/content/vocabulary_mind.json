@@ -1,0 +1,646 @@
+[
+  {
+    "id": "instinct",
+    "term": "Instinct",
+    "partOfSpeech": "Noun",
+    "level": "B1",
+    "meaning": "A natural way of behaving or knowing that you were not taught.",
+    "usage": "Use it for reactions that come before thought — in animals by nature, in people by long experience.",
+    "examples": [
+      { "context": "Nature", "sentence": "Birds build nests by instinct." },
+      { "context": "Work", "sentence": "Her first instinct was to check the raw data." },
+      { "context": "Parenting", "sentence": "Trust your instincts — you know your child." }
+    ],
+    "remember": [
+      "'Trust your instincts' means act on the feeling you had before you started reasoning."
+    ]
+  },
+  {
+    "id": "intuitive",
+    "term": "Intuitive",
+    "partOfSpeech": "Adjective",
+    "level": "B2",
+    "meaning": "Understood immediately, without needing explanation.",
+    "usage": "Two uses: a person who grasps things without analysis, and a design that needs no instructions. The second is now the more common.",
+    "examples": [
+      { "context": "Design", "sentence": "The app is intuitive — my father worked it out in a minute." },
+      { "context": "People", "sentence": "She's an intuitive manager who reads a room well." },
+      { "context": "Learning", "sentence": "The rule isn't intuitive, so it has to be memorised." }
+    ],
+    "remember": [
+      "Calling your own design intuitive proves nothing. Only someone seeing it for the first time can judge that."
+    ]
+  },
+  {
+    "id": "counterintuitive",
+    "term": "Counterintuitive",
+    "partOfSpeech": "Adjective",
+    "level": "C1",
+    "meaning": "True, but the opposite of what you would naturally expect.",
+    "usage": "Use it to flag a finding that surprises people — very common in research, economics, and product decisions.",
+    "examples": [
+      { "context": "Research", "sentence": "The result is counterintuitive: more choice reduced sales." },
+      { "context": "Business", "sentence": "It sounds counterintuitive, but raising the price increased demand." },
+      { "context": "Sport", "sentence": "Slowing down to go faster feels counterintuitive at first." }
+    ],
+    "remember": [
+      "It means surprising but correct. Something that is simply wrong is not counterintuitive."
+    ]
+  },
+  {
+    "id": "hunch",
+    "term": "Hunch",
+    "partOfSpeech": "Noun",
+    "level": "B2",
+    "meaning": "A feeling that something is true, without evidence for it.",
+    "usage": "Informal. Use it to offer an idea while being honest that you cannot yet back it up.",
+    "examples": [
+      { "context": "Work", "sentence": "I've got a hunch the problem is in the cache." },
+      { "context": "Detective", "sentence": "She followed a hunch and checked the second address." },
+      { "context": "Everyday", "sentence": "Just a hunch, but I think he's about to resign." }
+    ],
+    "remember": [
+      "Labelling something a hunch protects you — it says clearly that this is a guess, not a claim."
+    ]
+  },
+  {
+    "id": "heuristic",
+    "term": "Heuristic",
+    "partOfSpeech": "Noun / Adjective",
+    "level": "C2",
+    "meaning": "A rough rule that usually gives a good enough answer quickly.",
+    "usage": "Use it for practical shortcuts in decision-making, design, and computing — methods that trade perfect accuracy for speed.",
+    "examples": [
+      { "context": "Decisions", "sentence": "A useful heuristic: if it takes under two minutes, do it now." },
+      { "context": "Computing", "sentence": "The filter uses a heuristic rather than checking every case." },
+      { "context": "Design", "sentence": "We reviewed the interface against ten usability heuristics." }
+    ],
+    "remember": [
+      "A heuristic is deliberately imperfect. If it always gives the right answer, it is an algorithm, not a heuristic."
+    ]
+  },
+  {
+    "id": "conscience",
+    "term": "Conscience",
+    "partOfSpeech": "Noun",
+    "level": "B2",
+    "meaning": "Your inner sense of what is right and wrong.",
+    "usage": "Use it when a decision is moral rather than practical — what you can live with, not what is allowed.",
+    "examples": [
+      { "context": "Ethics", "sentence": "He resigned rather than act against his conscience." },
+      { "context": "Guilt", "sentence": "Her conscience troubled her for weeks afterwards." },
+      { "context": "Relief", "sentence": "Tell them the truth and you'll have a clear conscience." }
+    ],
+    "remember": [
+      "'Conscience' is your moral sense; 'conscious' means awake and aware. The spellings are close and the meanings are not."
+    ]
+  },
+  {
+    "id": "belief",
+    "term": "Belief",
+    "partOfSpeech": "Noun",
+    "level": "B1",
+    "meaning": "Something you accept as true, and confidence that it is.",
+    "usage": "Use it for convictions held without proof, and for confidence in a person or plan.",
+    "examples": [
+      { "context": "Conviction", "sentence": "It's my belief that the process is fundamentally broken." },
+      { "context": "Confidence", "sentence": "Her belief in the team never wavered." },
+      { "context": "Surprise", "sentence": "The scale of it was beyond belief." }
+    ],
+    "remember": [
+      "'Beyond belief' is a fixed phrase meaning astonishing.",
+      "Belief needs no evidence; knowledge does. That distinction matters in argument."
+    ]
+  },
+  {
+    "id": "obedience",
+    "term": "Obedience",
+    "partOfSpeech": "Noun",
+    "level": "B2",
+    "meaning": "Doing what you are told by someone in authority.",
+    "usage": "Use it about rules, training, and institutions. In modern English it often carries a hint of criticism when applied to adults.",
+    "examples": [
+      { "context": "Training", "sentence": "The dog goes to obedience classes on Saturdays." },
+      { "context": "Psychology", "sentence": "The experiment tested obedience to authority." },
+      { "context": "Workplace", "sentence": "They want obedience, not judgement." }
+    ],
+    "remember": [
+      "Praising an adult's obedience usually sounds like an insult. 'Reliability' or 'commitment' is what you normally mean."
+    ]
+  },
+  {
+    "id": "wisdom",
+    "term": "Wisdom",
+    "partOfSpeech": "Noun",
+    "level": "B2",
+    "meaning": "Good judgement built from experience, not just knowledge.",
+    "usage": "Use it about decisions that show perspective. Also in 'conventional wisdom' — what most people assume to be true.",
+    "examples": [
+      { "context": "Judgement", "sentence": "She had the wisdom to wait before replying." },
+      { "context": "Assumption", "sentence": "Conventional wisdom says never launch in December." },
+      { "context": "Doubt", "sentence": "I question the wisdom of cutting the testing budget." }
+    ],
+    "remember": [
+      "Knowledge is knowing facts; wisdom is knowing what to do with them.",
+      "'I question the wisdom of…' is a diplomatic way to say you think a decision is a mistake."
+    ]
+  },
+  {
+    "id": "procrastination",
+    "term": "Procrastination",
+    "partOfSpeech": "Noun",
+    "level": "B2",
+    "meaning": "Putting off something you should be doing now.",
+    "usage": "Use it about delay caused by reluctance rather than by circumstances. Often said about oneself, half-jokingly.",
+    "examples": [
+      { "context": "Study", "sentence": "My procrastination got worse as the deadline approached." },
+      { "context": "Self", "sentence": "Cleaning the kitchen was pure procrastination." },
+      { "context": "Work", "sentence": "The report is late through procrastination, not workload." }
+    ],
+    "remember": [
+      "The verb is 'procrastinate', and it needs no object: you procrastinate, you don't procrastinate something."
+    ]
+  },
+  {
+    "id": "aspire",
+    "term": "Aspire",
+    "partOfSpeech": "Verb",
+    "level": "B2",
+    "meaning": "To want to achieve something important, and work towards it.",
+    "usage": "Formal and positive. Use it for serious long-term ambitions rather than everyday wants.",
+    "examples": [
+      { "context": "Career", "sentence": "She aspires to lead the department one day." },
+      { "context": "Company", "sentence": "We aspire to be the most trusted name in the sector." },
+      { "context": "Personal", "sentence": "He aspired to a quieter life in the country." }
+    ],
+    "remember": [
+      "Always 'aspire to': aspire to a role, aspire to be better. Never 'aspire for'."
+    ]
+  },
+  {
+    "id": "accomplishment",
+    "term": "Accomplishment",
+    "partOfSpeech": "Noun",
+    "level": "B1",
+    "meaning": "Something difficult that you succeeded in doing.",
+    "usage": "Use it in CVs, reviews, and praise for a finished achievement. It emphasises the effort behind the result.",
+    "examples": [
+      { "context": "CV", "sentence": "List your three biggest accomplishments in the role." },
+      { "context": "Praise", "sentence": "Finishing the course while working full-time is a real accomplishment." },
+      { "context": "Feeling", "sentence": "There's a great sense of accomplishment when it finally ships." }
+    ],
+    "remember": [
+      "An accomplishment is finished. Something still in progress is a 'goal' or an 'ambition'."
+    ]
+  },
+  {
+    "id": "redeem",
+    "term": "Redeem",
+    "partOfSpeech": "Verb",
+    "level": "C1",
+    "meaning": "To make up for a fault — or to exchange a voucher for what it's worth.",
+    "usage": "The moral sense is about recovering a damaged reputation. The commercial sense is everyday: redeeming points or coupons.",
+    "examples": [
+      { "context": "Reputation", "sentence": "He redeemed himself with a superb second half." },
+      { "context": "Shopping", "sentence": "You can redeem the voucher online or in store." },
+      { "context": "Review", "sentence": "The acting redeems an otherwise weak film." }
+    ],
+    "remember": [
+      "'Redeeming feature' is a set phrase for the one good thing about something otherwise poor."
+    ]
+  },
+  {
+    "id": "redemption",
+    "term": "Redemption",
+    "partOfSpeech": "Noun",
+    "level": "C1",
+    "meaning": "Being saved from blame after having done wrong.",
+    "usage": "Use it in stories, sport, and journalism about someone recovering their reputation after a serious failure.",
+    "examples": [
+      { "context": "Sport", "sentence": "The final was his shot at redemption." },
+      { "context": "Story", "sentence": "It's a redemption arc — he starts out as the villain." },
+      { "context": "Public life", "sentence": "There was no path to redemption after the scandal." }
+    ],
+    "remember": [
+      "Redemption requires a prior fall. Someone who never failed cannot be redeemed."
+    ]
+  },
+  {
+    "id": "sabotage",
+    "term": "Sabotage",
+    "partOfSpeech": "Noun / Verb",
+    "level": "B2",
+    "meaning": "To deliberately damage or obstruct something so it fails.",
+    "usage": "Use it for intentional harm to plans, equipment, or negotiations — and reflexively in 'self-sabotage'.",
+    "examples": [
+      { "context": "Work", "sentence": "Withholding the data effectively sabotaged the review." },
+      { "context": "Psychology", "sentence": "He self-sabotages whenever things start going well." },
+      { "context": "History", "sentence": "The rail line was sabotaged during the war." }
+    ],
+    "remember": [
+      "It requires intent. Accidental damage is not sabotage, however costly."
+    ]
+  },
+  {
+    "id": "intrinsic",
+    "term": "Intrinsic",
+    "partOfSpeech": "Adjective",
+    "level": "C1",
+    "meaning": "Belonging to something as part of its nature, not added from outside.",
+    "usage": "Use it to separate what something is from what we attach to it — especially in 'intrinsic motivation', doing something for its own sake.",
+    "examples": [
+      { "context": "Motivation", "sentence": "Intrinsic motivation lasts longer than a bonus." },
+      { "context": "Value", "sentence": "The intrinsic value of the land hasn't changed." },
+      { "context": "Design", "sentence": "Complexity is intrinsic to the problem, not the solution." }
+    ],
+    "remember": [
+      "Its opposite is 'extrinsic' — coming from outside, like pay or praise."
+    ]
+  },
+  {
+    "id": "pursuing",
+    "term": "Pursuing",
+    "partOfSpeech": "Verb",
+    "level": "B2",
+    "meaning": "Actively working towards something over time.",
+    "usage": "Formal. Use it for careers, qualifications, legal action, and opportunities you are chasing seriously.",
+    "examples": [
+      { "context": "Education", "sentence": "She's pursuing a master's degree part-time." },
+      { "context": "Business", "sentence": "We're pursuing two options in parallel." },
+      { "context": "Legal", "sentence": "They're pursuing the matter through the courts." }
+    ],
+    "remember": [
+      "'Pursue' implies sustained effort. For a single attempt, 'try' is the honest word."
+    ]
+  },
+  {
+    "id": "intrigue",
+    "term": "Intrigue",
+    "partOfSpeech": "Verb / Noun",
+    "level": "B2",
+    "meaning": "To make someone curious — or secret plotting behind the scenes.",
+    "usage": "The verb is a compliment: something intrigues you. The noun is negative: political intrigue means scheming.",
+    "examples": [
+      { "context": "Curiosity", "sentence": "The job title intrigued me enough to read on." },
+      { "context": "Politics", "sentence": "The company is full of intrigue at the moment." },
+      { "context": "Feedback", "sentence": "I'm intrigued — tell me more." }
+    ],
+    "remember": [
+      "'I'm intrigued' is a genuinely useful response: it signals real interest without committing you to agreement."
+    ]
+  },
+  {
+    "id": "incongruent",
+    "term": "Incongruent",
+    "partOfSpeech": "Adjective",
+    "level": "C1",
+    "meaning": "Not fitting together; out of keeping with the surroundings.",
+    "usage": "Use it when two things that should match don't — a message and a tone, a value and a behaviour.",
+    "examples": [
+      { "context": "Communication", "sentence": "His cheerful tone was incongruent with the bad news." },
+      { "context": "Brand", "sentence": "The advert felt incongruent with everything else they publish." },
+      { "context": "Data", "sentence": "These figures are incongruent with last quarter's." }
+    ],
+    "remember": [
+      "'Incongruous' is the more common everyday form; 'incongruent' is preferred in psychology and formal analysis."
+    ]
+  },
+  {
+    "id": "foster",
+    "term": "Foster",
+    "partOfSpeech": "Verb",
+    "level": "B2",
+    "meaning": "To encourage something to develop — or to care for a child who is not yours.",
+    "usage": "The figurative sense is common in workplace and policy writing: fostering trust, collaboration, or innovation.",
+    "examples": [
+      { "context": "Workplace", "sentence": "Small teams foster a stronger sense of ownership." },
+      { "context": "Policy", "sentence": "The grant is designed to foster local enterprise." },
+      { "context": "Family", "sentence": "They fostered two children before adopting." }
+    ],
+    "remember": [
+      "You foster conditions and qualities, not objects. 'Foster a culture' works; 'foster a building' does not."
+    ]
+  },
+  {
+    "id": "galvanize",
+    "term": "Galvanize",
+    "partOfSpeech": "Verb",
+    "level": "C1",
+    "meaning": "To shock a group into sudden action.",
+    "usage": "Use it when something jolts people who were previously passive — a speech, a crisis, a deadline.",
+    "examples": [
+      { "context": "Politics", "sentence": "The announcement galvanized the opposition." },
+      { "context": "Team", "sentence": "Losing that client galvanized the whole department." },
+      { "context": "Campaign", "sentence": "The images galvanized public support overnight." }
+    ],
+    "remember": [
+      "It implies suddenness and energy. Gradual encouragement is 'foster', not galvanize.",
+      "British spelling 'galvanise' is equally correct."
+    ]
+  },
+  {
+    "id": "cultivate",
+    "term": "Cultivate",
+    "partOfSpeech": "Verb",
+    "level": "B2",
+    "meaning": "To grow something deliberately, with sustained care.",
+    "usage": "Literal for crops; figurative for relationships, skills, and habits built patiently over time.",
+    "examples": [
+      { "context": "Career", "sentence": "He's cultivated a strong network over twenty years." },
+      { "context": "Habit", "sentence": "Cultivating a reading habit takes months, not days." },
+      { "context": "Farming", "sentence": "The land has been cultivated for centuries." }
+    ],
+    "remember": [
+      "Cultivating implies slow, deliberate effort. It is the opposite of anything sudden."
+    ]
+  },
+  {
+    "id": "alleviate",
+    "term": "Alleviate",
+    "partOfSpeech": "Verb",
+    "level": "C1",
+    "meaning": "To make something bad less severe, without removing it.",
+    "usage": "Formal. Use it for pain, pressure, poverty, and congestion — problems you can reduce but not solve outright.",
+    "examples": [
+      { "context": "Medicine", "sentence": "The treatment alleviates the symptoms but isn't a cure." },
+      { "context": "Work", "sentence": "Hiring two more people would alleviate the pressure." },
+      { "context": "Policy", "sentence": "The measures are intended to alleviate poverty." }
+    ],
+    "remember": [
+      "Alleviating is not solving. The problem remains — it just hurts less."
+    ]
+  },
+  {
+    "id": "underpin",
+    "term": "Underpin",
+    "partOfSpeech": "Verb",
+    "level": "C1",
+    "meaning": "To support something from below and hold it up.",
+    "usage": "Use it for the assumptions, evidence, or funding that a larger argument or structure depends on.",
+    "examples": [
+      { "context": "Argument", "sentence": "Three assumptions underpin the whole forecast." },
+      { "context": "Business", "sentence": "Long-term contracts underpin the company's revenue." },
+      { "context": "Construction", "sentence": "The wall had to be underpinned before building could continue." }
+    ],
+    "remember": [
+      "What underpins something is usually invisible — which is why it's worth naming explicitly."
+    ]
+  },
+  {
+    "id": "advocate-for",
+    "term": "Advocate for",
+    "partOfSpeech": "Verb",
+    "level": "B2",
+    "meaning": "To publicly argue in favour of something or someone.",
+    "usage": "Use it in professional and political contexts for taking a clear, sustained position — stronger than 'suggest'.",
+    "examples": [
+      { "context": "Work", "sentence": "She advocated for a four-day week for years." },
+      { "context": "Team", "sentence": "Someone needs to advocate for the users in this meeting." },
+      { "context": "Policy", "sentence": "The charity advocates for better housing standards." }
+    ],
+    "remember": [
+      "As a noun, the stress moves and the ending changes sound: ADvo-kut (noun), ADvo-kate (verb)."
+    ]
+  },
+  {
+    "id": "delve-into",
+    "term": "Delve into",
+    "partOfSpeech": "Phrasal verb",
+    "level": "C1",
+    "meaning": "To examine something deeply and thoroughly.",
+    "usage": "Use it for serious investigation of a topic, dataset, or history — more thorough than 'look at'.",
+    "examples": [
+      { "context": "Research", "sentence": "The second chapter delves into the causes." },
+      { "context": "Work", "sentence": "I haven't had time to delve into the numbers yet." },
+      { "context": "History", "sentence": "She delved into the family archives." }
+    ],
+    "remember": [
+      "It suggests depth over breadth. Skimming widely is 'surveying', not delving."
+    ]
+  },
+  {
+    "id": "rigorous",
+    "term": "Rigorous",
+    "partOfSpeech": "Adjective",
+    "level": "C1",
+    "meaning": "Extremely careful and thorough, following strict standards.",
+    "usage": "Use it about testing, research, and processes where nothing was skipped. High praise in technical and academic settings.",
+    "examples": [
+      { "context": "Research", "sentence": "The study is methodologically rigorous." },
+      { "context": "Testing", "sentence": "Every release goes through rigorous testing." },
+      { "context": "Training", "sentence": "It's a rigorous programme — about half drop out." }
+    ],
+    "remember": [
+      "'Rigorous' praises the method; 'meticulous' praises attention to detail. Related but not the same."
+    ]
+  },
+  {
+    "id": "meticulous",
+    "term": "Meticulous",
+    "partOfSpeech": "Adjective",
+    "level": "B2",
+    "meaning": "Extremely careful about small details.",
+    "usage": "Use it as strong praise for someone whose work has nothing missed or out of place.",
+    "examples": [
+      { "context": "Work", "sentence": "She keeps meticulous records of every change." },
+      { "context": "Craft", "sentence": "The restoration was meticulous — you can't see the join." },
+      { "context": "Planning", "sentence": "His preparation was meticulous, which is why nothing went wrong." }
+    ],
+    "remember": [
+      "Almost always positive. To criticise the same behaviour, English uses 'pedantic' or 'nitpicking'."
+    ]
+  },
+  {
+    "id": "succinct",
+    "term": "Succinct",
+    "partOfSpeech": "Adjective",
+    "level": "C1",
+    "meaning": "Expressed clearly in very few words.",
+    "usage": "Use it as praise for writing or speech that wastes nothing. Common in feedback on reports and presentations.",
+    "examples": [
+      { "context": "Feedback", "sentence": "A succinct summary would be more useful than ten slides." },
+      { "context": "Writing", "sentence": "Try to make the opening paragraph more succinct." },
+      { "context": "Meeting", "sentence": "Her answer was succinct and completely clear." }
+    ],
+    "remember": [
+      "Succinct means short *and* complete. Merely short and unclear is 'vague'.",
+      "Pronounced suk-SINKT — the first c is silent."
+    ]
+  },
+  {
+    "id": "coherent",
+    "term": "Coherent",
+    "partOfSpeech": "Adjective",
+    "level": "C1",
+    "meaning": "Logical and consistent, with all parts fitting together.",
+    "usage": "Use it about arguments, strategies, and explanations that hold together as a whole rather than as separate pieces.",
+    "examples": [
+      { "context": "Strategy", "sentence": "We have five initiatives but no coherent strategy." },
+      { "context": "Writing", "sentence": "The argument is coherent but the evidence is thin." },
+      { "context": "Speech", "sentence": "He was too tired to be coherent." }
+    ],
+    "remember": [
+      "Coherent is about internal consistency, not correctness. A coherent argument can still be wrong."
+    ]
+  },
+  {
+    "id": "elegant",
+    "term": "Elegant",
+    "partOfSpeech": "Adjective",
+    "level": "B2",
+    "meaning": "Beautifully simple, and effective because of that simplicity.",
+    "usage": "Beyond appearance, it is high praise for a solution that solves a hard problem with surprisingly little.",
+    "examples": [
+      { "context": "Engineering", "sentence": "It's an elegant solution — thirty lines instead of three hundred." },
+      { "context": "Maths", "sentence": "The proof is famous for being elegant." },
+      { "context": "Design", "sentence": "An elegant design in dark grey." }
+    ],
+    "remember": [
+      "In technical contexts elegance means economy, not decoration. The elegant answer is the one that removes complexity."
+    ]
+  },
+  {
+    "id": "brittle",
+    "term": "Brittle",
+    "partOfSpeech": "Adjective",
+    "level": "C1",
+    "meaning": "Hard but liable to break suddenly under pressure.",
+    "usage": "Literal for materials. Figurative for systems, processes, and relationships that work until they abruptly don't.",
+    "examples": [
+      { "context": "Materials", "sentence": "Old plastic becomes brittle and cracks." },
+      { "context": "Systems", "sentence": "The setup is brittle — one rename breaks everything." },
+      { "context": "People", "sentence": "There was a brittle politeness in the room." }
+    ],
+    "remember": [
+      "Brittle is the opposite of 'robust' — which is why the pair appears constantly in technical discussion."
+    ]
+  },
+  {
+    "id": "pervasive",
+    "term": "Pervasive",
+    "partOfSpeech": "Adjective",
+    "level": "C1",
+    "meaning": "Present everywhere throughout something.",
+    "usage": "Use it for influences, attitudes, and problems that have spread into every part of a place or organisation.",
+    "examples": [
+      { "context": "Culture", "sentence": "There's a pervasive fear of speaking up." },
+      { "context": "Technology", "sentence": "Smartphones are now pervasive in every age group." },
+      { "context": "Problem", "sentence": "The issue is pervasive, not confined to one team." }
+    ],
+    "remember": [
+      "'Pervasive' says it is everywhere; 'persistent' says it keeps coming back. Different complaints."
+    ]
+  },
+  {
+    "id": "articulate",
+    "term": "Articulate",
+    "partOfSpeech": "Adjective / Verb",
+    "level": "C1",
+    "meaning": "Able to express ideas clearly — or to put something into clear words.",
+    "usage": "The adjective praises a speaker. The verb is common at work: articulating a problem, a vision, or a concern.",
+    "examples": [
+      { "context": "People", "sentence": "She's the most articulate person on the panel." },
+      { "context": "Work", "sentence": "Can you articulate exactly what's blocking you?" },
+      { "context": "Strategy", "sentence": "We need to articulate the value in one sentence." }
+    ],
+    "remember": [
+      "Pronunciation splits by part of speech: ar-TIK-yuh-lut (adjective), ar-TIK-yuh-late (verb)."
+    ]
+  },
+  {
+    "id": "cohesive",
+    "term": "Cohesive",
+    "partOfSpeech": "Adjective",
+    "level": "C1",
+    "meaning": "Sticking together well as a unit.",
+    "usage": "Use it about teams that work as one, and about designs or documents whose parts feel like a single piece.",
+    "examples": [
+      { "context": "Team", "sentence": "They're a cohesive team that's been together for years." },
+      { "context": "Design", "sentence": "The pages need to feel more cohesive." },
+      { "context": "Writing", "sentence": "It's a collection of good sections, but not a cohesive report." }
+    ],
+    "remember": [
+      "'Cohesive' is about parts holding together; 'coherent' is about logic making sense. Often confused."
+    ]
+  },
+  {
+    "id": "compelling",
+    "term": "Compelling",
+    "partOfSpeech": "Adjective",
+    "level": "C1",
+    "meaning": "So strong or interesting that you cannot dismiss it.",
+    "usage": "Use it for arguments and evidence that force agreement, and for stories that hold attention completely.",
+    "examples": [
+      { "context": "Argument", "sentence": "She made a compelling case for delaying the launch." },
+      { "context": "Evidence", "sentence": "The evidence isn't compelling enough to act on yet." },
+      { "context": "Story", "sentence": "It's a compelling read from the first page." }
+    ],
+    "remember": [
+      "'A compelling reason' is the standard phrase for a justification strong enough to override the default."
+    ]
+  },
+  {
+    "id": "holistic",
+    "term": "Holistic",
+    "partOfSpeech": "Adjective",
+    "level": "C1",
+    "meaning": "Considering the whole rather than the parts separately.",
+    "usage": "Use it in health, education, and business for approaches that treat everything as connected.",
+    "examples": [
+      { "context": "Health", "sentence": "They take a holistic approach to treatment." },
+      { "context": "Business", "sentence": "We need a holistic view of the customer journey." },
+      { "context": "Assessment", "sentence": "Candidates are assessed holistically, not just on the test." }
+    ],
+    "remember": [
+      "Overused in business writing to the point of meaninglessness. Only use it when you genuinely mean 'all parts together'."
+    ]
+  },
+  {
+    "id": "pragmatic",
+    "term": "Pragmatic",
+    "partOfSpeech": "Adjective",
+    "level": "B2",
+    "meaning": "Dealing with things practically rather than by strict theory or ideals.",
+    "usage": "Use it approvingly about decisions that accept real constraints — time, money, people — instead of chasing the perfect answer.",
+    "examples": [
+      { "context": "Decisions", "sentence": "Let's be pragmatic: we ship what works and fix the rest later." },
+      { "context": "People", "sentence": "He's pragmatic — he'd rather solve it than win the argument." },
+      { "context": "Politics", "sentence": "It was a pragmatic compromise nobody loved." }
+    ],
+    "remember": [
+      "'Pragmatic' is usually a compliment, but it can be a polite way of saying a principle was abandoned."
+    ]
+  },
+  {
+    "id": "tangible",
+    "term": "Tangible",
+    "partOfSpeech": "Adjective",
+    "level": "B2",
+    "meaning": "Real and definite enough to be seen or measured.",
+    "usage": "Use it to demand concrete results rather than promises — very common in business and project reviews.",
+    "examples": [
+      { "context": "Business", "sentence": "We need tangible results by the end of the quarter." },
+      { "context": "Benefit", "sentence": "The tangible benefit is a two-hour saving per week." },
+      { "context": "Atmosphere", "sentence": "The relief in the room was almost tangible." }
+    ],
+    "remember": [
+      "Its opposite, 'intangible', is not an insult — brand and trust are intangible and still valuable."
+    ]
+  },
+  {
+    "id": "nominal",
+    "term": "Nominal",
+    "partOfSpeech": "Adjective",
+    "level": "C1",
+    "meaning": "In name only — or so small as to be symbolic.",
+    "usage": "Two senses worth knowing: a title that isn't real authority, and a fee charged only to cover formalities.",
+    "examples": [
+      { "context": "Authority", "sentence": "He's the nominal head, but she makes the decisions." },
+      { "context": "Cost", "sentence": "There's a nominal fee of one pound to register." },
+      { "context": "Engineering", "sentence": "All systems are nominal." }
+    ],
+    "remember": [
+      "In aerospace, 'nominal' means working exactly as expected — the opposite of the everyday 'in name only' sense. Context decides."
+    ]
+  }
+]

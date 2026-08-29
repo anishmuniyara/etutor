@@ -1,0 +1,461 @@
+[
+  {
+    "id": "borrow-vs-lend",
+    "term": "Borrow vs Lend",
+    "level": "A2",
+    "meaning": "The same transaction seen from opposite sides.",
+    "items": [
+      { "term": "Borrow", "meaning": "To take something temporarily. You borrow FROM someone." },
+      { "term": "Lend", "meaning": "To give something temporarily. You lend TO someone." }
+    ],
+    "difference": "The receiver borrows; the giver lends.",
+    "examples": [
+      { "context": "Borrow", "sentence": "Can I borrow your charger?" },
+      { "context": "Lend", "sentence": "Can you lend me your charger?" },
+      { "context": "Money", "sentence": "I borrowed from the bank, and the bank lent to me." }
+    ],
+    "remember": [
+      "'Borrow me your charger' is wrong. The giver's verb is lend."
+    ]
+  },
+  {
+    "id": "affect-vs-effect",
+    "term": "Affect vs Effect",
+    "level": "B1",
+    "meaning": "Nearly identical in sound, different in job.",
+    "items": [
+      { "term": "Affect", "meaning": "Usually a verb: to influence something." },
+      { "term": "Effect", "meaning": "Usually a noun: the result of an influence." }
+    ],
+    "difference": "Affect is the action; effect is the outcome.",
+    "examples": [
+      { "context": "Verb", "sentence": "The outage affected users in two regions." },
+      { "context": "Noun", "sentence": "The effect was minor." }
+    ],
+    "remember": [
+      "A for Action (affect), E for End result (effect) covers nearly every case.",
+      "'Effect' can be a verb meaning 'bring about' — 'to effect change' — but it's rare and formal."
+    ]
+  },
+  {
+    "id": "accept-vs-except",
+    "term": "Accept vs Except",
+    "level": "A2",
+    "meaning": "One receives, the other excludes.",
+    "items": [
+      { "term": "Accept", "meaning": "To receive or agree to something." },
+      { "term": "Except", "meaning": "Excluding; apart from." }
+    ],
+    "difference": "Accept takes something in; except leaves something out.",
+    "examples": [
+      { "context": "Both", "sentence": "I accept the proposal, except section three." },
+      { "context": "Work", "sentence": "Everyone accepted the change except the finance team." }
+    ],
+    "remember": [
+      "They sound almost identical in fast speech, so this is mostly a writing error."
+    ]
+  },
+  {
+    "id": "advice-vs-advise",
+    "term": "Advice vs Advise",
+    "level": "B1",
+    "meaning": "The noun and the verb, spelt and pronounced differently.",
+    "items": [
+      { "term": "Advice", "meaning": "The noun. Ends in an 's' sound." },
+      { "term": "Advise", "meaning": "The verb. Ends in a 'z' sound." }
+    ],
+    "difference": "You give advice; you advise someone.",
+    "examples": [
+      { "context": "Noun", "sentence": "My advice: ship it." },
+      { "context": "Verb", "sentence": "I'd advise waiting until Monday." }
+    ],
+    "remember": [
+      "'Advice' is uncountable: 'some advice' or 'a piece of advice', never 'an advice'."
+    ]
+  },
+  {
+    "id": "practice-vs-practise",
+    "term": "Practice vs Practise",
+    "level": "B2",
+    "meaning": "A British spelling distinction between the noun and the verb.",
+    "items": [
+      { "term": "Practice", "meaning": "The noun in British English — and both noun and verb in American English." },
+      { "term": "Practise", "meaning": "The verb in British English only." }
+    ],
+    "difference": "British English splits them by spelling; American English uses 'practice' for both.",
+    "examples": [
+      { "context": "British noun", "sentence": "It's standard practice to review before merging." },
+      { "context": "British verb", "sentence": "I practise every morning." },
+      { "context": "American", "sentence": "I practice every morning." }
+    ],
+    "remember": [
+      "Same pattern as licence/license and advice/advise — the 'c' form is the noun.",
+      "Pick one variety and stay consistent across a document."
+    ]
+  },
+  {
+    "id": "its-vs-it-is",
+    "term": "Its vs It's",
+    "level": "A2",
+    "meaning": "One shows possession, the other is a contraction.",
+    "items": [
+      { "term": "Its", "meaning": "Belonging to it. No apostrophe, like 'his' and 'her'." },
+      { "term": "It's", "meaning": "Short for 'it is' or 'it has'." }
+    ],
+    "difference": "If you can say 'it is' instead, use the apostrophe. Otherwise don't.",
+    "examples": [
+      { "context": "Both", "sentence": "The service lost its config; it's down." },
+      { "context": "Possession", "sentence": "The company changed its name." }
+    ],
+    "remember": [
+      "The most common punctuation error in written English. The test takes one second: try saying 'it is'."
+    ]
+  },
+  {
+    "id": "then-vs-than",
+    "term": "Then vs Than",
+    "level": "A2",
+    "meaning": "One is about time, the other about comparison.",
+    "items": [
+      { "term": "Then", "meaning": "Refers to time or sequence: next, after that." },
+      { "term": "Than", "meaning": "Used for comparison." }
+    ],
+    "difference": "Then orders events; than compares things.",
+    "examples": [
+      { "context": "Both", "sentence": "It's faster than before, then we deploy." },
+      { "context": "Comparison", "sentence": "This approach costs less than the alternative." }
+    ],
+    "remember": [
+      "'Then' has an e, like 'time'. 'Than' has an a, like 'compare'."
+    ]
+  },
+  {
+    "id": "lose-vs-loose",
+    "term": "Lose vs Loose",
+    "level": "A2",
+    "meaning": "One letter apart, and completely different.",
+    "items": [
+      { "term": "Lose", "meaning": "A verb: to misplace something, or to fail to win." },
+      { "term": "Loose", "meaning": "An adjective: not tight, not firmly fixed." }
+    ],
+    "difference": "Lose is what you do; loose is how something is.",
+    "examples": [
+      { "context": "Verb", "sentence": "We'll lose data if the write fails." },
+      { "context": "Adjective", "sentence": "Loose coupling makes the system easier to change." }
+    ],
+    "remember": [
+      "'Loose' rhymes with 'goose'; 'lose' rhymes with 'news'. The extra o makes it looser."
+    ]
+  },
+  {
+    "id": "fewer-vs-less",
+    "term": "Fewer vs Less",
+    "level": "B1",
+    "meaning": "Both mean a smaller quantity, but attach to different nouns.",
+    "items": [
+      { "term": "Fewer", "meaning": "For things you can count." },
+      { "term": "Less", "meaning": "For things you cannot count." }
+    ],
+    "difference": "If you can count it, use fewer; if you can't, use less.",
+    "examples": [
+      { "context": "Both", "sentence": "Fewer bugs, less downtime." },
+      { "context": "Work", "sentence": "Fewer meetings this week, so less stress." }
+    ],
+    "remember": [
+      "Measurements are the exception and take 'less': less than ten kilometres, less than five pounds."
+    ]
+  },
+  {
+    "id": "amount-vs-number",
+    "term": "Amount vs Number",
+    "level": "B1",
+    "meaning": "The same countable/uncountable split as fewer and less.",
+    "items": [
+      { "term": "Amount", "meaning": "For uncountable quantities." },
+      { "term": "Number", "meaning": "For countable things." }
+    ],
+    "difference": "Amount measures a mass; number counts items.",
+    "examples": [
+      { "context": "Both", "sentence": "The amount of traffic and the number of requests are different metrics." },
+      { "context": "Work", "sentence": "A large number of users, and a considerable amount of data." }
+    ],
+    "remember": [
+      "'A large amount of users' is one of the most common errors in technical writing."
+    ]
+  },
+  {
+    "id": "farther-vs-further",
+    "term": "Farther vs Further",
+    "level": "B2",
+    "meaning": "One is physical distance, the other abstract.",
+    "items": [
+      { "term": "Farther", "meaning": "Physical distance you could measure." },
+      { "term": "Further", "meaning": "Abstract extent — more discussion, more work, additional." }
+    ],
+    "difference": "Farther covers ground; further covers everything else.",
+    "examples": [
+      { "context": "Abstract", "sentence": "Further discussion is needed before we commit." },
+      { "context": "Physical", "sentence": "The second office is farther from the station." }
+    ],
+    "remember": [
+      "British English often uses 'further' for both. 'Farther' is safe only for literal distance."
+    ]
+  },
+  {
+    "id": "complement-vs-compliment",
+    "term": "Complement vs Compliment",
+    "level": "B2",
+    "meaning": "Same pronunciation, different spelling and meaning.",
+    "items": [
+      { "term": "Complement", "meaning": "Something that completes or improves another thing." },
+      { "term": "Compliment", "meaning": "A remark praising someone." }
+    ],
+    "difference": "A complement completes; a compliment praises.",
+    "examples": [
+      { "context": "Complement", "sentence": "The two tools complement each other." },
+      { "context": "Compliment", "sentence": "He complimented the design team." }
+    ],
+    "remember": [
+      "Complement contains 'complete' — that spelling link is the easiest way to keep them apart."
+    ]
+  },
+  {
+    "id": "principal-vs-principle",
+    "term": "Principal vs Principle",
+    "level": "B2",
+    "meaning": "One means main or a person; the other means a rule.",
+    "items": [
+      { "term": "Principal", "meaning": "Main or most important — also a job title." },
+      { "term": "Principle", "meaning": "A fundamental rule or belief." }
+    ],
+    "difference": "Principal describes importance; a principle is a belief.",
+    "examples": [
+      { "context": "Title", "sentence": "She's a principal engineer." },
+      { "context": "Rule", "sentence": "That breaks a core design principle." }
+    ],
+    "remember": [
+      "The principal is your 'pal' — the old classroom trick, and it still works."
+    ]
+  },
+  {
+    "id": "stationary-vs-stationery",
+    "term": "Stationary vs Stationery",
+    "level": "B2",
+    "meaning": "One means not moving, the other means paper supplies.",
+    "items": [
+      { "term": "Stationary", "meaning": "Not moving." },
+      { "term": "Stationery", "meaning": "Paper, pens, and office supplies." }
+    ],
+    "difference": "Stationary with an 'a' stands still; stationery with an 'e' is envelopes.",
+    "examples": [
+      { "context": "Not moving", "sentence": "The train was stationary for twenty minutes." },
+      { "context": "Supplies", "sentence": "Order more stationery for the office." }
+    ],
+    "remember": [
+      "StationEry has an e, like Envelope. StationAry has an a, like At rest."
+    ]
+  },
+  {
+    "id": "ensure-insure-assure",
+    "term": "Ensure vs Insure vs Assure",
+    "level": "B2",
+    "meaning": "Three near-identical words with three separate jobs.",
+    "items": [
+      { "term": "Ensure", "meaning": "To make certain something happens." },
+      { "term": "Insure", "meaning": "To arrange financial insurance against a loss." },
+      { "term": "Assure", "meaning": "To remove someone's doubt — always about a person." }
+    ],
+    "difference": "You ensure an outcome, insure an asset, and assure a person.",
+    "examples": [
+      { "context": "Ensure", "sentence": "Ensure the tests pass before merging." },
+      { "context": "Assure", "sentence": "I assure you it's safe." },
+      { "context": "Insure", "sentence": "The equipment is insured against fire." }
+    ],
+    "remember": [
+      "The clean rule: assure needs a person after it, ensure needs an outcome."
+    ]
+  },
+  {
+    "id": "lay-vs-lie",
+    "term": "Lay vs Lie",
+    "level": "B2",
+    "meaning": "One takes an object, the other doesn't.",
+    "items": [
+      { "term": "Lay", "meaning": "To put something down. Always needs an object: lay, laid, laid." },
+      { "term": "Lie", "meaning": "To be in a horizontal position. No object: lie, lay, lain." }
+    ],
+    "difference": "You lay something down; you lie down yourself.",
+    "examples": [
+      { "context": "Lay", "sentence": "Lay the cable along the wall." },
+      { "context": "Lie", "sentence": "The file lies in /tmp until cleanup runs." }
+    ],
+    "remember": [
+      "The confusion is genuine: the past tense of 'lie' is 'lay'. 'Yesterday I lay down' is correct."
+    ]
+  },
+  {
+    "id": "bring-vs-take",
+    "term": "Bring vs Take",
+    "level": "A2",
+    "meaning": "Both move something, in opposite directions relative to the speaker.",
+    "items": [
+      { "term": "Bring", "meaning": "Move something towards where the speaker is." },
+      { "term": "Take", "meaning": "Move something away from where the speaker is." }
+    ],
+    "difference": "Bring is towards me; take is away from me.",
+    "examples": [
+      { "context": "Both", "sentence": "Bring the laptop here; take it to the meeting." },
+      { "context": "Host", "sentence": "Bring a friend if you like." }
+    ],
+    "remember": [
+      "The speaker's position decides. 'Bring an umbrella' from a host means bring it here."
+    ]
+  },
+  {
+    "id": "say-vs-tell",
+    "term": "Say vs Tell",
+    "level": "A2",
+    "meaning": "Both report speech, but they take different grammar.",
+    "items": [
+      { "term": "Say", "meaning": "Focuses on the words. Doesn't take a person directly after it." },
+      { "term": "Tell", "meaning": "Focuses on the listener. Needs a person straight after it." }
+    ],
+    "difference": "You say something; you tell someone something.",
+    "examples": [
+      { "context": "Tell", "sentence": "Tell me the status." },
+      { "context": "Say", "sentence": "She said the status was green." },
+      { "context": "With to", "sentence": "She said to me that it was fine." }
+    ],
+    "remember": [
+      "'Tell the status' is wrong — tell always needs a person. 'Say me' is wrong for the same reason in reverse."
+    ]
+  },
+  {
+    "id": "remember-vs-remind",
+    "term": "Remember vs Remind",
+    "level": "B1",
+    "meaning": "One you do yourself; the other someone does to you.",
+    "items": [
+      { "term": "Remember", "meaning": "To recall something in your own mind." },
+      { "term": "Remind", "meaning": "To make someone else remember." }
+    ],
+    "difference": "You remember by yourself; someone reminds you.",
+    "examples": [
+      { "context": "Remind", "sentence": "Remind me to send the PR." },
+      { "context": "Remember", "sentence": "I remembered to lock the door." }
+    ],
+    "remember": [
+      "'Remind me the meeting' is wrong. Use 'remind me about the meeting' or 'remind me to attend'."
+    ]
+  },
+  {
+    "id": "learn-vs-teach",
+    "term": "Learn vs Teach",
+    "level": "A2",
+    "meaning": "One receives knowledge, the other gives it.",
+    "items": [
+      { "term": "Learn", "meaning": "To receive knowledge or a skill." },
+      { "term": "Teach", "meaning": "To give knowledge to someone else." }
+    ],
+    "difference": "The student learns; the teacher teaches.",
+    "examples": [
+      { "context": "Learn", "sentence": "I learned Go last year." },
+      { "context": "Teach", "sentence": "He taught me Go." }
+    ],
+    "remember": [
+      "'He learned me Go' is wrong in standard English. The giver's verb is teach."
+    ]
+  },
+  {
+    "id": "job-vs-work",
+    "term": "Job vs Work",
+    "level": "A2",
+    "meaning": "One is a position, the other the activity.",
+    "items": [
+      { "term": "Job", "meaning": "Countable — the specific position you hold." },
+      { "term": "Work", "meaning": "Uncountable — the activity, or the place you go." }
+    ],
+    "difference": "You have a job; you do work.",
+    "examples": [
+      { "context": "Both", "sentence": "A new job, and lots of work." },
+      { "context": "Place", "sentence": "I'll call you when I get to work." }
+    ],
+    "remember": [
+      "'A work' is wrong when you mean employment. As a plural, 'works' means a factory or an artist's output."
+    ]
+  },
+  {
+    "id": "trip-journey-travel",
+    "term": "Trip vs Journey vs Travel",
+    "level": "B1",
+    "meaning": "Three words about going somewhere, at different scales.",
+    "items": [
+      { "term": "Trip", "meaning": "The whole visit, including going and coming back. Countable." },
+      { "term": "Journey", "meaning": "The moving part — getting from one place to another." },
+      { "term": "Travel", "meaning": "The general activity. Usually a verb or an uncountable noun." }
+    ],
+    "difference": "A trip is the whole visit, a journey is the movement, travel is the activity.",
+    "examples": [
+      { "context": "Trip", "sentence": "We took a trip to Goa last year." },
+      { "context": "Journey", "sentence": "The journey there takes six hours." },
+      { "context": "Travel", "sentence": "I travel for work about once a month." }
+    ],
+    "remember": [
+      "'A travel' is not English. When you need a countable noun, use trip or journey."
+    ]
+  },
+  {
+    "id": "historic-vs-historical",
+    "term": "Historic vs Historical",
+    "level": "C1",
+    "meaning": "One means important, the other simply means from the past.",
+    "items": [
+      { "term": "Historic", "meaning": "Important enough to be remembered in history." },
+      { "term": "Historical", "meaning": "Relating to the past, with no judgement of importance." }
+    ],
+    "difference": "Historic events matter; historical events merely happened.",
+    "examples": [
+      { "context": "Historic", "sentence": "It was a historic release for the company." },
+      { "context": "Historical", "sentence": "We keep two years of historical data." }
+    ],
+    "remember": [
+      "Every historic event is historical, but very few historical events are historic."
+    ]
+  },
+  {
+    "id": "economic-vs-economical",
+    "term": "Economic vs Economical",
+    "level": "B2",
+    "meaning": "One relates to the economy, the other means cost-saving.",
+    "items": [
+      { "term": "Economic", "meaning": "Connected with the economy, trade, or money at scale." },
+      { "term": "Economical", "meaning": "Not wasteful; cheap to run." }
+    ],
+    "difference": "Economic describes the subject; economical describes the saving.",
+    "examples": [
+      { "context": "Economical", "sentence": "It's a more economical approach." },
+      { "context": "Economic", "sentence": "The economic outlook has improved." }
+    ],
+    "remember": [
+      "'Economical with the truth' is a well-known way of saying someone isn't being fully honest."
+    ]
+  },
+  {
+    "id": "sensitive-vs-sensible",
+    "term": "Sensitive vs Sensible",
+    "level": "B1",
+    "meaning": "Two adjectives that catch out speakers of many European languages.",
+    "items": [
+      { "term": "Sensitive", "meaning": "Easily affected emotionally — or requiring careful handling, like private data." },
+      { "term": "Sensible", "meaning": "Practical and showing good judgement." }
+    ],
+    "difference": "Sensitive is about feeling or confidentiality; sensible is about judgement.",
+    "examples": [
+      { "context": "Sensitive", "sentence": "That's sensitive data — it can't leave the region." },
+      { "context": "Sensible", "sentence": "That's a sensible plan." }
+    ],
+    "remember": [
+      "In French, Spanish, and several other languages the word resembling 'sensible' actually means 'sensitive'. This trips up a lot of learners."
+    ]
+  }
+]

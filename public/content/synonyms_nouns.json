@@ -1,0 +1,661 @@
+[
+  {
+    "id": "problem",
+    "term": "Problem",
+    "level": "B2",
+    "meaning": "Something causing difficulty.",
+    "alternatives": [
+      { "term": "Issue", "usage": "Softer and more neutral; the standard workplace word." },
+      { "term": "Challenge", "usage": "Positive framing — a difficulty worth taking on." },
+      { "term": "Impediment", "usage": "Formal; something standing in the way of progress." },
+      { "term": "Bottleneck", "usage": "The one constraint limiting the whole flow." },
+      { "term": "Pain point", "usage": "A specific frustration a customer or user repeatedly hits." }
+    ],
+    "examples": [
+      { "context": "Product", "sentence": "Onboarding is the biggest pain point we hear about." },
+      { "context": "Operations", "sentence": "Review is the bottleneck, not development." },
+      { "context": "Meeting", "sentence": "There's an issue with the login flow." }
+    ],
+    "remember": [
+      "Calling everything a 'challenge' to avoid saying 'problem' eventually sounds evasive. Sometimes it's just a problem."
+    ]
+  },
+  {
+    "id": "idea",
+    "term": "Idea",
+    "level": "B2",
+    "meaning": "A thought about what could be done.",
+    "alternatives": [
+      { "term": "Suggestion", "usage": "Offered lightly, easy to decline." },
+      { "term": "Proposal", "usage": "Formal and worked out, expecting a decision." },
+      { "term": "Concept", "usage": "An idea at the level of principle rather than detail." },
+      { "term": "Hypothesis", "usage": "A testable statement you intend to check." },
+      { "term": "Initiative", "usage": "An organised effort with resources behind it." }
+    ],
+    "examples": [
+      { "context": "Research", "sentence": "Our hypothesis is that latency drives the drop-off." },
+      { "context": "Business", "sentence": "The proposal goes to the board on Thursday." },
+      { "context": "Company", "sentence": "It started as a side project and became a company initiative." }
+    ],
+    "remember": [
+      "A hypothesis must be testable. Calling an untestable opinion a hypothesis is a common way to sound scientific without being it."
+    ]
+  },
+  {
+    "id": "plan-noun",
+    "term": "Plan",
+    "level": "B2",
+    "meaning": "A decision made in advance about what to do.",
+    "alternatives": [
+      { "term": "Strategy", "usage": "The high-level choice about where to compete and why." },
+      { "term": "Approach", "usage": "The general way you'll tackle something." },
+      { "term": "Roadmap", "usage": "A sequence of work over time, usually quarters." },
+      { "term": "Framework", "usage": "A reusable structure for thinking about a class of problem." },
+      { "term": "Blueprint", "usage": "A detailed design others can follow exactly." }
+    ],
+    "examples": [
+      { "context": "Product", "sentence": "The roadmap covers the next three quarters." },
+      { "context": "Business", "sentence": "We have plenty of tactics and no strategy." },
+      { "context": "Engineering", "sentence": "This becomes the blueprint for the other services." }
+    ],
+    "remember": [
+      "A strategy says what you will *not* do. A list of everything you'd like to do is a wish list, not a strategy."
+    ]
+  },
+  {
+    "id": "result",
+    "term": "Result",
+    "level": "B2",
+    "meaning": "What comes out of an action or process.",
+    "alternatives": [
+      { "term": "Outcome", "usage": "The end state, especially one that mattered to someone." },
+      { "term": "Output", "usage": "What a process produces; says nothing about value." },
+      { "term": "Deliverable", "usage": "A specific thing promised to someone else." },
+      { "term": "Consequence", "usage": "A follow-on effect, often unintended." },
+      { "term": "Yield", "usage": "The measurable return from an input — finance and manufacturing." }
+    ],
+    "examples": [
+      { "context": "Project", "sentence": "The deliverable is a working prototype, not a document." },
+      { "context": "Analysis", "sentence": "High output, poor outcomes — we're busy but not effective." },
+      { "context": "Finance", "sentence": "The yield fell below expectations." }
+    ],
+    "remember": [
+      "Output versus outcome is the most useful distinction here: shipping ten features is output; users succeeding is the outcome."
+    ]
+  },
+  {
+    "id": "reason",
+    "term": "Reason",
+    "level": "B2",
+    "meaning": "Why something is done or happened.",
+    "alternatives": [
+      { "term": "Cause", "usage": "What actually produced the effect." },
+      { "term": "Basis", "usage": "The foundation a decision or claim rests on." },
+      { "term": "Rationale", "usage": "The reasoning behind a decision, written for others." },
+      { "term": "Justification", "usage": "The argument that a decision was right — often defensive." },
+      { "term": "Driver", "usage": "The main factor pushing a trend or behaviour." }
+    ],
+    "examples": [
+      { "context": "Document", "sentence": "The rationale is recorded in the design doc." },
+      { "context": "Analysis", "sentence": "Price is the main driver of churn." },
+      { "context": "Review", "sentence": "What's the basis for that estimate?" }
+    ],
+    "remember": [
+      "Writing the rationale down at decision time saves the argument being had again in six months."
+    ]
+  },
+  {
+    "id": "goal",
+    "term": "Goal",
+    "level": "B2",
+    "meaning": "Something you're trying to achieve.",
+    "alternatives": [
+      { "term": "Target", "usage": "A specific number to hit." },
+      { "term": "Aim", "usage": "Slightly softer and more general than goal." },
+      { "term": "Objective", "usage": "Formal; a defined, measurable goal in a plan." },
+      { "term": "Mandate", "usage": "A goal you've been formally authorised and required to pursue." },
+      { "term": "North star", "usage": "The single guiding measure everything else serves." }
+    ],
+    "examples": [
+      { "context": "Business", "sentence": "Weekly active teams is our north star metric." },
+      { "context": "Planning", "sentence": "Three objectives, each with a measurable target." },
+      { "context": "Role", "sentence": "My mandate is to reduce incident rate by half." }
+    ],
+    "remember": [
+      "A north star must be a single measure. Having three north stars means having none."
+    ]
+  },
+  {
+    "id": "way",
+    "term": "Way",
+    "level": "B2",
+    "meaning": "How something is done.",
+    "alternatives": [
+      { "term": "Method", "usage": "A defined, repeatable procedure." },
+      { "term": "Approach", "usage": "The general attitude and direction you take." },
+      { "term": "Mechanism", "usage": "The specific machinery by which something happens." },
+      { "term": "Methodology", "usage": "The whole system of methods and the reasoning behind them." },
+      { "term": "Paradigm", "usage": "The underlying model of how a whole field thinks." }
+    ],
+    "examples": [
+      { "context": "Research", "sentence": "The methodology is described in section three." },
+      { "context": "Engineering", "sentence": "What's the mechanism for retrying failed jobs?" },
+      { "context": "Discussion", "sentence": "It's a different approach, not a better one." }
+    ],
+    "remember": [
+      "'Methodology' means the study of methods. Using it when you just mean 'method' is a common way to sound inflated."
+    ]
+  },
+  {
+    "id": "part",
+    "term": "Part",
+    "level": "B2",
+    "meaning": "A piece of a larger whole.",
+    "alternatives": [
+      { "term": "Section", "usage": "A division of a document or space." },
+      { "term": "Component", "usage": "A functional piece of a system." },
+      { "term": "Module", "usage": "A self-contained component with a clear boundary." },
+      { "term": "Facet", "usage": "One aspect of something complex, not a physical piece." },
+      { "term": "Dimension", "usage": "One axis along which something can vary." }
+    ],
+    "examples": [
+      { "context": "Engineering", "sentence": "Each module can be deployed independently." },
+      { "context": "Analysis", "sentence": "Cost is only one dimension of the decision." },
+      { "context": "Discussion", "sentence": "That's an interesting facet of the problem." }
+    ],
+    "remember": [
+      "'Facet' and 'dimension' are for abstract aspects; 'component' and 'module' are for actual pieces. Mixing them muddles a technical discussion."
+    ]
+  },
+  {
+    "id": "talk-noun",
+    "term": "Talk",
+    "level": "B2",
+    "meaning": "An exchange of words between people.",
+    "alternatives": [
+      { "term": "Discussion", "usage": "Neutral and standard for a working exchange." },
+      { "term": "Conversation", "usage": "Less structured, often two people." },
+      { "term": "Dialogue", "usage": "Emphasises two sides genuinely listening to each other." },
+      { "term": "Deliberation", "usage": "Formal, careful consideration before a decision." },
+      { "term": "Discourse", "usage": "The whole ongoing public conversation about a subject." }
+    ],
+    "examples": [
+      { "context": "Formal", "sentence": "After some deliberation, the panel agreed." },
+      { "context": "Relations", "sentence": "We've opened a dialogue with the regulator." },
+      { "context": "Public", "sentence": "The discourse around AI safety has shifted." }
+    ],
+    "remember": [
+      "'Dialogue' implies both sides can influence the outcome. Using it for a one-way announcement is a common corporate misuse."
+    ]
+  },
+  {
+    "id": "meeting",
+    "term": "Meeting",
+    "level": "B2",
+    "meaning": "An arranged gathering to discuss something.",
+    "alternatives": [
+      { "term": "Session", "usage": "A focused working block, often with an activity." },
+      { "term": "Call", "usage": "A remote meeting; now the default word in many companies." },
+      { "term": "Sync", "usage": "Short, informal, and recurring — to stay aligned." },
+      { "term": "Stand-up", "usage": "A brief daily status meeting, traditionally held standing." },
+      { "term": "Alignment session", "usage": "Longer, to resolve disagreement between groups." }
+    ],
+    "examples": [
+      { "context": "Team", "sentence": "Let's do a fifteen-minute sync on Wednesdays." },
+      { "context": "Workshop", "sentence": "The session runs for two hours with a break." },
+      { "context": "Planning", "sentence": "We need an alignment session with the platform team." }
+    ],
+    "remember": [
+      "Naming the type sets the expected length and format. 'Sync' promises fifteen minutes; 'session' promises an hour or more."
+    ]
+  },
+  {
+    "id": "mistake",
+    "term": "Mistake",
+    "level": "B2",
+    "meaning": "Something done incorrectly.",
+    "alternatives": [
+      { "term": "Error", "usage": "Neutral and technical; an incorrect value or action." },
+      { "term": "Fault", "usage": "Implies responsibility, and in engineering a component failure." },
+      { "term": "Oversight", "usage": "Something missed rather than done wrong — softer." },
+      { "term": "Defect", "usage": "A flaw in a product, present from the start." },
+      { "term": "Regression", "usage": "Something that used to work and now doesn't." }
+    ],
+    "examples": [
+      { "context": "Engineering", "sentence": "That's a regression — it worked in the last release." },
+      { "context": "Apology", "sentence": "That was an oversight on my part, not a decision." },
+      { "context": "QA", "sentence": "Three defects were found in acceptance testing." }
+    ],
+    "remember": [
+      "'Oversight' is the gentlest of these because it says you missed something rather than got it wrong. Useful in an apology."
+    ]
+  },
+  {
+    "id": "change-noun",
+    "term": "Change",
+    "level": "B2",
+    "meaning": "Something becoming different.",
+    "alternatives": [
+      { "term": "Update", "usage": "A newer version, usually small and routine." },
+      { "term": "Revision", "usage": "A reworked version of a document or estimate." },
+      { "term": "Iteration", "usage": "One cycle of a repeating improvement process." },
+      { "term": "Modification", "usage": "A targeted change to part of something." },
+      { "term": "Transformation", "usage": "Change so large the thing becomes different in kind." }
+    ],
+    "examples": [
+      { "context": "Design", "sentence": "We're on the fourth iteration of the flow." },
+      { "context": "Business", "sentence": "'Digital transformation' usually means a lot of small changes." },
+      { "context": "Document", "sentence": "This is revision three of the spec." }
+    ],
+    "remember": [
+      "'Transformation' is heavily overused in business writing for what are really modifications."
+    ]
+  },
+  {
+    "id": "choice",
+    "term": "Choice",
+    "level": "B2",
+    "meaning": "An option you can select.",
+    "alternatives": [
+      { "term": "Option", "usage": "Neutral; one of the available possibilities." },
+      { "term": "Alternative", "usage": "A different option from the one proposed." },
+      { "term": "Trade-off", "usage": "A choice where gaining one thing costs another." },
+      { "term": "Avenue", "usage": "A direction worth exploring, not yet a decision." },
+      { "term": "Course of action", "usage": "Formal; the whole plan you decide to follow." }
+    ],
+    "examples": [
+      { "context": "Engineering", "sentence": "There's a trade-off between speed and accuracy here." },
+      { "context": "Meeting", "sentence": "Two avenues are worth exploring before we commit." },
+      { "context": "Formal", "sentence": "The recommended course of action is to delay." }
+    ],
+    "remember": [
+      "Framing a decision as a trade-off rather than a choice forces both costs onto the table."
+    ]
+  },
+  {
+    "id": "effect",
+    "term": "Effect",
+    "level": "B2",
+    "meaning": "A change produced by something else.",
+    "alternatives": [
+      { "term": "Impact", "usage": "A strong or measurable effect; standard in business reporting." },
+      { "term": "Influence", "usage": "A gradual effect on behaviour or opinion." },
+      { "term": "Implication", "usage": "What the effect means for future decisions." },
+      { "term": "Ramification", "usage": "A complicated knock-on consequence, usually unwelcome." },
+      { "term": "Repercussion", "usage": "A serious negative consequence, often delayed." }
+    ],
+    "examples": [
+      { "context": "Business", "sentence": "What's the revenue impact of a one-month delay?" },
+      { "context": "Analysis", "sentence": "The implications for staffing are significant." },
+      { "context": "Formal", "sentence": "The decision had ramifications across three teams." }
+    ],
+    "remember": [
+      "'Effect' is the noun and 'affect' the verb, in almost every case. A for Action, E for End result."
+    ]
+  },
+  {
+    "id": "proof",
+    "term": "Proof",
+    "level": "B2",
+    "meaning": "Something that shows a claim is true.",
+    "alternatives": [
+      { "term": "Evidence", "usage": "Supports a claim without necessarily settling it." },
+      { "term": "Validation", "usage": "Confirmation that something meets its requirements." },
+      { "term": "Substantiation", "usage": "Formal; the act of backing a claim with evidence." },
+      { "term": "Empirical data", "usage": "Evidence from observation and measurement rather than reasoning." }
+    ],
+    "examples": [
+      { "context": "Research", "sentence": "We have evidence, not proof." },
+      { "context": "Product", "sentence": "Five paying customers is real validation." },
+      { "context": "Formal", "sentence": "The allegation was never substantiated." }
+    ],
+    "remember": [
+      "Outside mathematics, 'proof' is almost always too strong. 'Evidence' is the honest word, and saying so builds credibility."
+    ]
+  },
+  {
+    "id": "limit",
+    "term": "Limit",
+    "level": "B2",
+    "meaning": "A point beyond which something cannot go.",
+    "alternatives": [
+      { "term": "Boundary", "usage": "Where one thing ends and another begins." },
+      { "term": "Cap", "usage": "A maximum that cannot be exceeded — a spending cap." },
+      { "term": "Constraint", "usage": "A fixed condition you have to work within." },
+      { "term": "Threshold", "usage": "The point at which something starts happening." },
+      { "term": "Ceiling", "usage": "The upper limit of what's achievable." }
+    ],
+    "examples": [
+      { "context": "Monitoring", "sentence": "The alert fires above a threshold of ninety per cent." },
+      { "context": "Budget", "sentence": "There's a cap of fifty thousand on the project." },
+      { "context": "Planning", "sentence": "Our main constraint is the December deadline." }
+    ],
+    "remember": [
+      "A threshold is where something *starts*; a cap is where it *stops*. Confusing them in an alerting rule causes real incidents."
+    ]
+  },
+  {
+    "id": "worry",
+    "term": "Worry",
+    "level": "B2",
+    "meaning": "A feeling of anxiety about something.",
+    "alternatives": [
+      { "term": "Concern", "usage": "The standard professional word; serious without being emotional." },
+      { "term": "Reservation", "usage": "A specific doubt that stops you fully agreeing." },
+      { "term": "Apprehension", "usage": "Formal; unease about something coming." },
+      { "term": "Hesitation", "usage": "Reluctance to commit, often unexplained." }
+    ],
+    "examples": [
+      { "context": "Meeting", "sentence": "I have one reservation about the timeline." },
+      { "context": "Work", "sentence": "My concern is that we haven't tested at scale." },
+      { "context": "Feedback", "sentence": "There was some apprehension about the reorganisation." }
+    ],
+    "remember": [
+      "'I have a reservation about X' is more useful than 'I'm worried' — it names the specific thing blocking agreement."
+    ]
+  },
+  {
+    "id": "job-noun",
+    "term": "Job",
+    "level": "B2",
+    "meaning": "Work someone is responsible for.",
+    "alternatives": [
+      { "term": "Task", "usage": "One specific piece of work." },
+      { "term": "Work", "usage": "Uncountable; the activity in general." },
+      { "term": "Responsibility", "usage": "Something you're accountable for over time." },
+      { "term": "Mandate", "usage": "Formally granted authority and duty." },
+      { "term": "Remit", "usage": "British; the scope of what you're authorised to cover." }
+    ],
+    "examples": [
+      { "context": "Work", "sentence": "That's outside my remit — you'll want the platform team." },
+      { "context": "Role", "sentence": "Incident response is my responsibility, not my task." },
+      { "context": "Formal", "sentence": "The committee's mandate expires in June." }
+    ],
+    "remember": [
+      "'Outside my remit' is a polite, non-defensive way to redirect a request — it's about scope, not willingness."
+    ]
+  },
+  {
+    "id": "skill",
+    "term": "Skill",
+    "level": "B2",
+    "meaning": "The ability to do something well.",
+    "alternatives": [
+      { "term": "Ability", "usage": "General capacity to do something." },
+      { "term": "Expertise", "usage": "Deep skill in a specific area, built over years." },
+      { "term": "Competency", "usage": "A defined skill assessed against a standard — HR language." },
+      { "term": "Proficiency", "usage": "A demonstrated level of skill, often graded." },
+      { "term": "Aptitude", "usage": "Natural potential to become good at something." }
+    ],
+    "examples": [
+      { "context": "Hiring", "sentence": "We assess against six core competencies." },
+      { "context": "CV", "sentence": "Proficiency in three languages." },
+      { "context": "Development", "sentence": "She has real aptitude for systems thinking." }
+    ],
+    "remember": [
+      "'Aptitude' is potential, not achievement. Praising aptitude in a performance review can read as saying someone hasn't delivered yet."
+    ]
+  },
+  {
+    "id": "help-noun",
+    "term": "Help",
+    "level": "B2",
+    "meaning": "Support given to make something easier.",
+    "alternatives": [
+      { "term": "Support", "usage": "Ongoing help, and the name of the function that provides it." },
+      { "term": "Aid", "usage": "Formal; help given to those in need." },
+      { "term": "Assistance", "usage": "Formal; the standard word in written service language." },
+      { "term": "Guidance", "usage": "Advice on direction rather than doing the work." },
+      { "term": "Enablement", "usage": "Business jargon for equipping people to help themselves." }
+    ],
+    "examples": [
+      { "context": "Service", "sentence": "Thank you for your assistance with this." },
+      { "context": "Management", "sentence": "They need guidance, not someone doing it for them." },
+      { "context": "Business", "sentence": "The enablement team builds internal training." }
+    ],
+    "remember": [
+      "'Guidance' means you advise and they act. Offering guidance and then doing the work yourself teaches nothing."
+    ]
+  },
+  {
+    "id": "but",
+    "term": "But",
+    "level": "B2",
+    "meaning": "Introduces a contrast with what was just said.",
+    "alternatives": [
+      { "term": "However", "usage": "Neutral and slightly formal; works at the start of a sentence." },
+      { "term": "That said", "usage": "Conversational; softens the contrast and keeps goodwill." },
+      { "term": "Nevertheless", "usage": "Formal; the first point stands despite the second." },
+      { "term": "Conversely", "usage": "For a genuine mirror-image reversal, not just any contrast." }
+    ],
+    "examples": [
+      { "context": "Report", "sentence": "Costs rose. However, margins held." },
+      { "context": "Meeting", "sentence": "That said, I do see the argument for waiting." },
+      { "context": "Analysis", "sentence": "Sales rose in the north. Conversely, they fell in the south." }
+    ],
+    "remember": [
+      "'Conversely' needs a true reversal. If the second point isn't the mirror of the first, use 'however'."
+    ]
+  },
+  {
+    "id": "so",
+    "term": "So",
+    "level": "B2",
+    "meaning": "Introduces a result of what was just said.",
+    "alternatives": [
+      { "term": "Therefore", "usage": "Formal; standard in reasoning and reports." },
+      { "term": "Consequently", "usage": "Formal; emphasises the causal chain." },
+      { "term": "Hence", "usage": "Very formal and concise; common in academic writing." },
+      { "term": "Accordingly", "usage": "Formal; action taken in line with what preceded." }
+    ],
+    "examples": [
+      { "context": "Report", "sentence": "The supplier withdrew; consequently, the launch moved." },
+      { "context": "Academic", "sentence": "The assumption fails, hence the model does not apply." },
+      { "context": "Formal", "sentence": "Budgets were cut and plans were revised accordingly." }
+    ],
+    "remember": [
+      "In speech, 'so' is almost always better. These formal alternatives belong in writing."
+    ]
+  },
+  {
+    "id": "also",
+    "term": "Also",
+    "level": "B2",
+    "meaning": "Adds another point to what was said.",
+    "alternatives": [
+      { "term": "In addition", "usage": "Neutral and formal; safe in any written context." },
+      { "term": "Furthermore", "usage": "Formal; adds a point that strengthens the argument." },
+      { "term": "Moreover", "usage": "Formal; adds a point more important than the last." },
+      { "term": "On top of that", "usage": "Informal and emphatic, often about accumulating problems." }
+    ],
+    "examples": [
+      { "context": "Report", "sentence": "Furthermore, the licence expires in April." },
+      { "context": "Argument", "sentence": "Moreover, the approach has never been tested at scale." },
+      { "context": "Conversation", "sentence": "And on top of that, we lost two engineers." }
+    ],
+    "remember": [
+      "'Moreover' should introduce something stronger than what came before. Using it for a weaker point is a common slip."
+    ]
+  },
+  {
+    "id": "because",
+    "term": "Because",
+    "level": "B2",
+    "meaning": "Introduces the reason for something.",
+    "alternatives": [
+      { "term": "Since", "usage": "Slightly more formal; can be ambiguous with the time meaning." },
+      { "term": "As", "usage": "Formal and light; common in British writing." },
+      { "term": "Given that", "usage": "Formal; treats the reason as an accepted fact." },
+      { "term": "Owing to", "usage": "Formal; followed by a noun, not a clause." },
+      { "term": "In light of", "usage": "Formal; because of new information that changes things." }
+    ],
+    "examples": [
+      { "context": "Formal", "sentence": "Given that the deadline is fixed, we should cut scope." },
+      { "context": "Notice", "sentence": "Owing to maintenance, the service will be unavailable." },
+      { "context": "Decision", "sentence": "In light of the findings, we've paused the rollout." }
+    ],
+    "remember": [
+      "'Owing to' and 'due to' take a noun; 'because' takes a clause. 'Owing to the service was down' is wrong."
+    ]
+  },
+  {
+    "id": "for-example",
+    "term": "For example",
+    "level": "B2",
+    "meaning": "Introduces an illustration of a general point.",
+    "alternatives": [
+      { "term": "For instance", "usage": "Interchangeable with 'for example'." },
+      { "term": "To illustrate", "usage": "Formal; introduces a longer worked example." },
+      { "term": "A case in point", "usage": "Introduces an example that proves the point especially well." },
+      { "term": "Namely", "usage": "Not an example — it specifies exactly what you meant." }
+    ],
+    "examples": [
+      { "context": "Presentation", "sentence": "To illustrate, here's what happened last quarter." },
+      { "context": "Argument", "sentence": "The March outage is a case in point." },
+      { "context": "Precision", "sentence": "One team is blocked — namely, platform." }
+    ],
+    "remember": [
+      "'Namely' specifies the complete list; 'for example' gives one of several. Swapping them changes the meaning entirely."
+    ]
+  },
+  {
+    "id": "in-the-end",
+    "term": "In the end",
+    "level": "B2",
+    "meaning": "Introduces the final conclusion.",
+    "alternatives": [
+      { "term": "Finally", "usage": "For the last item in a sequence." },
+      { "term": "Ultimately", "usage": "For what matters most when everything is considered." },
+      { "term": "In essence", "usage": "For the core of the matter, stripped of detail." },
+      { "term": "All things considered", "usage": "For a balanced judgement after weighing both sides." }
+    ],
+    "examples": [
+      { "context": "Meeting", "sentence": "Ultimately, this is a resourcing decision." },
+      { "context": "Summary", "sentence": "In essence, we're trading speed for certainty." },
+      { "context": "Review", "sentence": "All things considered, it was a good quarter." }
+    ],
+    "remember": [
+      "'Finally' means last in order; 'ultimately' means most important. They are not interchangeable."
+    ]
+  },
+  {
+    "id": "i-think",
+    "term": "I think",
+    "level": "B2",
+    "meaning": "Introduces your own opinion.",
+    "alternatives": [
+      { "term": "I believe", "usage": "Stronger conviction than 'I think'." },
+      { "term": "I'd argue", "usage": "Signals you're making a case and expect to defend it." },
+      { "term": "My sense is", "usage": "Softer; based on impression rather than evidence." },
+      { "term": "I'm inclined to think", "usage": "Tentative; leaning one way but genuinely open." }
+    ],
+    "examples": [
+      { "context": "Debate", "sentence": "I'd argue the opposite, and here's why." },
+      { "context": "Meeting", "sentence": "My sense is the team isn't convinced yet." },
+      { "context": "Decision", "sentence": "I'm inclined to think we should wait." }
+    ],
+    "remember": [
+      "These signal how firmly you hold a view. Using a tentative form for a strong conviction wastes the chance to be heard."
+    ]
+  },
+  {
+    "id": "maybe",
+    "term": "Maybe",
+    "level": "B2",
+    "meaning": "Indicates something is possible but not certain.",
+    "alternatives": [
+      { "term": "Possibly", "usage": "Neutral and slightly more formal." },
+      { "term": "Arguably", "usage": "A case can be made for it — used to soften a strong claim." },
+      { "term": "Potentially", "usage": "Could develop into that, given the right conditions." },
+      { "term": "Conceivably", "usage": "Formal; theoretically possible, though unlikely." }
+    ],
+    "examples": [
+      { "context": "Analysis", "sentence": "This is arguably the biggest risk on the list." },
+      { "context": "Business", "sentence": "Potentially a two-million-pound market." },
+      { "context": "Formal", "sentence": "Conceivably the fault lies upstream, but I doubt it." }
+    ],
+    "remember": [
+      "'Arguably' lets you make a bold claim while inviting challenge. It's one of the most useful hedges in professional English."
+    ]
+  },
+  {
+    "id": "a-lot-of",
+    "term": "A lot of",
+    "level": "B2",
+    "meaning": "A large quantity.",
+    "alternatives": [
+      { "term": "Many", "usage": "For countable things; more formal than 'a lot of'." },
+      { "term": "Numerous", "usage": "Formal; emphasises the count is high." },
+      { "term": "A significant number of", "usage": "Formal and countable; common in reports." },
+      { "term": "A considerable amount of", "usage": "Formal and uncountable — time, effort, money." }
+    ],
+    "examples": [
+      { "context": "Report", "sentence": "A significant number of users never complete setup." },
+      { "context": "Formal", "sentence": "A considerable amount of effort went into the migration." },
+      { "context": "Writing", "sentence": "Numerous studies point the same way." }
+    ],
+    "remember": [
+      "'Number of' for countable, 'amount of' for uncountable. 'A large amount of users' is a very common error."
+    ]
+  },
+  {
+    "id": "very",
+    "term": "Very",
+    "level": "B2",
+    "meaning": "To a high degree.",
+    "alternatives": [
+      { "term": "Highly", "usage": "Formal, and only pairs with certain words: highly likely, highly recommended." },
+      { "term": "Remarkably", "usage": "Unusually so, in a way worth noting." },
+      { "term": "Exceptionally", "usage": "Far beyond the normal range." },
+      { "term": "Considerably", "usage": "For measurable differences: considerably faster, considerably more." }
+    ],
+    "examples": [
+      { "context": "Recommendation", "sentence": "I'd highly recommend her." },
+      { "context": "Report", "sentence": "Performance improved considerably after the change." },
+      { "context": "Praise", "sentence": "The response was remarkably positive." }
+    ],
+    "remember": [
+      "A stronger adjective usually beats 'very' plus a weak one: 'exhausted' rather than 'very tired'."
+    ]
+  },
+  {
+    "id": "now",
+    "term": "Now",
+    "level": "B2",
+    "meaning": "At the present time.",
+    "alternatives": [
+      { "term": "Currently", "usage": "Neutral; describes the present state." },
+      { "term": "At present", "usage": "Formal; common in written updates." },
+      { "term": "At this stage", "usage": "Implies things will change as the process moves on." },
+      { "term": "As it stands", "usage": "Describes the situation before an expected change." }
+    ],
+    "examples": [
+      { "context": "Update", "sentence": "At present we have no date from the vendor." },
+      { "context": "Planning", "sentence": "At this stage, three options are still open." },
+      { "context": "Caveat", "sentence": "As it stands, we'd miss the deadline by a week." }
+    ],
+    "remember": [
+      "'As it stands' quietly signals that the situation is expected to change — useful when giving bad news you hope to fix."
+    ]
+  },
+  {
+    "id": "later",
+    "term": "Later",
+    "level": "B2",
+    "meaning": "At a future time.",
+    "alternatives": [
+      { "term": "Afterwards", "usage": "Following a specific event." },
+      { "term": "Subsequently", "usage": "Formal; emphasises the sequence of events." },
+      { "term": "In due course", "usage": "Formal; at an appropriate future time, deliberately unspecific." },
+      { "term": "Down the line", "usage": "Informal; at some point in the future." }
+    ],
+    "examples": [
+      { "context": "Report", "sentence": "The fault was subsequently traced to a config change." },
+      { "context": "Formal", "sentence": "Full details will follow in due course." },
+      { "context": "Planning", "sentence": "We'll want proper reporting down the line." }
+    ],
+    "remember": [
+      "'In due course' commits to nothing. If someone is waiting on you, give a date instead."
+    ]
+  }
+]

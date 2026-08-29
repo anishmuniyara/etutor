@@ -77,7 +77,7 @@ static the server never needs to read any of it.
 
 | Key | Holds |
 | --- | --- |
-| `etutor.hidden.v1` | `{ "vocabulary": ["opportunity"], … }` — cards removed from a list |
+| `etutor.hidden.v1` | `{ "vocabulary_mind": ["instinct"], … }` — cards removed from a list |
 | `etutor.favorites.v1` | same shape — starred cards, shown in **Saved** |
 | `etutor.lastSeen.v1` | last category and card, plus whether details were revealed |
 
@@ -112,6 +112,6 @@ VITE_BASE=/my-repo-name/ npm run build
 The workflow runs `npm run build`, which runs content validation first — malformed
 content fails the deploy instead of shipping a broken category.
 
-Routing uses `HashRouter` (`/etutor/#/vocabulary/opportunity`) because GitHub Pages
+Routing uses `HashRouter` (`/etutor/#/vocabulary_mind/instinct`) because GitHub Pages
 404s on deep paths into a single-page app. That avoids the usual `404.html` redirect
 trick and the URL flash it causes.

@@ -1,0 +1,223 @@
+[
+  {
+    "id": "sprint-planning-scope",
+    "term": "Sprint Planning — Negotiating Scope",
+    "level": "B2",
+    "situation": "Your product manager wants one more feature in a sprint that's already full.",
+    "conversation": [
+      { "speaker": "PM", "text": "Can we fit the export feature into this sprint too?" },
+      { "speaker": "You", "text": "I'd love to say yes, but let me be realistic. We're already at capacity with the runtime work. If export is a must-have, something has to give — either we drop the metrics dashboard or we push the runtime milestone by a week." },
+      { "speaker": "PM", "text": "The dashboard can wait." },
+      { "speaker": "You", "text": "Okay, let's swap them. I'll update the board and flag the change in the channel so no one is caught off guard." }
+    ],
+    "keyExpressions": [
+      "I'd love to say yes, but let me be realistic.",
+      "We're already at capacity.",
+      "If X is a must-have, something has to give.",
+      "So no one is caught off guard."
+    ],
+    "remember": [
+      "Never refuse flatly. Offering a trade — this or that — turns a no into a decision the other person gets to make.",
+      "Announcing the change publicly is what stops someone discovering it a week later."
+    ]
+  },
+  {
+    "id": "code-review-disagreement",
+    "term": "Disagreeing in a Code Review",
+    "level": "B2",
+    "situation": "A colleague doesn't think a piece of code needs tests, and you disagree.",
+    "conversation": [
+      { "speaker": "Colleague", "text": "I don't think we need tests for this helper, it's trivial." },
+      { "speaker": "You", "text": "I hear you, and normally I'd agree. My concern is that this helper sits on the hot path — if it regresses, we won't notice until prod. A couple of table-driven tests would take ten minutes and give us a safety net." },
+      { "speaker": "Colleague", "text": "Fair. I'll add them." },
+      { "speaker": "You", "text": "Appreciate it. Everything else looks clean — nice work on the error handling." }
+    ],
+    "keyExpressions": [
+      "I hear you, and normally I'd agree.",
+      "My concern is that…",
+      "It would take ten minutes and give us a safety net.",
+      "Everything else looks clean."
+    ],
+    "remember": [
+      "'Normally I'd agree' concedes the general rule before arguing the exception — much easier to accept than a flat objection.",
+      "Ending with genuine praise keeps a review from feeling like an attack."
+    ]
+  },
+  {
+    "id": "dont-know-in-front-of-seniors",
+    "term": "Being Asked Something You Don't Know",
+    "level": "B2",
+    "situation": "A senior person asks you for a number you don't have, in front of others.",
+    "conversation": [
+      { "speaker": "Architect", "text": "What's the p99 latency after your change?" },
+      { "speaker": "You", "text": "I don't have the exact figure in front of me and I'd rather not guess. My recollection is roughly a 30% improvement, but let me pull the dashboard and confirm right after this call." },
+      { "speaker": "Architect", "text": "Fine. Send it in the thread." },
+      { "speaker": "You", "text": "Will do." }
+    ],
+    "keyExpressions": [
+      "I don't have the exact figure in front of me.",
+      "I'd rather not guess.",
+      "My recollection is roughly…",
+      "Let me confirm right after this call."
+    ],
+    "remember": [
+      "Saying you'd rather not guess reads as rigour, not ignorance. Guessing and being wrong costs far more.",
+      "Give an approximate answer if you have one, clearly labelled as approximate, then commit to a time for the real one."
+    ]
+  },
+  {
+    "id": "handover-before-leave",
+    "term": "Handing Over Before Leave",
+    "level": "B2",
+    "situation": "You're away next week and need to hand your work over cleanly.",
+    "conversation": [
+      { "speaker": "You", "text": "I'm out next week, so I want to make sure nothing falls through the cracks. Vaibhav, could you be the point of contact for the scheduler? I've documented the open items in the wiki and left comments on the two pending PRs." },
+      { "speaker": "Vaibhav", "text": "Sure. Anything urgent?" },
+      { "speaker": "You", "text": "Only the vendor call on Wednesday — I've briefed Srini on it. If anything else comes up, use your judgment; I trust your call." },
+      { "speaker": "Vaibhav", "text": "Understood. I'll message you only if something is genuinely blocking." }
+    ],
+    "keyExpressions": [
+      "I want to make sure nothing falls through the cracks.",
+      "Could you be the point of contact for…?",
+      "I've documented the open items.",
+      "Use your judgment; I trust your call."
+    ],
+    "remember": [
+      "'I trust your call' is what makes a handover real — without it people wait for you and nothing moves.",
+      "Naming a single point of contact prevents the diffusion of responsibility that leaves work unowned."
+    ]
+  },
+  {
+    "id": "giving-hard-feedback-to-a-peer",
+    "term": "Giving Hard Feedback to a Peer",
+    "level": "C1",
+    "situation": "A colleague's review comments are landing badly with junior engineers.",
+    "conversation": [
+      { "speaker": "You", "text": "Do you have a few minutes? I want to share something, and I'm raising it because I respect your work. In the last two reviews, the comments came across as dismissive — 'this is obviously wrong' rather than 'here's what I'd change'. I don't think that's your intent, but it's landing that way with the juniors." },
+      { "speaker": "Peer", "text": "I didn't realize." },
+      { "speaker": "You", "text": "I figured. Happy to look over comments together if that's useful." },
+      { "speaker": "Peer", "text": "Yeah, let's do that. I'd rather know than keep doing it." }
+    ],
+    "keyExpressions": [
+      "I'm raising it because I respect your work.",
+      "It came across as…",
+      "I don't think that's your intent, but it's landing that way.",
+      "Happy to look over it together if that's useful."
+    ],
+    "remember": [
+      "Separating intent from impact — 'I don't think that's your intent, but' — lets someone accept the feedback without feeling accused.",
+      "Quote the actual words. 'You're dismissive' is an attack; 'this is obviously wrong' is evidence."
+    ]
+  },
+  {
+    "id": "receiving-critical-feedback",
+    "term": "Receiving Critical Feedback",
+    "level": "C1",
+    "situation": "Your manager tells you your updates are hard to follow.",
+    "conversation": [
+      { "speaker": "Manager", "text": "In the last review, a few people felt your updates were hard to follow — too much detail, not enough context." },
+      { "speaker": "You", "text": "Thank you for telling me directly; I'd rather hear it than not. That resonates, actually — I tend to lead with the technical weeds. Could you give me one concrete example so I can calibrate?" },
+      { "speaker": "Manager", "text": "The migration update last Thursday." },
+      { "speaker": "You", "text": "Got it. Going forward I'll open with the headline — status, risk, ask — and keep details for those who want them. Would you be open to giving me quick feedback after the next two updates?" },
+      { "speaker": "Manager", "text": "Happy to." }
+    ],
+    "keyExpressions": [
+      "Thank you for telling me directly.",
+      "That resonates, actually.",
+      "Could you give me one concrete example so I can calibrate?",
+      "Would you be open to giving me feedback after the next two?"
+    ],
+    "remember": [
+      "Asking for one concrete example turns vague criticism into something you can act on — and shows you're taking it seriously rather than defending.",
+      "Proposing a follow-up loop is what separates accepting feedback from actually changing."
+    ]
+  },
+  {
+    "id": "onboarding-a-new-team-member",
+    "term": "Onboarding a New Team Member",
+    "level": "B2",
+    "situation": "Setting expectations with someone on their first day.",
+    "conversation": [
+      { "speaker": "You", "text": "Welcome aboard. My goal for your first two weeks isn't output — it's context. I've set up three things: a walkthrough of the architecture on Monday, a small starter ticket so you can see the full PR flow, and a standing thirty-minute slot with me every other day." },
+      { "speaker": "New joiner", "text": "That's more structure than I expected. What if I get stuck?" },
+      { "speaker": "You", "text": "Ask anything, however basic; the only bad question is the one that costs you a day. If I'm not around, post in the team channel — people answer quickly." },
+      { "speaker": "New joiner", "text": "Good to know. I'll start with the architecture doc today." }
+    ],
+    "keyExpressions": [
+      "Welcome aboard.",
+      "My goal for your first two weeks isn't output — it's context.",
+      "Ask anything, however basic.",
+      "The only bad question is the one that costs you a day."
+    ],
+    "remember": [
+      "Explicitly removing the pressure to deliver is the single most useful thing you can say to a new joiner.",
+      "Naming what happens when you're unavailable prevents someone sitting blocked for hours out of politeness."
+    ]
+  },
+  {
+    "id": "admitting-you-were-wrong",
+    "term": "Admitting You Were Wrong",
+    "level": "C1",
+    "situation": "After a technical disagreement, you've realised the other person was right.",
+    "conversation": [
+      { "speaker": "You", "text": "I've been thinking about our discussion, and I want to close the loop. You were right about the caching approach — I was optimizing for a case that doesn't happen in practice. I've updated the design doc to reflect your version." },
+      { "speaker": "Colleague", "text": "Oh — thanks for coming back to it. I wasn't certain either, honestly." },
+      { "speaker": "You", "text": "Well, you were right on the part that mattered. Thanks for pushing on it." }
+    ],
+    "keyExpressions": [
+      "I want to close the loop.",
+      "You were right about…",
+      "I've already updated the doc.",
+      "Thanks for pushing on it."
+    ],
+    "remember": [
+      "Going back deliberately to concede costs nothing and buys a great deal of trust.",
+      "Having already made the change turns the apology into evidence rather than words."
+    ]
+  },
+  {
+    "id": "running-a-blameless-postmortem",
+    "term": "Running a Blameless Postmortem",
+    "level": "C1",
+    "situation": "Leading the review after an incident, where someone made a wrong call under pressure.",
+    "conversation": [
+      { "speaker": "You", "text": "Ground rule first: we're here to fix the system, not assign fault. Anyone in the same position with the same information would likely have made the same call." },
+      { "speaker": "Engineer", "text": "I still feel responsible — I restarted the wrong service." },
+      { "speaker": "You", "text": "You acted on what the dashboard showed you. So, walking the timeline: alert fired at 02:14, the dashboard was misleading, the wrong service was restarted. The real question is why the dashboard was misleading. Let's start there." },
+      { "speaker": "Engineer", "text": "The panel was still pointing at the old cluster after the migration." },
+      { "speaker": "You", "text": "That's the finding. Let's write that up as the action, not the restart." }
+    ],
+    "keyExpressions": [
+      "We're here to fix the system, not assign fault.",
+      "Anyone with the same information would likely have made the same call.",
+      "The real question is why…",
+      "Let's write that up as the action."
+    ],
+    "remember": [
+      "Stating the ground rule out loud is what makes people honest. Without it they defend themselves and the real cause stays hidden.",
+      "Redirect from the human action to the thing that misled them — that's the fixable part."
+    ]
+  },
+  {
+    "id": "convincing-a-reluctant-team",
+    "term": "Convincing a Reluctant Team",
+    "level": "C1",
+    "situation": "Proposing a process change to a team tired of process changes.",
+    "conversation": [
+      { "speaker": "You", "text": "I know there's fatigue around process changes, so let me be clear about what this isn't: it isn't more meetings. It's one linting rule that catches the class of bug that bit us three times last quarter." },
+      { "speaker": "Teammate", "text": "And when it starts flagging things we don't care about?" },
+      { "speaker": "You", "text": "Then we drop it. Let's trial it for two weeks; if it's more noise than signal, we remove it, no argument from me." },
+      { "speaker": "Teammate", "text": "On that basis, fine." }
+    ],
+    "keyExpressions": [
+      "Let me be clear about what this isn't.",
+      "It catches the class of bug that bit us three times.",
+      "Let's trial it for two weeks.",
+      "No argument from me."
+    ],
+    "remember": [
+      "Naming the fear first — 'it isn't more meetings' — disarms the objection before it's raised.",
+      "A time-boxed trial with a promised exit is far easier to accept than a permanent change."
+    ]
+  }
+]

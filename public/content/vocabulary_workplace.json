@@ -1,0 +1,647 @@
+[
+  {
+    "id": "leverage",
+    "term": "Leverage",
+    "partOfSpeech": "Verb / Noun",
+    "level": "B2",
+    "meaning": "To use something you already have to get a bigger result — or the power that gives you.",
+    "usage": "As a verb it means making the most of an existing asset. As a noun it means bargaining power in a negotiation.",
+    "examples": [
+      { "context": "Business", "sentence": "We can leverage our existing customer base to launch the new product." },
+      { "context": "Negotiation", "sentence": "Having two offers gives you leverage." },
+      { "context": "Skills", "sentence": "She leveraged her design background to move into research." }
+    ],
+    "remember": [
+      "As a verb it is heavily overused corporate jargon. 'Use' is often the stronger word — save 'leverage' for when the multiplying effect genuinely matters."
+    ]
+  },
+  {
+    "id": "streamline",
+    "term": "Streamline",
+    "partOfSpeech": "Verb",
+    "level": "B2",
+    "meaning": "To make a process simpler and faster by removing unnecessary steps.",
+    "usage": "Use it about improving how work flows. Note that in company announcements it is often a euphemism for cutting jobs.",
+    "examples": [
+      { "context": "Process", "sentence": "We streamlined approval from five steps to two." },
+      { "context": "Business", "sentence": "The reorganisation is intended to streamline operations." },
+      { "context": "Writing", "sentence": "The form has been streamlined to eight questions." }
+    ],
+    "remember": [
+      "Streamlining removes steps. Doing the same steps faster is 'speeding up', not streamlining."
+    ]
+  },
+  {
+    "id": "trade-off",
+    "term": "Trade-off",
+    "partOfSpeech": "Noun",
+    "level": "B2",
+    "meaning": "Accepting less of one good thing to get more of another.",
+    "usage": "Use it to make a compromise explicit in decision-making, so everyone can see what is being given up.",
+    "examples": [
+      { "context": "Engineering", "sentence": "There's a trade-off between speed and accuracy here." },
+      { "context": "Business", "sentence": "The trade-off is a lower margin for higher volume." },
+      { "context": "Personal", "sentence": "The commute is the trade-off for living by the sea." }
+    ],
+    "remember": [
+      "Naming the trade-off out loud is what stops a decision being argued about twice.",
+      "Hyphenated as a noun; two words as a verb ('trade off speed against cost')."
+    ]
+  },
+  {
+    "id": "scope-creep",
+    "term": "Scope creep",
+    "partOfSpeech": "Noun",
+    "level": "C1",
+    "meaning": "The gradual growth of a project beyond what was agreed.",
+    "usage": "Use it to name a pattern of small unapproved additions — each one reasonable, the total unmanageable.",
+    "examples": [
+      { "context": "Project", "sentence": "Three extra features later, this is textbook scope creep." },
+      { "context": "Freelance", "sentence": "The contract exists to protect you from scope creep." },
+      { "context": "Meeting", "sentence": "We need a change process to prevent scope creep." }
+    ],
+    "remember": [
+      "It describes an accumulation, not a single request. Naming it early is far easier than fixing it late."
+    ]
+  },
+  {
+    "id": "consensus",
+    "term": "Consensus",
+    "partOfSpeech": "Noun",
+    "level": "B2",
+    "meaning": "General agreement that everyone can live with.",
+    "usage": "Use it about a group position reached through discussion — not necessarily everyone's first choice.",
+    "examples": [
+      { "context": "Meeting", "sentence": "We reached a consensus after about an hour." },
+      { "context": "Science", "sentence": "The scientific consensus is clear on this." },
+      { "context": "Team", "sentence": "There's no consensus yet, so let's not decide today." }
+    ],
+    "remember": [
+      "'General consensus' is redundant — consensus already means general.",
+      "Consensus means acceptance, not enthusiasm. People can support a decision they voted against."
+    ]
+  },
+  {
+    "id": "feasible",
+    "term": "Feasible",
+    "partOfSpeech": "Adjective",
+    "level": "C1",
+    "meaning": "Possible to do in practice, with the time and resources available.",
+    "usage": "Use it in planning to separate what can actually be delivered from what merely sounds good.",
+    "examples": [
+      { "context": "Project", "sentence": "Is that timeline feasible with four people?" },
+      { "context": "Engineering", "sentence": "Technically feasible, but very expensive." },
+      { "context": "Meeting", "sentence": "Let's check it's feasible before we promise anything." }
+    ],
+    "remember": [
+      "'Feasible' asks whether it can be done; 'viable' asks whether it can survive afterwards. A plan can be feasible but not viable."
+    ]
+  },
+  {
+    "id": "constraint",
+    "term": "Constraint",
+    "partOfSpeech": "Noun",
+    "level": "B2",
+    "meaning": "A limit you have to work within.",
+    "usage": "Use it neutrally for the fixed realities of a project — budget, headcount, deadline, regulation.",
+    "examples": [
+      { "context": "Project", "sentence": "Our main constraint is the December deadline." },
+      { "context": "Budget", "sentence": "Working under tight financial constraints." },
+      { "context": "Design", "sentence": "Constraints usually improve design rather than limiting it." }
+    ],
+    "remember": [
+      "Stating constraints up front prevents whole categories of unusable suggestions."
+    ]
+  },
+  {
+    "id": "mitigate",
+    "term": "Mitigate",
+    "partOfSpeech": "Verb",
+    "level": "C1",
+    "meaning": "To reduce how bad something is, or how likely.",
+    "usage": "Standard in risk management: you mitigate a risk by lowering its chance or its impact.",
+    "examples": [
+      { "context": "Risk", "sentence": "We can mitigate the risk with a staged rollout." },
+      { "context": "Legal", "sentence": "The court considered the mitigating circumstances." },
+      { "context": "Environment", "sentence": "Measures to mitigate flooding downstream." }
+    ],
+    "remember": [
+      "Mitigating reduces harm; it never removes it. Removing the risk entirely is 'eliminating'.",
+      "Don't confuse with 'militate', which means to work against something."
+    ]
+  },
+  {
+    "id": "robust",
+    "term": "Robust",
+    "partOfSpeech": "Adjective",
+    "level": "B2",
+    "meaning": "Strong enough to keep working when conditions get difficult.",
+    "usage": "Use it about systems, processes, and arguments that hold up under stress or scrutiny.",
+    "examples": [
+      { "context": "Systems", "sentence": "We need a more robust backup process." },
+      { "context": "Argument", "sentence": "The methodology is robust — I couldn't fault it." },
+      { "context": "Discussion", "sentence": "There was a robust exchange of views." }
+    ],
+    "remember": [
+      "'A robust discussion' is a diplomatic way of saying people argued.",
+      "The opposite is 'brittle' — fine until it suddenly isn't."
+    ]
+  },
+  {
+    "id": "granular",
+    "term": "Granular",
+    "partOfSpeech": "Adjective",
+    "level": "C1",
+    "meaning": "Broken down into small, individually visible pieces.",
+    "usage": "Use it about data, permissions, and plans that give detail rather than totals.",
+    "examples": [
+      { "context": "Data", "sentence": "Can we get more granular data — by week rather than by quarter?" },
+      { "context": "Permissions", "sentence": "The new system offers granular access control." },
+      { "context": "Planning", "sentence": "The plan gets granular in the final two weeks." }
+    ],
+    "remember": [
+      "More granular means more detail, which is not always better — it can bury the signal in noise."
+    ]
+  },
+  {
+    "id": "contingency",
+    "term": "Contingency",
+    "partOfSpeech": "Noun",
+    "level": "C1",
+    "meaning": "A backup plan, or extra budget held for things that go wrong.",
+    "usage": "Use it in planning for the deliberate margin you set aside because something unexpected always happens.",
+    "examples": [
+      { "context": "Budget", "sentence": "We've built in a ten per cent contingency." },
+      { "context": "Planning", "sentence": "What's the contingency if the supplier misses the date?" },
+      { "context": "Formal", "sentence": "The policy covers a number of contingencies." }
+    ],
+    "remember": [
+      "'Contingency plan' is the full phrase. A plan with no contingency is a forecast, not a plan."
+    ]
+  },
+  {
+    "id": "caveat",
+    "term": "Caveat",
+    "partOfSpeech": "Noun",
+    "level": "C1",
+    "meaning": "A warning or condition attached to a statement.",
+    "usage": "Use it when giving information that is true only under certain conditions, so nobody over-relies on it.",
+    "examples": [
+      { "context": "Data", "sentence": "One caveat: the figures exclude returns." },
+      { "context": "Advice", "sentence": "With the caveat that I haven't seen the contract." },
+      { "context": "Report", "sentence": "The findings come with several caveats." }
+    ],
+    "remember": [
+      "Pronounced KAV-ee-at. Stating your caveats up front is what makes a claim trustworthy rather than weak."
+    ]
+  },
+  {
+    "id": "incremental",
+    "term": "Incremental",
+    "partOfSpeech": "Adjective",
+    "level": "B2",
+    "meaning": "Happening in small stages rather than all at once.",
+    "usage": "Use it about change delivered piece by piece. Can be praise (lower risk) or criticism (too timid).",
+    "examples": [
+      { "context": "Delivery", "sentence": "We're taking an incremental approach to the migration." },
+      { "context": "Improvement", "sentence": "Incremental gains add up over a year." },
+      { "context": "Criticism", "sentence": "These are incremental changes when we need something bolder." }
+    ],
+    "remember": [
+      "The opposite is a 'big bang' release. Incremental lowers risk but takes longer to show a visible result."
+    ]
+  },
+  {
+    "id": "stakeholder",
+    "term": "Stakeholder",
+    "partOfSpeech": "Noun",
+    "level": "B2",
+    "meaning": "Anyone affected by a project or with an interest in its outcome.",
+    "usage": "Use it when working out who must be consulted, informed, or persuaded before something can proceed.",
+    "examples": [
+      { "context": "Project", "sentence": "We need sign-off from every stakeholder before launch." },
+      { "context": "Planning", "sentence": "Let's map the stakeholders first." },
+      { "context": "Public sector", "sentence": "Residents are stakeholders too, not just the council." }
+    ],
+    "remember": [
+      "Broader than 'shareholder', which only means someone who owns part of a company."
+    ]
+  },
+  {
+    "id": "circle-back-table",
+    "term": "Circle back / Table",
+    "partOfSpeech": "Phrasal verb",
+    "level": "C1",
+    "meaning": "Two ways of postponing a discussion to a later point.",
+    "usage": "'Circle back' means return to it later. 'Table' is used in meetings for setting an item aside — but be careful, it means the opposite in British and American English.",
+    "examples": [
+      { "context": "Meeting", "sentence": "Good question — let me circle back once I have the numbers." },
+      { "context": "American", "sentence": "Let's table that and move to the budget." },
+      { "context": "British", "sentence": "I'd like to table this paper for discussion today." }
+    ],
+    "remember": [
+      "In American English 'table it' means postpone it. In British English 'table it' means put it forward for discussion now. Exactly opposite — always confirm which is meant.",
+      "'Circle back' is unambiguous, which is why international teams prefer it."
+    ]
+  },
+  {
+    "id": "outline",
+    "term": "Outline",
+    "partOfSpeech": "Verb / Noun",
+    "level": "B1",
+    "meaning": "To give the main points without the detail.",
+    "usage": "Use it for a summary of structure or plan — enough to see the shape, not enough to act on every part.",
+    "examples": [
+      { "context": "Meeting", "sentence": "Let me outline the approach before we go into detail." },
+      { "context": "Writing", "sentence": "I've written an outline but not the sections." },
+      { "context": "Proposal", "sentence": "The document outlines three possible routes." }
+    ],
+    "remember": [
+      "An outline is deliberately incomplete. If someone asks for an outline, don't send twenty pages."
+    ]
+  },
+  {
+    "id": "dependency",
+    "term": "Dependency",
+    "partOfSpeech": "Noun",
+    "level": "B2",
+    "meaning": "Something that must happen first before your work can proceed.",
+    "usage": "Standard in project planning and software: A depends on B, so B's delay becomes A's delay.",
+    "examples": [
+      { "context": "Project", "sentence": "The design is a dependency for the whole build phase." },
+      { "context": "Software", "sentence": "The library has too many dependencies." },
+      { "context": "Planning", "sentence": "Let's list the dependencies before we commit to a date." }
+    ],
+    "remember": [
+      "Unnamed dependencies are the most common cause of missed deadlines — they surface only when they block you."
+    ]
+  },
+  {
+    "id": "feedback-loop",
+    "term": "Feedback loop",
+    "partOfSpeech": "Noun",
+    "level": "C1",
+    "meaning": "A cycle where the result of an action feeds back and influences the next one.",
+    "usage": "Use it about how quickly you learn whether something worked. Short loops mean faster improvement.",
+    "examples": [
+      { "context": "Product", "sentence": "Weekly releases give us a much shorter feedback loop." },
+      { "context": "Learning", "sentence": "Without a feedback loop you can practise a mistake for years." },
+      { "context": "Systems", "sentence": "It created a feedback loop that amplified the problem." }
+    ],
+    "remember": [
+      "Loops can be positive (amplifying) or negative (stabilising). 'Positive' here means self-reinforcing, not good."
+    ]
+  },
+  {
+    "id": "baseline",
+    "term": "Baseline",
+    "partOfSpeech": "Noun",
+    "level": "B2",
+    "meaning": "The starting measurement you compare everything else against.",
+    "usage": "Use it before making a change, so you can prove afterwards whether it helped.",
+    "examples": [
+      { "context": "Measurement", "sentence": "Let's establish a baseline before we change anything." },
+      { "context": "Performance", "sentence": "That's a forty per cent improvement on the baseline." },
+      { "context": "Health", "sentence": "The first test gives us a baseline reading." }
+    ],
+    "remember": [
+      "Without a baseline you cannot prove improvement — you can only claim it."
+    ]
+  },
+  {
+    "id": "benchmark",
+    "term": "Benchmark",
+    "partOfSpeech": "Noun / Verb",
+    "level": "B2",
+    "meaning": "A standard from outside that you measure yourself against.",
+    "usage": "Use it to compare your performance with competitors or with an industry norm.",
+    "examples": [
+      { "context": "Business", "sentence": "We're below the industry benchmark on response time." },
+      { "context": "Verb", "sentence": "We benchmarked ourselves against four competitors." },
+      { "context": "Technical", "sentence": "The new version benchmarks twice as fast." }
+    ],
+    "remember": [
+      "A baseline is your own past; a benchmark is someone else's standard. Easy to confuse, genuinely different."
+    ]
+  },
+  {
+    "id": "consistent",
+    "term": "Consistent",
+    "partOfSpeech": "Adjective",
+    "level": "B2",
+    "meaning": "Staying the same over time, or not contradicting something else.",
+    "usage": "Two senses: steady performance that doesn't swing, and data or statements that agree with each other.",
+    "examples": [
+      { "context": "Performance", "sentence": "Her results have been consistent all year." },
+      { "context": "Data", "sentence": "These figures aren't consistent with last month's report." },
+      { "context": "Habit", "sentence": "Twenty minutes daily, done consistently, beats three hours once a week." }
+    ],
+    "remember": [
+      "'Consistent with' means matching. 'Consistent' alone means steady. Both are common and the preposition tells you which."
+    ]
+  },
+  {
+    "id": "redundant",
+    "term": "Redundant",
+    "partOfSpeech": "Adjective",
+    "level": "B2",
+    "meaning": "Not needed because it duplicates something — or, of a job, no longer required.",
+    "usage": "The technical sense means unnecessary duplication. In British English it is also the standard word for losing a job to restructuring.",
+    "examples": [
+      { "context": "Writing", "sentence": "The second paragraph is redundant — it repeats the first." },
+      { "context": "Employment", "sentence": "Forty staff were made redundant last month." },
+      { "context": "Engineering", "sentence": "We keep a redundant power supply in case the first fails." }
+    ],
+    "remember": [
+      "In engineering, redundancy is deliberate and good — a spare that takes over on failure. Same word, opposite value."
+    ]
+  },
+  {
+    "id": "impact",
+    "term": "Impact",
+    "partOfSpeech": "Noun / Verb",
+    "level": "B1",
+    "meaning": "The effect one thing has on another.",
+    "usage": "Use it for consequences that matter. In business writing it usually means measurable effect on results.",
+    "examples": [
+      { "context": "Business", "sentence": "What's the revenue impact of delaying by a month?" },
+      { "context": "Environment", "sentence": "The report assesses the environmental impact." },
+      { "context": "Team", "sentence": "Her work had a real impact on how we hire." }
+    ],
+    "remember": [
+      "Some editors still object to 'impact' as a verb and prefer 'affect'. In business writing the verb is now completely standard."
+    ]
+  },
+  {
+    "id": "refactor",
+    "term": "Refactor",
+    "partOfSpeech": "Verb",
+    "level": "C1",
+    "meaning": "To restructure something internally without changing what it does from the outside.",
+    "usage": "A software term now used more widely for reorganising a document, process, or team while keeping the output the same.",
+    "examples": [
+      { "context": "Software", "sentence": "I refactored the module — same behaviour, half the code." },
+      { "context": "Writing", "sentence": "The report needs refactoring; the content is right but the order isn't." },
+      { "context": "Process", "sentence": "We refactored the workflow without changing any of the steps' outcomes." }
+    ],
+    "remember": [
+      "If the visible behaviour changes, it isn't refactoring — it's a rewrite. That distinction is the whole point of the word."
+    ]
+  },
+  {
+    "id": "sustainable",
+    "term": "Sustainable",
+    "partOfSpeech": "Adjective",
+    "level": "B2",
+    "meaning": "Able to continue at the same level for a long time.",
+    "usage": "Two common senses: environmentally responsible, and a workload or pace that people can maintain without burning out.",
+    "examples": [
+      { "context": "Environment", "sentence": "They've committed to sustainable packaging." },
+      { "context": "Workload", "sentence": "Sixty-hour weeks are not sustainable." },
+      { "context": "Business", "sentence": "The growth rate isn't sustainable without more funding." }
+    ],
+    "remember": [
+      "'Not sustainable' is a strong, professional way to raise a workload concern without complaining."
+    ]
+  },
+  {
+    "id": "accountable",
+    "term": "Accountable",
+    "partOfSpeech": "Adjective",
+    "level": "B2",
+    "meaning": "Required to explain and answer for a result.",
+    "usage": "Use it to make responsibility explicit — the person who has to justify the outcome, whoever did the work.",
+    "examples": [
+      { "context": "Work", "sentence": "Who's accountable if the migration fails?" },
+      { "context": "Governance", "sentence": "The board is accountable to shareholders." },
+      { "context": "Team", "sentence": "We hold each other accountable for the standards." }
+    ],
+    "remember": [
+      "'Responsible' means you do the work; 'accountable' means you answer for it. Several people can be responsible; only one should be accountable."
+    ]
+  },
+  {
+    "id": "ownership",
+    "term": "Ownership",
+    "partOfSpeech": "Noun",
+    "level": "B2",
+    "meaning": "Taking full responsibility for something and seeing it through.",
+    "usage": "Common workplace praise for someone who treats a problem as theirs to solve rather than escalating it.",
+    "examples": [
+      { "context": "Work", "sentence": "She took ownership of the whole onboarding process." },
+      { "context": "Review", "sentence": "We're looking for more ownership at this level." },
+      { "context": "Team", "sentence": "Nobody has clear ownership of the dashboard." }
+    ],
+    "remember": [
+      "'Taking ownership' means acting without being asked. It is one of the most common phrases in performance reviews."
+    ]
+  },
+  {
+    "id": "optimize",
+    "term": "Optimize",
+    "partOfSpeech": "Verb",
+    "level": "B2",
+    "meaning": "To make something as effective as possible for a particular goal.",
+    "usage": "Always optimise *for* something — speed, cost, reach. Saying it without the goal is meaningless.",
+    "examples": [
+      { "context": "Technical", "sentence": "The query is optimised for read speed, not storage." },
+      { "context": "Business", "sentence": "Are we optimising for growth or for margin?" },
+      { "context": "Personal", "sentence": "I've optimised my week for fewer meetings." }
+    ],
+    "remember": [
+      "'What are we optimising for?' is one of the most useful clarifying questions in any planning discussion.",
+      "British spelling 'optimise' is equally correct."
+    ]
+  },
+  {
+    "id": "cross-functional",
+    "term": "Cross-functional",
+    "partOfSpeech": "Adjective",
+    "level": "C1",
+    "meaning": "Involving people from several different departments.",
+    "usage": "Use it about teams deliberately assembled from different specialisms so a project doesn't need constant handoffs.",
+    "examples": [
+      { "context": "Team", "sentence": "It's a cross-functional team — design, engineering, and support." },
+      { "context": "Project", "sentence": "The work needs cross-functional agreement before it starts." }
+    ],
+    "remember": [
+      "The point is having every needed skill inside the team, so it can finish work without waiting on other departments."
+    ]
+  },
+  {
+    "id": "sign-off",
+    "term": "Sign-off",
+    "partOfSpeech": "Noun / Verb",
+    "level": "B2",
+    "meaning": "Formal approval to proceed.",
+    "usage": "Use it for the final yes from whoever holds authority — the point after which work can start or ship.",
+    "examples": [
+      { "context": "Project", "sentence": "We're waiting on sign-off from finance." },
+      { "context": "Email", "sentence": "Could you sign off on the budget by Thursday?" },
+      { "context": "Process", "sentence": "Nothing goes live without security sign-off." }
+    ],
+    "remember": [
+      "Hyphenated as a noun ('the sign-off'); two words as a verb ('please sign off on it')."
+    ]
+  },
+  {
+    "id": "viable",
+    "term": "Viable",
+    "partOfSpeech": "Adjective",
+    "level": "C1",
+    "meaning": "Able to work and keep working on its own.",
+    "usage": "Use it about businesses, products, and plans that can survive beyond launch — not just start.",
+    "examples": [
+      { "context": "Business", "sentence": "It's not a viable business at that price point." },
+      { "context": "Options", "sentence": "We have two viable options and one wishful one." },
+      { "context": "Product", "sentence": "The minimum viable product ships in March." }
+    ],
+    "remember": [
+      "Feasible means you can build it. Viable means it survives afterwards. Many feasible ideas are not viable."
+    ]
+  },
+  {
+    "id": "de-risk",
+    "term": "De-risk",
+    "partOfSpeech": "Verb",
+    "level": "C1",
+    "meaning": "To reduce the risk in a plan before committing to it fully.",
+    "usage": "Use it about deliberate steps — a pilot, a prototype, a phased rollout — taken to find problems while they're still cheap.",
+    "examples": [
+      { "context": "Project", "sentence": "A two-week prototype would de-risk the whole approach." },
+      { "context": "Business", "sentence": "We de-risked the launch by testing in one region first." },
+      { "context": "Finance", "sentence": "The staged payments de-risk it for both sides." }
+    ],
+    "remember": [
+      "De-risking is about buying information early. It costs time now to avoid a much larger loss later."
+    ]
+  },
+  {
+    "id": "backward-compatible",
+    "term": "Backward-compatible",
+    "partOfSpeech": "Adjective",
+    "level": "C1",
+    "meaning": "New enough to work with older versions that came before it.",
+    "usage": "Use it about software, file formats, and hardware that continue to work for people who haven't upgraded.",
+    "examples": [
+      { "context": "Software", "sentence": "The update is backward-compatible, so nobody has to migrate." },
+      { "context": "API", "sentence": "That change isn't backward-compatible — it will break existing clients." },
+      { "context": "Hardware", "sentence": "The console is backward-compatible with the previous generation." }
+    ],
+    "remember": [
+      "A 'breaking change' is the opposite, and the phrase to use when compatibility is deliberately dropped."
+    ]
+  },
+  {
+    "id": "graceful-degradation",
+    "term": "Graceful degradation",
+    "partOfSpeech": "Noun",
+    "level": "C2",
+    "meaning": "Losing some capability under failure while continuing to work.",
+    "usage": "Use it in design and engineering for systems built to weaken rather than collapse when part of them fails.",
+    "examples": [
+      { "context": "Software", "sentence": "If search goes down, the site degrades gracefully to browsing by category." },
+      { "context": "Design", "sentence": "Graceful degradation means older browsers still get a usable page." },
+      { "context": "Infrastructure", "sentence": "We designed for graceful degradation rather than perfect uptime." }
+    ],
+    "remember": [
+      "The opposite is 'catastrophic failure' — one part breaks and everything stops. Designing for degradation is what avoids it."
+    ]
+  },
+  {
+    "id": "cross-cutting-concern",
+    "term": "Cross-cutting concern",
+    "partOfSpeech": "Noun",
+    "level": "C2",
+    "meaning": "An issue that affects every part of a system rather than sitting in one place.",
+    "usage": "Use it for things like security, logging, or accessibility — responsibilities that can't be assigned to a single team or module.",
+    "examples": [
+      { "context": "Software", "sentence": "Logging is a cross-cutting concern; it touches every module." },
+      { "context": "Organisation", "sentence": "Accessibility is a cross-cutting concern, not one team's job." },
+      { "context": "Planning", "sentence": "Cross-cutting concerns need an owner or they get neglected." }
+    ],
+    "remember": [
+      "These are exactly the things that fall through the gaps, because everyone assumes someone else has them."
+    ]
+  },
+  {
+    "id": "strategic-imperative",
+    "term": "Strategic imperative",
+    "partOfSpeech": "Noun",
+    "level": "C2",
+    "meaning": "Something the organisation must do to succeed long term.",
+    "usage": "Formal executive language for a priority that overrides ordinary trade-offs.",
+    "examples": [
+      { "context": "Executive", "sentence": "Moving to the cloud is a strategic imperative, not a project." },
+      { "context": "Board", "sentence": "The board named three strategic imperatives for the year." }
+    ],
+    "remember": [
+      "Heavy corporate language. If everything is a strategic imperative, nothing is — it only works when the list is short."
+    ]
+  },
+  {
+    "id": "expedite",
+    "term": "Expedite",
+    "partOfSpeech": "Verb",
+    "level": "C1",
+    "meaning": "To make something happen sooner than it normally would.",
+    "usage": "Formal. Use it in requests to move something up a queue — shipping, approvals, applications.",
+    "examples": [
+      { "context": "Logistics", "sentence": "Can we expedite the shipment?" },
+      { "context": "Admin", "sentence": "Paying the extra fee expedites the application." },
+      { "context": "Work", "sentence": "I'll ask legal to expedite the review." }
+    ],
+    "remember": [
+      "Pronounced EK-spuh-dite. Expediting one thing usually delays another — it moves you up a queue, it doesn't create capacity."
+    ]
+  },
+  {
+    "id": "interim",
+    "term": "Interim",
+    "partOfSpeech": "Adjective / Noun",
+    "level": "C1",
+    "meaning": "Temporary, covering the gap until something permanent arrives.",
+    "usage": "Use it for stand-in roles, provisional results, and measures meant to last only until a proper solution exists.",
+    "examples": [
+      { "context": "Role", "sentence": "She's the interim head of department until March." },
+      { "context": "Results", "sentence": "These are interim figures and may change." },
+      { "context": "Phrase", "sentence": "In the interim, please use the old form." }
+    ],
+    "remember": [
+      "'In the interim' means 'meanwhile' and is common in formal writing.",
+      "Interim arrangements have a habit of becoming permanent — worth setting an end date."
+    ]
+  },
+  {
+    "id": "phase-out",
+    "term": "Phase out",
+    "partOfSpeech": "Phrasal verb",
+    "level": "B2",
+    "meaning": "To stop using something gradually rather than all at once.",
+    "usage": "Use it for planned withdrawal over time — old products, legacy systems, outdated policies.",
+    "examples": [
+      { "context": "Product", "sentence": "We're phasing out the old plan over twelve months." },
+      { "context": "Policy", "sentence": "The subsidy will be phased out by 2030." },
+      { "context": "Technical", "sentence": "That endpoint is being phased out — migrate when you can." }
+    ],
+    "remember": [
+      "The opposite is 'phase in'. Both imply a schedule; without one you're just switching things off."
+    ]
+  },
+  {
+    "id": "non-trivial",
+    "term": "Non-trivial",
+    "partOfSpeech": "Adjective",
+    "level": "C1",
+    "meaning": "Harder or larger than it looks.",
+    "usage": "Understated technical language. Use it to warn that something dismissed as easy will actually take real work.",
+    "examples": [
+      { "context": "Engineering", "sentence": "That's a non-trivial change — probably two weeks." },
+      { "context": "Estimate", "sentence": "The migration is non-trivial but not impossible." },
+      { "context": "Cost", "sentence": "There's a non-trivial cost to maintaining both versions." }
+    ],
+    "remember": [
+      "Deliberate understatement. 'Non-trivial' usually means considerably harder than the listener assumes."
+    ]
+  }
+]
