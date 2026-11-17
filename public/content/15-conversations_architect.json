@@ -1,0 +1,246 @@
+[
+  {
+    "id": "defending-your-design-in-an-architecture-review",
+    "term": "Defending Your Design in an Architecture Review",
+    "level": "C1",
+    "situation": "A senior architect questions why you chose a message queue.",
+    "conversation": [
+      {
+        "speaker": "Reviewer",
+        "text": "Why a message queue? It looks like extra complexity."
+      },
+      {
+        "speaker": "You",
+        "text": "Fair question. The main reason is load. Orders spike during sales, and a queue lets us accept every order and process them at a steady pace."
+      },
+      {
+        "speaker": "Reviewer",
+        "text": "We could just scale the database."
+      },
+      {
+        "speaker": "You",
+        "text": "That's one option, but the trade-off is cost, and it still fails if the database goes down. With a queue, orders wait safely until it recovers."
+      },
+      {
+        "speaker": "Reviewer",
+        "text": "And the new complexity?"
+      },
+      {
+        "speaker": "You",
+        "text": "I agree, it's a real cost. I'd recommend we start with a managed queue so the team doesn't run it. If it grows, we can review again."
+      },
+      {
+        "speaker": "Reviewer",
+        "text": "That's reasonable. Add the reasoning to the design doc."
+      },
+      {
+        "speaker": "You",
+        "text": "Will do. I'll add the rationale and the alternatives we rejected by Wednesday."
+      }
+    ],
+    "keyExpressions": [
+      "Fair question.",
+      "The main reason is...",
+      "One option is X, but the trade-off is Y.",
+      "I'd recommend we...",
+      "The alternatives we rejected."
+    ],
+    "remember": [
+      "Accept the valid part ('it's a real cost') before you defend. People trust you more.",
+      "Always have the alternative you rejected ready, with the reason."
+    ]
+  },
+  {
+    "id": "disagreeing-with-a-senior-person-politely",
+    "term": "Disagreeing With a Senior Person Politely",
+    "level": "C1",
+    "situation": "A VP wants to use a new technology you think is risky.",
+    "conversation": [
+      {
+        "speaker": "VP",
+        "text": "I want us on the new framework by Q1. Everyone is using it."
+      },
+      {
+        "speaker": "You",
+        "text": "I see the appeal. Can I flag a risk before we commit?"
+      },
+      {
+        "speaker": "VP",
+        "text": "Go ahead."
+      },
+      {
+        "speaker": "You",
+        "text": "It's only a year old, and we have no one who knows it. If something breaks, we'll be slow to fix it."
+      },
+      {
+        "speaker": "VP",
+        "text": "So what do you suggest?"
+      },
+      {
+        "speaker": "You",
+        "text": "Let me run a two-week pilot on one small service. Then we decide with real data."
+      },
+      {
+        "speaker": "VP",
+        "text": "Fine. Two weeks, then report back."
+      },
+      {
+        "speaker": "You",
+        "text": "Agreed. I'll bring a short summary with a clear recommendation."
+      }
+    ],
+    "keyExpressions": [
+      "I see the appeal.",
+      "Can I flag a risk before we commit?",
+      "Let me run a pilot.",
+      "Decide with real data."
+    ],
+    "remember": [
+      "Start with something you agree with ('I see the appeal'), then give the risk.",
+      "Offer a small test. It is easier to accept than a flat 'no'."
+    ]
+  },
+  {
+    "id": "a-short-status-update-for-leadership",
+    "term": "A Short Status Update for Leadership",
+    "level": "B2",
+    "situation": "You give a two-minute update in a leadership call.",
+    "conversation": [
+      {
+        "speaker": "Director",
+        "text": "Quick update on the payments project?"
+      },
+      {
+        "speaker": "You",
+        "text": "Here's where we are: the core flow is done and in testing. We're on track for the 20th."
+      },
+      {
+        "speaker": "Director",
+        "text": "Any risks?"
+      },
+      {
+        "speaker": "You",
+        "text": "One. We're waiting for the bank's test access. If we don't get it by Thursday, we'll slip by a week."
+      },
+      {
+        "speaker": "Director",
+        "text": "What do you need from me?"
+      },
+      {
+        "speaker": "You",
+        "text": "A call to the bank's contact person. That would unblock us."
+      },
+      {
+        "speaker": "Director",
+        "text": "I'll do it today."
+      },
+      {
+        "speaker": "You",
+        "text": "Thank you. I'll confirm tomorrow once we have access."
+      }
+    ],
+    "keyExpressions": [
+      "Here's where we are.",
+      "We're on track.",
+      "If we don't get it by Thursday, we'll slip.",
+      "What I need from you."
+    ],
+    "remember": [
+      "Order: status, risk, request. Three sentences are enough.",
+      "Give a date for the risk. 'Thursday' is clearer than 'soon'."
+    ]
+  },
+  {
+    "id": "giving-bad-news-during-an-incident",
+    "term": "Giving Bad News During an Incident",
+    "level": "C1",
+    "situation": "The payment service is down and a manager asks for an update.",
+    "conversation": [
+      {
+        "speaker": "Manager",
+        "text": "Customers can't pay. What's happening?"
+      },
+      {
+        "speaker": "You",
+        "text": "We've identified the issue and we're working on a fix. A faulty release broke the payment connection."
+      },
+      {
+        "speaker": "Manager",
+        "text": "How long?"
+      },
+      {
+        "speaker": "You",
+        "text": "I don't want to guess. Our best estimate is 30 to 45 minutes, and I'll update you at 3:30 whatever happens."
+      },
+      {
+        "speaker": "Manager",
+        "text": "What should I tell customers?"
+      },
+      {
+        "speaker": "You",
+        "text": "That payments are temporarily unavailable and we're fixing it. Please avoid giving a time yet."
+      },
+      {
+        "speaker": "Manager",
+        "text": "Okay."
+      },
+      {
+        "speaker": "You",
+        "text": "Service is restored as of 3:25. That's on us. We'll share a full review once we have the facts."
+      }
+    ],
+    "keyExpressions": [
+      "We've identified the issue.",
+      "I don't want to guess.",
+      "I'll update you at 3:30.",
+      "That's on us.",
+      "A full review."
+    ],
+    "remember": [
+      "Calm, short sentences. Say what you know, what you don't, and when you'll speak next.",
+      "Take responsibility once. Do not blame people during the incident."
+    ]
+  },
+  {
+    "id": "small-talk-before-a-call-with-foreign-colleagues",
+    "term": "Small Talk Before a Call With Foreign Colleagues",
+    "level": "A2",
+    "situation": "Two minutes before a meeting with a colleague in London.",
+    "conversation": [
+      {
+        "speaker": "Emma",
+        "text": "Hi Anish! How are you?"
+      },
+      {
+        "speaker": "You",
+        "text": "Hi Emma, I'm good, thanks. How was your weekend?"
+      },
+      {
+        "speaker": "Emma",
+        "text": "Lovely, we went hiking. What's the weather like in Kerala?"
+      },
+      {
+        "speaker": "You",
+        "text": "Warm and humid, and it's raining a lot this week. It's evening here, so I'm drinking tea."
+      },
+      {
+        "speaker": "Emma",
+        "text": "Sounds nice! Shall we start?"
+      },
+      {
+        "speaker": "You",
+        "text": "Sure. Could I share my screen first?"
+      }
+    ],
+    "keyExpressions": [
+      "How was your weekend?",
+      "What's the weather like...?",
+      "It's evening here.",
+      "Shall we start?"
+    ],
+    "remember": [
+      "Answer, then ask back. That's what makes small talk feel friendly.",
+      "Keep it under one minute. It is a warm-up, not a topic."
+    ]
+  }
+]
