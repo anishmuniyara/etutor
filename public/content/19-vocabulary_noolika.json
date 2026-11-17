@@ -1,0 +1,464 @@
+[
+  {
+    "id": "drape",
+    "term": "Drape",
+    "partOfSpeech": "Noun / Verb",
+    "level": "B2",
+    "meaning": "The way fabric falls and hangs on the body.",
+    "usage": "Use it to describe how a saree looks when worn.",
+    "examples": [
+      {
+        "context": "Product",
+        "sentence": "This silk has a beautiful drape."
+      },
+      {
+        "context": "DM",
+        "sentence": "The cotton drapes well and is easy to pleat."
+      }
+    ],
+    "remember": [
+      "Say 'a beautiful drape', not 'a beautiful fall'. Verb: 'It drapes well.'"
+    ]
+  },
+  {
+    "id": "pleat",
+    "term": "Pleat",
+    "partOfSpeech": "Noun / Verb",
+    "level": "B2",
+    "meaning": "A fold in fabric, pressed or sewn flat.",
+    "usage": "Use it when you talk about wearing a saree.",
+    "examples": [
+      {
+        "context": "Product",
+        "sentence": "Make five or six pleats at the front."
+      },
+      {
+        "context": "DM",
+        "sentence": "The pleats stay in place all day."
+      }
+    ],
+    "remember": [
+      "Spelling: PLEAT, not 'plait' (that is hair)."
+    ]
+  },
+  {
+    "id": "pallu",
+    "term": "Pallu",
+    "partOfSpeech": "Noun",
+    "level": "A2",
+    "meaning": "The decorated loose end of a saree that goes over the shoulder.",
+    "usage": "Use it to describe the most detailed part.",
+    "examples": [
+      {
+        "context": "Product",
+        "sentence": "The pallu has a hand-woven gold motif."
+      },
+      {
+        "context": "DM",
+        "sentence": "The pallu is heavier than the body."
+      }
+    ],
+    "remember": [
+      "In English, 'pallu' and 'pallav' are both used. Keep one in all your posts."
+    ]
+  },
+  {
+    "id": "border",
+    "term": "Border",
+    "partOfSpeech": "Noun",
+    "level": "A2",
+    "meaning": "The edge design along the length of a saree.",
+    "usage": "Use it to describe the design at the edges.",
+    "examples": [
+      {
+        "context": "Product",
+        "sentence": "A wide zari border in gold."
+      },
+      {
+        "context": "DM",
+        "sentence": "The border is contrast green."
+      }
+    ],
+    "remember": [
+      "Wide border, thin border, contrast border."
+    ]
+  },
+  {
+    "id": "zari",
+    "term": "Zari",
+    "partOfSpeech": "Noun",
+    "level": "B1",
+    "meaning": "Shiny gold or silver thread used in weaving.",
+    "usage": "Use it for gold-coloured work in borders and pallus.",
+    "examples": [
+      {
+        "context": "Product",
+        "sentence": "Pure zari work."
+      },
+      {
+        "context": "DM",
+        "sentence": "The zari is soft, so it does not scratch."
+      }
+    ],
+    "remember": [
+      "Say 'pure zari' only if true. 'Tested zari' or 'imitation zari' are honest alternatives."
+    ]
+  },
+  {
+    "id": "handwoven",
+    "term": "Handwoven",
+    "partOfSpeech": "Adjective",
+    "level": "B1",
+    "meaning": "Made on a loom by hand, not by a machine.",
+    "usage": "Use it to show quality and justify price.",
+    "examples": [
+      {
+        "context": "Product",
+        "sentence": "A handwoven cotton saree from Kerala."
+      },
+      {
+        "context": "DM",
+        "sentence": "Each piece is handwoven, so small differences are normal."
+      }
+    ],
+    "remember": [
+      "One word: handwoven. Not 'hand woven'."
+    ]
+  },
+  {
+    "id": "texture",
+    "term": "Texture",
+    "partOfSpeech": "Noun",
+    "level": "B1",
+    "meaning": "How the fabric feels when touched.",
+    "usage": "Use it for the feel of a fabric.",
+    "examples": [
+      {
+        "context": "Product",
+        "sentence": "The texture is soft and light."
+      },
+      {
+        "context": "DM",
+        "sentence": "It has a slightly crisp texture."
+      }
+    ],
+    "remember": [
+      "Texture = feel. Pattern = design. Colour = shade."
+    ]
+  },
+  {
+    "id": "lightweight",
+    "term": "Lightweight",
+    "partOfSpeech": "Adjective",
+    "level": "B1",
+    "meaning": "Not heavy, easy to wear for long.",
+    "usage": "Use it for summer and office sarees.",
+    "examples": [
+      {
+        "context": "Product",
+        "sentence": "A lightweight cotton saree for daily wear."
+      },
+      {
+        "context": "DM",
+        "sentence": "It's lightweight, so it's good for hot weather."
+      }
+    ],
+    "remember": [
+      "One word. 'Light' can also mean the colour."
+    ]
+  },
+  {
+    "id": "breathable",
+    "term": "Breathable",
+    "partOfSpeech": "Adjective",
+    "level": "B2",
+    "meaning": "Lets air through, so the skin stays cool.",
+    "usage": "Use it for cotton and linen.",
+    "examples": [
+      {
+        "context": "Product",
+        "sentence": "Breathable cotton, perfect for summer."
+      },
+      {
+        "context": "DM",
+        "sentence": "The fabric is soft and breathable."
+      }
+    ],
+    "remember": [
+      "Stress: BREATH-uh-bul."
+    ]
+  },
+  {
+    "id": "occasion",
+    "term": "Occasion",
+    "partOfSpeech": "Noun",
+    "level": "B1",
+    "meaning": "A special event, such as a wedding or festival.",
+    "usage": "Use it to suggest where to wear the saree.",
+    "examples": [
+      {
+        "context": "Product",
+        "sentence": "Perfect for weddings and festive occasions."
+      },
+      {
+        "context": "DM",
+        "sentence": "What occasion is it for?"
+      }
+    ],
+    "remember": [
+      "Spelling: OCCASION - two c, one s. Ask 'What is the occasion?' to guide the customer."
+    ]
+  },
+  {
+    "id": "festive",
+    "term": "Festive",
+    "partOfSpeech": "Adjective",
+    "level": "B1",
+    "meaning": "Suitable for festivals and celebrations.",
+    "usage": "Use it for rich, bright sarees.",
+    "examples": [
+      {
+        "context": "Product",
+        "sentence": "A festive silk saree for Onam."
+      },
+      {
+        "context": "DM",
+        "sentence": "This one is more festive; the other is for daily wear."
+      }
+    ],
+    "remember": [
+      "Festive wear, daily wear, office wear, party wear."
+    ]
+  },
+  {
+    "id": "elegant",
+    "term": "Elegant",
+    "partOfSpeech": "Adjective",
+    "level": "B1",
+    "meaning": "Simple, graceful, and stylish.",
+    "usage": "Use it for a refined look.",
+    "examples": [
+      {
+        "context": "Product",
+        "sentence": "An elegant cream saree with a gold border."
+      },
+      {
+        "context": "DM",
+        "sentence": "It's elegant but not heavy."
+      }
+    ],
+    "remember": [
+      "Do not overuse 'beautiful'. Mix with: elegant, graceful, classic, subtle."
+    ]
+  },
+  {
+    "id": "vibrant",
+    "term": "Vibrant",
+    "partOfSpeech": "Adjective",
+    "level": "B2",
+    "meaning": "Bright and full of colour.",
+    "usage": "Use it for strong, bright shades.",
+    "examples": [
+      {
+        "context": "Product",
+        "sentence": "A vibrant red with a green border."
+      },
+      {
+        "context": "DM",
+        "sentence": "The colours are vibrant but not loud."
+      }
+    ],
+    "remember": [
+      "Opposite: muted or soft."
+    ]
+  },
+  {
+    "id": "subtle",
+    "term": "Subtle",
+    "partOfSpeech": "Adjective",
+    "level": "B2",
+    "meaning": "Gentle and not strong or loud.",
+    "usage": "Use it for quiet designs and colours.",
+    "examples": [
+      {
+        "context": "Product",
+        "sentence": "A subtle zari border."
+      },
+      {
+        "context": "DM",
+        "sentence": "The pattern is subtle, so it goes with anything."
+      }
+    ],
+    "remember": [
+      "The 'b' is silent: SUT-l."
+    ]
+  },
+  {
+    "id": "pure-silk",
+    "term": "Pure silk",
+    "partOfSpeech": "Noun phrase",
+    "level": "B1",
+    "meaning": "Silk made only from silk thread, with nothing mixed in.",
+    "usage": "Use it only when 100% true.",
+    "examples": [
+      {
+        "context": "Product",
+        "sentence": "Pure silk, certified."
+      },
+      {
+        "context": "DM",
+        "sentence": "This is a silk-cotton blend, not pure silk."
+      }
+    ],
+    "remember": [
+      "Honest labels build trust. Say 'blend' or 'silk-cotton' when mixed."
+    ]
+  },
+  {
+    "id": "blend",
+    "term": "Blend",
+    "partOfSpeech": "Noun / Verb",
+    "level": "B2",
+    "meaning": "A mix of two or more fibres.",
+    "usage": "Use it for mixed fabrics.",
+    "examples": [
+      {
+        "context": "Product",
+        "sentence": "A cotton-linen blend."
+      },
+      {
+        "context": "DM",
+        "sentence": "This blend is easier to wash than pure silk."
+      }
+    ],
+    "remember": [
+      "'Blend' is a mix. 'Pure' is only one fibre."
+    ]
+  },
+  {
+    "id": "dry-clean-only",
+    "term": "Dry clean only",
+    "partOfSpeech": "Noun phrase",
+    "level": "B1",
+    "meaning": "Do not wash at home; take it to a dry cleaner.",
+    "usage": "Use it in care instructions.",
+    "examples": [
+      {
+        "context": "Product",
+        "sentence": "Care: dry clean only."
+      },
+      {
+        "context": "DM",
+        "sentence": "Please dry clean this one for the first wash."
+      }
+    ],
+    "remember": [
+      "Short care lines are best: 'Dry clean only', 'Gentle hand wash', 'Do not bleach'."
+    ]
+  },
+  {
+    "id": "colour-fast",
+    "term": "Colour-fast",
+    "partOfSpeech": "Adjective",
+    "level": "C1",
+    "meaning": "Does not lose its colour when washed.",
+    "usage": "Use it with care for strong colours.",
+    "examples": [
+      {
+        "context": "Product",
+        "sentence": "Colour-fast cotton."
+      },
+      {
+        "context": "DM",
+        "sentence": "Wash the first time separately, as new fabric can release some dye."
+      }
+    ],
+    "remember": [
+      "Be careful: say 'colour-fast' only if you have tested it."
+    ]
+  },
+  {
+    "id": "stitched-blouse",
+    "term": "Stitched blouse",
+    "partOfSpeech": "Noun phrase",
+    "level": "A2",
+    "meaning": "A ready-made blouse.",
+    "usage": "Use it when you sell blouses.",
+    "examples": [
+      {
+        "context": "Product",
+        "sentence": "Stitched blouse available in sizes S to XL."
+      },
+      {
+        "context": "DM",
+        "sentence": "The saree comes with an unstitched blouse piece."
+      }
+    ],
+    "remember": [
+      "Stitched = ready made. Unstitched = fabric only."
+    ]
+  },
+  {
+    "id": "blouse-piece",
+    "term": "Blouse piece",
+    "partOfSpeech": "Noun phrase",
+    "level": "A2",
+    "meaning": "Extra fabric included with the saree to make a blouse.",
+    "usage": "Use it to say what the customer will get.",
+    "examples": [
+      {
+        "context": "Product",
+        "sentence": "Comes with a matching blouse piece."
+      },
+      {
+        "context": "DM",
+        "sentence": "The blouse piece is 0.8 metres."
+      }
+    ],
+    "remember": [
+      "Always mention if it is included."
+    ]
+  },
+  {
+    "id": "limited-edition",
+    "term": "Limited edition",
+    "partOfSpeech": "Noun phrase",
+    "level": "B2",
+    "meaning": "Only a few pieces made.",
+    "usage": "Use it to show a design is special.",
+    "examples": [
+      {
+        "context": "Product",
+        "sentence": "Limited edition: only five pieces."
+      },
+      {
+        "context": "DM",
+        "sentence": "This design is limited edition, so I won't restock."
+      }
+    ],
+    "remember": [
+      "Use it only when it is true."
+    ]
+  },
+  {
+    "id": "restock",
+    "term": "Restock",
+    "partOfSpeech": "Verb / Noun",
+    "level": "B1",
+    "meaning": "To bring back items that sold out.",
+    "usage": "Use it in posts and replies.",
+    "examples": [
+      {
+        "context": "Post",
+        "sentence": "Sold-out sarees are restocking this Friday!"
+      },
+      {
+        "context": "DM",
+        "sentence": "Would you like me to tell you when it's restocked?"
+      }
+    ],
+    "remember": [
+      "Verb: restock (one word). 'Back in stock' also works."
+    ]
+  }
+]
