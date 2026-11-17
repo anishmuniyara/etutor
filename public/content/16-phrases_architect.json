@@ -1,0 +1,522 @@
+[
+  {
+    "id": "i-see-it-differently-and-here-s-why",
+    "term": "I see it differently, and here's why.",
+    "level": "B2",
+    "meaning": "You disagree, and you are about to give your reasons.",
+    "usage": "Use it to disagree with a senior person. It sounds calm because the reason comes right after.",
+    "examples": [
+      {
+        "context": "Review",
+        "sentence": "I see it differently, and here's why. Our traffic will triple next year."
+      },
+      {
+        "context": "Meeting",
+        "sentence": "I see it differently, and here's why. The cost shows up in month six."
+      }
+    ],
+    "remember": [
+      "Always say the reason in the next sentence. 'I disagree' alone sounds rude; 'I see it differently' plus a reason sounds professional."
+    ]
+  },
+  {
+    "id": "one-option-is-x-but-the-trade-off-is-y",
+    "term": "One option is X, but the trade-off is Y.",
+    "level": "B2",
+    "meaning": "You present a choice and its cost together.",
+    "usage": "Use it in design reviews so people see the price of every option.",
+    "examples": [
+      {
+        "context": "Architecture",
+        "sentence": "One option is a queue, but the trade-off is slower response for the user."
+      },
+      {
+        "context": "Planning",
+        "sentence": "One option is to buy it, but the trade-off is vendor lock-in."
+      }
+    ],
+    "remember": [
+      "Malayalam speakers often say only the good side first. In English reviews, say the cost in the same sentence."
+    ]
+  },
+  {
+    "id": "before-we-commit-can-i-flag-a-risk",
+    "term": "Before we commit, can I flag a risk?",
+    "level": "B2",
+    "meaning": "You ask permission to raise a worry before a decision is final.",
+    "usage": "Use it just before a decision is made. Asking permission makes people listen.",
+    "examples": [
+      {
+        "context": "Meeting",
+        "sentence": "Before we commit, can I flag a risk with the migration date?"
+      },
+      {
+        "context": "Call",
+        "sentence": "Before we commit, can I flag a risk on the data side?"
+      }
+    ],
+    "remember": [
+      "'Flag' means point out so people notice. Say the risk in one clear sentence right after."
+    ]
+  },
+  {
+    "id": "help-me-understand-the-thinking-behind-this",
+    "term": "Help me understand the thinking behind this.",
+    "level": "B2",
+    "meaning": "You ask politely why a decision was made, without attacking it.",
+    "usage": "Use it when a senior person's decision looks wrong to you. It sounds curious, not hostile.",
+    "examples": [
+      {
+        "context": "Review",
+        "sentence": "Help me understand the thinking behind this choice of database."
+      },
+      {
+        "context": "Meeting",
+        "sentence": "Help me understand the thinking behind the new deadline."
+      }
+    ],
+    "remember": [
+      "Do not ask 'Why did you do this?' to a senior person. It sounds like blame."
+    ]
+  },
+  {
+    "id": "my-concern-is",
+    "term": "My concern is...",
+    "level": "B1",
+    "meaning": "The main worry you have.",
+    "usage": "Use it to state a worry directly and politely.",
+    "examples": [
+      {
+        "context": "Review",
+        "sentence": "My concern is that one service will become a single point of failure."
+      },
+      {
+        "context": "Meeting",
+        "sentence": "My concern is the timeline, not the design."
+      }
+    ],
+    "remember": [
+      "Say 'my concern is' + one point. Do not list five concerns at once."
+    ]
+  },
+  {
+    "id": "let-me-play-devil-s-advocate",
+    "term": "Let me play devil's advocate.",
+    "level": "B2",
+    "meaning": "You argue against an idea on purpose, to test it.",
+    "usage": "Use it when you want to challenge an idea without saying you are against it.",
+    "examples": [
+      {
+        "context": "Review",
+        "sentence": "Let me play devil's advocate: what if the vendor shuts down?"
+      },
+      {
+        "context": "Meeting",
+        "sentence": "Let me play devil's advocate for a minute."
+      }
+    ],
+    "remember": [
+      "It tells people you are testing the idea, not attacking the person."
+    ]
+  },
+  {
+    "id": "i-d-recommend-we",
+    "term": "I'd recommend we...",
+    "level": "B2",
+    "meaning": "A soft but clear suggestion with your opinion inside.",
+    "usage": "Use it after you give options. Leaders want your recommendation, not just a list.",
+    "examples": [
+      {
+        "context": "Review",
+        "sentence": "I'd recommend we start with the simpler design."
+      },
+      {
+        "context": "Status",
+        "sentence": "I'd recommend we cut scope, not the testing."
+      }
+    ],
+    "remember": [
+      "'I'd recommend' is stronger than 'maybe we can' and still polite. Use it often."
+    ]
+  },
+  {
+    "id": "with-the-current-scope-that-date-isn-t-realistic",
+    "term": "With the current scope, that date isn't realistic.",
+    "level": "C1",
+    "meaning": "You say a deadline is impossible, and you name the reason.",
+    "usage": "Use it to push back on a deadline. 'With the current scope' puts the problem on the work, not on the people.",
+    "examples": [
+      {
+        "context": "Planning",
+        "sentence": "With the current scope, that date isn't realistic."
+      },
+      {
+        "context": "Call",
+        "sentence": "With the current team, that date isn't realistic."
+      }
+    ],
+    "remember": [
+      "Follow it at once with a way forward: reduce scope, add people, or move the date."
+    ]
+  },
+  {
+    "id": "what-i-can-commit-to-is",
+    "term": "What I can commit to is...",
+    "level": "C1",
+    "meaning": "The part of a request you can truly promise.",
+    "usage": "Use it when you cannot say yes to everything. It replaces a flat 'no'.",
+    "examples": [
+      {
+        "context": "Planning",
+        "sentence": "What I can commit to is the core flow by the 30th."
+      },
+      {
+        "context": "Manager",
+        "sentence": "What I can commit to is a working demo on Friday."
+      }
+    ],
+    "remember": [
+      "Say 'I can't' less. Say what you can do. Leaders hear it as being helpful."
+    ]
+  },
+  {
+    "id": "here-s-where-we-are",
+    "term": "Here's where we are.",
+    "level": "B1",
+    "meaning": "Start of a short status update.",
+    "usage": "Use it to begin a status update to leaders.",
+    "examples": [
+      {
+        "context": "Status",
+        "sentence": "Here's where we are: the API is done and testing starts Monday."
+      },
+      {
+        "context": "Call",
+        "sentence": "Here's where we are on the migration."
+      }
+    ],
+    "remember": [
+      "Keep status updates in three parts: where we are, what is blocking, what I need from you."
+    ]
+  },
+  {
+    "id": "we-re-on-track",
+    "term": "We're on track.",
+    "level": "B1",
+    "meaning": "The work is going to finish on time.",
+    "usage": "Use it when the plan is fine.",
+    "examples": [
+      {
+        "context": "Status",
+        "sentence": "We're on track for the 20th."
+      },
+      {
+        "context": "Meeting",
+        "sentence": "Design is on track; testing is the risk."
+      }
+    ],
+    "remember": [
+      "Only say it if it is true. If not, use 'at risk' or 'behind'."
+    ]
+  },
+  {
+    "id": "we-re-at-risk-of-slipping",
+    "term": "We're at risk of slipping.",
+    "level": "B2",
+    "meaning": "The date may be missed.",
+    "usage": "Use it early, as a warning, before the date is actually missed.",
+    "examples": [
+      {
+        "context": "Status",
+        "sentence": "We're at risk of slipping by a week because of the vendor."
+      },
+      {
+        "context": "Meeting",
+        "sentence": "We're at risk of slipping unless we get the test environment."
+      }
+    ],
+    "remember": [
+      "'Slip' means move later. Warn early. Leaders hate surprises more than delays."
+    ]
+  },
+  {
+    "id": "the-blocker-is",
+    "term": "The blocker is...",
+    "level": "B2",
+    "meaning": "The one thing that stops your work.",
+    "usage": "Use it to say clearly what you are waiting for.",
+    "examples": [
+      {
+        "context": "Status",
+        "sentence": "The blocker is access to the production logs."
+      },
+      {
+        "context": "Call",
+        "sentence": "The blocker is a decision on the payment provider."
+      }
+    ],
+    "remember": [
+      "Name the blocker, who can remove it, and by when. 'I need X from Y by Thursday.'"
+    ]
+  },
+  {
+    "id": "what-i-need-from-you-is",
+    "term": "What I need from you is...",
+    "level": "B2",
+    "meaning": "A clear request to a senior person.",
+    "usage": "Use it at the end of an update so leaders know how to help.",
+    "examples": [
+      {
+        "context": "Status",
+        "sentence": "What I need from you is approval for two more weeks."
+      },
+      {
+        "context": "Email",
+        "sentence": "What I need from you is a decision by Friday."
+      }
+    ],
+    "remember": [
+      "End updates with this sentence. It makes you sound like a leader, not a reporter."
+    ]
+  },
+  {
+    "id": "in-plain-terms",
+    "term": "In plain terms,",
+    "level": "B2",
+    "meaning": "You are about to explain simply.",
+    "usage": "Use it before simplifying a technical point for non-technical people.",
+    "examples": [
+      {
+        "context": "Business",
+        "sentence": "In plain terms, the system will be slower when many people log in."
+      },
+      {
+        "context": "Meeting",
+        "sentence": "In plain terms, we are paying now to save money later."
+      }
+    ],
+    "remember": [
+      "Then use an everyday example. No acronyms."
+    ]
+  },
+  {
+    "id": "think-of-it-like",
+    "term": "Think of it like...",
+    "level": "B1",
+    "meaning": "You compare a technical idea to something familiar.",
+    "usage": "Use it to explain systems to non-technical people.",
+    "examples": [
+      {
+        "context": "Business",
+        "sentence": "Think of it like a bank queue: more counters means a shorter line."
+      },
+      {
+        "context": "Meeting",
+        "sentence": "Think of it like a road: one lane jams quickly."
+      }
+    ],
+    "remember": [
+      "One short comparison is enough. A long one confuses people."
+    ]
+  },
+  {
+    "id": "the-impact-on-the-business-is",
+    "term": "The impact on the business is...",
+    "level": "B2",
+    "meaning": "What the technical issue means in money, time, or customers.",
+    "usage": "Use it when talking to managers. They care about impact, not technology.",
+    "examples": [
+      {
+        "context": "Incident",
+        "sentence": "The impact on the business is a two-hour delay in orders."
+      },
+      {
+        "context": "Review",
+        "sentence": "The impact on the business is higher cost, not lower speed."
+      }
+    ],
+    "remember": [
+      "Translate every technical point into time, money, or customer effect."
+    ]
+  },
+  {
+    "id": "we-ve-identified-the-issue-and-we-re-working-on-a-fix",
+    "term": "We've identified the issue and we're working on a fix.",
+    "level": "B2",
+    "meaning": "The problem is known, and repair has started.",
+    "usage": "Use it in the first message during an incident.",
+    "examples": [
+      {
+        "context": "Incident",
+        "sentence": "We've identified the issue and we're working on a fix."
+      },
+      {
+        "context": "Customer",
+        "sentence": "We've identified the issue and we're working on a fix; next update at 5 PM."
+      }
+    ],
+    "remember": [
+      "Always give the time of your next update. It calms people."
+    ]
+  },
+  {
+    "id": "service-is-restored",
+    "term": "Service is restored.",
+    "level": "B1",
+    "meaning": "The system works again.",
+    "usage": "Use it when the problem has been fixed.",
+    "examples": [
+      {
+        "context": "Incident",
+        "sentence": "Service is restored as of 3:40 PM."
+      },
+      {
+        "context": "Update",
+        "sentence": "Service is restored; we are watching it closely."
+      }
+    ],
+    "remember": [
+      "Add 'we are monitoring' for the next hour. Do not say 'fixed forever' too early."
+    ]
+  },
+  {
+    "id": "we-ll-share-a-full-review-once-we-have-the-facts",
+    "term": "We'll share a full review once we have the facts.",
+    "level": "C1",
+    "meaning": "You promise a proper report later and refuse to guess now.",
+    "usage": "Use it when leaders want the cause before you know it.",
+    "examples": [
+      {
+        "context": "Incident",
+        "sentence": "We'll share a full review once we have the facts."
+      },
+      {
+        "context": "Call",
+        "sentence": "I don't want to guess; we'll share the cause by tomorrow."
+      }
+    ],
+    "remember": [
+      "Do not guess the root cause in the first hour. 'We don't know yet' is a good professional answer."
+    ]
+  },
+  {
+    "id": "that-s-on-us",
+    "term": "That's on us.",
+    "level": "B2",
+    "meaning": "We accept responsibility.",
+    "usage": "Use it when your team made the mistake. It builds trust.",
+    "examples": [
+      {
+        "context": "Customer",
+        "sentence": "The delay was our mistake - that's on us."
+      },
+      {
+        "context": "Incident",
+        "sentence": "That's on us, and here's how we'll prevent it."
+      }
+    ],
+    "remember": [
+      "Say it once, then move to the fix. Too many sorries sound weak."
+    ]
+  },
+  {
+    "id": "how-was-your-weekend",
+    "term": "How was your weekend?",
+    "level": "A2",
+    "meaning": "Small-talk opener.",
+    "usage": "Use it at the start of a call, before the meeting begins.",
+    "examples": [
+      {
+        "context": "Call",
+        "sentence": "Hi Sarah, how was your weekend?"
+      },
+      {
+        "context": "Meeting",
+        "sentence": "Good morning, everyone. How was your weekend?"
+      }
+    ],
+    "remember": [
+      "Reply with one sentence plus a question back: 'Quiet, thanks - I went to the beach. And yours?'"
+    ]
+  },
+  {
+    "id": "what-s-the-weather-like-over-there",
+    "term": "What's the weather like over there?",
+    "level": "A2",
+    "meaning": "Safe small talk with a colleague in another country.",
+    "usage": "Use it to start a friendly chat with foreign colleagues.",
+    "examples": [
+      {
+        "context": "Call",
+        "sentence": "What's the weather like over there? It's raining heavily here."
+      },
+      {
+        "context": "Meeting",
+        "sentence": "How's the weather in London today?"
+      }
+    ],
+    "remember": [
+      "Weather, food, travel, and weekend are safe topics. Politics and salary are not."
+    ]
+  },
+  {
+    "id": "it-s-evening-here-so-i-ll-keep-it-short",
+    "term": "It's evening here, so I'll keep it short.",
+    "level": "B1",
+    "meaning": "Mention your time zone kindly.",
+    "usage": "Use it when calls are at odd hours.",
+    "examples": [
+      {
+        "context": "Call",
+        "sentence": "It's late evening here, so I'll keep it short."
+      },
+      {
+        "context": "Meeting",
+        "sentence": "It's already night here - let's confirm the next steps."
+      }
+    ],
+    "remember": [
+      "Time zones are a normal topic. It also tells people why you may sound tired."
+    ]
+  },
+  {
+    "id": "could-you-say-that-again-please",
+    "term": "Could you say that again, please?",
+    "level": "A2",
+    "meaning": "Ask someone to repeat.",
+    "usage": "Use it if you missed a word on a call. It is always acceptable.",
+    "examples": [
+      {
+        "context": "Call",
+        "sentence": "Sorry, could you say that again, please?"
+      },
+      {
+        "context": "Meeting",
+        "sentence": "Could you say that last part again? The line broke."
+      }
+    ],
+    "remember": [
+      "Better than guessing. Foreign accents can be fast; asking is a strength, not a weakness."
+    ]
+  },
+  {
+    "id": "just-to-confirm-you-re-saying",
+    "term": "Just to confirm, you're saying...",
+    "level": "B1",
+    "meaning": "You repeat the point to check you understood.",
+    "usage": "Use it before you agree to something important.",
+    "examples": [
+      {
+        "context": "Call",
+        "sentence": "Just to confirm, you're saying the release is moved to Friday?"
+      },
+      {
+        "context": "Meeting",
+        "sentence": "Just to confirm, you want it done before the audit?"
+      }
+    ],
+    "remember": [
+      "This habit prevents most mistakes with foreign colleagues."
+    ]
+  }
+]
