@@ -146,5 +146,53 @@
     "icon": "M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z",
     "icon2": "M8 9h8M8 13h5",
     "count": 8
+  },
+  {
+    "slug": "phrases_architect",
+    "name": "Architect: Reviews & Updates",
+    "template": "explanation",
+    "count": 26,
+    "icon": "M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1 0-5H20",
+    "icon2": ""
+  },
+  {
+    "slug": "vocabulary_architect",
+    "name": "Architect: Key Words",
+    "template": "explanation",
+    "count": 20,
+    "icon": "M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1 0-5H20",
+    "icon2": ""
+  },
+  {
+    "slug": "conversations_architect",
+    "name": "Conversations: Architect Moments",
+    "template": "conversation",
+    "count": 5,
+    "icon": "M17 6.1H3a2 2 0 0 0-2 2V15a2 2 0 0 0 2 2h1v3l4-3h9a2 2 0 0 0 2-2V8.1a2 2 0 0 0-2-2Z",
+    "icon2": ""
+  },
+  {
+    "slug": "phrases_noolika_dm",
+    "name": "Noolika: Customer DMs",
+    "template": "explanation",
+    "count": 26,
+    "icon": "M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1 0-5H20",
+    "icon2": ""
+  },
+  {
+    "slug": "vocabulary_noolika",
+    "name": "Noolika: Saree & Product Words",
+    "template": "explanation",
+    "count": 22,
+    "icon": "M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1 0-5H20",
+    "icon2": ""
+  },
+  {
+    "slug": "conversations_noolika",
+    "name": "Conversations: Noolika Customers",
+    "template": "conversation",
+    "count": 5,
+    "icon": "M17 6.1H3a2 2 0 0 0-2 2V15a2 2 0 0 0 2 2h1v3l4-3h9a2 2 0 0 0 2-2V8.1a2 2 0 0 0-2-2Z",
+    "icon2": ""
   }
 ]
