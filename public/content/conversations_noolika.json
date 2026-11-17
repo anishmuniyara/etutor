@@ -1,0 +1,220 @@
+[
+  {
+    "id": "replying-to-price",
+    "term": "Replying to 'Price?'",
+    "level": "A2",
+    "situation": "A new Instagram customer sends only 'Price?' under a photo.",
+    "conversation": [
+      {
+        "speaker": "Customer",
+        "text": "Price?"
+      },
+      {
+        "speaker": "You",
+        "text": "Hello, thank you for your interest in Noolika! This saree is ₹2,400, including shipping."
+      },
+      {
+        "speaker": "Customer",
+        "text": "Colours?"
+      },
+      {
+        "speaker": "You",
+        "text": "It's available in red, green and navy. Shall I send photos of each?"
+      },
+      {
+        "speaker": "Customer",
+        "text": "Send green."
+      },
+      {
+        "speaker": "You",
+        "text": "Sure! Here are two photos in natural light. The colour may look slightly different on your screen."
+      },
+      {
+        "speaker": "Customer",
+        "text": "Okay, nice."
+      },
+      {
+        "speaker": "You",
+        "text": "Would you like me to reserve it for you until tomorrow?"
+      }
+    ],
+    "keyExpressions": [
+      "Thank you for your interest.",
+      "Including shipping.",
+      "It's available in...",
+      "Would you like me to reserve it?"
+    ],
+    "remember": [
+      "Answer fast, then ask one question to keep the chat going.",
+      "Short customers need short replies. Don't send a long paragraph to 'Price?'"
+    ]
+  },
+  {
+    "id": "confirming-an-order",
+    "term": "Confirming an Order",
+    "level": "B1",
+    "situation": "A customer is ready to buy.",
+    "conversation": [
+      {
+        "speaker": "Customer",
+        "text": "I want the green one."
+      },
+      {
+        "speaker": "You",
+        "text": "Lovely choice! It's in stock. Here are the payment details. Please send a screenshot after paying."
+      },
+      {
+        "speaker": "Customer",
+        "text": "Paid. Sent screenshot."
+      },
+      {
+        "speaker": "You",
+        "text": "I've received your payment. Thank you! Your order is confirmed. Could you please share your full address and PIN code?"
+      },
+      {
+        "speaker": "Customer",
+        "text": "Sending now."
+      },
+      {
+        "speaker": "You",
+        "text": "Thank you. Your order will be dispatched within two days. I'll send the tracking number as soon as it ships."
+      }
+    ],
+    "keyExpressions": [
+      "It's in stock.",
+      "I've received your payment.",
+      "Your order is confirmed.",
+      "Dispatched within two days."
+    ],
+    "remember": [
+      "Order of messages: stock, payment, confirmation, address, dispatch time.",
+      "Always promise the tracking number. It reduces 'where is my parcel?' messages."
+    ]
+  },
+  {
+    "id": "a-polite-follow-up",
+    "term": "A Polite Follow-Up",
+    "level": "B1",
+    "situation": "A customer asked about a saree two days ago and went silent.",
+    "conversation": [
+      {
+        "speaker": "You",
+        "text": "Hello Priya, just checking in - did you get a chance to look at the blue saree?"
+      },
+      {
+        "speaker": "Customer",
+        "text": "Yes, but it's a bit costly for me."
+      },
+      {
+        "speaker": "You",
+        "text": "I understand. This is our best price, as it's handwoven. I can offer ₹100 off on orders above ₹3,000, if you'd like to add another piece."
+      },
+      {
+        "speaker": "Customer",
+        "text": "Let me think."
+      },
+      {
+        "speaker": "You",
+        "text": "No pressure at all - take your time. I'll keep it reserved until tomorrow evening."
+      }
+    ],
+    "keyExpressions": [
+      "Just checking in.",
+      "This is our best price.",
+      "I can offer...",
+      "No pressure at all."
+    ],
+    "remember": [
+      "Give the reason for the price. Customers accept a reason more than a bare 'no'.",
+      "Follow up only once or twice."
+    ]
+  },
+  {
+    "id": "handling-a-late-parcel",
+    "term": "Handling a Late Parcel",
+    "level": "B2",
+    "situation": "A customer is upset because the parcel is five days late.",
+    "conversation": [
+      {
+        "speaker": "Customer",
+        "text": "My saree hasn't come yet! It's been ten days."
+      },
+      {
+        "speaker": "You",
+        "text": "I'm so sorry for the delay, and I understand how frustrating this must be. Could you share your order number?"
+      },
+      {
+        "speaker": "Customer",
+        "text": "It's 128."
+      },
+      {
+        "speaker": "You",
+        "text": "Thank you. I've contacted the courier and will update you by 6 PM today."
+      },
+      {
+        "speaker": "Customer",
+        "text": "Please do. I need it for a function."
+      },
+      {
+        "speaker": "You",
+        "text": "Understood. If it can't reach you by Friday, we'll arrange a refund or a replacement - whichever you prefer."
+      },
+      {
+        "speaker": "You",
+        "text": "Update: the courier says it's out for delivery tomorrow. Thank you for your patience."
+      }
+    ],
+    "keyExpressions": [
+      "I'm so sorry for the delay.",
+      "I understand how frustrating this must be.",
+      "I'll update you by 6 PM.",
+      "A refund or a replacement."
+    ],
+    "remember": [
+      "Order: apology, feeling, action, time, choice.",
+      "Keep the time you promised. A late update is worse than none."
+    ]
+  },
+  {
+    "id": "saying-no-to-a-return-politely",
+    "term": "Saying No to a Return Politely",
+    "level": "B2",
+    "situation": "A customer wants to return a customised blouse because she changed her mind.",
+    "conversation": [
+      {
+        "speaker": "Customer",
+        "text": "I want to return the blouse. I don't like the colour now."
+      },
+      {
+        "speaker": "You",
+        "text": "Thank you for telling me. Unfortunately, we don't accept returns on customised items, because they're made just for you."
+      },
+      {
+        "speaker": "Customer",
+        "text": "That's not fair."
+      },
+      {
+        "speaker": "You",
+        "text": "I understand your disappointment. What I can do is adjust the fit for free if it doesn't sit well."
+      },
+      {
+        "speaker": "Customer",
+        "text": "Okay, let me check the fit."
+      },
+      {
+        "speaker": "You",
+        "text": "Of course. Please send photos and I'll help."
+      }
+    ],
+    "keyExpressions": [
+      "Unfortunately...",
+      "I understand your disappointment.",
+      "What I can do is...",
+      "Of course."
+    ],
+    "remember": [
+      "No + reason + what you CAN do. This is the polite way to refuse.",
+      "Stay calm. Don't repeat the policy more than once."
+    ]
+  }
+]
