@@ -1,0 +1,522 @@
+[
+  {
+    "id": "thank-you-for-your-interest-in-noolika",
+    "term": "Thank you for your interest in Noolika!",
+    "level": "A2",
+    "meaning": "A warm first reply to any new customer.",
+    "usage": "Use it as the first line of a DM reply.",
+    "examples": [
+      {
+        "context": "Instagram",
+        "sentence": "Thank you for your interest in Noolika! Which saree are you looking at?"
+      },
+      {
+        "context": "WhatsApp",
+        "sentence": "Thank you for your interest in Noolika! How can I help?"
+      }
+    ],
+    "remember": [
+      "Always ask one question at the end. It keeps the chat going."
+    ]
+  },
+  {
+    "id": "the-price-is-2-400-including-shipping",
+    "term": "The price is ₹2,400, including shipping.",
+    "level": "A2",
+    "meaning": "You give the price and say what it includes.",
+    "usage": "Use it when a customer asks 'price?'. Always say what is included.",
+    "examples": [
+      {
+        "context": "DM",
+        "sentence": "The price is ₹2,400, including shipping."
+      },
+      {
+        "context": "DM",
+        "sentence": "It is ₹1,800, and shipping is ₹80 extra."
+      }
+    ],
+    "remember": [
+      "Say 'including shipping' or 'plus shipping' every time. It avoids arguments later."
+    ]
+  },
+  {
+    "id": "it-s-available-in-these-colours",
+    "term": "It's available in these colours.",
+    "level": "A2",
+    "meaning": "You tell the customer which colours you have.",
+    "usage": "Use it with photos of colour options.",
+    "examples": [
+      {
+        "context": "DM",
+        "sentence": "It's available in these colours - red, green and navy."
+      },
+      {
+        "context": "DM",
+        "sentence": "This design is available only in blue."
+      }
+    ],
+    "remember": [
+      "Malayalam speakers often say 'colours are there'. Say 'it is available in...'."
+    ]
+  },
+  {
+    "id": "yes-this-one-is-in-stock",
+    "term": "Yes, this one is in stock.",
+    "level": "A2",
+    "meaning": "The saree is ready to ship.",
+    "usage": "Use it when the customer asks if it is available.",
+    "examples": [
+      {
+        "context": "DM",
+        "sentence": "Yes, this one is in stock."
+      },
+      {
+        "context": "DM",
+        "sentence": "Yes, I have two pieces left."
+      }
+    ],
+    "remember": [
+      "'In stock' = you have it. 'Out of stock' = you don't."
+    ]
+  },
+  {
+    "id": "i-m-sorry-it-s-sold-out",
+    "term": "I'm sorry, it's sold out.",
+    "level": "A2",
+    "meaning": "You do not have it any more.",
+    "usage": "Use it, and then offer another option.",
+    "examples": [
+      {
+        "context": "DM",
+        "sentence": "I'm sorry, it's sold out. Would you like to see something similar?"
+      },
+      {
+        "context": "DM",
+        "sentence": "Sorry, that colour is sold out, but the green is available."
+      }
+    ],
+    "remember": [
+      "Do not stop at 'no'. Add 'Would you like to see something similar?'"
+    ]
+  },
+  {
+    "id": "would-you-like-me-to-reserve-it-for-you",
+    "term": "Would you like me to reserve it for you?",
+    "level": "B1",
+    "meaning": "You offer to keep it aside for the customer.",
+    "usage": "Use it when a customer is interested but not ready to pay.",
+    "examples": [
+      {
+        "context": "DM",
+        "sentence": "Would you like me to reserve it for you until tomorrow?"
+      },
+      {
+        "context": "DM",
+        "sentence": "I can reserve it for 24 hours."
+      }
+    ],
+    "remember": [
+      "Give a time limit. Otherwise the saree stays blocked."
+    ]
+  },
+  {
+    "id": "here-are-the-payment-details",
+    "term": "Here are the payment details.",
+    "level": "A2",
+    "meaning": "You send your bank or UPI details.",
+    "usage": "Use it when the customer confirms the order.",
+    "examples": [
+      {
+        "context": "DM",
+        "sentence": "Here are the payment details. Please send a screenshot after paying."
+      },
+      {
+        "context": "DM",
+        "sentence": "You can pay by UPI or bank transfer."
+      }
+    ],
+    "remember": [
+      "Ask for a payment screenshot. Never share any other private numbers."
+    ]
+  },
+  {
+    "id": "i-ve-received-your-payment-thank-you",
+    "term": "I've received your payment. Thank you!",
+    "level": "A2",
+    "meaning": "Payment has reached you.",
+    "usage": "Use it right after you check your account.",
+    "examples": [
+      {
+        "context": "DM",
+        "sentence": "I've received your payment. Thank you!"
+      },
+      {
+        "context": "DM",
+        "sentence": "Payment received. Your order is confirmed."
+      }
+    ],
+    "remember": [
+      "Check your account first. Say 'received', not 'got'."
+    ]
+  },
+  {
+    "id": "your-order-is-confirmed",
+    "term": "Your order is confirmed.",
+    "level": "A2",
+    "meaning": "You say the order is final.",
+    "usage": "Use it after payment.",
+    "examples": [
+      {
+        "context": "DM",
+        "sentence": "Your order is confirmed. It will be packed tomorrow."
+      },
+      {
+        "context": "DM",
+        "sentence": "Your order is confirmed - order number 128."
+      }
+    ],
+    "remember": [
+      "Add the next step: when it will be packed or shipped."
+    ]
+  },
+  {
+    "id": "could-you-please-share-your-full-address-and-pin-code",
+    "term": "Could you please share your full address and PIN code?",
+    "level": "A2",
+    "meaning": "You ask for delivery details.",
+    "usage": "Use it after the order is confirmed.",
+    "examples": [
+      {
+        "context": "DM",
+        "sentence": "Could you please share your full address and PIN code?"
+      },
+      {
+        "context": "DM",
+        "sentence": "Please also share a phone number for the courier."
+      }
+    ],
+    "remember": [
+      "'PIN code' (not 'pin number'). Ask for a phone number for the courier too."
+    ]
+  },
+  {
+    "id": "your-order-will-be-dispatched-within-two-days",
+    "term": "Your order will be dispatched within two days.",
+    "level": "B1",
+    "meaning": "You promise a ship date.",
+    "usage": "Use it so customers know when to expect the parcel.",
+    "examples": [
+      {
+        "context": "DM",
+        "sentence": "Your order will be dispatched within two days."
+      },
+      {
+        "context": "DM",
+        "sentence": "It will be dispatched tomorrow."
+      }
+    ],
+    "remember": [
+      "'Dispatch' = sent from you. 'Deliver' = reaches the customer. They are different dates."
+    ]
+  },
+  {
+    "id": "here-is-your-tracking-number",
+    "term": "Here is your tracking number.",
+    "level": "B1",
+    "meaning": "You send the courier tracking details.",
+    "usage": "Use it as soon as you ship.",
+    "examples": [
+      {
+        "context": "DM",
+        "sentence": "Here is your tracking number: ABC12345."
+      },
+      {
+        "context": "DM",
+        "sentence": "You can track the parcel on the courier's website."
+      }
+    ],
+    "remember": [
+      "Send it with the courier's name. Customers feel safer."
+    ]
+  },
+  {
+    "id": "it-should-reach-you-in-three-to-five-working-days",
+    "term": "It should reach you in three to five working days.",
+    "level": "B1",
+    "meaning": "An estimated delivery time.",
+    "usage": "Use it with 'should', because couriers can be late.",
+    "examples": [
+      {
+        "context": "DM",
+        "sentence": "It should reach you in three to five working days."
+      },
+      {
+        "context": "DM",
+        "sentence": "Delivery to Delhi usually takes five days."
+      }
+    ],
+    "remember": [
+      "Say 'should' or 'usually'. Do not promise an exact day."
+    ]
+  },
+  {
+    "id": "just-checking-in-did-you-get-a-chance-to-look-at-the-sarees",
+    "term": "Just checking in - did you get a chance to look at the sarees?",
+    "level": "B1",
+    "meaning": "A polite follow-up to a silent customer.",
+    "usage": "Use it one or two days after the customer stops replying.",
+    "examples": [
+      {
+        "context": "DM",
+        "sentence": "Just checking in - did you get a chance to look at the sarees?"
+      },
+      {
+        "context": "DM",
+        "sentence": "Just checking in about the blue saree."
+      }
+    ],
+    "remember": [
+      "Follow up once or twice only. 'Just checking in' sounds kind, not pushy."
+    ]
+  },
+  {
+    "id": "no-pressure-at-all-take-your-time",
+    "term": "No pressure at all - take your time.",
+    "level": "B1",
+    "meaning": "You tell the customer they may decide later.",
+    "usage": "Use it after a follow-up. It makes people comfortable.",
+    "examples": [
+      {
+        "context": "DM",
+        "sentence": "No pressure at all - take your time."
+      },
+      {
+        "context": "DM",
+        "sentence": "Please take your time and message me when ready."
+      }
+    ],
+    "remember": [
+      "Kind words bring customers back. Many buy after a week."
+    ]
+  },
+  {
+    "id": "this-is-our-best-price-and-the-quality-is-worth-it",
+    "term": "This is our best price, and the quality is worth it.",
+    "level": "B2",
+    "meaning": "You politely refuse a big discount.",
+    "usage": "Use it when a customer asks for a very low price.",
+    "examples": [
+      {
+        "context": "DM",
+        "sentence": "This is our best price, and the quality is worth it."
+      },
+      {
+        "context": "DM",
+        "sentence": "I'm sorry, I can't go lower because it's handwoven."
+      }
+    ],
+    "remember": [
+      "Give the reason: handwoven, pure silk, small business. Reasons are better than only 'no'."
+    ]
+  },
+  {
+    "id": "i-can-offer-100-off-on-orders-above-3-000",
+    "term": "I can offer ₹100 off on orders above ₹3,000.",
+    "level": "B2",
+    "meaning": "A fair, clear discount offer.",
+    "usage": "Use it to give a small discount without feeling cheated.",
+    "examples": [
+      {
+        "context": "DM",
+        "sentence": "I can offer ₹100 off on orders above ₹3,000."
+      },
+      {
+        "context": "DM",
+        "sentence": "If you take two sarees, I'll include free shipping."
+      }
+    ],
+    "remember": [
+      "Offer discounts with a condition. It protects your profit."
+    ]
+  },
+  {
+    "id": "would-you-like-to-see-more-photos-or-a-short-video",
+    "term": "Would you like to see more photos or a short video?",
+    "level": "A2",
+    "meaning": "You offer more proof of the product.",
+    "usage": "Use it when a customer is unsure.",
+    "examples": [
+      {
+        "context": "DM",
+        "sentence": "Would you like to see more photos or a short video?"
+      },
+      {
+        "context": "DM",
+        "sentence": "I can send a video in natural light."
+      }
+    ],
+    "remember": [
+      "Natural light photos show the true colour. Customers trust them."
+    ]
+  },
+  {
+    "id": "the-colour-may-look-slightly-different-on-your-screen",
+    "term": "The colour may look slightly different on your screen.",
+    "level": "B1",
+    "meaning": "You warn about colour differences.",
+    "usage": "Use it before the order, to avoid complaints.",
+    "examples": [
+      {
+        "context": "DM",
+        "sentence": "The colour may look slightly different on your screen."
+      },
+      {
+        "context": "DM",
+        "sentence": "The actual shade is a little deeper than the photo."
+      }
+    ],
+    "remember": [
+      "It saves many returns. Say it before the customer pays."
+    ]
+  },
+  {
+    "id": "i-m-so-sorry-for-the-delay",
+    "term": "I'm so sorry for the delay.",
+    "level": "B1",
+    "meaning": "You apologise for a late parcel.",
+    "usage": "Use it at the start of your complaint reply.",
+    "examples": [
+      {
+        "context": "DM",
+        "sentence": "I'm so sorry for the delay with your parcel."
+      },
+      {
+        "context": "DM",
+        "sentence": "I'm sorry for the inconvenience."
+      }
+    ],
+    "remember": [
+      "Say sorry once, then move to action: what you will do and when."
+    ]
+  },
+  {
+    "id": "i-ve-contacted-the-courier-and-will-update-you-by-evening",
+    "term": "I've contacted the courier and will update you by evening.",
+    "level": "B2",
+    "meaning": "You show you are acting on the problem.",
+    "usage": "Use it when a parcel is late or lost.",
+    "examples": [
+      {
+        "context": "DM",
+        "sentence": "I've contacted the courier and will update you by evening."
+      },
+      {
+        "context": "DM",
+        "sentence": "I've asked the courier to check the parcel today."
+      }
+    ],
+    "remember": [
+      "Always give a time for the next update, and keep it."
+    ]
+  },
+  {
+    "id": "could-you-please-send-a-photo-of-the-damaged-item",
+    "term": "Could you please send a photo of the damaged item?",
+    "level": "B1",
+    "meaning": "You ask for proof in a complaint.",
+    "usage": "Use it when a saree arrives torn or wrong.",
+    "examples": [
+      {
+        "context": "DM",
+        "sentence": "Could you please send a photo of the damaged saree?"
+      },
+      {
+        "context": "DM",
+        "sentence": "Please also send a photo of the parcel."
+      }
+    ],
+    "remember": [
+      "Ask for an unboxing video for next time. It is common in online sales."
+    ]
+  },
+  {
+    "id": "we-ll-arrange-a-replacement-or-a-refund",
+    "term": "We'll arrange a replacement or a refund.",
+    "level": "B2",
+    "meaning": "You offer two ways to fix the problem.",
+    "usage": "Use it when the customer is right.",
+    "examples": [
+      {
+        "context": "DM",
+        "sentence": "We'll arrange a replacement or a refund, whichever you prefer."
+      },
+      {
+        "context": "DM",
+        "sentence": "Your refund will reach you in five working days."
+      }
+    ],
+    "remember": [
+      "Give the customer the choice. It reduces anger."
+    ]
+  },
+  {
+    "id": "i-understand-how-frustrating-this-must-be",
+    "term": "I understand how frustrating this must be.",
+    "level": "B2",
+    "meaning": "You show you understand the customer's feeling.",
+    "usage": "Use it at the start of a reply to an angry message.",
+    "examples": [
+      {
+        "context": "DM",
+        "sentence": "I understand how frustrating this must be."
+      },
+      {
+        "context": "DM",
+        "sentence": "I understand your disappointment, and I'm sorry."
+      }
+    ],
+    "remember": [
+      "Feeling first, solution second. Never argue in the first reply."
+    ]
+  },
+  {
+    "id": "unfortunately-we-don-t-accept-returns-on-customised-items",
+    "term": "Unfortunately, we don't accept returns on customised items.",
+    "level": "B2",
+    "meaning": "A polite no, with your policy.",
+    "usage": "Use it when the policy does not allow a return.",
+    "examples": [
+      {
+        "context": "DM",
+        "sentence": "Unfortunately, we don't accept returns on customised blouses."
+      },
+      {
+        "context": "DM",
+        "sentence": "Unfortunately, sale items can't be exchanged."
+      }
+    ],
+    "remember": [
+      "Say 'unfortunately' + policy + what you CAN do. Example: 'But I can fix the fit for free.'"
+    ]
+  },
+  {
+    "id": "thank-you-for-shopping-with-noolika-we-d-love-to-see-you-wear-it",
+    "term": "Thank you for shopping with Noolika. We'd love to see you wear it!",
+    "level": "B1",
+    "meaning": "A warm message after delivery.",
+    "usage": "Use it after the parcel arrives. It brings repeat customers and photos.",
+    "examples": [
+      {
+        "context": "DM",
+        "sentence": "Thank you for shopping with Noolika. We'd love to see you wear it!"
+      },
+      {
+        "context": "DM",
+        "sentence": "Hope you love it! Please share a photo if you like."
+      }
+    ],
+    "remember": [
+      "Ask permission before you post a customer's photo."
+    ]
+  }
+]
