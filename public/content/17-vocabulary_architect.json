@@ -1,0 +1,422 @@
+[
+  {
+    "id": "stakeholder",
+    "term": "Stakeholder",
+    "partOfSpeech": "Noun",
+    "level": "B2",
+    "meaning": "A person or group who is affected by your work or has a say in it.",
+    "usage": "Use it for anyone who cares about the outcome: customers, managers, other teams.",
+    "examples": [
+      {
+        "context": "Meeting",
+        "sentence": "We need to keep the stakeholders informed."
+      },
+      {
+        "context": "Review",
+        "sentence": "Who are the key stakeholders for this system?"
+      }
+    ],
+    "remember": [
+      "The stress is on STAKE: 'STAKE-holder'."
+    ]
+  },
+  {
+    "id": "constraint",
+    "term": "Constraint",
+    "partOfSpeech": "Noun",
+    "level": "B2",
+    "meaning": "A limit you cannot easily change, such as budget, time, or technology.",
+    "usage": "Use it to explain why a design looks the way it does.",
+    "examples": [
+      {
+        "context": "Architecture",
+        "sentence": "Our main constraint is the budget."
+      },
+      {
+        "context": "Planning",
+        "sentence": "Time is the biggest constraint on this project."
+      }
+    ],
+    "remember": [
+      "'Constraint' is a fact. 'Excuse' is how people may hear it if you don't offer a way around."
+    ]
+  },
+  {
+    "id": "scalable",
+    "term": "Scalable",
+    "partOfSpeech": "Adjective",
+    "level": "B2",
+    "meaning": "Able to handle much more work or users without breaking.",
+    "usage": "Use it for systems and plans that can grow.",
+    "examples": [
+      {
+        "context": "Architecture",
+        "sentence": "Is this design scalable to a million users?"
+      },
+      {
+        "context": "Business",
+        "sentence": "A scalable process doesn't need more people for every new order."
+      }
+    ],
+    "remember": [
+      "Noun: scalability. The noun 'scale' is also a verb: 'The system must scale.'"
+    ]
+  },
+  {
+    "id": "single-point-of-failure",
+    "term": "Single point of failure",
+    "partOfSpeech": "Noun phrase",
+    "level": "B2",
+    "meaning": "One part that, if it breaks, stops the whole system.",
+    "usage": "Use it in design reviews to point out a risky part.",
+    "examples": [
+      {
+        "context": "Review",
+        "sentence": "The database is a single point of failure."
+      },
+      {
+        "context": "Meeting",
+        "sentence": "We removed the single point of failure last year."
+      }
+    ],
+    "remember": [
+      "Say it with the part: 'X is a single point of failure.' Then suggest a backup."
+    ]
+  },
+  {
+    "id": "mitigate",
+    "term": "Mitigate",
+    "partOfSpeech": "Verb",
+    "level": "C1",
+    "meaning": "To make a risk smaller before or while it happens.",
+    "usage": "Use it when you talk about reducing risk, not removing it.",
+    "examples": [
+      {
+        "context": "Risk",
+        "sentence": "We can mitigate the risk with a staged rollout."
+      },
+      {
+        "context": "Planning",
+        "sentence": "How do we mitigate vendor delays?"
+      }
+    ],
+    "remember": [
+      "Don't confuse with 'militate'. 'Mitigate' = make less. Stress: MI-ti-gate."
+    ]
+  },
+  {
+    "id": "escalate",
+    "term": "Escalate",
+    "partOfSpeech": "Verb",
+    "level": "B2",
+    "meaning": "To take a problem to someone more senior for help or decision.",
+    "usage": "Use it when you cannot solve it at your level.",
+    "examples": [
+      {
+        "context": "Incident",
+        "sentence": "We escalated the issue to the CTO."
+      },
+      {
+        "context": "Manager",
+        "sentence": "If it isn't fixed today, I'll escalate."
+      }
+    ],
+    "remember": [
+      "It is normal and professional. It is not a complaint about someone."
+    ]
+  },
+  {
+    "id": "alignment",
+    "term": "Alignment",
+    "partOfSpeech": "Noun",
+    "level": "B2",
+    "meaning": "Everyone agrees on the same goal and plan.",
+    "usage": "Use it for agreement across people or teams.",
+    "examples": [
+      {
+        "context": "Meeting",
+        "sentence": "We need alignment on priorities."
+      },
+      {
+        "context": "Planning",
+        "sentence": "There's no alignment between the two teams."
+      }
+    ],
+    "remember": [
+      "'Align' (verb): 'Let's align before the review.' Not 'allign'."
+    ]
+  },
+  {
+    "id": "bandwidth",
+    "term": "Bandwidth",
+    "partOfSpeech": "Noun",
+    "level": "B2",
+    "meaning": "How much extra work a person or team can take on.",
+    "usage": "Use it as a polite way to say you are too busy.",
+    "examples": [
+      {
+        "context": "Manager",
+        "sentence": "I don't have the bandwidth this week."
+      },
+      {
+        "context": "Planning",
+        "sentence": "Does the team have bandwidth for a new project?"
+      }
+    ],
+    "remember": [
+      "Politer than 'I'm busy'. Pair it with an alternative date."
+    ]
+  },
+  {
+    "id": "dependency",
+    "term": "Dependency",
+    "partOfSpeech": "Noun",
+    "level": "B2",
+    "meaning": "Something your work needs from another person, team, or system.",
+    "usage": "Use it to explain why a task cannot finish alone.",
+    "examples": [
+      {
+        "context": "Status",
+        "sentence": "The release has two external dependencies."
+      },
+      {
+        "context": "Planning",
+        "sentence": "We should list all dependencies first."
+      }
+    ],
+    "remember": [
+      "Spelling: dependENcy (not dependancy). The adjective is dependent."
+    ]
+  },
+  {
+    "id": "rollout",
+    "term": "Rollout",
+    "partOfSpeech": "Noun",
+    "level": "B2",
+    "meaning": "Releasing a change to users, often step by step.",
+    "usage": "Use it for launches of features or updates.",
+    "examples": [
+      {
+        "context": "Release",
+        "sentence": "The rollout starts with 5% of users."
+      },
+      {
+        "context": "Meeting",
+        "sentence": "Let's plan the rollout carefully."
+      }
+    ],
+    "remember": [
+      "Noun: 'rollout'. Verb: 'roll out' (two words): 'We will roll out the update.'"
+    ]
+  },
+  {
+    "id": "rationale",
+    "term": "Rationale",
+    "partOfSpeech": "Noun",
+    "level": "C1",
+    "meaning": "The reason behind a decision.",
+    "usage": "Use it in writing or reviews: 'the rationale for this choice'.",
+    "examples": [
+      {
+        "context": "Review",
+        "sentence": "What's the rationale behind this design?"
+      },
+      {
+        "context": "Doc",
+        "sentence": "The rationale is explained on page two."
+      }
+    ],
+    "remember": [
+      "Pronounced RASH-uh-NAL. It is not the same as 'rational' (sensible)."
+    ]
+  },
+  {
+    "id": "feasible",
+    "term": "Feasible",
+    "partOfSpeech": "Adjective",
+    "level": "B2",
+    "meaning": "Possible to do with the time, money, and people you have.",
+    "usage": "Use it to say if a plan can really be done.",
+    "examples": [
+      {
+        "context": "Planning",
+        "sentence": "Is it feasible by March?"
+      },
+      {
+        "context": "Review",
+        "sentence": "That option isn't feasible on this budget."
+      }
+    ],
+    "remember": [
+      "'Feasible' = can be done. 'Possible' = can happen. A plan can be possible but not feasible."
+    ]
+  },
+  {
+    "id": "defer",
+    "term": "Defer",
+    "partOfSpeech": "Verb",
+    "level": "C1",
+    "meaning": "To decide to do something later.",
+    "usage": "Use it for planned delay, not for forgetting.",
+    "examples": [
+      {
+        "context": "Planning",
+        "sentence": "We deferred the redesign to next quarter."
+      },
+      {
+        "context": "Meeting",
+        "sentence": "Let's defer this decision until we have data."
+      }
+    ],
+    "remember": [
+      "'Defer' (move later) is different from 'differ' (be unlike). Defer to someone = follow their view."
+    ]
+  },
+  {
+    "id": "outage",
+    "term": "Outage",
+    "partOfSpeech": "Noun",
+    "level": "B1",
+    "meaning": "A period when a service is not working.",
+    "usage": "Use it for incidents where users cannot use the system.",
+    "examples": [
+      {
+        "context": "Incident",
+        "sentence": "The outage lasted forty minutes."
+      },
+      {
+        "context": "Customer",
+        "sentence": "We apologise for the outage this morning."
+      }
+    ],
+    "remember": [
+      "Not 'outrage'. Outage = no service. Outrage = angry."
+    ]
+  },
+  {
+    "id": "root-cause",
+    "term": "Root cause",
+    "partOfSpeech": "Noun phrase",
+    "level": "B2",
+    "meaning": "The real, deepest reason a problem happened.",
+    "usage": "Use it after an incident when you explain why.",
+    "examples": [
+      {
+        "context": "Incident",
+        "sentence": "The root cause was an expired certificate."
+      },
+      {
+        "context": "Review",
+        "sentence": "We found the root cause, not just the symptom."
+      }
+    ],
+    "remember": [
+      "Symptom = what you see. Root cause = why it happens."
+    ]
+  },
+  {
+    "id": "handover",
+    "term": "Handover",
+    "partOfSpeech": "Noun",
+    "level": "B2",
+    "meaning": "Passing work or knowledge from one person or team to another.",
+    "usage": "Use it when moving work to another team.",
+    "examples": [
+      {
+        "context": "Planning",
+        "sentence": "We need a clean handover before I travel."
+      },
+      {
+        "context": "Doc",
+        "sentence": "The handover note is in the wiki."
+      }
+    ],
+    "remember": [
+      "Noun: handover. Verb: hand over (two words)."
+    ]
+  },
+  {
+    "id": "concise",
+    "term": "Concise",
+    "partOfSpeech": "Adjective",
+    "level": "B2",
+    "meaning": "Short and clear, with no extra words.",
+    "usage": "Use it to ask for or describe short messages.",
+    "examples": [
+      {
+        "context": "Email",
+        "sentence": "Please keep the update concise."
+      },
+      {
+        "context": "Meeting",
+        "sentence": "Her summary was clear and concise."
+      }
+    ],
+    "remember": [
+      "For leaders, 'concise' is the most valued style. Three lines beat three paragraphs."
+    ]
+  },
+  {
+    "id": "proactive",
+    "term": "Proactive",
+    "partOfSpeech": "Adjective",
+    "level": "B2",
+    "meaning": "Acting early, before you are asked or a problem grows.",
+    "usage": "Use it to describe good ownership.",
+    "examples": [
+      {
+        "context": "Manager",
+        "sentence": "Be proactive and share bad news early."
+      },
+      {
+        "context": "Review",
+        "sentence": "We took a proactive approach to security."
+      }
+    ],
+    "remember": [
+      "Opposite: reactive. Leaders like 'proactive' in feedback."
+    ]
+  },
+  {
+    "id": "buy-in",
+    "term": "Buy-in",
+    "partOfSpeech": "Noun",
+    "level": "B2",
+    "meaning": "Agreement and support from the people who must act.",
+    "usage": "Use it before a big change.",
+    "examples": [
+      {
+        "context": "Planning",
+        "sentence": "We need buy-in from the product team."
+      },
+      {
+        "context": "Meeting",
+        "sentence": "I'll get leadership buy-in first."
+      }
+    ],
+    "remember": [
+      "'Get buy-in', 'have buy-in'. Without it, even a good design fails."
+    ]
+  },
+  {
+    "id": "ownership",
+    "term": "Ownership",
+    "partOfSpeech": "Noun",
+    "level": "B2",
+    "meaning": "Taking responsibility for a result from start to end.",
+    "usage": "Use it in feedback and goals.",
+    "examples": [
+      {
+        "context": "Manager",
+        "sentence": "I'd like more ownership of the platform."
+      },
+      {
+        "context": "Review",
+        "sentence": "Who has ownership of this service?"
+      }
+    ],
+    "remember": [
+      "'Take ownership' = accept responsibility. Common phrase in reviews."
+    ]
+  }
+]
